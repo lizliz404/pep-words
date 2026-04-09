@@ -180,17 +180,19 @@ export default function MarkdownDocument({
 
   return (
     <section className="space-y-6">
-      <header className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-sky-700">
+      <header className="overflow-hidden rounded-[32px] border border-white/70 bg-white/88 p-6 shadow-[0_30px_72px_-52px_rgba(15,23,42,0.4)] backdrop-blur sm:p-8">
+        <div className="inline-flex items-center rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-sky-700">
           {badge}
-        </p>
-        <h1 className="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">{title}</h1>
+        </div>
+        <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          {title}
+        </h1>
         <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
           {description}
         </p>
       </header>
 
-      <article className="markdown-body rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+      <article className="markdown-body rounded-[32px] border border-white/70 bg-white/90 p-6 shadow-[0_30px_72px_-56px_rgba(15,23,42,0.4)] backdrop-blur sm:p-8 lg:p-10">
         {blocks.map((block, index) => {
           if (block.type === "heading-1") {
             return (

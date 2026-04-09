@@ -6,6 +6,14 @@ type TranslationSet = {
   site: {
     title: string;
     subtitle: string;
+    activePage: string;
+    dataset: string;
+    source: string;
+    interface: string;
+    structuredSource: string;
+    markdownSource: string;
+    zhInterface: string;
+    enInterface: string;
   };
   nav: {
     "middle-school": string;
@@ -25,6 +33,11 @@ type TranslationSet = {
     }
   >;
   learner: {
+    words: string;
+    visible: string;
+    favorites: string;
+    mode: string;
+    search: string;
     favoritesButton: (count: number) => string;
     startQuiz: string;
     searchPlaceholder: string;
@@ -83,6 +96,14 @@ const zh: TranslationSet = {
   site: {
     title: "PEP 词汇学习",
     subtitle: "保留词汇浏览、收藏、卡片和测试四个核心功能",
+    activePage: "当前页面",
+    dataset: "词库",
+    source: "来源",
+    interface: "界面",
+    structuredSource: "结构化词库",
+    markdownSource: "Markdown 原文",
+    zhInterface: "中文界面",
+    enInterface: "英文界面",
   },
   nav: {
     "middle-school": "初中词汇",
@@ -109,6 +130,11 @@ const zh: TranslationSet = {
     },
   },
   learner: {
+    words: "总词数",
+    visible: "当前可见",
+    favorites: "收藏数",
+    mode: "模式",
+    search: "搜索",
     favoritesButton: (count) => `收藏 (${count})`,
     startQuiz: "开始测试",
     searchPlaceholder: "搜索英文单词或中文释义",
@@ -165,6 +191,14 @@ const en: TranslationSet = {
   site: {
     title: "PEP Vocabulary",
     subtitle: "Keep only the core workflow: browse, save, review, and quiz",
+    activePage: "Active Page",
+    dataset: "Dataset",
+    source: "Source",
+    interface: "Interface",
+    structuredSource: "Structured Vocabulary",
+    markdownSource: "Markdown",
+    zhInterface: "Chinese Interface",
+    enInterface: "English Interface",
   },
   nav: {
     "middle-school": "Middle School",
@@ -193,6 +227,11 @@ const en: TranslationSet = {
     },
   },
   learner: {
+    words: "Words",
+    visible: "Visible",
+    favorites: "Favorites",
+    mode: "Mode",
+    search: "Search",
     favoritesButton: (count) => `Favorites (${count})`,
     startQuiz: "Start Quiz",
     searchPlaceholder: "Search by English word or meaning",

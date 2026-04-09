@@ -9,10 +9,16 @@ import { useDeferredValue, useEffect, useMemo, useState } from "react";
 type ViewMode = "list" | "cards" | "favorites" | "quiz";
 
 const primaryButtonClass =
-  "rounded-full bg-sky-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-sky-700 disabled:cursor-not-allowed disabled:opacity-40";
+  "rounded-full bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-[0_18px_34px_-22px_rgba(15,23,42,0.9)] transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40";
 
 const secondaryButtonClass =
-  "rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40";
+  "rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.4)] transition hover:border-slate-300 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40";
+
+const activeChipClass =
+  "rounded-full border border-slate-900 bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-[0_14px_28px_-24px_rgba(15,23,42,0.85)] transition";
+
+const inactiveChipClass =
+  "rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-600 transition hover:border-slate-300 hover:text-slate-900";
 
 interface VocabularyLearnerProps {
   dataset: DatasetKey;
@@ -123,64 +129,112 @@ export default function VocabularyLearner({
     ? dictionary.learner.searchResults(filteredWords.length)
     : dictionary.learner.letterResults(selectedLetter, filteredWords.length);
 
+  const metaCards = [
+    {
+      label: dictionary.learner.words,
+      value: words.length.toLocaleString(),
+    },
+    {
+      label: dictionary.learner.visible,
+      value: filteredWords.length.toLocaleString(),
+    },
+    {
+      label: dictionary.learner.favorites,
+      value: favorites.favoriteCount.toLocaleString(),
+    },
+    {
+      label: dictionary.learner.mode,
+      value:
+        viewMode === "favorites"
+          ? dictionary.learner.favoritesButton(favorites.favoriteCount)
+          : viewMode === "cards"
+            ? dictionary.learner.cards
+            : viewMode === "quiz"
+              ? dictionary.learner.startQuiz
+              : dictionary.learner.list,
+    },
+  ];
+
   return (
     <div className="space-y-6">
-      <header className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-          <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-700">
-              {datasetInfo.learnerBadge}
-            </p>
-            <h1 className="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">
-              {datasetInfo.learnerTitle}
-            </h1>
-            <p className="mt-3 text-sm leading-7 text-slate-600 sm:text-base">
-              {datasetInfo.learnerDescription}
-            </p>
+      <header className="overflow-hidden rounded-[32px] border border-white/70 bg-white/86 p-6 shadow-[0_28px_70px_-48px_rgba(15,23,42,0.4)] backdrop-blur sm:p-8">
+        <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+            <div className="max-w-3xl">
+              <div className="inline-flex items-center rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+                {datasetInfo.learnerBadge}
+              </div>
+              <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                {datasetInfo.learnerTitle}
+              </h1>
+              <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+                {datasetInfo.learnerDescription}
+              </p>
+            </div>
+
+            <div className="grid gap-2 sm:grid-cols-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setViewMode("favorites");
+                  setQuizResult(null);
+                }}
+                className={secondaryButtonClass}
+              >
+                {dictionary.learner.favoritesButton(favorites.favoriteCount)}
+              </button>
+              <button
+                type="button"
+                onClick={startQuiz}
+                disabled={filteredWords.length === 0}
+                className={primaryButtonClass}
+              >
+                {dictionary.learner.startQuiz}
+              </button>
+            </div>
           </div>
 
-          <div className="grid gap-2 sm:grid-cols-2">
-            <button
-              type="button"
-              onClick={() => {
-                setViewMode("favorites");
-                setQuizResult(null);
-              }}
-              className={secondaryButtonClass}
-            >
-              {dictionary.learner.favoritesButton(favorites.favoriteCount)}
-            </button>
-            <button
-              type="button"
-              onClick={startQuiz}
-              disabled={filteredWords.length === 0}
-              className={primaryButtonClass}
-            >
-              {dictionary.learner.startQuiz}
-            </button>
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+            {metaCards.map((card) => (
+              <div
+                key={card.label}
+                className="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3"
+              >
+                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-400">
+                  {card.label}
+                </p>
+                <p className="mt-2 text-sm font-semibold text-slate-900">{card.value}</p>
+              </div>
+            ))}
           </div>
         </div>
       </header>
 
-      <section className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-        <div className="grid gap-3 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
-          <input
-            type="text"
-            placeholder={dictionary.learner.searchPlaceholder}
-            value={searchQuery}
-            onChange={(event) => {
-              setSearchQuery(event.target.value);
-              setViewMode("list");
-              setCurrentCardIndex(0);
-            }}
-            className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition focus:border-sky-500"
-          />
+      <section className="rounded-[32px] border border-white/70 bg-white/86 p-5 shadow-[0_24px_60px_-50px_rgba(15,23,42,0.38)] backdrop-blur sm:p-6">
+        <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_auto] xl:items-center">
+          <div className="space-y-3">
+            <label className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
+              {dictionary.learner.search}
+            </label>
+            <input
+              type="text"
+              placeholder={dictionary.learner.searchPlaceholder}
+              value={searchQuery}
+              onChange={(event) => {
+                setSearchQuery(event.target.value);
+                setViewMode("list");
+                setCurrentCardIndex(0);
+              }}
+              className="w-full rounded-2xl border border-slate-200 bg-slate-50/85 px-4 py-3.5 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-sky-300 focus:bg-white"
+            />
+            <p className="text-sm font-medium text-slate-500">{resultsLabel}</p>
+          </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 xl:justify-end">
             <button
               type="button"
               onClick={() => setViewMode("list")}
-              className={viewMode === "list" ? primaryButtonClass : secondaryButtonClass}
+              className={viewMode === "list" ? activeChipClass : inactiveChipClass}
             >
               {dictionary.learner.list}
             </button>
@@ -190,7 +244,7 @@ export default function VocabularyLearner({
                 setViewMode("cards");
                 setCurrentCardIndex(0);
               }}
-              className={viewMode === "cards" ? primaryButtonClass : secondaryButtonClass}
+              className={viewMode === "cards" ? activeChipClass : inactiveChipClass}
             >
               {dictionary.learner.cards}
             </button>
@@ -233,7 +287,7 @@ export default function VocabularyLearner({
           }}
         />
       ) : viewMode === "cards" ? (
-        <section className="mx-auto max-w-3xl space-y-6">
+        <section className="mx-auto max-w-4xl space-y-6">
           {currentCard ? (
             <>
               <div
@@ -246,38 +300,41 @@ export default function VocabularyLearner({
                     setIsFlipped((value) => !value);
                   }
                 }}
-                className="min-h-[360px] rounded-[32px] bg-gradient-to-br from-sky-700 to-indigo-700 p-8 text-white shadow-xl outline-none transition hover:translate-y-[-2px]"
+                className="relative min-h-[380px] overflow-hidden rounded-[34px] border border-slate-200/70 bg-[linear-gradient(145deg,#0f172a_0%,#1e293b_56%,#155e75_100%)] p-8 text-white shadow-[0_34px_90px_-56px_rgba(15,23,42,0.95)] outline-none transition hover:-translate-y-0.5"
               >
-                <div className="flex h-full flex-col items-center justify-center text-center">
+                <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.18),transparent_60%)]" />
+                <div className="relative flex h-full flex-col items-center justify-center text-center">
                   {!isFlipped ? (
                     <>
-                      <p className="text-sm uppercase tracking-[0.2em] text-sky-100">
+                      <div className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.26em] text-sky-100">
                         {dictionary.learner.word}
-                      </p>
-                      <h2 className="mt-6 text-4xl font-bold sm:text-5xl">
+                      </div>
+                      <h2 className="mt-7 text-4xl font-bold tracking-tight sm:text-5xl">
                         {currentCard.word}
                       </h2>
                       {currentCard.phonetic && (
-                        <p className="mt-4 font-mono text-lg text-sky-100">
+                        <p className="mt-4 rounded-full bg-white/10 px-4 py-2 font-mono text-base text-sky-100 sm:text-lg">
                           {currentCard.phonetic}
                         </p>
                       )}
-                      <p className="mt-8 text-sm text-sky-100">
+                      <p className="mt-9 text-sm text-sky-100/90">
                         {dictionary.learner.revealMeaning}
                       </p>
                     </>
                   ) : (
                     <>
-                      <p className="text-sm uppercase tracking-[0.2em] text-sky-100">
+                      <div className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.26em] text-sky-100">
                         {dictionary.learner.meaning}
-                      </p>
-                      <p className="mt-6 text-2xl font-semibold sm:text-3xl">
+                      </div>
+                      <p className="mt-7 max-w-2xl text-2xl font-semibold leading-10 sm:text-3xl">
                         {currentCard.meaning}
                       </p>
                       {currentCard.pos && (
-                        <p className="mt-4 text-sm text-sky-100">{currentCard.pos}</p>
+                        <p className="mt-5 rounded-full bg-white/10 px-4 py-2 text-sm text-sky-100">
+                          {currentCard.pos}
+                        </p>
                       )}
-                      <p className="mt-8 text-sm text-sky-100">
+                      <p className="mt-9 text-sm text-sky-100/90">
                         {dictionary.learner.returnWord}
                       </p>
                     </>
@@ -285,70 +342,73 @@ export default function VocabularyLearner({
                 </div>
               </div>
 
-              <div className="flex items-center justify-between gap-3">
-                <button
-                  type="button"
-                  onClick={() => moveCard("prev")}
-                  disabled={currentCardIndex === 0}
-                  className={secondaryButtonClass}
-                >
-                  {dictionary.learner.previous}
-                </button>
+              <div className="rounded-[28px] border border-white/70 bg-white/86 p-5 shadow-[0_24px_60px_-50px_rgba(15,23,42,0.36)] backdrop-blur">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <button
+                    type="button"
+                    onClick={() => moveCard("prev")}
+                    disabled={currentCardIndex === 0}
+                    className={secondaryButtonClass}
+                  >
+                    {dictionary.learner.previous}
+                  </button>
 
-                <div className="flex-1 px-2">
-                  <p className="text-center text-sm text-slate-600">
-                    {currentCardIndex + 1} / {filteredWords.length}
-                  </p>
-                  <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-200">
-                    <div
-                      className="h-full rounded-full bg-sky-600 transition-all"
-                      style={{ width: `${cardProgress}%` }}
-                    />
+                  <div className="flex-1 px-1">
+                    <div className="flex items-center justify-between text-sm font-medium text-slate-500">
+                      <span>{currentCardIndex + 1}</span>
+                      <span>{filteredWords.length}</span>
+                    </div>
+                    <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-200">
+                      <div
+                        className="h-full rounded-full bg-slate-900 transition-all"
+                        style={{ width: `${cardProgress}%` }}
+                      />
+                    </div>
                   </div>
+
+                  <button
+                    type="button"
+                    onClick={() => moveCard("next")}
+                    disabled={currentCardIndex === filteredWords.length - 1}
+                    className={secondaryButtonClass}
+                  >
+                    {dictionary.learner.next}
+                  </button>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => moveCard("next")}
-                  disabled={currentCardIndex === filteredWords.length - 1}
-                  className={secondaryButtonClass}
-                >
-                  {dictionary.learner.next}
-                </button>
-              </div>
-
-              <div className="flex flex-wrap justify-center gap-3">
-                <button
-                  type="button"
-                  onClick={() => playPronunciation(currentCard.word)}
-                  className={primaryButtonClass}
-                >
-                  {dictionary.learner.playPronunciation}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => favorites.toggleFavorite(currentCard.id)}
-                  className={secondaryButtonClass}
-                >
-                  {favorites.isFavorite(currentCard.id)
-                    ? dictionary.learner.saved
-                    : dictionary.learner.save}
-                </button>
+                <div className="mt-5 flex flex-wrap justify-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => playPronunciation(currentCard.word)}
+                    className={primaryButtonClass}
+                  >
+                    {dictionary.learner.playPronunciation}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => favorites.toggleFavorite(currentCard.id)}
+                    className={secondaryButtonClass}
+                  >
+                    {favorites.isFavorite(currentCard.id)
+                      ? dictionary.learner.saved
+                      : dictionary.learner.save}
+                  </button>
+                </div>
               </div>
             </>
           ) : (
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-sm">
+            <div className="rounded-[28px] border border-white/70 bg-white/86 p-10 text-center shadow-[0_24px_60px_-50px_rgba(15,23,42,0.36)] backdrop-blur">
               <p className="text-slate-600">{dictionary.learner.noMatches}</p>
             </div>
           )}
         </section>
       ) : (
         <section className="space-y-6">
-          <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
-            <p className="mb-4 text-sm font-semibold text-slate-700">
+          <div className="rounded-[32px] border border-white/70 bg-white/86 p-5 shadow-[0_24px_60px_-50px_rgba(15,23,42,0.36)] backdrop-blur sm:p-6">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
               {dictionary.learner.browseByLetter}
             </p>
-            <div className="grid grid-cols-5 gap-2 sm:grid-cols-7 md:grid-cols-10 xl:grid-cols-[repeat(13,minmax(0,1fr))]">
+            <div className="flex flex-wrap gap-2">
               {letters.map((letter) => (
                 <button
                   key={letter}
@@ -361,8 +421,8 @@ export default function VocabularyLearner({
                   }}
                   className={
                     selectedLetter === letter && searchQuery === ""
-                      ? primaryButtonClass
-                      : secondaryButtonClass
+                      ? activeChipClass
+                      : inactiveChipClass
                   }
                 >
                   {letter}
@@ -371,38 +431,39 @@ export default function VocabularyLearner({
             </div>
           </div>
 
-          <div className="flex items-center justify-between gap-3">
-            <p className="text-sm font-semibold text-slate-700">{resultsLabel}</p>
-          </div>
-
-          <div className="grid gap-3">
+          <div className="grid gap-4">
             {filteredWords.map((word, index) => {
               const isFavorite = favorites.isFavorite(word.id);
 
               return (
                 <article
                   key={word.id}
-                  className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-sky-200 hover:shadow-md"
+                  className="rounded-[28px] border border-white/70 bg-white/88 p-5 shadow-[0_22px_56px_-52px_rgba(15,23,42,0.45)] backdrop-blur transition hover:-translate-y-0.5 hover:shadow-[0_28px_64px_-50px_rgba(15,23,42,0.55)] sm:p-6"
+                  style={{ contentVisibility: "auto" }}
                 >
                   <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
                     <div className="min-w-0 flex-1">
                       <div className="flex flex-wrap items-center gap-3">
-                        <h2 className="text-lg font-bold text-slate-900">{word.word}</h2>
+                        <h2 className="text-xl font-bold tracking-tight text-slate-900">
+                          {word.word}
+                        </h2>
                         {word.phonetic && (
-                          <span className="font-mono text-sm text-sky-700">
+                          <span className="rounded-full bg-slate-100 px-3 py-1 font-mono text-sm text-sky-700">
                             {word.phonetic}
                           </span>
                         )}
                         {word.pos && (
-                          <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-600">
+                          <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600">
                             {word.pos}
                           </span>
                         )}
                       </div>
-                      <p className="mt-3 text-sm leading-6 text-slate-700">{word.meaning}</p>
+                      <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700 sm:text-[15px]">
+                        {word.meaning}
+                      </p>
                     </div>
 
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-2 lg:justify-end">
                       <button
                         type="button"
                         onClick={() => {
@@ -435,7 +496,7 @@ export default function VocabularyLearner({
             })}
 
             {filteredWords.length === 0 && (
-              <div className="rounded-3xl border border-slate-200 bg-white p-8 text-center shadow-sm">
+              <div className="rounded-[28px] border border-white/70 bg-white/86 p-10 text-center shadow-[0_24px_60px_-50px_rgba(15,23,42,0.36)] backdrop-blur">
                 <p className="text-slate-600">{dictionary.learner.noMatches}</p>
               </div>
             )}
