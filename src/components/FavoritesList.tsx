@@ -3,7 +3,7 @@ import type { Word } from "@/types";
 interface FavoritesListProps {
   favorites: Word[];
   onRemoveFavorite: (wordId: number) => void;
-  onPlayPronunciation: (word: string, phonetic: string) => void;
+  onPlayPronunciation: (word: string) => void;
   messages: {
     emptyTitle: string;
     emptyDescription: string;
@@ -25,9 +25,6 @@ export default function FavoritesList({
   if (favorites.length === 0) {
     return (
       <div className="rounded-[30px] border border-white/70 bg-white/86 p-12 text-center shadow-[0_28px_64px_-50px_rgba(15,23,42,0.4)] backdrop-blur">
-        <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-rose-50 text-xl">
-          ♥
-        </div>
         <p className="text-xl font-semibold text-slate-900">{messages.emptyTitle}</p>
         <p className="mx-auto mt-3 max-w-xl text-sm leading-7 text-slate-500">
           {messages.emptyDescription}
@@ -73,7 +70,7 @@ export default function FavoritesList({
               <div className="flex flex-wrap gap-2 lg:justify-end">
                 <button
                   type="button"
-                  onClick={() => onPlayPronunciation(word.word, word.phonetic)}
+                  onClick={() => onPlayPronunciation(word.word)}
                   className={buttonClass}
                 >
                   {messages.play}

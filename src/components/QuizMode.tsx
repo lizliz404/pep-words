@@ -7,9 +7,7 @@ interface QuizModeProps {
   currentAnswer: string | undefined;
   isSubmitted: boolean;
   onAnswerSelect: (answer: string) => void;
-  onNext: () => void;
   onPrev: () => void;
-  onSubmit: () => void;
   onExit: () => void;
   quizResult?: QuizResult;
   messages: {
@@ -31,17 +29,13 @@ interface QuizModeProps {
     progress: string;
     chooseMeaning: string;
     previous: string;
-    next: string;
-    submit: string;
     exit: string;
+    autoAdvanceHint: string;
   };
 }
 
 const lightButtonClass =
   "rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.4)] transition hover:border-slate-300 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40";
-
-const darkButtonClass =
-  "rounded-full bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-[0_18px_34px_-22px_rgba(15,23,42,0.9)] transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40";
 
 export default function QuizMode({
   currentQuestion,
@@ -50,9 +44,7 @@ export default function QuizMode({
   currentAnswer,
   isSubmitted,
   onAnswerSelect,
-  onNext,
   onPrev,
-  onSubmit,
   onExit,
   quizResult,
   messages,
@@ -215,7 +207,7 @@ export default function QuizMode({
             ))}
           </div>
 
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center justify-between gap-4">
             <button
               type="button"
               onClick={onPrev}
@@ -224,26 +216,9 @@ export default function QuizMode({
             >
               {messages.previous}
             </button>
-
-            {currentQuestionIndex === totalQuestions - 1 ? (
-              <button
-                type="button"
-                onClick={onSubmit}
-                disabled={!currentAnswer}
-                className={darkButtonClass}
-              >
-                {messages.submit}
-              </button>
-            ) : (
-              <button
-                type="button"
-                onClick={onNext}
-                disabled={!currentAnswer}
-                className={darkButtonClass}
-              >
-                {messages.next}
-              </button>
-            )}
+            <p className="max-w-sm text-right text-sm leading-6 text-slate-500">
+              {messages.autoAdvanceHint}
+            </p>
           </div>
         </section>
       )}

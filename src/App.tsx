@@ -34,7 +34,7 @@ function LanguageSwitch({
   onChange: (locale: Locale) => void;
 }) {
   return (
-    <div className="inline-flex items-center rounded-full border border-slate-200 bg-white/90 p-1.5 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.45)] backdrop-blur">
+    <div className="inline-flex items-center rounded-full border border-slate-200 bg-white/92 p-1.5 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.35)] backdrop-blur">
       <button
         type="button"
         onClick={() => onChange("zh")}
@@ -67,7 +67,6 @@ function App() {
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
-  const datasetInfo = dictionary.datasets[dataset];
   const isDocumentRoute = route.startsWith("docs/");
 
   useEffect(() => {
@@ -78,89 +77,45 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      <header className="pt-5 sm:pt-7">
+      <header className="pt-6 sm:pt-8">
         <div className="container">
-          <section className="relative overflow-hidden rounded-[32px] border border-white/70 bg-white/82 px-5 py-6 shadow-[0_30px_80px_-48px_rgba(15,23,42,0.35)] backdrop-blur sm:px-8 sm:py-8">
-            <div className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-[linear-gradient(135deg,rgba(14,165,233,0.12),rgba(99,102,241,0.06),transparent)]" />
-            <div className="relative flex flex-col gap-6">
-              <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-                <div className="max-w-3xl">
-                  <div className="inline-flex items-center rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
-                    {dictionary.site.title}
-                  </div>
-                  <p className="mt-4 max-w-2xl text-[15px] leading-8 text-slate-600 sm:text-base">
-                    {dictionary.site.subtitle}
-                  </p>
-                </div>
-
-                <LanguageSwitch locale={locale} onChange={setLocale} />
+          <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
+              <div className="max-w-3xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.28em] text-sky-700/90">
+                  {dictionary.site.title}
+                </p>
+                <p className="mt-4 max-w-2xl text-[15px] leading-8 text-slate-600 sm:text-base">
+                  {dictionary.site.subtitle}
+                </p>
               </div>
 
-              <div className="flex flex-wrap gap-2">
-                {NAVIGATION_ROUTES.map((routeKey) => (
-                  <button
-                    key={routeKey}
-                    type="button"
-                    onClick={() => navigate(routeKey)}
-                    className={route === routeKey ? activeNavClass : inactiveNavClass}
-                  >
-                    {dictionary.nav[routeKey]}
-                  </button>
-                ))}
-              </div>
-
-              <div className="grid gap-3 text-sm sm:grid-cols-2 xl:grid-cols-4">
-                <div className="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3 text-slate-600">
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
-                    {dictionary.site.activePage}
-                  </p>
-                  <p className="mt-2 text-sm font-semibold text-slate-900">
-                    {isDocumentRoute
-                      ? datasetInfo.documentTitle
-                      : datasetInfo.learnerTitle}
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3 text-slate-600">
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
-                    {dictionary.site.dataset}
-                  </p>
-                  <p className="mt-2 text-sm font-semibold text-slate-900">
-                    {dictionary.nav[dataset]}
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3 text-slate-600">
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
-                    {dictionary.site.source}
-                  </p>
-                  <p className="mt-2 text-sm font-semibold text-slate-900">
-                    {isDocumentRoute
-                      ? dictionary.site.markdownSource
-                      : dictionary.site.structuredSource}
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3 text-slate-600">
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
-                    {dictionary.site.interface}
-                  </p>
-                  <p className="mt-2 text-sm font-semibold text-slate-900">
-                    {locale === "zh"
-                      ? dictionary.site.zhInterface
-                      : dictionary.site.enInterface}
-                  </p>
-                </div>
-              </div>
+              <LanguageSwitch locale={locale} onChange={setLocale} />
             </div>
-          </section>
+
+            <div className="flex flex-wrap gap-2">
+              {NAVIGATION_ROUTES.map((routeKey) => (
+                <button
+                  key={routeKey}
+                  type="button"
+                  onClick={() => navigate(routeKey)}
+                  className={route === routeKey ? activeNavClass : inactiveNavClass}
+                >
+                  {dictionary.nav[routeKey]}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </header>
 
-      <main className="container py-6 sm:py-8">
+      <main className="container py-7 sm:py-9">
         {isDocumentRoute ? (
           <MarkdownDocument
             key={route}
-            badge={datasetInfo.documentBadge}
-            title={datasetInfo.documentTitle}
-            description={datasetInfo.documentDescription}
+            badge={dictionary.datasets[dataset].documentBadge}
+            title={dictionary.datasets[dataset].documentTitle}
+            description={dictionary.datasets[dataset].documentDescription}
             markdown={datasetMarkdown[dataset]}
           />
         ) : (

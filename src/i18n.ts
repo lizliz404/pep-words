@@ -6,14 +6,6 @@ type TranslationSet = {
   site: {
     title: string;
     subtitle: string;
-    activePage: string;
-    dataset: string;
-    source: string;
-    interface: string;
-    structuredSource: string;
-    markdownSource: string;
-    zhInterface: string;
-    enInterface: string;
   };
   nav: {
     "middle-school": string;
@@ -36,7 +28,6 @@ type TranslationSet = {
     words: string;
     visible: string;
     favorites: string;
-    mode: string;
     search: string;
     favoritesButton: (count: number) => string;
     startQuiz: string;
@@ -84,9 +75,8 @@ type TranslationSet = {
     progress: (index: number, total: number) => string;
     chooseMeaning: string;
     previous: string;
-    next: string;
-    submit: string;
     exit: string;
+    autoAdvanceHint: string;
   };
 };
 
@@ -95,15 +85,8 @@ export type Dictionary = TranslationSet;
 const zh: TranslationSet = {
   site: {
     title: "PEP 词汇学习",
-    subtitle: "保留词汇浏览、收藏、卡片和测试四个核心功能",
-    activePage: "当前页面",
-    dataset: "词库",
-    source: "来源",
-    interface: "界面",
-    structuredSource: "结构化词库",
-    markdownSource: "Markdown 原文",
-    zhInterface: "中文界面",
-    enInterface: "英文界面",
+    subtitle:
+      "基于人教版词汇整理，保留检索、收藏、卡片和测试四个核心动作。",
   },
   nav: {
     "middle-school": "初中词汇",
@@ -113,27 +96,26 @@ const zh: TranslationSet = {
   },
   datasets: {
     "middle-school": {
-      learnerBadge: "PEP 初中词汇",
+      learnerBadge: "PEP 初中",
       learnerTitle: "初中词汇学习",
-      learnerDescription: "当前页保留搜索、按字母浏览、收藏、卡片和小测试。",
-      documentBadge: "初中 Markdown 原文",
-      documentTitle: "初中词汇原文浏览",
-      documentDescription: "直接浏览整理后的 Markdown 词表原文。",
+      learnerDescription: "浏览、筛选并练习初中词汇。",
+      documentBadge: "初中词表原文",
+      documentTitle: "初中词表原文",
+      documentDescription: "直接浏览整理后的 Markdown 原文。",
     },
     "primary-school": {
-      learnerBadge: "PEP 小学词汇",
+      learnerBadge: "PEP 小学",
       learnerTitle: "小学词汇学习",
-      learnerDescription: "页面结构与初中词汇一致，只切换为小学词库数据。",
-      documentBadge: "小学 Markdown 原文",
-      documentTitle: "小学词汇原文浏览",
-      documentDescription: "直接浏览整理后的 Markdown 词表原文。",
+      learnerDescription: "保留相同的交互方式，切换为小学词库。",
+      documentBadge: "小学词表原文",
+      documentTitle: "小学词表原文",
+      documentDescription: "直接浏览整理后的 Markdown 原文。",
     },
   },
   learner: {
     words: "总词数",
     visible: "当前可见",
-    favorites: "收藏数",
-    mode: "模式",
+    favorites: "已收藏",
     search: "搜索",
     favoritesButton: (count) => `收藏 (${count})`,
     startQuiz: "开始测试",
@@ -151,27 +133,27 @@ const zh: TranslationSet = {
     meaning: "释义",
     revealMeaning: "点击查看释义",
     returnWord: "再次点击返回单词",
-    previous: "上一个",
-    next: "下一个",
+    previous: "上一项",
+    next: "下一项",
     noMatches: "当前筛选下没有匹配词汇。",
   },
   favorites: {
     emptyTitle: "还没有收藏",
-    emptyDescription: "从列表或卡片中收藏词汇后，会显示在这里。",
+    emptyDescription: "从列表或卡片里收藏单词后，这里会显示出来。",
     count: (count) => `收藏词汇 (${count})`,
     play: "朗读",
     remove: "移除",
   },
   quiz: {
     complete: "测试完成",
-    summary: "这是你本轮词汇测试的小结。",
+    summary: "这里是本轮词汇测试的结果。",
     questions: "题目数",
     correct: "答对",
     accuracy: "正确率",
-    excellent: "很稳，这组单词你已经比较熟了。",
-    good: "不错，把错题再过一遍就够了。",
+    excellent: "掌握得很稳，这组词已经比较熟了。",
+    good: "完成得不错，把错题再过一遍就够了。",
     keepPracticing: "再练一轮会更稳。",
-    reviewFromBasics: "先回看基础词汇，再试一次。",
+    reviewFromBasics: "先回看基础词汇，再做一轮测试。",
     review: "答题回顾",
     pass: "正确",
     miss: "错误",
@@ -179,26 +161,18 @@ const zh: TranslationSet = {
     yourAnswer: "你的答案",
     backToStudy: "返回学习",
     progress: (index, total) => `第 ${index} 题 / 共 ${total} 题`,
-    chooseMeaning: "请选择正确释义",
+    chooseMeaning: "选择正确释义",
     previous: "上一题",
-    next: "下一题",
-    submit: "提交测试",
     exit: "退出测试",
+    autoAdvanceHint: "选中后会自动进入下一题，最后一题会自动提交。",
   },
 };
 
 const en: TranslationSet = {
   site: {
     title: "PEP Vocabulary",
-    subtitle: "Keep only the core workflow: browse, save, review, and quiz",
-    activePage: "Active Page",
-    dataset: "Dataset",
-    source: "Source",
-    interface: "Interface",
-    structuredSource: "Structured Vocabulary",
-    markdownSource: "Markdown",
-    zhInterface: "Chinese Interface",
-    enInterface: "English Interface",
+    subtitle:
+      "A lightweight PEP vocabulary site focused on search, favorites, flashcards, and quick quizzes.",
   },
   nav: {
     "middle-school": "Middle School",
@@ -208,29 +182,26 @@ const en: TranslationSet = {
   },
   datasets: {
     "middle-school": {
-      learnerBadge: "PEP Middle School Vocabulary",
+      learnerBadge: "PEP Middle School",
       learnerTitle: "Middle School Vocabulary",
-      learnerDescription:
-        "This page keeps search, letter browsing, favorites, flashcards, and the quiz.",
-      documentBadge: "Middle School Markdown",
+      learnerDescription: "Browse, filter, and practice the middle-school dataset.",
+      documentBadge: "Middle School Source",
       documentTitle: "Middle School Word List",
-      documentDescription: "Browse the original markdown word list directly.",
+      documentDescription: "Read the cleaned markdown source directly.",
     },
     "primary-school": {
-      learnerBadge: "PEP Primary School Vocabulary",
+      learnerBadge: "PEP Primary School",
       learnerTitle: "Primary School Vocabulary",
-      learnerDescription:
-        "The interaction stays the same as the middle-school page, with the primary-school dataset.",
-      documentBadge: "Primary School Markdown",
+      learnerDescription: "Keep the same workflow and switch to the primary-school dataset.",
+      documentBadge: "Primary School Source",
       documentTitle: "Primary School Word List",
-      documentDescription: "Browse the original markdown word list directly.",
+      documentDescription: "Read the cleaned markdown source directly.",
     },
   },
   learner: {
     words: "Words",
     visible: "Visible",
     favorites: "Favorites",
-    mode: "Mode",
     search: "Search",
     favoritesButton: (count) => `Favorites (${count})`,
     startQuiz: "Start Quiz",
@@ -268,7 +239,7 @@ const en: TranslationSet = {
     excellent: "Excellent. You already know these words well.",
     good: "Good work. Review the missed words once more.",
     keepPracticing: "Keep practicing. One more round will help.",
-    reviewFromBasics: "Start from the basics again and retry after review.",
+    reviewFromBasics: "Review the basics first, then try again.",
     review: "Question Review",
     pass: "PASS",
     miss: "MISS",
@@ -278,9 +249,9 @@ const en: TranslationSet = {
     progress: (index, total) => `Question ${index} / ${total}`,
     chooseMeaning: "Choose the correct meaning",
     previous: "Previous",
-    next: "Next",
-    submit: "Submit Quiz",
     exit: "Exit Quiz",
+    autoAdvanceHint:
+      "After you choose an option, the quiz moves forward automatically.",
   },
 };
 

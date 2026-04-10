@@ -180,10 +180,10 @@ export default function MarkdownDocument({
 
   return (
     <section className="space-y-6">
-      <header className="overflow-hidden rounded-[32px] border border-white/70 bg-white/88 p-6 shadow-[0_30px_72px_-52px_rgba(15,23,42,0.4)] backdrop-blur sm:p-8">
-        <div className="inline-flex items-center rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-sky-700">
+      <header>
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-sky-700/90">
           {badge}
-        </div>
+        </p>
         <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
           {title}
         </h1>
@@ -240,15 +240,15 @@ export default function MarkdownDocument({
                 <table className="markdown-table">
                   <thead>
                     <tr>
-                      {block.header.map((cell: string, cellIndex: number) => (
+                      {block.header.map((cell, cellIndex) => (
                         <th key={`${cell}-${cellIndex}`}>{renderInline(cell)}</th>
                       ))}
                     </tr>
                   </thead>
                   <tbody>
-                    {block.rows.map((row: string[], rowIndex: number) => (
+                    {block.rows.map((row, rowIndex) => (
                       <tr key={`${row.join("|")}-${rowIndex}`}>
-                        {row.map((cell: string, cellIndex: number) => (
+                        {row.map((cell, cellIndex) => (
                           <td key={`${cell}-${cellIndex}`}>{renderInline(cell)}</td>
                         ))}
                       </tr>
