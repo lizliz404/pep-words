@@ -86,7 +86,7 @@ Important:
 
 - The root `index.html` is the source entry and should be served through `pnpm dev`.
 - If you open the source `index.html` directly, the browser will not handle `TypeScript/TSX` or Vite module resolution correctly.
-- If you want a directly openable file, build first and open `dist/public/index.html`.
+- If you want a directly openable file, build first and open `dist/index.html`.
 
 Build validation:
 
@@ -98,7 +98,7 @@ pnpm preview
 Build output:
 
 ```text
-dist/public/index.html
+dist/index.html
 ```
 
 The built file uses relative asset paths and can be opened directly.

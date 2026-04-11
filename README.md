@@ -88,7 +88,7 @@ http://localhost:3000
 
 - 根目录 `index.html` 是源码入口，应该通过 `pnpm dev` 提供的 Vite 开发服务器访问。
 - 如果只是直接双击源码 `index.html`，浏览器不会正确处理 `TypeScript/TSX` 和 Vite 的模块解析。
-- 想要直接打开文件，请先构建，再打开 `dist/public/index.html`。
+- 想要直接打开文件，请先构建，再打开 `dist/index.html`。
 
 构建验证：
 
@@ -100,7 +100,7 @@ pnpm preview
 构建产物位于：
 
 ```text
-dist/public/index.html
+dist/index.html
 ```
 
 这份构建产物使用相对资源路径，可以直接打开。
