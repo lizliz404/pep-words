@@ -3,6 +3,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   GridIcon,
+  HeartFilledIcon,
   HeartIcon,
   ListIcon,
   QuizIcon,
@@ -19,17 +20,18 @@ import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 
 type ViewMode = "list" | "cards" | "favorites" | "quiz";
 
+//  Apple/Linear Style Buttons: Clean, subtle scaling, precise borders
 const primaryButtonClass =
-  "inline-flex items-center gap-2 rounded-full bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-[0_18px_34px_-22px_rgba(15,23,42,0.9)] transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40";
+  "inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-medium text-white transition-all duration-200 hover:bg-slate-800 hover:shadow-md active:scale-[0.98] disabled:pointer-events-none disabled:opacity-40";
 
 const secondaryButtonClass =
-  "inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-[0_12px_28px_-24px_rgba(15,23,42,0.4)] transition hover:border-slate-300 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40";
+  "inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 transition-all duration-200 hover:border-slate-300 hover:bg-slate-50 active:scale-[0.98] disabled:pointer-events-none disabled:opacity-40";
 
 const activeChipClass =
-  "inline-flex items-center gap-2 rounded-full border border-slate-900 bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-[0_14px_28px_-24px_rgba(15,23,42,0.85)] transition";
+  "inline-flex items-center justify-center min-w-[2.5rem] h-10 rounded-lg bg-slate-900 px-4 text-sm font-medium text-white shadow-sm transition-all duration-200";
 
 const inactiveChipClass =
-  "inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-600 transition hover:border-slate-300 hover:text-slate-900";
+  "inline-flex items-center justify-center min-w-[2.5rem] h-10 rounded-lg bg-transparent px-4 text-sm font-medium text-slate-500 transition-all duration-200 hover:bg-slate-100 hover:text-slate-900";
 
 interface VocabularyLearnerProps {
   dataset: DatasetKey;
@@ -107,10 +109,7 @@ export default function VocabularyLearner({
   const currentCard = filteredWords[currentCardIndex];
 
   const startQuiz = () => {
-    if (filteredWords.length === 0) {
-      return;
-    }
-
+    if (filteredWords.length === 0) return;
     clearAutoAdvanceTimer();
     quiz.generateQuiz(filteredWords, Math.min(10, filteredWords.length));
     setQuizResult(null);
@@ -149,10 +148,7 @@ export default function VocabularyLearner({
   };
 
   const playPronunciation = (word: string) => {
-    if (!("speechSynthesis" in window)) {
-      return;
-    }
-
+    if (!("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(word);
     utterance.lang = "en-US";
@@ -161,10 +157,7 @@ export default function VocabularyLearner({
 
   const moveCard = (direction: "prev" | "next") => {
     setCurrentCardIndex((index) => {
-      if (direction === "prev") {
-        return Math.max(0, index - 1);
-      }
-
+      if (direction === "prev") return Math.max(0, index - 1);
       return Math.min(filteredWords.length - 1, index + 1);
     });
   };
@@ -179,44 +172,36 @@ export default function VocabularyLearner({
     : dictionary.learner.letterResults(selectedLetter, filteredWords.length);
 
   const stats = [
-    {
-      label: dictionary.learner.words,
-      value: words.length.toLocaleString(),
-    },
-    {
-      label: dictionary.learner.visible,
-      value: filteredWords.length.toLocaleString(),
-    },
-    {
-      label: dictionary.learner.favorites,
-      value: favorites.favoriteCount.toLocaleString(),
-    },
+    { label: dictionary.learner.words, value: words.length.toLocaleString() },
+    { label: dictionary.learner.visible, value: filteredWords.length.toLocaleString() },
+    { label: dictionary.learner.favorites, value: favorites.favoriteCount.toLocaleString() },
   ];
 
   return (
-    <div className="space-y-6">
-      <header className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-sky-700/90">
+    <div className="mx-auto max-w-6xl space-y-10 font-sans text-slate-900 pb-20">
+      {/* 优雅的头部区域 */}
+      <header className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between pt-8">
+        <div className="max-w-2xl space-y-4">
+          <div className="inline-flex items-center rounded-md bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-600">
             {datasetInfo.learnerBadge}
-          </p>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          </div>
+          <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
             {datasetInfo.learnerTitle}
           </h1>
-          <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
+          <p className="text-base leading-relaxed text-slate-500">
             {datasetInfo.learnerDescription}
           </p>
-          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-500">
+          <div className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm">
             {stats.map((item) => (
-              <span key={item.label}>
-                <span className="font-semibold text-slate-700">{item.label}</span>{" "}
-                {item.value}
-              </span>
+              <div key={item.label} className="flex items-center gap-2">
+                <span className="text-slate-400">{item.label}</span>
+                <span className="font-medium text-slate-900">{item.value}</span>
+              </div>
             ))}
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap items-center gap-3">
           <button
             type="button"
             onClick={() => {
@@ -226,7 +211,11 @@ export default function VocabularyLearner({
             }}
             className={secondaryButtonClass}
           >
-            <HeartIcon className="h-4 w-4" />
+            {favorites.favoriteCount > 0 ? (
+              <HeartFilledIcon className="h-[18px] w-[18px] text-rose-500" />
+            ) : (
+              <HeartIcon className="h-[18px] w-[18px] text-slate-500" />
+            )}
             {dictionary.learner.favoritesButton(favorites.favoriteCount)}
           </button>
           <button
@@ -235,17 +224,17 @@ export default function VocabularyLearner({
             disabled={filteredWords.length === 0}
             className={primaryButtonClass}
           >
-            <QuizIcon className="h-4 w-4" />
+            <QuizIcon className="h-[18px] w-[18px]" />
             {dictionary.learner.startQuiz}
           </button>
         </div>
       </header>
 
-      <section className="grid gap-4 border-b border-slate-200/70 pb-6 xl:grid-cols-[minmax(0,1fr)_auto] xl:items-end">
-        <div className="space-y-3">
-          <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
-            <SearchIcon className="h-4 w-4" />
-            <label htmlFor={`search-${dataset}`}>{dictionary.learner.search}</label>
+      {/* 极简的工具栏：搜索与视图切换 */}
+      <section className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="relative w-full max-w-md">
+          <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 text-slate-400">
+            <SearchIcon className="h-5 w-5" />
           </div>
           <input
             id={`search-${dataset}`}
@@ -257,34 +246,47 @@ export default function VocabularyLearner({
               setViewMode("list");
               setCurrentCardIndex(0);
             }}
-            className="w-full rounded-2xl border border-slate-200/80 bg-white/78 px-4 py-3.5 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-sky-300 focus:bg-white"
+            className="block w-full rounded-xl border-0 bg-slate-100 py-3 pl-11 pr-4 text-sm text-slate-900 transition-all placeholder:text-slate-400 focus:bg-white focus:ring-2 focus:ring-slate-900 focus:outline-none"
           />
-          <p className="text-sm font-medium text-slate-500">{resultsLabel}</p>
         </div>
 
-        <div className="flex flex-wrap gap-2 xl:justify-end">
-          <button
-            type="button"
-            onClick={() => setViewMode("list")}
-            className={viewMode === "list" ? activeChipClass : inactiveChipClass}
-          >
-            <ListIcon className="h-4 w-4" />
-            {dictionary.learner.list}
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              setViewMode("cards");
-              setCurrentCardIndex(0);
-            }}
-            className={viewMode === "cards" ? activeChipClass : inactiveChipClass}
-          >
-            <GridIcon className="h-4 w-4" />
-            {dictionary.learner.cards}
-          </button>
+        <div className="flex items-center gap-4">
+          <span className="text-sm font-medium text-slate-400 hidden sm:block">{resultsLabel}</span>
+          
+          {/* iOS风格的分段控制器 */}
+          <div className="flex items-center rounded-xl bg-slate-100 p-1">
+            <button
+              type="button"
+              onClick={() => setViewMode("list")}
+              className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all ${
+                viewMode === "list"
+                  ? "bg-white text-slate-900 shadow-sm"
+                  : "text-slate-500 hover:text-slate-700"
+              }`}
+            >
+              <ListIcon className="h-4 w-4" />
+              {dictionary.learner.list}
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setViewMode("cards");
+                setCurrentCardIndex(0);
+              }}
+              className={`inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all ${
+                viewMode === "cards"
+                  ? "bg-white text-slate-900 shadow-sm"
+                  : "text-slate-500 hover:text-slate-700"
+              }`}
+            >
+              <GridIcon className="h-4 w-4" />
+              {dictionary.learner.cards}
+            </button>
+          </div>
         </div>
       </section>
 
+      {/* 主体内容区 */}
       {viewMode === "quiz" ? (
         <QuizMode
           currentQuestion={quiz.currentQuestion}
@@ -321,9 +323,10 @@ export default function VocabularyLearner({
           }}
         />
       ) : viewMode === "cards" ? (
-        <section className="mx-auto max-w-4xl space-y-6">
+        <section className="mx-auto max-w-3xl space-y-8">
           {currentCard ? (
             <>
+              {/* 高端卡片设计：摒弃花哨渐变，采用纯净的大量留白与精致排版 */}
               <div
                 role="button"
                 tabIndex={0}
@@ -334,141 +337,138 @@ export default function VocabularyLearner({
                     setIsFlipped((value) => !value);
                   }
                 }}
-                className="relative min-h-[380px] overflow-hidden rounded-[34px] border border-slate-200/70 bg-[linear-gradient(145deg,#0f172a_0%,#1e293b_56%,#155e75_100%)] p-8 text-white shadow-[0_34px_90px_-56px_rgba(15,23,42,0.95)] outline-none transition hover:-translate-y-0.5"
+                className="group relative flex min-h-[440px] w-full cursor-pointer flex-col items-center justify-center overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-10 text-center shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-slate-100"
               >
-                <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.18),transparent_60%)]" />
-                <div className="relative flex h-full flex-col items-center justify-center text-center">
-                  {!isFlipped ? (
-                    <>
-                      <div className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.26em] text-sky-100">
-                        {dictionary.learner.word}
-                      </div>
-                      <h2 className="mt-7 text-4xl font-bold tracking-tight sm:text-5xl">
-                        {currentCard.word}
-                      </h2>
-                      {currentCard.phonetic && (
-                        <p className="mt-4 rounded-full bg-white/10 px-4 py-2 font-mono text-base text-sky-100 sm:text-lg">
-                          {currentCard.phonetic}
-                        </p>
-                      )}
-                      <p className="mt-9 text-sm text-sky-100/90">
-                        {dictionary.learner.revealMeaning}
+                {!isFlipped ? (
+                  <div className="flex flex-col items-center animate-in fade-in zoom-in-95 duration-200">
+                    <span className="mb-8 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold tracking-widest text-slate-400">
+                      {dictionary.learner.word}
+                    </span>
+                    <h2 className="text-5xl font-bold tracking-tight text-slate-900 sm:text-6xl">
+                      {currentCard.word}
+                    </h2>
+                    {currentCard.phonetic && (
+                      <p className="mt-6 font-mono text-lg text-slate-400">
+                        {currentCard.phonetic}
                       </p>
-                    </>
-                  ) : (
-                    <>
-                      <div className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.26em] text-sky-100">
-                        {dictionary.learner.meaning}
-                      </div>
-                      <p className="mt-7 max-w-2xl text-2xl font-semibold leading-10 sm:text-3xl">
-                        {currentCard.meaning}
-                      </p>
-                      {currentCard.pos && (
-                        <p className="mt-5 rounded-full bg-white/10 px-4 py-2 text-sm text-sky-100">
-                          {currentCard.pos}
-                        </p>
-                      )}
-                      <p className="mt-9 text-sm text-sky-100/90">
-                        {dictionary.learner.returnWord}
-                      </p>
-                    </>
-                  )}
-                </div>
+                    )}
+                    <p className="absolute bottom-8 text-sm text-slate-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                      {dictionary.learner.revealMeaning}
+                    </p>
+                  </div>
+                ) : (
+                  <div className="flex flex-col items-center animate-in fade-in zoom-in-95 duration-200">
+                    <span className="mb-8 rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold tracking-widest text-slate-400">
+                      {dictionary.learner.meaning}
+                    </span>
+                    <p className="max-w-xl text-2xl font-medium leading-relaxed text-slate-800 sm:text-3xl">
+                      {currentCard.meaning}
+                    </p>
+                    {currentCard.pos && (
+                      <span className="mt-8 rounded-md border border-slate-200 bg-slate-50 px-3 py-1 text-sm font-medium text-slate-500">
+                        {currentCard.pos}
+                      </span>
+                    )}
+                    <p className="absolute bottom-8 text-sm text-slate-400 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                      {dictionary.learner.returnWord}
+                    </p>
+                  </div>
+                )}
               </div>
 
-              <div className="rounded-[28px] border border-white/70 bg-white/82 p-5 shadow-[0_24px_60px_-50px_rgba(15,23,42,0.3)] backdrop-blur">
-                <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              {/* 卡片控制台 */}
+              <div className="flex flex-col gap-6 rounded-2xl border border-slate-100 bg-white p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
+                <div className="flex items-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => playPronunciation(currentCard.word)}
+                    className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors hover:bg-slate-200 hover:text-slate-900"
+                    aria-label={dictionary.learner.playPronunciation}
+                  >
+                    <VolumeIcon className="h-5 w-5" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => favorites.toggleFavorite(currentCard.id)}
+                    className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-100 text-slate-600 transition-colors hover:bg-rose-50 hover:text-rose-500"
+                    aria-label={dictionary.learner.save}
+                  >
+                    {favorites.isFavorite(currentCard.id) ? (
+                      <HeartFilledIcon className="h-5 w-5 text-rose-500" />
+                    ) : (
+                      <HeartIcon className="h-5 w-5" />
+                    )}
+                  </button>
+                </div>
+
+                <div className="flex flex-1 items-center gap-4 px-4 sm:px-8">
+                  <span className="text-sm font-medium text-slate-400 tabular-nums">
+                    {currentCardIndex + 1}
+                  </span>
+                  <div className="relative h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
+                    <div
+                      className="absolute inset-y-0 left-0 rounded-full bg-slate-900 transition-all duration-300 ease-out"
+                      style={{ width: `${cardProgress}%` }}
+                    />
+                  </div>
+                  <span className="text-sm font-medium text-slate-400 tabular-nums">
+                    {filteredWords.length}
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-2">
                   <button
                     type="button"
                     onClick={() => moveCard("prev")}
                     disabled={currentCardIndex === 0}
                     className={secondaryButtonClass}
                   >
-                    <ChevronLeftIcon className="h-4 w-4" />
-                    {dictionary.learner.previous}
+                    <ChevronLeftIcon className="h-5 w-5" />
                   </button>
-
-                  <div className="flex-1 px-1">
-                    <div className="flex items-center justify-between text-sm font-medium text-slate-500">
-                      <span>{currentCardIndex + 1}</span>
-                      <span>{filteredWords.length}</span>
-                    </div>
-                    <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-200">
-                      <div
-                        className="h-full rounded-full bg-slate-900 transition-all"
-                        style={{ width: `${cardProgress}%` }}
-                      />
-                    </div>
-                  </div>
-
                   <button
                     type="button"
                     onClick={() => moveCard("next")}
                     disabled={currentCardIndex === filteredWords.length - 1}
                     className={secondaryButtonClass}
                   >
-                    {dictionary.learner.next}
-                    <ChevronRightIcon className="h-4 w-4" />
-                  </button>
-                </div>
-
-                <div className="mt-5 flex flex-wrap justify-center gap-3">
-                  <button
-                    type="button"
-                    onClick={() => playPronunciation(currentCard.word)}
-                    className={primaryButtonClass}
-                  >
-                    <VolumeIcon className="h-4 w-4" />
-                    {dictionary.learner.playPronunciation}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => favorites.toggleFavorite(currentCard.id)}
-                    className={secondaryButtonClass}
-                  >
-                    <HeartIcon className="h-4 w-4" />
-                    {favorites.isFavorite(currentCard.id)
-                      ? dictionary.learner.saved
-                      : dictionary.learner.save}
+                    <ChevronRightIcon className="h-5 w-5" />
                   </button>
                 </div>
               </div>
             </>
           ) : (
-            <div className="rounded-[28px] border border-white/70 bg-white/82 p-10 text-center shadow-[0_24px_60px_-50px_rgba(15,23,42,0.3)] backdrop-blur">
-              <p className="text-slate-600">{dictionary.learner.noMatches}</p>
+            <div className="flex flex-col items-center justify-center rounded-[2rem] border border-dashed border-slate-200 bg-slate-50 py-24 text-center">
+              <SearchIcon className="mb-4 h-8 w-8 text-slate-300" />
+              <p className="text-lg font-medium text-slate-600">{dictionary.learner.noMatches}</p>
             </div>
           )}
         </section>
       ) : (
-        <section className="space-y-6">
-          <div className="space-y-4 border-b border-slate-200/70 pb-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">
-              {dictionary.learner.browseByLetter}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {letters.map((letter) => (
-                <button
-                  key={letter}
-                  type="button"
-                  onClick={() => {
-                    setSelectedLetter(letter);
-                    setSearchQuery("");
-                    setViewMode("list");
-                    setCurrentCardIndex(0);
-                  }}
-                  className={
-                    selectedLetter === letter && searchQuery === ""
-                      ? activeChipClass
-                      : inactiveChipClass
-                  }
-                >
-                  {letter}
-                </button>
-              ))}
-            </div>
+        <section className="space-y-8">
+          {/* 字母索引栏 */}
+          <div className="flex flex-wrap gap-1 border-b border-slate-100 pb-6">
+            {letters.map((letter) => (
+              <button
+                key={letter}
+                type="button"
+                onClick={() => {
+                  setSelectedLetter(letter);
+                  setSearchQuery("");
+                  setViewMode("list");
+                  setCurrentCardIndex(0);
+                }}
+                className={
+                  selectedLetter === letter && searchQuery === ""
+                    ? activeChipClass
+                    : inactiveChipClass
+                }
+              >
+                {letter}
+              </button>
+            ))}
           </div>
 
+          {/* 列表视图 */}
           <div className="grid gap-4">
             {filteredWords.map((word, index) => {
               const isFavorite = favorites.isFavorite(word.id);
@@ -476,69 +476,76 @@ export default function VocabularyLearner({
               return (
                 <article
                   key={word.id}
-                  className="rounded-[28px] border border-white/70 bg-white/88 p-5 shadow-[0_22px_56px_-52px_rgba(15,23,42,0.45)] backdrop-blur transition hover:-translate-y-0.5 hover:shadow-[0_28px_64px_-50px_rgba(15,23,42,0.55)] sm:p-6"
+                  className="group flex flex-col gap-5 rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-slate-300 hover:shadow-sm sm:flex-row sm:items-start sm:justify-between"
                   style={{ contentVisibility: "auto" }}
                 >
-                  <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-                    <div className="min-w-0 flex-1">
-                      <div className="flex flex-wrap items-center gap-3">
-                        <h2 className="text-xl font-bold tracking-tight text-slate-900">
-                          {word.word}
-                        </h2>
-                        {word.phonetic && (
-                          <span className="rounded-full bg-slate-100 px-3 py-1 font-mono text-sm text-sky-700">
-                            {word.phonetic}
-                          </span>
-                        )}
-                        {word.pos && (
-                          <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600">
-                            {word.pos}
-                          </span>
-                        )}
-                      </div>
-                      <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-700 sm:text-[15px]">
-                        {word.meaning}
-                      </p>
+                  <div className="min-w-0 flex-1 space-y-3">
+                    <div className="flex items-baseline gap-3">
+                      <h2 className="text-2xl font-bold tracking-tight text-slate-900">
+                        {word.word}
+                      </h2>
+                      {word.phonetic && (
+                        <span className="font-mono text-sm text-slate-400">
+                          {word.phonetic}
+                        </span>
+                      )}
+                      {word.pos && (
+                        <span className="ml-2 rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-500">
+                          {word.pos}
+                        </span>
+                      )}
                     </div>
+                    <p className="text-base leading-relaxed text-slate-600">
+                      {word.meaning}
+                    </p>
+                  </div>
 
-                    <div className="flex flex-wrap gap-2 lg:justify-end">
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setCurrentCardIndex(index);
-                          setViewMode("cards");
-                          setIsFlipped(false);
-                        }}
-                        className={secondaryButtonClass}
-                      >
-                        <CardsIcon className="h-4 w-4" />
-                        {dictionary.learner.openCard}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => playPronunciation(word.word)}
-                        className={secondaryButtonClass}
-                      >
-                        <VolumeIcon className="h-4 w-4" />
-                        {dictionary.learner.playPronunciation}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => favorites.toggleFavorite(word.id)}
-                        className={isFavorite ? primaryButtonClass : secondaryButtonClass}
-                      >
-                        <HeartIcon className="h-4 w-4" />
-                        {isFavorite ? dictionary.learner.saved : dictionary.learner.save}
-                      </button>
-                    </div>
+                  <div className="flex items-center gap-2 sm:opacity-0 sm:transition-opacity sm:group-hover:opacity-100 focus-within:opacity-100">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setCurrentCardIndex(index);
+                        setViewMode("cards");
+                        setIsFlipped(false);
+                      }}
+                      className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-50 text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900"
+                      aria-label={dictionary.learner.openCard}
+                    >
+                      <CardsIcon className="h-5 w-5" />
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => playPronunciation(word.word)}
+                      className="flex h-10 w-10 items-center justify-center rounded-xl bg-slate-50 text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900"
+                      aria-label={dictionary.learner.playPronunciation}
+                    >
+                      <VolumeIcon className="h-5 w-5" />
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => favorites.toggleFavorite(word.id)}
+                      className={`flex h-10 w-10 items-center justify-center rounded-xl transition-colors ${
+                        isFavorite
+                          ? "bg-rose-50 text-rose-500 hover:bg-rose-100"
+                          : "bg-slate-50 text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                      }`}
+                      aria-label={isFavorite ? dictionary.learner.saved : dictionary.learner.save}
+                    >
+                      {isFavorite ? (
+                        <HeartFilledIcon className="h-5 w-5" />
+                      ) : (
+                        <HeartIcon className="h-5 w-5" />
+                      )}
+                    </button>
                   </div>
                 </article>
               );
             })}
 
             {filteredWords.length === 0 && (
-              <div className="rounded-[28px] border border-white/70 bg-white/82 p-10 text-center shadow-[0_24px_60px_-50px_rgba(15,23,42,0.3)] backdrop-blur">
-                <p className="text-slate-600">{dictionary.learner.noMatches}</p>
+              <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-slate-200 bg-slate-50 py-20 text-center">
+                <SearchIcon className="mb-4 h-8 w-8 text-slate-300" />
+                <p className="text-slate-500">{dictionary.learner.noMatches}</p>
               </div>
             )}
           </div>

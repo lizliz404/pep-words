@@ -1,4 +1,8 @@
-import { CloseIcon, HeartIcon, VolumeIcon } from "@/components/Icons";
+import {
+  CloseIcon,
+  HeartFilledIcon,
+  VolumeIcon,
+} from "@/components/Icons";
 import type { Word } from "@/types";
 
 interface FavoritesListProps {
@@ -27,7 +31,7 @@ export default function FavoritesList({
     return (
       <div className="rounded-[30px] border border-white/70 bg-white/86 p-12 text-center shadow-[0_28px_64px_-50px_rgba(15,23,42,0.4)] backdrop-blur">
         <div className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-rose-50 text-rose-500">
-          <HeartIcon className="h-6 w-6" />
+          <HeartFilledIcon className="h-6 w-6" />
         </div>
         <p className="text-xl font-semibold text-slate-900">{messages.emptyTitle}</p>
         <p className="mx-auto mt-3 max-w-xl text-sm leading-7 text-slate-500">
@@ -40,7 +44,7 @@ export default function FavoritesList({
   return (
     <div className="space-y-4">
       <div className="flex items-center gap-2 border-b border-slate-200/70 pb-3 text-sm font-semibold text-slate-700">
-        <HeartIcon className="h-4 w-4 text-rose-500" />
+        <HeartFilledIcon className="h-4 w-4 text-rose-500" />
         <p>{messages.count}</p>
       </div>
 

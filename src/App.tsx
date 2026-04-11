@@ -2,7 +2,7 @@ import {
   BookIcon,
   FileTextIcon,
   GraduationCapIcon,
-  StarIcon,
+  LogoIcon,
 } from "@/components/Icons";
 import MarkdownDocument from "@/components/MarkdownDocument";
 import { datasetMarkdown, datasetWords } from "@/content";
@@ -96,8 +96,8 @@ function App() {
             <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
               <div className="max-w-3xl">
                 <div className="flex items-center gap-3">
-                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-900 text-white shadow-[0_18px_40px_-28px_rgba(15,23,42,0.9)]">
-                    <StarIcon className="h-5 w-5" />
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-[18px] border border-sky-100/80 bg-white/92 text-sky-700 shadow-[0_18px_40px_-30px_rgba(14,116,144,0.28)]">
+                    <LogoIcon className="h-6 w-6" />
                   </span>
                   <div>
                     <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-sky-700/90">
