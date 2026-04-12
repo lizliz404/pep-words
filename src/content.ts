@@ -1,7 +1,18 @@
-import middleSchoolMarkdown from "@/data/初中英语单词汇总 (A-Z).md?raw";
-import primarySchoolMarkdown from "@/data/人教版 PEP 小学英语单词汇总 (3-6年级).md?raw";
-import middleSchoolWordsData from "@/data/words.json";
 import type { DatasetKey, Word } from "@/types";
+
+type Loader<T> = () => Promise<T>;
+
+const markdownModules = import.meta.glob("./data/*.md", {
+  query: "?raw",
+  import: "default",
+}) as Record<string, Loader<string>>;
+
+const jsonModules = import.meta.glob("./data/*.json", {
+  import: "default",
+}) as Record<string, Loader<unknown>>;
+
+const markdownCache = new Map<DatasetKey, Promise<string>>();
+const wordsCache = new Map<DatasetKey, Promise<Word[]>>();
 
 const primaryListItemPattern = /^(\d+)\.\s+\*\*(.+?)\*\*(.*)$/;
 const phoneticPattern = /^(\/.*?\/|\[.*?\])\s*(.*)$/;
@@ -13,6 +24,31 @@ function normalizeField(value: string) {
   }
 
   return value.trim();
+}
+
+function requireLoader<T>(loader: Loader<T> | undefined, label: string) {
+  if (!loader) {
+    throw new Error(`Missing loader for ${label}`);
+  }
+
+  return loader;
+}
+
+function getMarkdownLoader(dataset: DatasetKey) {
+  const marker = dataset === "middle-school" ? "(A-Z).md" : "3-6";
+  const entry = Object.entries(markdownModules).find(([filePath]) =>
+    filePath.includes(marker),
+  );
+
+  return requireLoader(entry?.[1], `${dataset} markdown`);
+}
+
+function getMiddleSchoolWordsLoader() {
+  const entry = Object.entries(jsonModules).find(([filePath]) =>
+    filePath.endsWith("words.json"),
+  );
+
+  return requireLoader(entry?.[1], "middle-school words");
 }
 
 function parsePrimarySchoolWords(markdown: string): Word[] {
@@ -66,15 +102,28 @@ function parsePrimarySchoolWords(markdown: string): Word[] {
   return words;
 }
 
-export const middleSchoolWords = middleSchoolWordsData as Word[];
-export const primarySchoolWords = parsePrimarySchoolWords(primarySchoolMarkdown);
+export function loadDatasetMarkdown(dataset: DatasetKey): Promise<string> {
+  const cached = markdownCache.get(dataset);
+  if (cached) {
+    return cached;
+  }
 
-export const datasetWords: Record<DatasetKey, Word[]> = {
-  "middle-school": middleSchoolWords,
-  "primary-school": primarySchoolWords,
-};
+  const pending = getMarkdownLoader(dataset)();
+  markdownCache.set(dataset, pending);
+  return pending;
+}
 
-export const datasetMarkdown: Record<DatasetKey, string> = {
-  "middle-school": middleSchoolMarkdown,
-  "primary-school": primarySchoolMarkdown,
-};
+export function loadDatasetWords(dataset: DatasetKey): Promise<Word[]> {
+  const cached = wordsCache.get(dataset);
+  if (cached) {
+    return cached;
+  }
+
+  const pending =
+    dataset === "middle-school"
+      ? getMiddleSchoolWordsLoader()().then((module) => module as Word[])
+      : loadDatasetMarkdown("primary-school").then(parsePrimarySchoolWords);
+
+  wordsCache.set(dataset, pending);
+  return pending;
+}

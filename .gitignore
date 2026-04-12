@@ -5,6 +5,9 @@ build/
 coverage/
 *.tsbuildinfo
 *.log
+.wrangler/
+.dev.vars
+.dev.vars.*
 
 .env
 .env.local

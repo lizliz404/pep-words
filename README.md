@@ -117,3 +117,7 @@ dist/index.html
 - 继续收缩 `archive/raw-materials/`，把“原始来源”和“重复草稿”拆开
 - 对大词库做懒加载，减小首包体积
 - 给词库增加更稳定的结构化来源，减少对 Markdown 解析的脆弱依赖
+## Deploy
+
+- Netlify / Vercel: build command `corepack pnpm build`, output directory `dist`
+- Cloudflare: keep `wrangler.jsonc`, then run `npx --yes wrangler deploy`

@@ -5,12 +5,12 @@ import {
   LogoIcon,
 } from "@/components/Icons";
 import MarkdownDocument from "@/components/MarkdownDocument";
-import { datasetMarkdown, datasetWords } from "@/content";
+import { loadDatasetMarkdown, loadDatasetWords } from "@/content";
 import { LOCALE_STORAGE_KEY, getDictionary, getStoredLocale } from "@/i18n";
 import { useHashRoute } from "@/hooks/useHashRoute";
 import VocabularyLearner from "@/pages/VocabularyLearner";
-import type { DatasetKey, Locale, RouteKey } from "@/types";
-import { useEffect, useState } from "react";
+import type { DatasetKey, Locale, RouteKey, Word } from "@/types";
+import { startTransition, useEffect, useState } from "react";
 
 const NAVIGATION_ROUTES: RouteKey[] = [
   "middle-school",
@@ -38,6 +38,28 @@ const routeIconMap: Record<RouteKey, typeof GraduationCapIcon> = {
   "docs/middle-school": FileTextIcon,
   "docs/primary-school": FileTextIcon,
 };
+
+function RouteStatus({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) {
+  return (
+    <section className="rounded-[2rem] border border-slate-200 bg-white/92 p-8 shadow-[0_24px_56px_-44px_rgba(15,23,42,0.4)] sm:p-10">
+      <div className="max-w-2xl space-y-3">
+        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-sky-700/90">
+          PEP Words
+        </p>
+        <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+          {title}
+        </h2>
+        <p className="text-sm leading-7 text-slate-600 sm:text-base">{description}</p>
+      </div>
+    </section>
+  );
+}
 
 function LanguageSwitch({
   locale,
@@ -77,6 +99,9 @@ function LanguageSwitch({
 function App() {
   const { route, navigate } = useHashRoute();
   const [locale, setLocale] = useState<Locale>(() => getStoredLocale());
+  const [words, setWords] = useState<Word[] | null>(null);
+  const [markdown, setMarkdown] = useState<string | null>(null);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -87,6 +112,79 @@ function App() {
     document.documentElement.lang = locale === "zh" ? "zh-CN" : "en";
     document.title = `${dictionary.nav[route]} - ${dictionary.site.title}`;
   }, [dictionary, locale, route]);
+
+  useEffect(() => {
+    let isCancelled = false;
+
+    setLoadError(null);
+
+    if (isDocumentRoute) {
+      startTransition(() => {
+        setMarkdown(null);
+        setWords(null);
+      });
+
+      loadDatasetMarkdown(dataset)
+        .then((nextMarkdown) => {
+          if (isCancelled) {
+            return;
+          }
+
+          startTransition(() => {
+            setMarkdown(nextMarkdown);
+          });
+        })
+        .catch((error: unknown) => {
+          if (isCancelled) {
+            return;
+          }
+
+          setLoadError(error instanceof Error ? error.message : "Unknown load error");
+        });
+
+      return () => {
+        isCancelled = true;
+      };
+    }
+
+    startTransition(() => {
+      setWords(null);
+      setMarkdown(null);
+    });
+
+    loadDatasetWords(dataset)
+      .then((nextWords: Word[]) => {
+        if (isCancelled) {
+          return;
+        }
+
+        startTransition(() => {
+          setWords(nextWords);
+        });
+      })
+      .catch((error: unknown) => {
+        if (isCancelled) {
+          return;
+        }
+
+        setLoadError(error instanceof Error ? error.message : "Unknown load error");
+      });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [dataset, isDocumentRoute]);
+
+  const loadingTitle = locale === "zh" ? "内容加载中" : "Loading content";
+  const loadingDescription =
+    locale === "zh"
+      ? "当前页面的数据会按需加载，这样首屏更轻，也能减少部署构建时的噪音。"
+      : "This route loads its data on demand to keep the initial bundle smaller.";
+  const errorTitle = locale === "zh" ? "内容加载失败" : "Failed to load content";
+  const errorDescription =
+    locale === "zh"
+      ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
+      : "Refresh and try again. If it still fails, inspect the built assets and paths.";
 
   return (
     <div className="min-h-screen">
@@ -138,19 +236,27 @@ function App() {
       </header>
 
       <main className="container py-7 sm:py-9">
-        {isDocumentRoute ? (
+        {loadError ? (
+          <RouteStatus title={errorTitle} description={`${errorDescription} (${loadError})`} />
+        ) : isDocumentRoute ? (
+          markdown === null ? (
+            <RouteStatus title={loadingTitle} description={loadingDescription} />
+          ) : (
           <MarkdownDocument
             key={route}
             badge={dictionary.datasets[dataset].documentBadge}
             title={dictionary.datasets[dataset].documentTitle}
             description={dictionary.datasets[dataset].documentDescription}
-            markdown={datasetMarkdown[dataset]}
+            markdown={markdown}
           />
+          )
+        ) : words === null ? (
+          <RouteStatus title={loadingTitle} description={loadingDescription} />
         ) : (
           <VocabularyLearner
             key={route}
             dataset={dataset}
-            words={datasetWords[dataset]}
+            words={words}
             dictionary={dictionary}
           />
         )}

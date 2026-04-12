@@ -103,6 +103,11 @@ dist/index.html
 
 The built file uses relative asset paths and can be opened directly.
 
+## Deploy
+
+- Netlify / Vercel: build command `corepack pnpm build`, output directory `dist`
+- Cloudflare: keep `wrangler.jsonc`, then run `npx --yes wrangler deploy`
+
 ## Data and Archive Boundary
 
 The active runtime data lives in `src/data/`.
@@ -113,5 +118,5 @@ Everything under `archive/raw-materials/` is outside the active runtime path. Th
 
 - clean up corrupted Chinese UI strings, especially in `src/i18n.ts`
 - split `archive/raw-materials/` into true sources vs redundant drafts
-- lazy-load large datasets to reduce the initial bundle
+- keep trimming route chunks after the first round of lazy loading
 - move toward a more stable structured vocabulary source instead of relying so heavily on markdown parsing
