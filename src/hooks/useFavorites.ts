@@ -72,11 +72,34 @@ export function useFavorites(dataset: DatasetKey) {
     return words.filter((word) => favorites.has(word.id));
   };
 
+  const exportFavoriteWords = (words: Word[]) => {
+    const favoriteWords = getFavoriteWords(words);
+    if (favoriteWords.length === 0) {
+      return false;
+    }
+
+    const lines = favoriteWords.map((word) => {
+      const parts = [word.word, word.phonetic, word.pos, word.meaning].filter(Boolean);
+      return parts.join("\t");
+    });
+    const blob = new Blob([lines.join("\n") + "\n"], {
+      type: "text/plain;charset=utf-8",
+    });
+    const url = window.URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = `pep-words-${dataset}-favorites.txt`;
+    anchor.click();
+    window.URL.revokeObjectURL(url);
+    return true;
+  };
+
   return {
     favorites,
     toggleFavorite,
     isFavorite,
     getFavoriteWords,
+    exportFavoriteWords,
     favoriteCount: favorites.size,
   };
 }

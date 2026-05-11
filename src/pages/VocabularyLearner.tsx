@@ -116,6 +116,13 @@ export default function VocabularyLearner({
     setViewMode("quiz");
   };
 
+  const exportFavorites = () => {
+    const didExport = favorites.exportFavoriteWords(words);
+    if (!didExport) {
+      window.alert(dictionary.learner.exportEmpty);
+    }
+  };
+
   const submitQuiz = () => {
     clearAutoAdvanceTimer();
     setQuizResult(quiz.submitQuiz());
@@ -162,6 +169,37 @@ export default function VocabularyLearner({
     });
   };
 
+  useEffect(() => {
+    if (viewMode !== "cards") {
+      return;
+    }
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (target?.closest("input, textarea, select, button")) {
+        return;
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        moveCard("prev");
+      }
+
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        moveCard("next");
+      }
+
+      if (event.key === " " || event.key === "Enter") {
+        event.preventDefault();
+        setIsFlipped((value) => !value);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [filteredWords.length, currentCardIndex, viewMode]);
+
   const cardProgress =
     filteredWords.length > 0
       ? ((currentCardIndex + 1) / filteredWords.length) * 100
@@ -204,6 +242,14 @@ export default function VocabularyLearner({
         <div className="flex flex-wrap items-center gap-3">
           <button
             type="button"
+            onClick={exportFavorites}
+            disabled={favorites.favoriteCount === 0}
+            className={secondaryButtonClass}
+          >
+            {dictionary.learner.exportFavorites}
+          </button>
+          <button
+            type="button"
             onClick={() => {
               clearAutoAdvanceTimer();
               setViewMode("favorites");
@@ -229,6 +275,8 @@ export default function VocabularyLearner({
           </button>
         </div>
       </header>
+
+
 
       {/* 极简的工具栏：搜索与视图切换 */}
       <section className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
@@ -330,6 +378,7 @@ export default function VocabularyLearner({
               <div
                 role="button"
                 tabIndex={0}
+                aria-label={isFlipped ? dictionary.learner.returnWord : dictionary.learner.revealMeaning}
                 onClick={() => setIsFlipped((value) => !value)}
                 onKeyDown={(event) => {
                   if (event.key === "Enter" || event.key === " ") {
@@ -435,6 +484,9 @@ export default function VocabularyLearner({
                   </button>
                 </div>
               </div>
+              <p className="text-center text-sm text-slate-400">
+                {dictionary.learner.shortcutsHint}
+              </p>
             </>
           ) : (
             <div className="flex flex-col items-center justify-center rounded-[2rem] border border-dashed border-slate-200 bg-slate-50 py-24 text-center">
@@ -551,6 +603,21 @@ export default function VocabularyLearner({
           </div>
         </section>
       )}
+
+      <footer className="pt-12 text-center">
+        <div className="flex items-center justify-center gap-4 text-xs text-slate-400">
+          <a
+            href="https://github.com/lizliz404/pep-words/issues"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-slate-600 transition-colors"
+          >
+            {dictionary.learner.feedback}
+          </a>
+          <span aria-hidden="true">·</span>
+          <span>{dictionary.learner.privacyNote}</span>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -48,6 +48,11 @@ type TranslationSet = {
     previous: string;
     next: string;
     noMatches: string;
+    privacyNote: string;
+    feedback: string;
+    exportFavorites: string;
+    exportEmpty: string;
+    shortcutsHint: string;
   };
   favorites: {
     emptyTitle: string;
@@ -136,6 +141,11 @@ const zh: TranslationSet = {
     previous: "上一项",
     next: "下一项",
     noMatches: "当前筛选下没有匹配词汇。",
+    privacyNote: "收藏数据只保存在你的浏览器本地。",
+    feedback: "提建议 / 报错",
+    exportFavorites: "导出收藏",
+    exportEmpty: "还没有可导出的收藏。",
+    shortcutsHint: "卡片快捷键：← / → 切换，空格 / Enter 翻面。",
   },
   favorites: {
     emptyTitle: "还没有收藏",
@@ -222,6 +232,11 @@ const en: TranslationSet = {
     previous: "Previous",
     next: "Next",
     noMatches: "No words match the current filter.",
+    privacyNote: "Favorites stay local to this browser.",
+    feedback: "Suggest / report issue",
+    exportFavorites: "Export Favorites",
+    exportEmpty: "No favorites to export yet.",
+    shortcutsHint: "Card shortcuts: ← / → to move, Space / Enter to flip.",
   },
   favorites: {
     emptyTitle: "No favorites yet",
