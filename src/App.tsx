@@ -104,7 +104,7 @@ function App() {
   const [loadError, setLoadError] = useState<string | null>(null);
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackText, setFeedbackText] = useState("");
-  const [feedbackCopied, setFeedbackCopied] = useState(false);
+  const [feedbackStatus, setFeedbackStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -113,7 +113,7 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
     document.documentElement.lang = locale === "zh" ? "zh-CN" : "en";
-    document.title = `${dictionary.nav[route]} - ${dictionary.site.title}`;
+    document.title = `${dictionary.nav[route]}｜${dictionary.site.title}｜PEP 英语单词检索、卡片与测试`;
   }, [dictionary, locale, route]);
 
   useEffect(() => {
@@ -189,11 +189,35 @@ function App() {
       ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
       : "Refresh and try again. If it still fails, inspect the built assets and paths.";
 
-  const copyFeedback = async () => {
-    const message = `[PEP Words feedback]\n${window.location.href}\n\n${feedbackText.trim()}`;
-    await navigator.clipboard.writeText(message);
-    setFeedbackCopied(true);
-    window.setTimeout(() => setFeedbackCopied(false), 1600);
+  const submitFeedback = async () => {
+    const message = feedbackText.trim();
+    if (!message) return;
+
+    setFeedbackStatus("submitting");
+
+    try {
+      const response = await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          app: "pep-words",
+          message,
+          locale,
+          route,
+          url: window.location.href,
+          userAgent: navigator.userAgent,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Feedback request failed: ${response.status}`);
+      }
+
+      setFeedbackStatus("submitted");
+      setFeedbackText("");
+    } catch {
+      setFeedbackStatus("error");
+    }
   };
 
   return (
@@ -256,7 +280,7 @@ function App() {
 
       {feedbackOpen && (
         <div className="fixed inset-0 z-50 flex items-start justify-center bg-slate-950/24 px-4 pt-20 backdrop-blur-sm" role="dialog" aria-modal="true">
-          <div className="w-full max-w-lg rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-[0_24px_80px_-38px_rgba(15,23,42,0.5)] sm:p-6">
+          <div className="w-full max-w-lg rounded-[1.5rem] border border-sky-100 bg-white/96 p-5 text-left shadow-[0_22px_70px_rgba(31,79,122,0.16)] sm:p-6">
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h2 className="text-xl font-bold tracking-tight text-slate-950">{dictionary.learner.feedbackTitle}</h2>
@@ -270,15 +294,22 @@ function App() {
               value={feedbackText}
               onChange={(event) => setFeedbackText(event.target.value)}
               placeholder={dictionary.learner.feedbackPlaceholder}
-              className="mt-5 min-h-36 w-full resize-y rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm leading-6 text-slate-900 outline-none transition focus:border-sky-300 focus:bg-white focus:ring-4 focus:ring-sky-100"
+              className="mt-5 min-h-36 w-full resize-y rounded-2xl border border-sky-100 bg-sky-50/50 p-4 text-sm leading-6 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus:ring-4 focus:ring-sky-100"
             />
             <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-              <a href="https://github.com/lizliz404/pep-words/issues" target="_blank" rel="noreferrer" className="text-xs font-semibold text-slate-400 transition hover:text-slate-600">
-                {dictionary.learner.feedbackGithub}
-              </a>
-              <button type="button" onClick={copyFeedback} disabled={feedbackText.trim().length === 0} className="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40">
-                {feedbackCopied ? dictionary.learner.feedbackCopied : dictionary.learner.feedbackCopy}
-              </button>
+              <div className="space-y-1">
+                <p className="text-xs font-medium text-slate-500">{dictionary.learner.feedbackContact}</p>
+                <a href="https://github.com/lizliz404/pep-words/issues" target="_blank" rel="noreferrer" className="text-xs font-semibold text-sky-700 transition hover:text-slate-950">
+                  {dictionary.learner.feedbackGithub}
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                {feedbackStatus === "submitted" && <span className="text-xs font-semibold text-emerald-700">{dictionary.learner.feedbackSubmitted}</span>}
+                {feedbackStatus === "error" && <span className="text-xs font-semibold text-rose-700">{dictionary.learner.feedbackError}</span>}
+                <button type="button" onClick={submitFeedback} disabled={feedbackText.trim().length === 0 || feedbackStatus === "submitting"} className="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40">
+                  {feedbackStatus === "submitting" ? dictionary.learner.feedbackSubmitting : dictionary.learner.feedbackSubmit}
+                </button>
+              </div>
             </div>
           </div>
         </div>

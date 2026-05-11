@@ -4,7 +4,13 @@
 :root {
   color-scheme: light;
   --page-bg: #f4f8fc;
-  --page-line: rgba(79, 111, 143, 0.14);
+  --paper-warm: #fffdf8;
+  --paper-muted: #eef6ff;
+  --ink: #111827;
+  --muted: #5f6f84;
+  --blue-ink: #1f4f7a;
+  --blue-soft: #dff1ff;
+  --page-line: rgba(79, 111, 143, 0.16);
 }
 
 @layer base {
@@ -22,9 +28,10 @@
     background:
       radial-gradient(circle at -10% -18%, rgba(186, 230, 253, 0.72), transparent 62%),
       radial-gradient(circle at 18% 2%, rgba(219, 234, 254, 0.58), transparent 58%),
-      linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(248, 251, 255, 0.96)),
+      radial-gradient(circle at 92% 4%, rgba(79, 111, 143, 0.10), transparent 30rem),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 251, 255, 0.96)),
       linear-gradient(180deg, #fffdf8 0%, var(--page-bg) 100%);
-    color: #0f172a;
+    color: var(--ink);
     font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;

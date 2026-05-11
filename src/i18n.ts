@@ -53,8 +53,11 @@ type TranslationSet = {
     feedbackTitle: string;
     feedbackHint: string;
     feedbackPlaceholder: string;
-    feedbackCopy: string;
-    feedbackCopied: string;
+    feedbackSubmit: string;
+    feedbackSubmitting: string;
+    feedbackSubmitted: string;
+    feedbackError: string;
+    feedbackContact: string;
     feedbackGithub: string;
     feedbackClose: string;
     exportFavorites: string;
@@ -151,11 +154,14 @@ const zh: TranslationSet = {
     privacyNote: "收藏数据只保存在你的浏览器本地。",
     feedback: "提建议 / 报错",
     feedbackTitle: "提建议 / 报错",
-    feedbackHint: "写下你遇到的问题或希望改进的地方。不会跳转到 GitHub；你可以先复制，再发给维护者。",
-    feedbackPlaceholder: "例如：小学词汇里某个释义不准确；卡片模式在手机上不好点……",
-    feedbackCopy: "复制反馈",
-    feedbackCopied: "已复制",
-    feedbackGithub: "高级：去 GitHub Issues",
+    feedbackHint: "直接写你遇到的问题或希望改进的地方。优先在站内提交；GitHub 只留给熟悉它的人。",
+    feedbackPlaceholder: "例如：小学词汇里某个释义不准确；卡片模式在手机上不好点；希望增加听写……",
+    feedbackSubmit: "提交反馈",
+    feedbackSubmitting: "提交中…",
+    feedbackSubmitted: "已收到，感谢。",
+    feedbackError: "提交失败。你也可以把内容发给 Liz。",
+    feedbackContact: "联系维护者：Telegram / 微信直接发给 Liz",
+    feedbackGithub: "高级入口：GitHub Issues",
     feedbackClose: "关闭",
     exportFavorites: "导出收藏",
     exportEmpty: "还没有可导出的收藏。",
@@ -249,11 +255,14 @@ const en: TranslationSet = {
     privacyNote: "Favorites stay local to this browser.",
     feedback: "Suggest / report issue",
     feedbackTitle: "Suggest / report issue",
-    feedbackHint: "Describe the problem or improvement. This will not jump to GitHub; copy it first, then send it to the maintainer.",
-    feedbackPlaceholder: "Example: a word meaning is inaccurate; flashcards are hard to tap on mobile…",
-    feedbackCopy: "Copy feedback",
-    feedbackCopied: "Copied",
-    feedbackGithub: "Advanced: open GitHub Issues",
+    feedbackHint: "Describe the problem or improvement. Submit here first; GitHub stays as the advanced path.",
+    feedbackPlaceholder: "Example: a word meaning is inaccurate; flashcards are hard to tap on mobile; dictation mode would help…",
+    feedbackSubmit: "Submit feedback",
+    feedbackSubmitting: "Submitting…",
+    feedbackSubmitted: "Received. Thank you.",
+    feedbackError: "Submit failed. You can still send it to Liz directly.",
+    feedbackContact: "Contact maintainer: send this to Liz on Telegram / WeChat",
+    feedbackGithub: "Advanced: GitHub Issues",
     feedbackClose: "Close",
     exportFavorites: "Export Favorites",
     exportEmpty: "No favorites to export yet.",
