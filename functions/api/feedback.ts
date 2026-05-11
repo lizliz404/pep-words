@@ -44,8 +44,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     `Route: ${payload.route || "unknown"}`,
     `Locale: ${payload.locale || "unknown"}`,
     `User-Agent: ${payload.userAgent || request.headers.get("user-agent") || "unknown"}`,
-  ].join("
-");
+  ].join("\n");
 
   const results: string[] = [];
 
