@@ -248,19 +248,19 @@ function App() {
             <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
               <div className="max-w-3xl">
                 <div className="flex items-center gap-3">
-                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-[18px] border border-sky-100/80 bg-white/92 text-sky-700 shadow-[0_18px_40px_-30px_rgba(14,116,144,0.28)]">
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-[20px] border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_18px_40px_-30px_rgba(49,42,34,0.32)]">
                     <LogoIcon className="h-6 w-6" />
                   </span>
                   <div>
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-sky-700/90">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#526a7f]">
                       PEP Words
                     </p>
-                    <p className="mt-1 text-lg font-semibold tracking-tight text-slate-900">
+                    <p className="mt-1 text-lg font-semibold tracking-[-0.04em] text-[#2a241f]">
                       {dictionary.site.title}
                     </p>
                   </div>
                 </div>
-                <p className="mt-4 max-w-2xl text-[15px] leading-8 text-slate-600 sm:text-base">
+                <p className="mt-4 max-w-2xl text-[15px] leading-8 tracking-[-0.025em] text-[#5f564d] sm:text-base">
                   {dictionary.site.subtitle}
                 </p>
               </div>
@@ -269,11 +269,11 @@ function App() {
                 <button
                   type="button"
                   onClick={openFeedback}
-                  className="inline-flex items-center rounded-full border border-[#ddd7ca] bg-[#fffdf8] px-4 py-2.5 text-sm font-semibold text-[#141413] shadow-[0_18px_40px_-34px_rgba(20,20,19,0.3)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#c76f3a]/50"
+                  className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7] px-4 py-2.5 text-sm font-semibold text-[#312a22] shadow-[0_18px_40px_-34px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
                 >
                   {dictionary.learner.feedback}
                 </button>
-                <a href={BRAIN_RUSH_URL} className="inline-flex items-center rounded-full border border-[#ddd7ca] bg-[#fffdf8] px-4 py-2.5 text-sm font-semibold text-[#141413] shadow-[0_18px_40px_-34px_rgba(20,20,19,0.3)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#c76f3a]/50">
+                <a href={BRAIN_RUSH_URL} className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7] px-4 py-2.5 text-sm font-semibold text-[#312a22] shadow-[0_18px_40px_-34px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50">
                   ⚡ Brain Rush
                 </a>
                 <LanguageSwitch locale={locale} onChange={setLocale} />
