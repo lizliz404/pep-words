@@ -102,6 +102,9 @@ function App() {
   const [words, setWords] = useState<Word[] | null>(null);
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
+  const [feedbackText, setFeedbackText] = useState("");
+  const [feedbackCopied, setFeedbackCopied] = useState(false);
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -186,6 +189,13 @@ function App() {
       ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
       : "Refresh and try again. If it still fails, inspect the built assets and paths.";
 
+  const copyFeedback = async () => {
+    const message = `[PEP Words feedback]\n${window.location.href}\n\n${feedbackText.trim()}`;
+    await navigator.clipboard.writeText(message);
+    setFeedbackCopied(true);
+    window.setTimeout(() => setFeedbackCopied(false), 1600);
+  };
+
   return (
     <div className="min-h-screen">
       <header className="pt-6 sm:pt-8">
@@ -211,7 +221,16 @@ function App() {
                 </p>
               </div>
 
-              <LanguageSwitch locale={locale} onChange={setLocale} />
+              <div className="flex flex-wrap items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => setFeedbackOpen(true)}
+                  className="inline-flex items-center rounded-full border border-sky-100 bg-white/92 px-4 py-2.5 text-sm font-semibold text-sky-800 shadow-[0_18px_40px_-30px_rgba(14,116,144,0.28)] transition hover:border-sky-200 hover:bg-sky-50"
+                >
+                  {dictionary.learner.feedback}
+                </button>
+                <LanguageSwitch locale={locale} onChange={setLocale} />
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-2">
@@ -234,6 +253,36 @@ function App() {
           </div>
         </div>
       </header>
+
+      {feedbackOpen && (
+        <div className="fixed inset-0 z-50 flex items-start justify-center bg-slate-950/24 px-4 pt-20 backdrop-blur-sm" role="dialog" aria-modal="true">
+          <div className="w-full max-w-lg rounded-[1.75rem] border border-slate-200 bg-white p-5 shadow-[0_24px_80px_-38px_rgba(15,23,42,0.5)] sm:p-6">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-xl font-bold tracking-tight text-slate-950">{dictionary.learner.feedbackTitle}</h2>
+                <p className="mt-2 text-sm leading-6 text-slate-500">{dictionary.learner.feedbackHint}</p>
+              </div>
+              <button type="button" onClick={() => setFeedbackOpen(false)} className="rounded-full px-3 py-1.5 text-sm font-semibold text-slate-500 hover:bg-slate-100 hover:text-slate-900">
+                {dictionary.learner.feedbackClose}
+              </button>
+            </div>
+            <textarea
+              value={feedbackText}
+              onChange={(event) => setFeedbackText(event.target.value)}
+              placeholder={dictionary.learner.feedbackPlaceholder}
+              className="mt-5 min-h-36 w-full resize-y rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm leading-6 text-slate-900 outline-none transition focus:border-sky-300 focus:bg-white focus:ring-4 focus:ring-sky-100"
+            />
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+              <a href="https://github.com/lizliz404/pep-words/issues" target="_blank" rel="noreferrer" className="text-xs font-semibold text-slate-400 transition hover:text-slate-600">
+                {dictionary.learner.feedbackGithub}
+              </a>
+              <button type="button" onClick={copyFeedback} disabled={feedbackText.trim().length === 0} className="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40">
+                {feedbackCopied ? dictionary.learner.feedbackCopied : dictionary.learner.feedbackCopy}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <main className="container py-7 sm:py-9">
         {loadError ? (

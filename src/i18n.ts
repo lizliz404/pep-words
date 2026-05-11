@@ -50,6 +50,13 @@ type TranslationSet = {
     noMatches: string;
     privacyNote: string;
     feedback: string;
+    feedbackTitle: string;
+    feedbackHint: string;
+    feedbackPlaceholder: string;
+    feedbackCopy: string;
+    feedbackCopied: string;
+    feedbackGithub: string;
+    feedbackClose: string;
     exportFavorites: string;
     exportEmpty: string;
     shortcutsHint: string;
@@ -143,6 +150,13 @@ const zh: TranslationSet = {
     noMatches: "当前筛选下没有匹配词汇。",
     privacyNote: "收藏数据只保存在你的浏览器本地。",
     feedback: "提建议 / 报错",
+    feedbackTitle: "提建议 / 报错",
+    feedbackHint: "写下你遇到的问题或希望改进的地方。不会跳转到 GitHub；你可以先复制，再发给维护者。",
+    feedbackPlaceholder: "例如：小学词汇里某个释义不准确；卡片模式在手机上不好点……",
+    feedbackCopy: "复制反馈",
+    feedbackCopied: "已复制",
+    feedbackGithub: "高级：去 GitHub Issues",
+    feedbackClose: "关闭",
     exportFavorites: "导出收藏",
     exportEmpty: "还没有可导出的收藏。",
     shortcutsHint: "卡片快捷键：← / → 切换，空格 / Enter 翻面。",
@@ -234,6 +248,13 @@ const en: TranslationSet = {
     noMatches: "No words match the current filter.",
     privacyNote: "Favorites stay local to this browser.",
     feedback: "Suggest / report issue",
+    feedbackTitle: "Suggest / report issue",
+    feedbackHint: "Describe the problem or improvement. This will not jump to GitHub; copy it first, then send it to the maintainer.",
+    feedbackPlaceholder: "Example: a word meaning is inaccurate; flashcards are hard to tap on mobile…",
+    feedbackCopy: "Copy feedback",
+    feedbackCopied: "Copied",
+    feedbackGithub: "Advanced: open GitHub Issues",
+    feedbackClose: "Close",
     exportFavorites: "Export Favorites",
     exportEmpty: "No favorites to export yet.",
     shortcutsHint: "Card shortcuts: ← / → to move, Space / Enter to flip.",

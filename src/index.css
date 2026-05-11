@@ -3,8 +3,8 @@
 
 :root {
   color-scheme: light;
-  --page-bg: #f7fbff;
-  --page-line: rgba(148, 163, 184, 0.18);
+  --page-bg: #f4f8fc;
+  --page-line: rgba(79, 111, 143, 0.14);
 }
 
 @layer base {
@@ -20,10 +20,10 @@
     min-width: 320px;
     margin: 0;
     background:
-      radial-gradient(circle at -8% -14%, rgba(186, 230, 253, 0.95), transparent 68%),
-      radial-gradient(circle at 16% 4%, rgba(224, 242, 254, 0.88), transparent 62%),
-      linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.94)),
-      linear-gradient(180deg, #ffffff 0%, var(--page-bg) 100%);
+      radial-gradient(circle at -10% -18%, rgba(186, 230, 253, 0.72), transparent 62%),
+      radial-gradient(circle at 18% 2%, rgba(219, 234, 254, 0.58), transparent 58%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(248, 251, 255, 0.96)),
+      linear-gradient(180deg, #fffdf8 0%, var(--page-bg) 100%);
     color: #0f172a;
     font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
     -webkit-font-smoothing: antialiased;

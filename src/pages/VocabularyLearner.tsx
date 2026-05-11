@@ -605,18 +605,7 @@ export default function VocabularyLearner({
       )}
 
       <footer className="pt-12 text-center">
-        <div className="flex items-center justify-center gap-4 text-xs text-slate-400">
-          <a
-            href="https://github.com/lizliz404/pep-words/issues"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-slate-600 transition-colors"
-          >
-            {dictionary.learner.feedback}
-          </a>
-          <span aria-hidden="true">·</span>
-          <span>{dictionary.learner.privacyNote}</span>
-        </div>
+        <p className="text-xs text-slate-400">{dictionary.learner.privacyNote}</p>
       </footer>
     </div>
   );
