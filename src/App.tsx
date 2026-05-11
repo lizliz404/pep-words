@@ -274,7 +274,8 @@ function App() {
                   {dictionary.learner.feedback}
                 </button>
                 <a href={BRAIN_RUSH_URL} className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7] px-4 py-2.5 text-sm font-semibold text-[#312a22] shadow-[0_18px_40px_-34px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50">
-                  ⚡ Brain Rush
+                  <img src="/brain-rush-icon.svg" alt="" aria-hidden="true" className="h-4 w-4 rounded-[0.3rem]" />
+                  Brain Rush
                 </a>
                 <LanguageSwitch locale={locale} onChange={setLocale} />
               </div>
