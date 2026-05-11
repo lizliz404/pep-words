@@ -34,10 +34,10 @@
     color: var(--ink);
     font-family: var(--serif-stack);
     line-height: 1.7;
-    letter-spacing: -0.02em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    text-shadow: 0 0 0.01px currentColor;
   }
 
   body::before {
@@ -54,7 +54,8 @@
   }
 
   button,
-  input {
+  input,
+  textarea {
     font: inherit;
   }
 
@@ -87,7 +88,7 @@
     color: #3d352d;
     font-family: var(--serif-stack);
     font-size: 1.04rem;
-    letter-spacing: -0.018em;
+    text-shadow: 0 0 0.012px currentColor;
   }
 
   .markdown-body strong {
@@ -113,7 +114,6 @@
     font-size: 2.15rem;
     line-height: 1.22;
     font-weight: 600;
-    letter-spacing: -0.04em;
     color: #241f1a;
   }
 
@@ -124,7 +124,6 @@
     font-size: 1.45rem;
     line-height: 1.35;
     font-weight: 600;
-    letter-spacing: -0.035em;
     color: #2a241f;
   }
 

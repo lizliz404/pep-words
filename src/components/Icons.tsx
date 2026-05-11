@@ -2,14 +2,12 @@ import type { ReactNode, SVGProps } from "react";
 
 type IconProps = SVGProps<SVGSVGElement>;
 
-// 【设计细节优化1】: 将 strokeWidth 从 2 改为 1.5。这是目前顶尖 UI 的黄金比例，显得更精致、更现代。
-// 【设计细节优化2】: 默认宽高建议使用 24 或 1em 配合 viewBox，但我保留了你原有的逻辑结构。
 const defaults: IconProps = {
-  width: 24, // 建议默认使用 24，或者用 "1em" 让它跟随字体大小
+  width: 24,
   height: 24,
   fill: "none",
   stroke: "currentColor",
-  strokeWidth: 1.5, // 高级感的灵魂
+  strokeWidth: 1.7,
   strokeLinecap: "round",
   strokeLinejoin: "round",
   "aria-hidden": true,
@@ -29,7 +27,6 @@ function icon(props: IconProps, ...children: ReactNode[]) {
 }
 
 export function SearchIcon(props: IconProps) {
-  // 优化：放大圆的比例，缩短手柄，符合现代极简放大镜比例
   return icon(
     props,
     <circle key="c" cx="11" cy="11" r="7" />,
@@ -38,7 +35,6 @@ export function SearchIcon(props: IconProps) {
 }
 
 export function ListIcon(props: IconProps) {
-  // 优化：拉长线条，增加留白，点阵与线条对齐更加精准
   return icon(
     props,
     <path key="a" d="M8.25 6.75h10.5M8.25 12h10.5m-10.5 5.25h10.5M5.25 6.75h.01m-.01 5.25h.01m-.01 5.25h.01" />
@@ -46,7 +42,6 @@ export function ListIcon(props: IconProps) {
 }
 
 export function GridIcon(props: IconProps) {
-  // 优化：rx="2" 增加柔和的圆角，避免直角带来的生硬感，类似 iOS 的 App 图标弧度
   return icon(
     props,
     <rect key="a" x="4" y="4" width="6.5" height="6.5" rx="2" />,
@@ -61,7 +56,6 @@ export function CardsIcon(props: IconProps) {
 }
 
 export function HeartIcon(props: IconProps) {
-  // 优化：重新绘制贝塞尔曲线，使心形上部更饱满，底部收尾更优雅
   return icon(
     props,
     <path
@@ -83,7 +77,6 @@ export function HeartFilledIcon(props: IconProps) {
 }
 
 export function PlayIcon(props: IconProps) {
-  // 优化：废弃生硬的 <polygon>，改为带有圆角（c0-1.42...）的平滑路径
   return icon(
     props,
     <path
@@ -96,7 +89,6 @@ export function PlayIcon(props: IconProps) {
 }
 
 export function VolumeIcon(props: IconProps) {
-  // 优化：喇叭口线条更流畅，声波弧度完美居中同心
   return icon(
     props,
     <path key="a" d="M11.25 19.5l-4.5-4.5H4.5a.75.75 0 0 1-.75-.75V9.75a.75.75 0 0 1 .75-.75h2.25l4.5-4.5v15z" />,
@@ -106,7 +98,6 @@ export function VolumeIcon(props: IconProps) {
 }
 
 export function QuizIcon(props: IconProps) {
-  // 优化：改为更具隐喻的“带打勾的精致测试板”，识别度更高
   return icon(
     props,
     <path key="a" d="M9 12.75L11.25 15 15 9.75" />,
@@ -115,47 +106,47 @@ export function QuizIcon(props: IconProps) {
 }
 
 export function ChevronLeftIcon(props: IconProps) {
-  // 优化：完美对称的折线
   return icon(props, <path key="a" d="M15.75 19.5L8.25 12l7.5-7.5" />);
 }
 
 export function ChevronRightIcon(props: IconProps) {
-  // 优化：完美对称的折线
   return icon(props, <path key="a" d="M8.25 4.5l7.5 7.5-7.5 7.5" />);
 }
 
 export function BookIcon(props: IconProps) {
-  // 优化：打开的书本具有真实的页面下坠弧度（贝塞尔曲线），而不是简单的方块
   return icon(
     props,
-    <path key="a" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+    <path key="left" d="M4.5 5.25c2.4-.55 4.35-.1 7.5 1.65v12.6c-2.75-1.55-5.1-2.1-7.5-1.55V5.25Z" />,
+    <path key="right" d="M19.5 5.25c-2.4-.55-4.35-.1-7.5 1.65v12.6c2.75-1.55 5.1-2.1 7.5-1.55V5.25Z" />,
+    <path key="spine" d="M12 6.9v12.6" />
   );
 }
 
 export function GraduationCapIcon(props: IconProps) {
-  // 优化：立体感重构，学术帽的下垂流苏更加生动
   return icon(
     props,
-    <path key="a" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+    <path key="top" d="M3 8.25 12 4l9 4.25-9 4.25L3 8.25Z" />,
+    <path key="band" d="M6.75 10.1v4.45c1.45 1.2 3.2 1.8 5.25 1.8s3.8-.6 5.25-1.8V10.1" />,
+    <path key="tassel" d="M19.5 9.25v4.2" />,
+    <circle key="dot" cx="19.5" cy="15.4" r="0.65" fill="currentColor" stroke="none" />
   );
 }
 
 export function FileTextIcon(props: IconProps) {
-  // 优化：文档右上角采用了高级的“折角”设计，文字排版对齐更紧凑
   return icon(
     props,
-    <path key="a" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5-3h7.5m-7.5-3h3m-9 9.75h14.25c.621 0 1.125-.504 1.125-1.125V5.625c0-.621-.504-1.125-1.125-1.125H9.75c-.299 0-.586.119-.797.33l-5.25 5.25c-.21.21-.33.498-.33.798v10.5c0 .621.504 1.125 1.125 1.125z" />
+    <rect key="paper" x="5.25" y="3.5" width="13.5" height="17" rx="2.25" />,
+    <path key="title" d="M8.5 8h7" />,
+    <path key="line-1" d="M8.5 11.25h7" />,
+    <path key="line-2" d="M8.5 14.5h5" />
   );
 }
 
 export function CloseIcon(props: IconProps) {
-  // 优化：完美的正方形对角线切割
   return icon(props, <path key="a" d="M6 18L18 6M6 6l12 12" />);
 }
 
 export function StarIcon(props: IconProps) {
-  // 优化：废弃了极其廉价的锐角多边形（polygon），引入了带有 .56 微圆角的五角星路径
-  // 这正是 Apple App Store 和 Google Play 里星星图标的画法。
   return icon(
     props,
     <path key="a" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.563.563 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.563.563 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5z" />

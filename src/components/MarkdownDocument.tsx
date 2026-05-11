@@ -1,4 +1,4 @@
-import { FileTextIcon } from "@/components/Icons";
+import { BookIcon } from "@/components/Icons";
 import { Fragment, useMemo } from "react";
 
 type MarkdownBlock =
@@ -182,19 +182,19 @@ export default function MarkdownDocument({
   return (
     <section className="space-y-6">
       <header>
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-sky-700/90">
-          <FileTextIcon className="h-4 w-4" />
+        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#526a7f]">
+          <BookIcon className="h-4 w-4" />
           <p>{badge}</p>
         </div>
-        <h1 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+        <h1 className="mt-4 text-3xl font-semibold text-[#241f1a] sm:text-4xl">
           {title}
         </h1>
-        <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600 sm:text-base">
+        <p className="mt-3 max-w-3xl text-sm leading-7 text-[#6c6258] sm:text-base">
           {description}
         </p>
       </header>
 
-      <article className="markdown-body border-t border-slate-200/70 pt-6 sm:pt-8">
+      <article className="markdown-body border-t border-[#d6cbbb]/80 pt-6 sm:pt-8">
         {blocks.map((block, index) => {
           if (block.type === "heading-1") {
             return (

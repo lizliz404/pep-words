@@ -30,10 +30,10 @@ const ROUTE_DATASET_MAP: Record<RouteKey, DatasetKey> = {
 };
 
 const activeNavClass =
-  "inline-flex items-center gap-2.5 rounded-full bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-[0_10px_24px_-18px_rgba(15,23,42,0.8)] transition";
+  "inline-flex items-center gap-2.5 rounded-full bg-[#312a22] px-4 py-2.5 text-sm font-semibold text-[#f8f2e7] shadow-[0_18px_40px_-28px_rgba(49,42,34,0.5)]";
 
 const inactiveNavClass =
-  "inline-flex items-center gap-2.5 rounded-full border border-slate-200 bg-white/80 px-4 py-2.5 text-sm font-semibold text-slate-600 transition hover:border-slate-300 hover:bg-white hover:text-slate-900";
+  "inline-flex items-center gap-2.5 rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/80 px-4 py-2.5 text-sm font-semibold text-[#6c6258] transition hover:border-[#b8a893] hover:bg-[#f8f2e7] hover:text-[#312a22]";
 
 const routeIconMap: Record<RouteKey, typeof GraduationCapIcon> = {
   "middle-school": GraduationCapIcon,
@@ -50,15 +50,15 @@ function RouteStatus({
   description: string;
 }) {
   return (
-    <section className="rounded-[2rem] border border-slate-200 bg-white/92 p-8 shadow-[0_24px_56px_-44px_rgba(15,23,42,0.4)] sm:p-10">
+    <section className="rounded-[2rem] border border-[#d6cbbb] bg-[#f8f2e7]/92 p-8 shadow-[0_24px_56px_-44px_rgba(49,42,34,0.42)] sm:p-10">
       <div className="max-w-2xl space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.22em] text-sky-700/90">
           PEP Words
         </p>
-        <h2 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
+        <h2 className="text-2xl font-semibold text-[#241f1a] sm:text-3xl">
           {title}
         </h2>
-        <p className="text-sm leading-7 text-slate-600 sm:text-base">{description}</p>
+        <p className="text-sm leading-7 text-[#6c6258] sm:text-base">{description}</p>
       </div>
     </section>
   );
@@ -72,14 +72,14 @@ function LanguageSwitch({
   onChange: (locale: Locale) => void;
 }) {
   return (
-    <div className="inline-flex items-center rounded-full border border-slate-200 bg-white/92 p-1.5 shadow-[0_18px_40px_-28px_rgba(15,23,42,0.35)] backdrop-blur">
+    <div className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 p-1.5 shadow-[0_18px_40px_-28px_rgba(49,42,34,0.35)] backdrop-blur">
       <button
         type="button"
         onClick={() => onChange("zh")}
         className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
           locale === "zh"
-            ? "bg-slate-900 text-white shadow-sm"
-            : "text-slate-500 hover:text-slate-800"
+            ? "bg-[#312a22] text-[#f8f2e7] shadow-sm"
+            : "text-[#6c6258] hover:text-[#312a22]"
         }`}
       >
         中文
@@ -89,8 +89,8 @@ function LanguageSwitch({
         onClick={() => onChange("en")}
         className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
           locale === "en"
-            ? "bg-slate-900 text-white shadow-sm"
-            : "text-slate-500 hover:text-slate-800"
+            ? "bg-[#312a22] text-[#f8f2e7] shadow-sm"
+            : "text-[#6c6258] hover:text-[#312a22]"
         }`}
       >
         English
@@ -255,12 +255,12 @@ function App() {
                     <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#526a7f]">
                       PEP Words
                     </p>
-                    <p className="mt-1 text-lg font-semibold tracking-[-0.04em] text-[#2a241f]">
+                    <p className="mt-1 text-lg font-semibold text-[#2a241f]">
                       {dictionary.site.title}
                     </p>
                   </div>
                 </div>
-                <p className="mt-4 max-w-2xl text-[15px] leading-8 tracking-[-0.025em] text-[#5f564d] sm:text-base">
+                <p className="mt-4 max-w-2xl text-[15px] leading-8 text-[#5f564d] sm:text-base">
                   {dictionary.site.subtitle}
                 </p>
               </div>

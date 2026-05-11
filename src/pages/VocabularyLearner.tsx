@@ -223,10 +223,10 @@ export default function VocabularyLearner({
           <div className="inline-flex items-center rounded-md bg-[#e8dfd1] px-2.5 py-1 text-xs font-medium text-[#6c6258]">
             {datasetInfo.learnerBadge}
           </div>
-          <h1 className="text-4xl font-semibold tracking-[-0.045em] text-[#241f1a] sm:text-5xl">
+          <h1 className="text-4xl font-semibold text-[#241f1a] sm:text-5xl">
             {datasetInfo.learnerTitle}
           </h1>
-          <p className="text-base leading-[1.85] tracking-[-0.02em] text-[#6c6258]">
+          <p className="text-base leading-[1.85] text-[#6c6258]">
             {datasetInfo.learnerDescription}
           </p>
           <div className="flex flex-wrap gap-x-6 gap-y-2 pt-2 text-sm">
@@ -393,7 +393,7 @@ export default function VocabularyLearner({
                     <span className="mb-8 rounded-full bg-[#e8dfd1] px-3 py-1 text-xs font-semibold tracking-widest text-[#8a7f72]">
                       {dictionary.learner.word}
                     </span>
-                    <h2 className="text-5xl font-semibold tracking-[-0.055em] text-[#241f1a] sm:text-6xl">
+                    <h2 className="text-5xl font-semibold text-[#241f1a] sm:text-6xl">
                       {currentCard.word}
                     </h2>
                     {currentCard.phonetic && (
@@ -410,7 +410,7 @@ export default function VocabularyLearner({
                     <span className="mb-8 rounded-full bg-[#e8dfd1] px-3 py-1 text-xs font-semibold tracking-widest text-[#8a7f72]">
                       {dictionary.learner.meaning}
                     </span>
-                    <p className="max-w-xl text-2xl font-medium leading-[1.85] tracking-[-0.03em] text-[#3d352d] sm:text-3xl">
+                    <p className="max-w-xl text-2xl font-medium leading-[1.85] text-[#3d352d] sm:text-3xl">
                       {currentCard.meaning}
                     </p>
                     {currentCard.pos && (
@@ -533,7 +533,7 @@ export default function VocabularyLearner({
                 >
                   <div className="min-w-0 flex-1 space-y-3">
                     <div className="flex items-baseline gap-3">
-                      <h2 className="text-2xl font-semibold tracking-[-0.045em] text-[#241f1a]">
+                      <h2 className="text-2xl font-semibold text-[#241f1a]">
                         {word.word}
                       </h2>
                       {word.phonetic && (
@@ -547,7 +547,7 @@ export default function VocabularyLearner({
                         </span>
                       )}
                     </div>
-                    <p className="text-base leading-[1.8] tracking-[-0.02em] text-[#5f564d]">
+                    <p className="text-base leading-[1.8] text-[#5f564d]">
                       {word.meaning}
                     </p>
                   </div>
