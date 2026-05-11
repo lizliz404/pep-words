@@ -59,6 +59,11 @@ type TranslationSet = {
     feedbackError: string;
     feedbackContact: string;
     feedbackGithub: string;
+    feedbackTabForm: string;
+    feedbackWechat: string;
+    feedbackWechatHint: string;
+    feedbackWechatQrAlt: string;
+    feedbackWechatMissing: string;
     feedbackClose: string;
     exportFavorites: string;
     exportEmpty: string;
@@ -160,8 +165,13 @@ const zh: TranslationSet = {
     feedbackSubmitting: "提交中…",
     feedbackSubmitted: "已收到，感谢。",
     feedbackError: "提交失败。你也可以把内容发给 Liz。",
-    feedbackContact: "联系维护者：Telegram / 微信直接发给 Liz",
+    feedbackContact: "也可以扫码加微信，把问题截图和一句话说明直接发给 Liz。",
     feedbackGithub: "高级入口：GitHub Issues",
+    feedbackTabForm: "站内提交",
+    feedbackWechat: "微信",
+    feedbackWechatHint: "扫码加微信，适合发截图、录屏或一句话反馈。",
+    feedbackWechatQrAlt: "Liz 的微信二维码",
+    feedbackWechatMissing: "微信二维码图片待放入 public/wechat-qr.png",
     feedbackClose: "关闭",
     exportFavorites: "导出收藏",
     exportEmpty: "还没有可导出的收藏。",
@@ -261,8 +271,13 @@ const en: TranslationSet = {
     feedbackSubmitting: "Submitting…",
     feedbackSubmitted: "Received. Thank you.",
     feedbackError: "Submit failed. You can still send it to Liz directly.",
-    feedbackContact: "Contact maintainer: send this to Liz on Telegram / WeChat",
+    feedbackContact: "You can also scan WeChat and send Liz a screenshot plus one sentence.",
     feedbackGithub: "Advanced: GitHub Issues",
+    feedbackTabForm: "Submit here",
+    feedbackWechat: "WeChat",
+    feedbackWechatHint: "Scan WeChat for screenshots, screen recordings, or short feedback.",
+    feedbackWechatQrAlt: "Liz's WeChat QR code",
+    feedbackWechatMissing: "WeChat QR image should be placed at public/wechat-qr.png",
     feedbackClose: "Close",
     exportFavorites: "Export Favorites",
     exportEmpty: "No favorites to export yet.",

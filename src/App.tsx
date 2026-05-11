@@ -105,6 +105,8 @@ function App() {
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackText, setFeedbackText] = useState("");
   const [feedbackStatus, setFeedbackStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
+  const [feedbackView, setFeedbackView] = useState<"form" | "wechat">("form");
+  const [wechatQrReady, setWechatQrReady] = useState(true);
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -248,7 +250,10 @@ function App() {
               <div className="flex flex-wrap items-center gap-3">
                 <button
                   type="button"
-                  onClick={() => setFeedbackOpen(true)}
+                  onClick={() => {
+                    setFeedbackView("form");
+                    setFeedbackOpen(true);
+                  }}
                   className="inline-flex items-center rounded-full border border-sky-100 bg-white/92 px-4 py-2.5 text-sm font-semibold text-sky-800 shadow-[0_18px_40px_-30px_rgba(14,116,144,0.28)] transition hover:border-sky-200 hover:bg-sky-50"
                 >
                   {dictionary.learner.feedback}
@@ -290,27 +295,59 @@ function App() {
                 {dictionary.learner.feedbackClose}
               </button>
             </div>
-            <textarea
-              value={feedbackText}
-              onChange={(event) => setFeedbackText(event.target.value)}
-              placeholder={dictionary.learner.feedbackPlaceholder}
-              className="mt-5 min-h-36 w-full resize-y rounded-2xl border border-sky-100 bg-sky-50/50 p-4 text-sm leading-6 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus:ring-4 focus:ring-sky-100"
-            />
-            <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-              <div className="space-y-1">
-                <p className="text-xs font-medium text-slate-500">{dictionary.learner.feedbackContact}</p>
-                <a href="https://github.com/lizliz404/pep-words/issues" target="_blank" rel="noreferrer" className="text-xs font-semibold text-sky-700 transition hover:text-slate-950">
-                  {dictionary.learner.feedbackGithub}
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                {feedbackStatus === "submitted" && <span className="text-xs font-semibold text-emerald-700">{dictionary.learner.feedbackSubmitted}</span>}
-                {feedbackStatus === "error" && <span className="text-xs font-semibold text-rose-700">{dictionary.learner.feedbackError}</span>}
-                <button type="button" onClick={submitFeedback} disabled={feedbackText.trim().length === 0 || feedbackStatus === "submitting"} className="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40">
-                  {feedbackStatus === "submitting" ? dictionary.learner.feedbackSubmitting : dictionary.learner.feedbackSubmit}
-                </button>
-              </div>
+            <div className="mt-5 inline-flex rounded-full border border-sky-100 bg-sky-50/70 p-1">
+              <button
+                type="button"
+                onClick={() => setFeedbackView("form")}
+                className={`rounded-full px-3.5 py-2 text-xs font-semibold transition ${feedbackView === "form" ? "bg-white text-slate-950 shadow-sm" : "text-slate-500 hover:text-slate-900"}`}
+              >
+                {dictionary.learner.feedbackTabForm}
+              </button>
+              <button
+                type="button"
+                onClick={() => setFeedbackView("wechat")}
+                className={`inline-flex items-center gap-1.5 rounded-full px-3.5 py-2 text-xs font-semibold transition ${feedbackView === "wechat" ? "bg-emerald-500 text-white shadow-sm" : "text-slate-500 hover:text-slate-900"}`}
+                aria-label={dictionary.learner.feedbackWechat}
+              >
+                <span aria-hidden="true">💬</span>
+                <span>{dictionary.learner.feedbackWechat}</span>
+              </button>
             </div>
+
+            {feedbackView === "form" ? (
+              <>
+                <textarea
+                  value={feedbackText}
+                  onChange={(event) => setFeedbackText(event.target.value)}
+                  placeholder={dictionary.learner.feedbackPlaceholder}
+                  className="mt-4 min-h-36 w-full resize-y rounded-2xl border border-sky-100 bg-sky-50/50 p-4 text-sm leading-6 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-sky-300 focus:bg-white focus:ring-4 focus:ring-sky-100"
+                />
+                <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+                  <a href="https://github.com/lizliz404/pep-words/issues" target="_blank" rel="noreferrer" className="text-xs font-semibold text-sky-700 transition hover:text-slate-950">
+                    {dictionary.learner.feedbackGithub}
+                  </a>
+                  <div className="flex items-center gap-3">
+                    {feedbackStatus === "submitted" && <span className="text-xs font-semibold text-emerald-700">{dictionary.learner.feedbackSubmitted}</span>}
+                    {feedbackStatus === "error" && <span className="text-xs font-semibold text-rose-700">{dictionary.learner.feedbackError}</span>}
+                    <button type="button" onClick={submitFeedback} disabled={feedbackText.trim().length === 0 || feedbackStatus === "submitting"} className="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-40">
+                      {feedbackStatus === "submitting" ? dictionary.learner.feedbackSubmitting : dictionary.learner.feedbackSubmit}
+                    </button>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="mt-4 rounded-2xl border border-emerald-100 bg-emerald-50/70 p-4 text-center">
+                <div className="mx-auto flex h-44 w-44 items-center justify-center rounded-2xl border border-emerald-100 bg-white p-3 shadow-sm">
+                  {wechatQrReady ? (
+                    <img src="/wechat-qr.png" alt={dictionary.learner.feedbackWechatQrAlt} className="h-full w-full object-contain" onError={() => setWechatQrReady(false)} />
+                  ) : (
+                    <div className="text-sm font-semibold leading-6 text-slate-500">{dictionary.learner.feedbackWechatMissing}</div>
+                  )}
+                </div>
+                <p className="mt-3 text-sm font-semibold text-slate-800">{dictionary.learner.feedbackWechatHint}</p>
+                <p className="mt-1 text-xs leading-5 text-slate-500">{dictionary.learner.feedbackContact}</p>
+              </div>
+            )}
           </div>
         </div>
       )}
