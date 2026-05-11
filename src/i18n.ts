@@ -57,8 +57,6 @@ type TranslationSet = {
     feedbackSubmitting: string;
     feedbackSubmitted: string;
     feedbackError: string;
-    feedbackContact: string;
-    feedbackGithub: string;
     feedbackTabForm: string;
     feedbackWechat: string;
     feedbackWechatHint: string;
@@ -159,17 +157,15 @@ const zh: TranslationSet = {
     privacyNote: "收藏数据只保存在你的浏览器本地。",
     feedback: "提建议 / 报错",
     feedbackTitle: "提建议 / 报错",
-    feedbackHint: "直接写你遇到的问题或希望改进的地方。优先在站内提交；GitHub 只留给熟悉它的人。",
+    feedbackHint: "一句话说明哪里不对就行。",
     feedbackPlaceholder: "例如：小学词汇里某个释义不准确；卡片模式在手机上不好点；希望增加听写……",
     feedbackSubmit: "提交反馈",
     feedbackSubmitting: "提交中…",
     feedbackSubmitted: "已收到，感谢。",
     feedbackError: "提交失败。你也可以把内容发给 Liz。",
-    feedbackContact: "也可以扫码加微信，把问题截图和一句话说明直接发给 Liz。",
-    feedbackGithub: "高级入口：GitHub Issues",
     feedbackTabForm: "站内提交",
     feedbackWechat: "微信",
-    feedbackWechatHint: "扫码加微信，适合发截图、录屏或一句话反馈。",
+    feedbackWechatHint: "扫码加微信，发截图、录屏或一句话反馈。",
     feedbackWechatQrAlt: "Liz 的微信二维码",
     feedbackWechatMissing: "微信二维码图片待放入 public/wechat-qr.png",
     feedbackClose: "关闭",
@@ -265,17 +261,15 @@ const en: TranslationSet = {
     privacyNote: "Favorites stay local to this browser.",
     feedback: "Suggest / report issue",
     feedbackTitle: "Suggest / report issue",
-    feedbackHint: "Describe the problem or improvement. Submit here first; GitHub stays as the advanced path.",
+    feedbackHint: "One sentence about what felt wrong is enough.",
     feedbackPlaceholder: "Example: a word meaning is inaccurate; flashcards are hard to tap on mobile; dictation mode would help…",
     feedbackSubmit: "Submit feedback",
     feedbackSubmitting: "Submitting…",
     feedbackSubmitted: "Received. Thank you.",
     feedbackError: "Submit failed. You can still send it to Liz directly.",
-    feedbackContact: "You can also scan WeChat and send Liz a screenshot plus one sentence.",
-    feedbackGithub: "Advanced: GitHub Issues",
     feedbackTabForm: "Submit here",
     feedbackWechat: "WeChat",
-    feedbackWechatHint: "Scan WeChat for screenshots, screen recordings, or short feedback.",
+    feedbackWechatHint: "Scan WeChat for screenshots, recordings, or one-line feedback.",
     feedbackWechatQrAlt: "Liz's WeChat QR code",
     feedbackWechatMissing: "WeChat QR image should be placed at public/wechat-qr.png",
     feedbackClose: "Close",

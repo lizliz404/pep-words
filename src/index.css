@@ -3,14 +3,14 @@
 
 :root {
   color-scheme: light;
-  --page-bg: #f4f8fc;
+  --page-bg: #faf9f5;
   --paper-warm: #fffdf8;
-  --paper-muted: #eef6ff;
-  --ink: #111827;
-  --muted: #5f6f84;
-  --blue-ink: #1f4f7a;
-  --blue-soft: #dff1ff;
-  --page-line: rgba(79, 111, 143, 0.16);
+  --paper-muted: #f1eee6;
+  --ink: #141413;
+  --muted: #716d64;
+  --blue-ink: #4f6f8f;
+  --blue-soft: #edf2f5;
+  --page-line: rgba(113, 109, 100, 0.14);
 }
 
 @layer base {
@@ -26,13 +26,12 @@
     min-width: 320px;
     margin: 0;
     background:
-      radial-gradient(circle at -10% -18%, rgba(186, 230, 253, 0.72), transparent 62%),
-      radial-gradient(circle at 18% 2%, rgba(219, 234, 254, 0.58), transparent 58%),
+      radial-gradient(circle at -10% -18%, rgba(199, 111, 58, 0.12), transparent 54%),
       radial-gradient(circle at 92% 4%, rgba(79, 111, 143, 0.10), transparent 30rem),
-      linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 251, 255, 0.96)),
+      linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(250, 249, 245, 0.98)),
       linear-gradient(180deg, #fffdf8 0%, var(--page-bg) 100%);
     color: var(--ink);
-    font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: Poppins, "Avenir Next", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -173,4 +172,40 @@
   .markdown-table tbody tr:last-child td {
     border-bottom: 0;
   }
+
+  .animate-fade-in {
+    animation: fade-in 220ms ease-out both;
+  }
+
+  .animate-fade-out {
+    animation: fade-out 220ms ease-out both;
+  }
+
+  .animate-pop-in {
+    animation: pop-in 220ms ease-out both;
+  }
+
+  .animate-pop-out {
+    animation: pop-out 220ms ease-out both;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes pop-out {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(8px) scale(0.985); }
 }
