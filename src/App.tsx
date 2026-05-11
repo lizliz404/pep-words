@@ -284,15 +284,23 @@ function App() {
       </header>
 
       {feedbackOpen && (
-        <div className="fixed inset-0 z-50 flex items-start justify-center bg-slate-950/24 px-4 pt-20 backdrop-blur-sm" role="dialog" aria-modal="true">
-          <div className="w-full max-w-lg rounded-[1.5rem] border border-sky-100 bg-white/96 p-5 text-left shadow-[0_22px_70px_rgba(31,79,122,0.16)] sm:p-6">
+        <div
+          className="fixed inset-0 z-50 flex items-start justify-center bg-slate-950/24 px-4 pt-20 backdrop-blur-sm"
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setFeedbackOpen(false)}
+        >
+          <div
+            className="w-full max-w-lg rounded-[1.5rem] border border-sky-100 bg-white/96 p-5 text-left shadow-[0_22px_70px_rgba(31,79,122,0.16)] sm:p-6"
+            onClick={(event) => event.stopPropagation()}
+          >
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h2 className="text-xl font-bold tracking-tight text-slate-950">{dictionary.learner.feedbackTitle}</h2>
                 <p className="mt-2 text-sm leading-6 text-slate-500">{dictionary.learner.feedbackHint}</p>
               </div>
-              <button type="button" onClick={() => setFeedbackOpen(false)} className="rounded-full px-3 py-1.5 text-sm font-semibold text-slate-500 hover:bg-slate-100 hover:text-slate-900">
-                {dictionary.learner.feedbackClose}
+              <button type="button" onClick={() => setFeedbackOpen(false)} aria-label={dictionary.learner.feedbackClose} className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-2xl font-semibold leading-none text-slate-500 hover:bg-slate-100 hover:text-slate-900">
+                ×
               </button>
             </div>
             <div className="mt-5 inline-flex rounded-full border border-sky-100 bg-sky-50/70 p-1">
@@ -337,9 +345,9 @@ function App() {
               </>
             ) : (
               <div className="mt-4 rounded-2xl border border-emerald-100 bg-emerald-50/70 p-4 text-center">
-                <div className="mx-auto flex h-44 w-44 items-center justify-center rounded-2xl border border-emerald-100 bg-white p-3 shadow-sm">
+                <div className="mx-auto flex h-56 w-56 max-w-full items-center justify-center overflow-hidden rounded-2xl border border-emerald-100 bg-white p-2 shadow-sm sm:h-64 sm:w-64">
                   {wechatQrReady ? (
-                    <img src="/wechat-qr.png" alt={dictionary.learner.feedbackWechatQrAlt} className="h-full w-full object-contain" onError={() => setWechatQrReady(false)} />
+                    <img src="/wechat-qr.png" alt={dictionary.learner.feedbackWechatQrAlt} className="h-full w-full object-cover" onError={() => setWechatQrReady(false)} />
                   ) : (
                     <div className="text-sm font-semibold leading-6 text-slate-500">{dictionary.learner.feedbackWechatMissing}</div>
                   )}
