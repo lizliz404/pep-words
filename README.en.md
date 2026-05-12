@@ -1,122 +1,88 @@
 # PEP Words
 
-## Overview
+![PEP Words screenshot](./public/pep-words-screenshot.png)
 
-`PEP Words` is a lightweight web app built around PEP English vocabulary lists. It currently focuses on three things:
+<p align="center">
+  <a href="https://pep-words.lizliz.xyz/">Live site</a>
+  ·
+  <a href="./README.md">中文</a>
+</p>
 
-1. Fast lookup and browsing for primary-school and middle-school vocabulary.
-2. Basic memorization workflows through favorites, flashcards, and quizzes.
-3. Direct reading of the original markdown word lists.
+`PEP Words` is a lightweight vocabulary study site for PEP English word lists. It supports lookup, browsing, favorites, flashcards, quizzes, and direct reading of the source word-list documents.
 
-The repository now has one active runtime only. The old 1.0 single-file HTML version has been archived for reference and is no longer the main entry point.
+It is not a full learning-management system. There are no accounts, sync, ads, tracking, or heavy backend features. The product goal is deliberately narrow: make the everyday vocabulary loop fast, clear, and stable for students, parents, and teachers.
 
-## Product Layer
+## Live Site
 
-This is a static vocabulary study site. It does not include a backend, user accounts, cloud sync, or full authoring tools. The goal is narrower and more practical: make the shortest useful loop of search, browse, save, and test work well.
+- Production: <https://pep-words.lizliz.xyz/>
+- Legacy blue visual comparison: <https://pep-words.lizliz.xyz/legacy-blue>
 
-Active routes:
+## Features
 
-- `#/middle-school`
-- `#/primary-school`
-- `#/docs/middle-school`
-- `#/docs/primary-school`
+- Separate primary-school and middle-school vocabulary datasets
+- Search by English word or Chinese meaning
+- A–Z alphabet filtering
+- Favorite words and export them
+- Flashcard review mode
+- Multiple-choice quiz mode
+- Chinese / English interface switching
+- Direct markdown source-list reading
 
-Core product features:
+## Routes
 
-- Search and alphabet browsing
-- Flashcard-style word review
-- Favorites
-- Simple multiple-choice quizzes
-- Chinese / English UI switching
-- Direct markdown document reading
+- `#/middle-school`: middle-school vocabulary learner
+- `#/primary-school`: primary-school vocabulary learner
+- `#/docs/middle-school`: middle-school source document
+- `#/docs/primary-school`: primary-school source document
 
-## Technical Layer
+## Tech Stack
 
-This is now a small static frontend project:
+- `React 19`
+- `Vite`
+- `TypeScript`
+- `Tailwind CSS 4`
 
-- `React 19` for UI composition and state
-- `Vite` for development and builds
-- `TypeScript` for typing
-- `Tailwind CSS 4` for styling
+The runtime dependency surface is intentionally small: only `react` and `react-dom` are required at runtime. The app is built as static assets and works well on static hosting platforms such as Cloudflare Pages.
 
-The real runtime dependency surface is still small:
-
-- `react`
-- `react-dom`
-
-Everything else is tooling. The project is not heavy at the product layer; it simply uses a normal source-code structure instead of hiding everything inside one HTML file.
-
-## Why Version 1.0 Worked as a Single File
-
-The archived 1.0 version worked as one HTML file because it packed everything together:
-
-- styles inline in the HTML
-- logic inline in the HTML
-- data embedded into the HTML
-- one extra CDN dependency for charts
-
-That makes distribution easy, but maintenance worse. The complexity is not gone. It is just compressed into one file.
-
-## Current Structure
-
-- `index.html`: active page entry
-- `src/`: active application source
-- `package.json`: dependencies and scripts
-- `vite.config.ts`: build configuration
-- `tsconfig.json`: TypeScript configuration
-- `archive/v1-single-file/`: archived historical single-file version
-- `archive/raw-materials/`: raw word lists, snapshots, drafts, and old materials
-
-## Run and Test
-
-Development:
+## Local Development
 
 ```bash
-corepack pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
-Default local URL:
-
-```text
-http://localhost:3000
-```
-
-Important:
-
-- The root `index.html` is the source entry and should be served through `pnpm dev`.
-- If you open the source `index.html` directly, the browser will not handle `TypeScript/TSX` or Vite module resolution correctly.
-- If you want a directly openable file, build first and open `dist/index.html`.
-
-Build validation:
+Common checks:
 
 ```bash
-pnpm build
-pnpm preview
+npm run check
+npm run build
+npm run words:validate
+npm run words:validate-enrichment
 ```
 
-Build output:
+Preview the production build:
 
-```text
-dist/index.html
+```bash
+npm run preview
 ```
 
-The built file uses relative asset paths and can be opened directly.
+## Data Boundary
 
-## Deploy
+Active runtime data lives in:
 
-- Netlify / Vercel: build command `corepack pnpm build`, output directory `dist`
-- Cloudflare: keep `wrangler.jsonc`, then run `npx --yes wrangler deploy`
+- `src/data/middle_school.json`
+- `src/data/primary_school.json`
+- `src/data/enrichment/`
+- `src/data/*.md`
 
-## Data and Archive Boundary
+Cleanup and validation scripts live in `scripts/`. Passing validation means the structure and obvious formatting rules are OK; it does not prove every definition, phonetic symbol, or source mapping is perfect. Content quality should still be checked against source material and sampling reviews.
 
-The active runtime data lives in `src/data/`.
+## Deployment
 
-Everything under `archive/raw-materials/` is outside the active runtime path. Those files are kept only for source tracing, cleanup work, and future data correction. That archive still contains draft variants and duplicated source material, so it is a valid cleanup target, not part of the actual product.
+Recommended deployment: GitHub-connected Cloudflare Pages.
 
-## Next High-Value Improvements
+- Build command: `npm run build`
+- Output directory: `dist`
+- Production URL: <https://pep-words.lizliz.xyz/>
 
-- clean up corrupted Chinese UI strings, especially in `src/i18n.ts`
-- split `archive/raw-materials/` into true sources vs redundant drafts
-- keep trimming route chunks after the first round of lazy loading
-- move toward a more stable structured vocabulary source instead of relying so heavily on markdown parsing
+`public/_redirects` keeps direct SPA paths such as `/legacy-blue` routing back to `index.html`.
