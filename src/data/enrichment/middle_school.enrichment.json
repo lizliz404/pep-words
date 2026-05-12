@@ -70,13 +70,6 @@
     "source": "ecdict+rule_pos_inference",
     "updated_at": "2026-05-12"
   },
-  "ad. v..": {
-    "confidence": 0.92,
-    "manual_review_required": true,
-    "pos": "phr.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "address": {
     "confidence": 0.9,
     "manual_review_required": true,
@@ -196,20 +189,6 @@
     "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
-  "anim+al→": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "adj.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "anim=life,spirit,": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "annie": {
     "confidence": 0.9,
     "manual_review_required": true,
@@ -298,13 +277,6 @@
     "confidence": 0.92,
     "manual_review_required": true,
     "pos": "phr.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "assist+ant→": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "v.",
     "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
@@ -3085,55 +3057,6 @@
     "source": "ecdict+rule_pos_inference",
     "updated_at": "2026-05-12"
   },
-  "p.17": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "adj.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "p.19": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "p.20": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "adj.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "p.22": {
-    "confidence": 0.86,
-    "manual_review_required": true,
-    "pos": "prep.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "p.34": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "p.36": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "p.58": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "pancake": {
     "confidence": 0.9,
     "manual_review_required": false,
@@ -3996,13 +3919,6 @@
     "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
-  "take…seriously": {
-    "confidence": 0.86,
-    "manual_review_required": true,
-    "pos": "adv.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "talk about": {
     "confidence": 0.9,
     "manual_review_required": false,
@@ -4584,13 +4500,6 @@
     "confidence": 0.92,
     "manual_review_required": true,
     "pos": "phr.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "zoo=animal，": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
     "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   }

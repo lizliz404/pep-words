@@ -352,14 +352,6 @@
     "letter": "A"
   },
   {
-    "id": "ad. v..",
-    "word": "ad. v..",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "到家，在家",
-    "letter": "A"
-  },
-  {
     "id": "add",
     "word": "add",
     "phonetic": "[æd]",
@@ -920,22 +912,6 @@
     "letter": "A"
   },
   {
-    "id": "anim+al→",
-    "word": "anim+al→",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "有生命的东西→动物",
-    "letter": "A"
-  },
-  {
-    "id": "anim=life,spirit,",
-    "word": "anim=life,spirit,",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "表示“生命，精神”等",
-    "letter": "A"
-  },
-  {
     "id": "animal",
     "word": "animal",
     "phonetic": "['æniməl]",
@@ -1120,10 +1096,10 @@
     "letter": "A"
   },
   {
-    "id": "arithemetic",
-    "word": "arithemetic",
-    "phonetic": "",
-    "pos": "",
+    "id": "arithmetic",
+    "word": "arithmetic",
+    "phonetic": "/əˈrɪθmətɪk/",
+    "pos": "n.",
     "meaning": "数学，算术",
     "letter": "A"
   },
@@ -1317,14 +1293,6 @@
     "phonetic": "[ə'sli:p]",
     "pos": "adj",
     "meaning": "睡着的,熟睡的",
-    "letter": "A"
-  },
-  {
-    "id": "assist+ant→",
-    "word": "assist+ant→",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "帮助之人",
     "letter": "A"
   },
   {
@@ -3216,10 +3184,10 @@
     "letter": "C"
   },
   {
-    "id": "call(sb)back",
-    "word": "call(sb)back",
+    "id": "call...back",
+    "word": "call...back",
     "phonetic": "",
-    "pos": "",
+    "pos": "phr.",
     "meaning": "回电话",
     "letter": "C"
   },
@@ -3560,11 +3528,11 @@
     "letter": "C"
   },
   {
-    "id": "cent=hundred,",
-    "word": "cent=hundred,",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "表示“一百”",
+    "id": "central",
+    "word": "central",
+    "phonetic": "/sentrəl/",
+    "pos": "adj.",
+    "meaning": "中心的；中央的",
     "letter": "C"
   },
   {
@@ -4416,8 +4384,8 @@
     "letter": "C"
   },
   {
-    "id": "compare…with",
-    "word": "compare…with",
+    "id": "compare...with",
+    "word": "compare...with",
     "phonetic": "",
     "pos": "",
     "meaning": "比较，对比",
@@ -4992,6 +4960,14 @@
     "letter": "C"
   },
   {
+    "id": "customer",
+    "word": "customer",
+    "phonetic": "/kʌstəmə(r)/",
+    "pos": "n.",
+    "meaning": "顾客；客户",
+    "letter": "C"
+  },
+  {
     "id": "cut",
     "word": "cut",
     "phonetic": "[kʌt]",
@@ -5320,6 +5296,14 @@
     "letter": "D"
   },
   {
+    "id": "dessert",
+    "word": "dessert",
+    "phonetic": "/di'zə:(r)t/",
+    "pos": "n.",
+    "meaning": "（饭后）甜点；甜食",
+    "letter": "D"
+  },
+  {
     "id": "detective",
     "word": "detective",
     "phonetic": "[di'tektiv]",
@@ -5488,6 +5472,14 @@
     "letter": "D"
   },
   {
+    "id": "direction",
+    "word": "direction",
+    "phonetic": "/direkʃn/",
+    "pos": "n.",
+    "meaning": "方向；方位",
+    "letter": "D"
+  },
+  {
     "id": "directly",
     "word": "directly",
     "phonetic": "[di'rektli]",
@@ -5645,6 +5637,14 @@
     "phonetic": "['daivə]",
     "pos": "n",
     "meaning": "潜入水中的人,潜水员",
+    "letter": "D"
+  },
+  {
+    "id": "divide",
+    "word": "divide",
+    "phonetic": "/divaid/",
+    "pos": "v.",
+    "meaning": "分开；分散",
     "letter": "D"
   },
   {
@@ -6285,14 +6285,6 @@
     "phonetic": "/ilektrɔnik/",
     "pos": "",
     "meaning": "a. 电子(设备)的",
-    "letter": "E"
-  },
-  {
-    "id": "elephan.t",
-    "word": "elephan.t",
-    "phonetic": "",
-    "pos": "n.",
-    "meaning": "大象",
     "letter": "E"
   },
   {
@@ -8068,7 +8060,7 @@
     "word": "general",
     "phonetic": "/dʒenrəl/",
     "pos": "",
-    "meaning": "a. 普遍的；常规的；总的",
+    "meaning": "a. 普遍的；常规的；总的；将军",
     "letter": "G"
   },
   {
@@ -8264,8 +8256,8 @@
     "letter": "G"
   },
   {
-    "id": "get…back",
-    "word": "get…back",
+    "id": "get...back",
+    "word": "get...back",
     "phonetic": "",
     "pos": "phr.",
     "meaning": "退还；送 回去；取 回",
@@ -10816,6 +10808,14 @@
     "letter": "J"
   },
   {
+    "id": "jayce",
+    "word": "Jayce",
+    "phonetic": "/dʒeis/",
+    "pos": "",
+    "meaning": "杰斯（人名）",
+    "letter": "J"
+  },
+  {
     "id": "jean",
     "word": "Jean",
     "phonetic": "/dZ=ʒi:n/",
@@ -11325,6 +11325,14 @@
     "phonetic": "[læb]",
     "pos": "",
     "meaning": "(=laboratory[lə'bɔrətəri])n实验室",
+    "letter": "L"
+  },
+  {
+    "id": "laboratory",
+    "word": "laboratory",
+    "phonetic": "/ləbɔrətri/",
+    "pos": "n.",
+    "meaning": "实验室",
     "letter": "L"
   },
   {
@@ -12933,6 +12941,14 @@
     "phonetic": "['mɪdnaɪt]",
     "pos": "n.",
     "meaning": "午夜，子夜",
+    "letter": "M"
+  },
+  {
+    "id": "midsummer",
+    "word": "midsummer",
+    "phonetic": "/mɪdsəmə(r)/",
+    "pos": "n.",
+    "meaning": "仲夏；中夏",
     "letter": "M"
   },
   {
@@ -14640,158 +14656,6 @@
     "letter": "O"
   },
   {
-    "id": "p.10",
-    "word": "p.10",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "Macao /məkau/ 澳门",
-    "letter": "P"
-  },
-  {
-    "id": "p.11",
-    "word": "p.11",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "dessert /di’zə:(r)t/ n （ 饭后）甜点；甜食",
-    "letter": "P"
-  },
-  {
-    "id": "p.14",
-    "word": "p.14",
-    "phonetic": "",
-    "pos": "n",
-    "meaning": "obody /nəubədi/, /nəuba:di/ pron. 没有人",
-    "letter": "P"
-  },
-  {
-    "id": "p.17",
-    "word": "p.17",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "eve /i:v/ n （尤指宗教节假日的）前夕；前夜bookstore /bukstɔ:(r)/ n. 书店",
-    "letter": "P"
-  },
-  {
-    "id": "p.18",
-    "word": "p.18",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "postcard /pəustka:(r)d/ n. 明信片",
-    "letter": "P"
-  },
-  {
-    "id": "p.19",
-    "word": "p.19",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "staff /sta:f/ n. 管理人员；职工",
-    "letter": "P"
-  },
-  {
-    "id": "p.2",
-    "word": "p.2",
-    "phonetic": "",
-    "pos": "pron",
-    "meaning": "unciation /prənʌnsieIʃn/ n. 发音；读音",
-    "letter": "P"
-  },
-  {
-    "id": "p.20",
-    "word": "p.20",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "central /sentrəl/ adj. 中心的；中央的",
-    "letter": "P"
-  },
-  {
-    "id": "p.22",
-    "word": "p.22",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "direction /direkʃn, dairekʃn/ n. 方向；方位",
-    "letter": "P"
-  },
-  {
-    "id": "p.32",
-    "word": "p.32",
-    "phonetic": "",
-    "pos": "n.",
-    "meaning": "将军",
-    "letter": "P"
-  },
-  {
-    "id": "p.34",
-    "word": "p.34",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "produce /prədju:s/,v. 生产；制造；出产",
-    "letter": "P"
-  },
-  {
-    "id": "p.36",
-    "word": "p.36",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "postman /pəustmən/ n. 邮递员",
-    "letter": "P"
-  },
-  {
-    "id": "p.42",
-    "word": "p.42",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "Jayce /dʒeis/",
-    "letter": "P"
-  },
-  {
-    "id": "p.45",
-    "word": "p.45",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "customer /kʌstəmə (r)/ n. 顾客；客户",
-    "letter": "P"
-  },
-  {
-    "id": "p.46",
-    "word": "p.46",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "divide /divaid/ v. 分开；分散",
-    "letter": "P"
-  },
-  {
-    "id": "p.58",
-    "word": "p.58",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "anybody /enibədi/ pron. 任何人",
-    "letter": "P"
-  },
-  {
-    "id": "p.6",
-    "word": "p.6",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "connect /kənekt/ v. （使）连接；与⋯⋯有联系",
-    "letter": "P"
-  },
-  {
-    "id": "p.60",
-    "word": "p.60",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "laboratory /ləbɔrətri/ n. 实验室",
-    "letter": "P"
-  },
-  {
-    "id": "p.62",
-    "word": "p.62",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "midsummer /mIidsmə(r)/ n.仲夏；中夏",
-    "letter": "P"
-  },
-  {
     "id": "p.e.",
     "word": "P.E.",
     "phonetic": "/pi: 'i:/",
@@ -15416,8 +15280,8 @@
     "letter": "P"
   },
   {
-    "id": "pick…up",
-    "word": "pick…up",
+    "id": "pick...up",
+    "word": "pick...up",
     "phonetic": "",
     "pos": "phr.",
     "meaning": "拾起；捡起",
@@ -16237,6 +16101,14 @@
     "phonetic": "/prənauns/",
     "pos": "v.",
     "meaning": "发音 p.5",
+    "letter": "P"
+  },
+  {
+    "id": "pronunciation",
+    "word": "pronunciation",
+    "phonetic": "/prənʌnsieIʃn/",
+    "pos": "n.",
+    "meaning": "发音；读音",
     "letter": "P"
   },
   {
@@ -19184,6 +19056,14 @@
     "letter": "S"
   },
   {
+    "id": "staff",
+    "word": "staff",
+    "phonetic": "/sta:f/",
+    "pos": "n.",
+    "meaning": "管理人员；职工",
+    "letter": "S"
+  },
+  {
     "id": "stamp",
     "word": "stamp",
     "phonetic": "[stæmp]",
@@ -20144,8 +20024,8 @@
     "letter": "T"
   },
   {
-    "id": "take…seriously",
-    "word": "take…seriously",
+    "id": "take...seriously",
+    "word": "take...seriously",
     "phonetic": "",
     "pos": "",
     "meaning": "认真对待",
@@ -21976,14 +21856,6 @@
     "letter": "U"
   },
   {
-    "id": "v.aux.",
-    "word": "v.aux.",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "助词",
-    "letter": "V"
-  },
-  {
     "id": "vacation",
     "word": "vacation",
     "phonetic": "[və'keɪʃ(ə)n]",
@@ -23285,14 +23157,6 @@
     "phonetic": "[zu:]",
     "pos": "n",
     "meaning": "动物园",
-    "letter": "Z"
-  },
-  {
-    "id": "zoo=animal，",
-    "word": "zoo=animal，",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "表示“动物”",
     "letter": "Z"
   }
 ]
