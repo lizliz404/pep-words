@@ -88,33 +88,9 @@
     "letter": "A"
   },
   {
-    "id": "a.m",
-    "word": "a.m",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "上午",
-    "letter": "A"
-  },
-  {
     "id": "a.m.",
     "word": "a.m.",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "午前；上午",
-    "letter": "A"
-  },
-  {
-    "id": "a.m.(a.m.)",
-    "word": "A.M.(a.m.)",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "早上；上午",
-    "letter": "A"
-  },
-  {
-    "id": "a\\.m\\.",
-    "word": "a\\.m\\.",
-    "phonetic": "",
+    "phonetic": "/ˌeɪ ˈem/",
     "pos": "",
     "meaning": "午前；上午",
     "letter": "A"
@@ -770,7 +746,7 @@
   {
     "id": "big—bigger",
     "word": "big—bigger",
-    "phonetic": "",
+    "phonetic": "[ biɡ ]",
     "pos": "",
     "meaning": "更大的",
     "letter": "B"
@@ -1058,7 +1034,7 @@
   {
     "id": "buy—bought",
     "word": "buy—bought",
-    "phonetic": "",
+    "phonetic": "[ bai ]",
     "pos": "",
     "meaning": "买",
     "letter": "B"
@@ -1154,7 +1130,7 @@
   {
     "id": "can—could",
     "word": "can—could",
-    "phonetic": "",
+    "phonetic": "[ kæn ]",
     "pos": "",
     "meaning": "能",
     "letter": "C"
@@ -1434,7 +1410,7 @@
   {
     "id": "clean—cleaned",
     "word": "clean—cleaned",
-    "phonetic": "",
+    "phonetic": "[kli:n]",
     "pos": "",
     "meaning": "打扫",
     "letter": "C"
@@ -2016,14 +1992,6 @@
     "letter": "D"
   },
   {
-    "id": "dinaosaur",
-    "word": "dinaosaur",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "恐龙",
-    "letter": "D"
-  },
-  {
     "id": "dining",
     "word": "dining",
     "phonetic": "",
@@ -2306,7 +2274,7 @@
   {
     "id": "drink—drank",
     "word": "drink—drank",
-    "phonetic": "",
+    "phonetic": "[drɪŋk]",
     "pos": "",
     "meaning": "喝",
     "letter": "D"
@@ -2341,14 +2309,6 @@
     "phonetic": "[dʌk]",
     "pos": "",
     "meaning": "鸭子",
-    "letter": "D"
-  },
-  {
-    "id": "dwon",
-    "word": "dwon",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "从高到低；向下",
     "letter": "D"
   },
   {
@@ -2458,7 +2418,7 @@
   {
     "id": "eat—ate",
     "word": "eat—ate",
-    "phonetic": "",
+    "phonetic": "[i:t]",
     "pos": "",
     "meaning": "吃",
     "letter": "E"
@@ -2770,7 +2730,7 @@
   {
     "id": "fall—fell",
     "word": "fall—fell",
-    "phonetic": "",
+    "phonetic": "[fɔ:l]",
     "pos": "",
     "meaning": "摔倒",
     "letter": "F"
@@ -2834,7 +2794,7 @@
   {
     "id": "fast—faster",
     "word": "fast—faster",
-    "phonetic": "",
+    "phonetic": "[fɑːst]",
     "pos": "",
     "meaning": "更快的",
     "letter": "F"
@@ -2906,7 +2866,7 @@
   {
     "id": "feel—felt",
     "word": "feel—felt",
-    "phonetic": "",
+    "phonetic": "['fi:l]",
     "pos": "",
     "meaning": "感觉",
     "letter": "F"
@@ -3098,7 +3058,7 @@
   {
     "id": "fix—fixed",
     "word": "fix—fixed",
-    "phonetic": "",
+    "phonetic": "[fɪks]",
     "pos": "",
     "meaning": "修理",
     "letter": "F"
@@ -3232,9 +3192,9 @@
     "letter": "F"
   },
   {
-    "id": "forty-on",
-    "word": "forty-on",
-    "phonetic": "",
+    "id": "forty-one",
+    "word": "forty-one",
+    "phonetic": "/ˌfɔːrti ˈwʌn/",
     "pos": "",
     "meaning": "四十一",
     "letter": "F"
@@ -3706,7 +3666,7 @@
   {
     "id": "go—went",
     "word": "go—went",
-    "phonetic": "",
+    "phonetic": "[ gəu ]",
     "pos": "",
     "meaning": "去",
     "letter": "G"
@@ -4002,7 +3962,7 @@
   {
     "id": "have...class",
     "word": "have...class",
-    "phonetic": "",
+    "phonetic": "[hæv klɑːs]",
     "pos": "",
     "meaning": "上……课",
     "letter": "H"
@@ -4010,25 +3970,9 @@
   {
     "id": "have—had",
     "word": "have—had",
-    "phonetic": "",
+    "phonetic": "[ hæv]",
     "pos": "",
     "meaning": "得病",
-    "letter": "H"
-  },
-  {
-    "id": "having....class",
-    "word": "having....class",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "（正在）上....课",
-    "letter": "H"
-  },
-  {
-    "id": "having...class",
-    "word": "having...class",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "上……课",
     "letter": "H"
   },
   {
@@ -4090,7 +4034,7 @@
   {
     "id": "heavy—heavier",
     "word": "heavy—heavier",
-    "phonetic": "",
+    "phonetic": "[ 'hevi ]",
     "pos": "",
     "meaning": "更重的",
     "letter": "H"
@@ -4434,7 +4378,7 @@
   {
     "id": "hurt—hurt",
     "word": "hurt—hurt",
-    "phonetic": "",
+    "phonetic": "[hɜːt]",
     "pos": "",
     "meaning": "受伤",
     "letter": "H"
@@ -4474,8 +4418,8 @@
   {
     "id": "ice-skate",
     "word": "ice-skate",
-    "phonetic": "",
-    "pos": "",
+    "phonetic": "[ˈaɪs skeɪt]",
+    "pos": "v.",
     "meaning": "滑冰",
     "letter": "I"
   },
@@ -4930,7 +4874,7 @@
   {
     "id": "laugh—laughed",
     "word": "laugh—laughed",
-    "phonetic": "",
+    "phonetic": "[lɑːf]",
     "pos": "",
     "meaning": "笑",
     "letter": "L"
@@ -5018,7 +4962,7 @@
   {
     "id": "lick—licked",
     "word": "lick—licked",
-    "phonetic": "",
+    "phonetic": "[lɪk]",
     "pos": "",
     "meaning": "舔",
     "letter": "L"
@@ -5162,7 +5106,7 @@
   {
     "id": "long—longer",
     "word": "long—longer",
-    "phonetic": "",
+    "phonetic": "[lɒŋ]",
     "pos": "",
     "meaning": "更长的",
     "letter": "L"
@@ -5274,7 +5218,7 @@
   {
     "id": "low—lower",
     "word": "low—lower",
-    "phonetic": "",
+    "phonetic": "[ləʊ]",
     "pos": "",
     "meaning": "更低的",
     "letter": "L"
@@ -5498,7 +5442,7 @@
   {
     "id": "mid-autumn",
     "word": "Mid-autumn",
-    "phonetic": "",
+    "phonetic": "/ˌmɪd ˈɔːtəm/",
     "pos": "",
     "meaning": "中秋节",
     "letter": "M"
@@ -5813,14 +5757,6 @@
     "phonetic": "[maɪ]",
     "pos": "",
     "meaning": "我的",
-    "letter": "M"
-  },
-  {
-    "id": "mʌðə ] （",
-    "word": "mʌðə ] （",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "外）祖母",
     "letter": "M"
   },
   {
@@ -6202,7 +6138,7 @@
   {
     "id": "old—older",
     "word": "old—older",
-    "phonetic": "",
+    "phonetic": "[əʊld]",
     "pos": "",
     "meaning": "年龄更大的",
     "letter": "O"
@@ -6330,7 +6266,7 @@
   {
     "id": "p.e",
     "word": "P.E",
-    "phonetic": "",
+    "phonetic": "/ˌpiː ˈiː/",
     "pos": "",
     "meaning": "体育",
     "letter": "P"
@@ -6344,33 +6280,9 @@
     "letter": "P"
   },
   {
-    "id": "p.m",
-    "word": "p.m",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "下午",
-    "letter": "P"
-  },
-  {
     "id": "p.m.",
     "word": "p.m.",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "午后；下午",
-    "letter": "P"
-  },
-  {
-    "id": "p.m.(p.m.)",
-    "word": "P.M.(p.m.)",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "下午",
-    "letter": "P"
-  },
-  {
-    "id": "p\\.m\\.",
-    "word": "p\\.m\\.",
-    "phonetic": "",
+    "phonetic": "/ˌpiː ˈem/",
     "pos": "",
     "meaning": "午后；下午",
     "letter": "P"
@@ -6946,7 +6858,7 @@
   {
     "id": "prc",
     "word": "PRC",
-    "phonetic": "",
+    "phonetic": "/ˌpiː ɑːr ˈsiː/",
     "pos": "",
     "meaning": "中国",
     "letter": "P"
@@ -7160,14 +7072,6 @@
     "letter": "R"
   },
   {
-    "id": "reades",
-    "word": "reades",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "读；看（第三人称单数）",
-    "letter": "R"
-  },
-  {
     "id": "reading",
     "word": "reading",
     "phonetic": "",
@@ -7184,6 +7088,14 @@
     "letter": "R"
   },
   {
+    "id": "reads",
+    "word": "reads",
+    "phonetic": "[riːdz]",
+    "pos": "v.",
+    "meaning": "读；看（第三人称单数）",
+    "letter": "R"
+  },
+  {
     "id": "ready",
     "word": "ready",
     "phonetic": "[ 'redi ]",
@@ -7194,7 +7106,7 @@
   {
     "id": "read—read",
     "word": "read—read",
-    "phonetic": "",
+    "phonetic": "[ri:d]",
     "pos": "",
     "meaning": "读",
     "letter": "R"
@@ -7274,7 +7186,7 @@
   {
     "id": "ride—rode",
     "word": "ride—rode",
-    "phonetic": "",
+    "phonetic": "[raɪd]",
     "pos": "",
     "meaning": "骑",
     "letter": "R"
@@ -7424,14 +7336,6 @@
     "letter": "S"
   },
   {
-    "id": "samller",
-    "word": "samller",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "更小的",
-    "letter": "S"
-  },
-  {
     "id": "sandals",
     "word": "sandals",
     "phonetic": "['sandl]",
@@ -7509,14 +7413,6 @@
     "phonetic": "[ˈsaɪəns]",
     "pos": "",
     "meaning": "科学",
-    "letter": "S"
-  },
-  {
-    "id": "scientis",
-    "word": "scientis",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "t科学家",
     "letter": "S"
   },
   {
@@ -7642,7 +7538,7 @@
   {
     "id": "see—saw",
     "word": "see—saw",
-    "phonetic": "",
+    "phonetic": "[ si: ]",
     "pos": "",
     "meaning": "看见",
     "letter": "S"
@@ -7874,7 +7770,7 @@
   {
     "id": "short—shorter",
     "word": "short—shorter",
-    "phonetic": "",
+    "phonetic": "[ ʃɔ:t ]",
     "pos": "",
     "meaning": "更矮的",
     "letter": "S"
@@ -8066,7 +7962,7 @@
   {
     "id": "sleep—slept",
     "word": "sleep—slept",
-    "phonetic": "",
+    "phonetic": "[ sli:p ]",
     "pos": "",
     "meaning": "睡觉",
     "letter": "S"
@@ -8120,17 +8016,9 @@
     "letter": "S"
   },
   {
-    "id": "smaller （",
-    "word": "smaller （",
-    "phonetic": "",
-    "pos": "",
-    "meaning": "体型）更小的",
-    "letter": "S"
-  },
-  {
     "id": "small—smaller",
     "word": "small—smaller",
-    "phonetic": "",
+    "phonetic": "[smɔːl]",
     "pos": "",
     "meaning": "（体型）更小",
     "letter": "S"
@@ -8146,7 +8034,7 @@
   {
     "id": "smart-smarter",
     "word": "smart-smarter",
-    "phonetic": "",
+    "phonetic": "[ smɑ:t]",
     "pos": "",
     "meaning": "更聪慧的",
     "letter": "S"
@@ -8514,7 +8402,7 @@
   {
     "id": "stay—stayed",
     "word": "stay—stayed",
-    "phonetic": "",
+    "phonetic": "[ stei ]",
     "pos": "",
     "meaning": "停留",
     "letter": "S"
@@ -8610,7 +8498,7 @@
   {
     "id": "strong—stronger",
     "word": "strong—stronger",
-    "phonetic": "",
+    "phonetic": "[strɒŋ]",
     "pos": "",
     "meaning": "更强壮的",
     "letter": "S"
@@ -8866,7 +8754,7 @@
   {
     "id": "take—took",
     "word": "take—took",
-    "phonetic": "",
+    "phonetic": "[teik ]",
     "pos": "",
     "meaning": "拍照",
     "letter": "T"
@@ -8906,7 +8794,7 @@
   {
     "id": "tall—taller",
     "word": "tall—taller",
-    "phonetic": "",
+    "phonetic": "[tɔːl]",
     "pos": "",
     "meaning": "更高的",
     "letter": "T"
@@ -9210,7 +9098,7 @@
   {
     "id": "think—thought",
     "word": "think—thought",
-    "phonetic": "",
+    "phonetic": "[θiŋk]",
     "pos": "",
     "meaning": "想",
     "letter": "T"
@@ -9226,7 +9114,7 @@
   {
     "id": "thin—thinner",
     "word": "thin—thinner",
-    "phonetic": "",
+    "phonetic": "[θɪn]",
     "pos": "",
     "meaning": "更瘦的",
     "letter": "T"
@@ -9290,7 +9178,7 @@
   {
     "id": "thirty-one",
     "word": "thirty-one",
-    "phonetic": "",
+    "phonetic": "/ˌθɜːrti ˈwʌn/",
     "pos": "",
     "meaning": "三十一",
     "letter": "T"
@@ -10026,7 +9914,7 @@
   {
     "id": "wake—woke",
     "word": "wake—woke",
-    "phonetic": "",
+    "phonetic": "[weɪk]",
     "pos": "",
     "meaning": "醒",
     "letter": "W"
@@ -10122,7 +10010,7 @@
   {
     "id": "wash—washed",
     "word": "wash—washed",
-    "phonetic": "",
+    "phonetic": "[ wɒʃ ]",
     "pos": "",
     "meaning": "洗",
     "letter": "W"
@@ -10170,7 +10058,7 @@
   {
     "id": "watch—watched",
     "word": "watch—watched",
-    "phonetic": "",
+    "phonetic": "[ wɒtʃ ]",
     "pos": "",
     "meaning": "看",
     "letter": "W"
@@ -10314,7 +10202,7 @@
   {
     "id": "well—better",
     "word": "well—better",
-    "phonetic": "",
+    "phonetic": "/ wel/",
     "pos": "",
     "meaning": "更好的",
     "letter": "W"
@@ -10714,7 +10602,7 @@
   {
     "id": "young—younger",
     "word": "young—younger",
-    "phonetic": "",
+    "phonetic": "[jʌŋ]",
     "pos": "",
     "meaning": "更年轻的",
     "letter": "Y"

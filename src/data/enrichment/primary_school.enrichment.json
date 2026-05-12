@@ -1983,13 +1983,6 @@
     "source": "cross_dataset+ecdict",
     "updated_at": "2026-05-12"
   },
-  "dwon": {
-    "confidence": 0.86,
-    "manual_review_required": true,
-    "pos": "prep.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "e-card": {
     "confidence": 0.9,
     "manual_review_required": false,
@@ -2710,13 +2703,6 @@
     "manual_review_required": false,
     "pos": "num.",
     "source": "cross_dataset+ecdict",
-    "updated_at": "2026-05-12"
-  },
-  "forty-on": {
-    "confidence": 0.88,
-    "manual_review_required": true,
-    "pos": "num.",
-    "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
   "four": {
@@ -4896,13 +4882,6 @@
     "source": "cross_dataset+ecdict",
     "updated_at": "2026-05-12"
   },
-  "mʌðə ] （": {
-    "confidence": 0.92,
-    "manual_review_required": true,
-    "pos": "phr.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "name": {
     "confidence": 0.92,
     "manual_review_required": false,
@@ -5989,13 +5968,6 @@
     "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
-  "reades": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "v.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "reading": {
     "confidence": 0.96,
     "manual_review_required": false,
@@ -6203,13 +6175,6 @@
     "source": "cross_dataset+ecdict",
     "updated_at": "2026-05-12"
   },
-  "samller": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "adj.",
-    "source": "rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
   "sandals": {
     "confidence": 0.9,
     "manual_review_required": false,
@@ -6279,13 +6244,6 @@
     "manual_review_required": false,
     "pos": "n.",
     "source": "cross_dataset+ecdict",
-    "updated_at": "2026-05-12"
-  },
-  "scientis": {
-    "confidence": 0.84,
-    "manual_review_required": true,
-    "pos": "n.",
-    "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
   "scientist": {
@@ -6789,13 +6747,6 @@
     "phonetic": "/ˈsmɔɫɝ/",
     "pos": "adj.",
     "source": "ipa-dict-en_US+rule_pos_inference",
-    "updated_at": "2026-05-12"
-  },
-  "smaller （": {
-    "confidence": 0.92,
-    "manual_review_required": true,
-    "pos": "phr.",
-    "source": "rule_pos_inference",
     "updated_at": "2026-05-12"
   },
   "smart": {
