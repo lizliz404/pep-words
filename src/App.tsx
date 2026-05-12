@@ -375,7 +375,7 @@ function App() {
         </div>
       )}
 
-      <main key={route} className="container animate-fade-in pb-24 pt-7 sm:pb-28 sm:pt-9">
+      <main key={route} className="container animate-fade-in py-7 sm:py-9">
         {loadError ? (
           <RouteStatus title={errorTitle} description={`${errorDescription} (${loadError})`} />
         ) : isDocumentRoute ? (
@@ -402,11 +402,13 @@ function App() {
         )}
       </main>
 
-      <footer className="fixed inset-x-0 bottom-0 z-40 border-t border-[#d6cbbb]/80 bg-[#eee8dc]/88 px-4 py-3 text-center shadow-[0_-18px_44px_-34px_rgba(49,42,34,0.5)] backdrop-blur-md">
-        <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-1 text-[12px] leading-5 text-[#6c6258] sm:flex-row sm:gap-3 sm:text-sm">
-          <span>{dictionary.learner.privacyNote}</span>
-          <span className="hidden h-1 w-1 rounded-full bg-[#b8a893] sm:inline-block" aria-hidden="true" />
-          <span>© {new Date().getFullYear()} Liz · PEP Words</span>
+      <footer className="container pb-8 pt-4 sm:pb-10">
+        <div className="border-t border-[#d6cbbb]/80 pt-4 text-center">
+          <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-1 text-[12px] leading-5 text-[#6c6258] sm:flex-row sm:gap-3 sm:text-sm">
+            <span>{dictionary.learner.privacyNote}</span>
+            <span className="hidden h-1 w-1 rounded-full bg-[#b8a893] sm:inline-block" aria-hidden="true" />
+            <span>© {new Date().getFullYear()} Liz · PEP Words</span>
+          </div>
         </div>
       </footer>
     </div>
