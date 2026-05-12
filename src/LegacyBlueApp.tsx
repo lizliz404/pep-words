@@ -3,12 +3,12 @@ import {
   FileTextIcon,
   GraduationCapIcon,
   LogoIcon,
-} from "@/components/Icons";
-import MarkdownDocument from "@/components/MarkdownDocument";
+} from "./legacy-blue/components/Icons";
+import MarkdownDocument from "./legacy-blue/components/MarkdownDocument";
 import { loadDatasetMarkdown, loadDatasetWords } from "@/content";
 import { LOCALE_STORAGE_KEY, getDictionary, getStoredLocale } from "@/i18n";
 import { useHashRoute } from "@/hooks/useHashRoute";
-import VocabularyLearner from "@/pages/VocabularyLearner";
+import VocabularyLearner from "./legacy-blue/pages/VocabularyLearner";
 import type { DatasetKey, Locale, RouteKey, Word } from "@/types";
 import { startTransition, useEffect, useState } from "react";
 
