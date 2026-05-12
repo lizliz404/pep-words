@@ -1278,7 +1278,7 @@
   "cm(centimeter)": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ˈsentɪˌmi:tə]",
+    "phonetic": "/ˈsentɪˌmi:tə/",
     "pos": "n.",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
@@ -4364,7 +4364,7 @@
   "look up": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "['luk ʌp]",
+    "phonetic": "/'luk ʌp/",
     "pos": "phr.",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
@@ -7364,7 +7364,7 @@
   "take turns": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[,teik 'tə:nz]",
+    "phonetic": "/,teik 'tə:nz/",
     "pos": "phr.",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"

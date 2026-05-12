@@ -9,7 +9,7 @@
   "a little": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ 'litl ]",
+    "phonetic": "/'litl/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -30,7 +30,7 @@
   "a pair of": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[pɛə]",
+    "phonetic": "/pɛə/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -94,7 +94,7 @@
   "after school": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "['ɑ:ftə][sku:l]",
+    "phonetic": "/'ɑ:ftəsku:l/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -150,7 +150,7 @@
   "all right": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ ɔ:l ][ rait]",
+    "phonetic": "/ɔ:l rait/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -297,7 +297,7 @@
   "at home": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ æt ][ həum ]",
+    "phonetic": "/æt həum/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -784,7 +784,7 @@
   "come in": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ kʌm ][in]",
+    "phonetic": "/kʌm in/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -974,7 +974,7 @@
   "do homework": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ dəu ][ 'həumwə:k ]",
+    "phonetic": "/dəu 'həumwə:k/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -1121,7 +1121,7 @@
   "excuse me": {
     "confidence": 0.95,
     "manual_review_required": true,
-    "phonetic": "[iks'kju:z][mi:]",
+    "phonetic": "/iks'kju:zmi:/",
     "pos": "phr.",
     "source": "cross_dataset+rule_pos_inference",
     "updated_at": "2026-05-12"
@@ -1434,7 +1434,7 @@
   "get to": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[get][tu:]",
+    "phonetic": "/gettu:/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -1490,21 +1490,21 @@
   "go fishing": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ 'fiʃiŋ ]",
+    "phonetic": "/'fiʃiŋ/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
   "go hiking": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ 'haikiŋ ]",
+    "phonetic": "/'haikiŋ/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
   "go home": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ həum ]",
+    "phonetic": "/həum/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -1707,7 +1707,7 @@
   "have a cold": {
     "confidence": 0.95,
     "manual_review_required": true,
-    "phonetic": "[ kəuld ]",
+    "phonetic": "/kəuld/",
     "pos": "phr.",
     "source": "cross_dataset+rule_pos_inference",
     "updated_at": "2026-05-12"
@@ -1785,7 +1785,7 @@
   "have a try": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ hæv][trai ]",
+    "phonetic": "/hævtrai/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -1834,7 +1834,7 @@
   "here you are": {
     "confidence": 0.95,
     "manual_review_required": true,
-    "phonetic": "[hiə]",
+    "phonetic": "/hiə/",
     "pos": "phr.",
     "source": "cross_dataset+rule_pos_inference",
     "updated_at": "2026-05-12"
@@ -1933,7 +1933,7 @@
   "how much": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ mʌtʃ ]",
+    "phonetic": "/mʌtʃ/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -2503,7 +2503,7 @@
   "look at": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ luk ][ æt]",
+    "phonetic": "/luk æt/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -2616,7 +2616,7 @@
   "make the bed": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ meik ][ ði: ][ bed ]",
+    "phonetic": "/meik ði: bed/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -2955,7 +2955,7 @@
   "on foot": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[ɒn fut]",
+    "phonetic": "/ɒn fut/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -3039,7 +3039,7 @@
   "over there": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "['əuvə ][ðεə]",
+    "phonetic": "/'əuvə ðεə/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -3110,7 +3110,7 @@
   "pay attention to": {
     "confidence": 0.95,
     "manual_review_required": true,
-    "phonetic": "[peɪ əˈtenʃən tuː]",
+    "phonetic": "/peɪ əˈtenʃən tuː/",
     "pos": "phr.",
     "source": "cross_dataset+rule_pos_inference",
     "updated_at": "2026-05-12"
@@ -3259,7 +3259,7 @@
   "post office": {
     "confidence": 0.95,
     "manual_review_required": true,
-    "phonetic": "[pəʊst ˈɒfɪs]",
+    "phonetic": "/pəʊst ˈɒfɪs/",
     "pos": "phr.",
     "source": "cross_dataset+rule_pos_inference",
     "updated_at": "2026-05-12"
@@ -3604,7 +3604,7 @@
   "slow down": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[sləʊ daʊn]",
+    "phonetic": "/sləʊ daʊn/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
@@ -4345,7 +4345,7 @@
   "wake up": {
     "confidence": 0.95,
     "manual_review_required": false,
-    "phonetic": "[weik][ʌp]",
+    "phonetic": "/weikʌp/",
     "source": "cross_dataset",
     "updated_at": "2026-05-12"
   },
