@@ -8,7 +8,7 @@ const markdownModules = import.meta.glob("./data/*.md", {
   import: "default",
 }) as Record<string, Loader<string>>;
 
-const jsonModules = import.meta.glob("./data/*.json", {
+const jsonModules = import.meta.glob("./data/**/*.json", {
   import: "default",
 }) as Record<string, Loader<unknown>>;
 
