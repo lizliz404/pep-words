@@ -194,6 +194,69 @@
   .animate-pop-out {
     animation: pop-out 220ms ease-out both;
   }
+  body.legacy-blue {
+    background:
+      radial-gradient(circle at -8% -14%, rgba(186, 230, 253, 0.95), transparent 68%),
+      radial-gradient(circle at 16% 4%, rgba(224, 242, 254, 0.88), transparent 62%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.94)),
+      linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+    color: #0f172a;
+    font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: normal;
+    -moz-osx-font-smoothing: auto;
+    text-shadow: none;
+  }
+
+  body.legacy-blue::before {
+    --page-line: rgba(148, 163, 184, 0.18);
+  }
+
+  body.legacy-blue textarea {
+    font: inherit;
+  }
+
+  body.legacy-blue .markdown-body {
+    color: #334155;
+    font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 1rem;
+    text-shadow: none;
+  }
+
+  body.legacy-blue .markdown-body strong {
+    color: #0f172a;
+  }
+
+  body.legacy-blue .markdown-h1 {
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #0f172a;
+  }
+
+  body.legacy-blue .markdown-h2 {
+    border-top-color: #e2e8f0;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0f172a;
+  }
+
+  body.legacy-blue .markdown-table-wrap {
+    border-color: #e2e8f0;
+    background: white;
+    box-shadow: 0 22px 56px -52px rgba(15, 23, 42, 0.45);
+  }
+
+  body.legacy-blue .markdown-table th,
+  body.legacy-blue .markdown-table td {
+    border-bottom-color: #e2e8f0;
+  }
+
+  body.legacy-blue .markdown-table th {
+    background: #f8fafc;
+    font-weight: 700;
+    color: #475569;
+  }
 }
 
 @keyframes fade-in {
