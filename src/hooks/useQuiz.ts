@@ -4,7 +4,7 @@ import type { QuizQuestion, QuizResult, Word } from "@/types";
 export function useQuiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
-  const [answers, setAnswers] = useState<Map<number, string>>(new Map());
+  const [answers, setAnswers] = useState<Map<string, string>>(new Map());
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const generateQuiz = (words: Word[], questionCount: number = 10) => {
@@ -39,7 +39,7 @@ export function useQuiz() {
   const answerQuestion = (answer: string) => {
     setAnswers((previous) => {
       const next = new Map(previous);
-      next.set(currentQuestionIndex, answer);
+      next.set(String(currentQuestionIndex), answer);
       return next;
     });
   };
@@ -57,7 +57,7 @@ export function useQuiz() {
   const submitQuiz = (): QuizResult => {
     let correctCount = 0;
     const resultQuestions = questions.map((question, index) => {
-      const userAnswer = answers.get(index);
+      const userAnswer = answers.get(String(index));
       const isCorrect = userAnswer === question.correctAnswer;
 
       if (isCorrect) {
@@ -92,7 +92,7 @@ export function useQuiz() {
   };
 
   const currentQuestion = questions[currentQuestionIndex];
-  const currentAnswer = answers.get(currentQuestionIndex);
+  const currentAnswer = answers.get(String(currentQuestionIndex));
 
   return {
     currentQuestionIndex,

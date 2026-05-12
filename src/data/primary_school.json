@@ -1,0 +1,10762 @@
+[
+  {
+    "id": "(fri.)",
+    "word": "(Fri.)",
+    "phonetic": "[ 'fraidi ]",
+    "pos": "",
+    "meaning": "星期五",
+    "letter": "#"
+  },
+  {
+    "id": "(mon.)",
+    "word": "(Mon.)",
+    "phonetic": "['mʌndi]",
+    "pos": "",
+    "meaning": "星期一",
+    "letter": "#"
+  },
+  {
+    "id": "(sat.)",
+    "word": "(Sat.)",
+    "phonetic": "['sætədi]",
+    "pos": "",
+    "meaning": "星期六",
+    "letter": "#"
+  },
+  {
+    "id": "(sun.)",
+    "word": "(Sun.)",
+    "phonetic": "[ 'sʌndi ]",
+    "pos": "",
+    "meaning": "星期天",
+    "letter": "#"
+  },
+  {
+    "id": "(thu.)",
+    "word": "(Thu.)",
+    "phonetic": "['θə:zdi ]",
+    "pos": "",
+    "meaning": "星期四",
+    "letter": "#"
+  },
+  {
+    "id": "(tue.)",
+    "word": "(Tue.)",
+    "phonetic": "['tju:zdi ]",
+    "pos": "",
+    "meaning": "星期二",
+    "letter": "#"
+  },
+  {
+    "id": "a",
+    "word": "a",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "few 一些",
+    "letter": "A"
+  },
+  {
+    "id": "a cold",
+    "word": "a cold",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "感冒",
+    "letter": "A"
+  },
+  {
+    "id": "a few",
+    "word": "a few",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "一些",
+    "letter": "A"
+  },
+  {
+    "id": "a little",
+    "word": "a little",
+    "phonetic": "[ 'litl ]",
+    "pos": "",
+    "meaning": "有些.",
+    "letter": "A"
+  },
+  {
+    "id": "a pair of",
+    "word": "a pair of",
+    "phonetic": "[pɛə]",
+    "pos": "",
+    "meaning": "一双",
+    "letter": "A"
+  },
+  {
+    "id": "a.m",
+    "word": "a.m",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "上午",
+    "letter": "A"
+  },
+  {
+    "id": "a.m.",
+    "word": "a.m.",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "午前；上午",
+    "letter": "A"
+  },
+  {
+    "id": "a.m.(a.m.)",
+    "word": "A.M.(a.m.)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "早上；上午",
+    "letter": "A"
+  },
+  {
+    "id": "a\\.m\\.",
+    "word": "a\\.m\\.",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "午前；上午",
+    "letter": "A"
+  },
+  {
+    "id": "able",
+    "word": "able",
+    "phonetic": "['eibl]",
+    "pos": "",
+    "meaning": "能",
+    "letter": "A"
+  },
+  {
+    "id": "about",
+    "word": "about",
+    "phonetic": "[ 'əbaut ]",
+    "pos": "",
+    "meaning": "关于,大约",
+    "letter": "A"
+  },
+  {
+    "id": "above",
+    "word": "above",
+    "phonetic": "[ə'bʌv]",
+    "pos": "",
+    "meaning": "在…… 上面",
+    "letter": "A"
+  },
+  {
+    "id": "accountant",
+    "word": "accountant",
+    "phonetic": "[ə'kauntənt]",
+    "pos": "",
+    "meaning": "会计",
+    "letter": "A"
+  },
+  {
+    "id": "active",
+    "word": "active",
+    "phonetic": "[ 'æktiv ]",
+    "pos": "",
+    "meaning": "积极的;活跃的",
+    "letter": "A"
+  },
+  {
+    "id": "actor",
+    "word": "actor",
+    "phonetic": "['æktə]",
+    "pos": "",
+    "meaning": "男演员",
+    "letter": "A"
+  },
+  {
+    "id": "actress",
+    "word": "actress",
+    "phonetic": "['æktris]",
+    "pos": "",
+    "meaning": "女演员",
+    "letter": "A"
+  },
+  {
+    "id": "afraid",
+    "word": "afraid",
+    "phonetic": "[əˈfreɪd]",
+    "pos": "",
+    "meaning": "害怕的",
+    "letter": "A"
+  },
+  {
+    "id": "after",
+    "word": "after",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "在...之后",
+    "letter": "A"
+  },
+  {
+    "id": "after school",
+    "word": "after school",
+    "phonetic": "['ɑ:ftə][sku:l]",
+    "pos": "",
+    "meaning": "放学以后",
+    "letter": "A"
+  },
+  {
+    "id": "afternoon",
+    "word": "afternoon",
+    "phonetic": "[,ɑ:ftə:'nu:n]",
+    "pos": "",
+    "meaning": "下午午后",
+    "letter": "A"
+  },
+  {
+    "id": "again",
+    "word": "again",
+    "phonetic": "[ə'ɡen]",
+    "pos": "",
+    "meaning": "再一次；又；再",
+    "letter": "A"
+  },
+  {
+    "id": "ago",
+    "word": "ago",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "以前",
+    "letter": "A"
+  },
+  {
+    "id": "air",
+    "word": "air",
+    "phonetic": "[ єə ]",
+    "pos": "n.",
+    "meaning": "空气",
+    "letter": "A"
+  },
+  {
+    "id": "air-conditioner",
+    "word": "air-conditioner",
+    "phonetic": "[ɛə]",
+    "pos": "",
+    "meaning": "[kən'diʃənə]",
+    "letter": "A"
+  },
+  {
+    "id": "alaska",
+    "word": "Alaska",
+    "phonetic": "[əˈlæskə]",
+    "pos": "",
+    "meaning": "阿拉斯加州（美国州名）",
+    "letter": "A"
+  },
+  {
+    "id": "all",
+    "word": "all",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "全；完全",
+    "letter": "A"
+  },
+  {
+    "id": "all right",
+    "word": "all right",
+    "phonetic": "[ ɔ:l ][ rait]",
+    "pos": "",
+    "meaning": "好吧；好的",
+    "letter": "A"
+  },
+  {
+    "id": "also",
+    "word": "also",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "还；也",
+    "letter": "A"
+  },
+  {
+    "id": "always",
+    "word": "always",
+    "phonetic": "['ɔ:lweiz]",
+    "pos": "",
+    "meaning": "总是;一直",
+    "letter": "A"
+  },
+  {
+    "id": "amazing",
+    "word": "amazing",
+    "phonetic": "[əˈmeɪzɪŋ]",
+    "pos": "",
+    "meaning": "令人惊奇的",
+    "letter": "A"
+  },
+  {
+    "id": "america",
+    "word": "America",
+    "phonetic": "[ə'merikə]",
+    "pos": "",
+    "meaning": "美国",
+    "letter": "A"
+  },
+  {
+    "id": "american",
+    "word": "American",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "美国的",
+    "letter": "A"
+  },
+  {
+    "id": "and",
+    "word": "and",
+    "phonetic": "[ænd]",
+    "pos": "",
+    "meaning": "和；并且",
+    "letter": "A"
+  },
+  {
+    "id": "angry",
+    "word": "angry",
+    "phonetic": "['æŋgri]",
+    "pos": "",
+    "meaning": "生气的；愤怒的",
+    "letter": "A"
+  },
+  {
+    "id": "animal",
+    "word": "animal",
+    "phonetic": "['ænɪməl]",
+    "pos": "",
+    "meaning": "动物",
+    "letter": "A"
+  },
+  {
+    "id": "another",
+    "word": "another",
+    "phonetic": "[ ə'nʌðə ]",
+    "pos": "",
+    "meaning": "另一个.",
+    "letter": "A"
+  },
+  {
+    "id": "answer the phone",
+    "word": "answer the phone",
+    "phonetic": "['a:nsə][fəun]",
+    "pos": "",
+    "meaning": "接电话",
+    "letter": "A"
+  },
+  {
+    "id": "ant",
+    "word": "ant",
+    "phonetic": "[ænt]",
+    "pos": "",
+    "meaning": "蚂蚁",
+    "letter": "A"
+  },
+  {
+    "id": "any",
+    "word": "any",
+    "phonetic": "['eni]",
+    "pos": "",
+    "meaning": "任何的；任一的",
+    "letter": "A"
+  },
+  {
+    "id": "anything",
+    "word": "anything",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "任何事物",
+    "letter": "A"
+  },
+  {
+    "id": "apple",
+    "word": "apple",
+    "phonetic": "['æpl]",
+    "pos": "",
+    "meaning": "苹果",
+    "letter": "A"
+  },
+  {
+    "id": "april",
+    "word": "April",
+    "phonetic": "[ 'eiprəl ]",
+    "pos": "",
+    "meaning": "四月",
+    "letter": "A"
+  },
+  {
+    "id": "are",
+    "word": "are",
+    "phonetic": "[ ɑ: ]",
+    "pos": "",
+    "meaning": "是",
+    "letter": "A"
+  },
+  {
+    "id": "aren't",
+    "word": "aren't",
+    "phonetic": "/ɑːnt/",
+    "pos": "",
+    "meaning": "不是",
+    "letter": "A"
+  },
+  {
+    "id": "aren't = are not",
+    "word": "aren't = are not",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "不是",
+    "letter": "A"
+  },
+  {
+    "id": "arm",
+    "word": "arm",
+    "phonetic": "[ɑ:m]",
+    "pos": "",
+    "meaning": "胳膊;手臂",
+    "letter": "A"
+  },
+  {
+    "id": "art",
+    "word": "art",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "room 美术教室",
+    "letter": "A"
+  },
+  {
+    "id": "art room",
+    "word": "art room",
+    "phonetic": "[ɑ:t][ru:m]",
+    "pos": "",
+    "meaning": "绘画教室",
+    "letter": "A"
+  },
+  {
+    "id": "artist",
+    "word": "artist",
+    "phonetic": "['ɑ:tist]",
+    "pos": "",
+    "meaning": "画家",
+    "letter": "A"
+  },
+  {
+    "id": "ask",
+    "word": "ask",
+    "phonetic": "[ɑːsk]",
+    "pos": "",
+    "meaning": "问",
+    "letter": "A"
+  },
+  {
+    "id": "at",
+    "word": "at",
+    "phonetic": "[æt]",
+    "pos": "",
+    "meaning": "\\(后面接邮件地址\\)",
+    "letter": "A"
+  },
+  {
+    "id": "at home",
+    "word": "at home",
+    "phonetic": "[ æt ][ həum ]",
+    "pos": "",
+    "meaning": "在家",
+    "letter": "A"
+  },
+  {
+    "id": "ate",
+    "word": "ate",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(eat的过去式) 吃",
+    "letter": "A"
+  },
+  {
+    "id": "attention",
+    "word": "attention",
+    "phonetic": "[əˈtenʃən]",
+    "pos": "",
+    "meaning": "注意",
+    "letter": "A"
+  },
+  {
+    "id": "august",
+    "word": "August",
+    "phonetic": "[ 'ɔ:gəst]",
+    "pos": "",
+    "meaning": "八月",
+    "letter": "A"
+  },
+  {
+    "id": "aunt",
+    "word": "aunt",
+    "phonetic": "/ɑːnt/",
+    "pos": "",
+    "meaning": "阿姨，婶婶，舅妈",
+    "letter": "A"
+  },
+  {
+    "id": "australia",
+    "word": "Australia",
+    "phonetic": "[ ɔ'streiliə ]",
+    "pos": "",
+    "meaning": "澳大利亚",
+    "letter": "A"
+  },
+  {
+    "id": "autumn",
+    "word": "autumn",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "秋天",
+    "letter": "A"
+  },
+  {
+    "id": "baby",
+    "word": "baby",
+    "phonetic": "[ 'beibi ]",
+    "pos": "",
+    "meaning": "婴儿.",
+    "letter": "B"
+  },
+  {
+    "id": "baby brother",
+    "word": "baby brother",
+    "phonetic": "/ˈbeɪbi/",
+    "pos": "",
+    "meaning": "弟弟",
+    "letter": "B"
+  },
+  {
+    "id": "back",
+    "word": "back",
+    "phonetic": "[ bæk ]",
+    "pos": "",
+    "meaning": "回来",
+    "letter": "B"
+  },
+  {
+    "id": "bad",
+    "word": "bad",
+    "phonetic": "[bæd]",
+    "pos": "",
+    "meaning": "坏的",
+    "letter": "B"
+  },
+  {
+    "id": "badminton",
+    "word": "badminton",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "羽毛球运动",
+    "letter": "B"
+  },
+  {
+    "id": "bag",
+    "word": "bag",
+    "phonetic": "/bæg/",
+    "pos": "",
+    "meaning": "包，书包",
+    "letter": "B"
+  },
+  {
+    "id": "ball",
+    "word": "ball",
+    "phonetic": "[bɔːl]",
+    "pos": "",
+    "meaning": "球",
+    "letter": "B"
+  },
+  {
+    "id": "balloon",
+    "word": "balloon",
+    "phonetic": "[ bə'lu:n ]",
+    "pos": "",
+    "meaning": "气球",
+    "letter": "B"
+  },
+  {
+    "id": "bamboo",
+    "word": "bamboo",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "竹子",
+    "letter": "B"
+  },
+  {
+    "id": "banana",
+    "word": "banana",
+    "phonetic": "[bə'nɑːnə]",
+    "pos": "",
+    "meaning": "香蕉",
+    "letter": "B"
+  },
+  {
+    "id": "bank",
+    "word": "bank",
+    "phonetic": "[bæŋk]",
+    "pos": "",
+    "meaning": "银行",
+    "letter": "B"
+  },
+  {
+    "id": "basket",
+    "word": "basket",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "篮，筐",
+    "letter": "B"
+  },
+  {
+    "id": "basketball",
+    "word": "basketball",
+    "phonetic": "['bæskɪtbɔːl]",
+    "pos": "",
+    "meaning": "篮球",
+    "letter": "B"
+  },
+  {
+    "id": "bathroom",
+    "word": "bathroom",
+    "phonetic": "/ˈbɑːθruːm/",
+    "pos": "",
+    "meaning": "浴室；洗手间",
+    "letter": "B"
+  },
+  {
+    "id": "be",
+    "word": "be",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "careful 小心",
+    "letter": "B"
+  },
+  {
+    "id": "be careful",
+    "word": "be careful",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "小心",
+    "letter": "B"
+  },
+  {
+    "id": "beach",
+    "word": "beach",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "海滩，沙滩",
+    "letter": "B"
+  },
+  {
+    "id": "bear",
+    "word": "bear",
+    "phonetic": "[beə]",
+    "pos": "",
+    "meaning": "熊",
+    "letter": "B"
+  },
+  {
+    "id": "beautiful",
+    "word": "beautiful",
+    "phonetic": "['bjuːtəfəl]",
+    "pos": "",
+    "meaning": "美丽的",
+    "letter": "B"
+  },
+  {
+    "id": "because",
+    "word": "because",
+    "phonetic": "[ bi'kɔz ]",
+    "pos": "",
+    "meaning": "因为",
+    "letter": "B"
+  },
+  {
+    "id": "become",
+    "word": "become",
+    "phonetic": "[bi'kʌm]",
+    "pos": "",
+    "meaning": "变成",
+    "letter": "B"
+  },
+  {
+    "id": "bed",
+    "word": "bed",
+    "phonetic": "[bed]",
+    "pos": "",
+    "meaning": "床",
+    "letter": "B"
+  },
+  {
+    "id": "bedroom",
+    "word": "bedroom",
+    "phonetic": "['bedrʊm]",
+    "pos": "",
+    "meaning": "卧室",
+    "letter": "B"
+  },
+  {
+    "id": "beef",
+    "word": "beef",
+    "phonetic": "[biːf]",
+    "pos": "",
+    "meaning": "牛肉",
+    "letter": "B"
+  },
+  {
+    "id": "before",
+    "word": "before",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "在\\.\\.\\. 之前",
+    "letter": "B"
+  },
+  {
+    "id": "behind",
+    "word": "behind",
+    "phonetic": "[bɪ'haɪnd]",
+    "pos": "",
+    "meaning": "在…… 后面",
+    "letter": "B"
+  },
+  {
+    "id": "beside",
+    "word": "beside",
+    "phonetic": "/bɪˈsaɪd/",
+    "pos": "",
+    "meaning": "在…旁边/附近",
+    "letter": "B"
+  },
+  {
+    "id": "best",
+    "word": "best",
+    "phonetic": "[best]",
+    "pos": "",
+    "meaning": "最、极",
+    "letter": "B"
+  },
+  {
+    "id": "better",
+    "word": "better",
+    "phonetic": "[ 'betə ]",
+    "pos": "",
+    "meaning": "更好的",
+    "letter": "B"
+  },
+  {
+    "id": "between",
+    "word": "between",
+    "phonetic": "[bɪ'twiːn]",
+    "pos": "",
+    "meaning": "在…… 中间",
+    "letter": "B"
+  },
+  {
+    "id": "big",
+    "word": "big",
+    "phonetic": "[ biɡ ]",
+    "pos": "",
+    "meaning": "大的 .",
+    "letter": "B"
+  },
+  {
+    "id": "bigger",
+    "word": "bigger",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更大的",
+    "letter": "B"
+  },
+  {
+    "id": "big—bigger",
+    "word": "big—bigger",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更大的",
+    "letter": "B"
+  },
+  {
+    "id": "bike",
+    "word": "bike",
+    "phonetic": "/baɪk/",
+    "pos": "",
+    "meaning": "自行车；脚踏车",
+    "letter": "B"
+  },
+  {
+    "id": "bird",
+    "word": "bird",
+    "phonetic": "[bɜːd]",
+    "pos": "",
+    "meaning": "鸟",
+    "letter": "B"
+  },
+  {
+    "id": "birthday",
+    "word": "birthday",
+    "phonetic": "[ 'bə:θdei ]",
+    "pos": "",
+    "meaning": "生日",
+    "letter": "B"
+  },
+  {
+    "id": "black",
+    "word": "black",
+    "phonetic": "[ blæk ]",
+    "pos": "",
+    "meaning": "黑色的",
+    "letter": "B"
+  },
+  {
+    "id": "blackboard",
+    "word": "blackboard",
+    "phonetic": "['blækbɔːd]",
+    "pos": "",
+    "meaning": "黑板",
+    "letter": "B"
+  },
+  {
+    "id": "blue",
+    "word": "blue",
+    "phonetic": "[ blu: ]",
+    "pos": "",
+    "meaning": "蓝色的",
+    "letter": "B"
+  },
+  {
+    "id": "board",
+    "word": "board",
+    "phonetic": "[ bɔ:d ]",
+    "pos": "",
+    "meaning": "写字板",
+    "letter": "B"
+  },
+  {
+    "id": "boat",
+    "word": "boat",
+    "phonetic": "[bəʊt]",
+    "pos": "",
+    "meaning": "小船",
+    "letter": "B"
+  },
+  {
+    "id": "boating",
+    "word": "boating",
+    "phonetic": "['bəʊtɪŋ]",
+    "pos": "",
+    "meaning": "划船",
+    "letter": "B"
+  },
+  {
+    "id": "body",
+    "word": "body",
+    "phonetic": "['bɒdi]",
+    "pos": "",
+    "meaning": "身体",
+    "letter": "B"
+  },
+  {
+    "id": "book",
+    "word": "book",
+    "phonetic": "[bʊk]",
+    "pos": "",
+    "meaning": "书",
+    "letter": "B"
+  },
+  {
+    "id": "bookstore",
+    "word": "bookstore",
+    "phonetic": "[bʊkstɔː]",
+    "pos": "",
+    "meaning": "书店",
+    "letter": "B"
+  },
+  {
+    "id": "boots",
+    "word": "boots",
+    "phonetic": "[ bu:ts ]",
+    "pos": "",
+    "meaning": "靴子",
+    "letter": "B"
+  },
+  {
+    "id": "bored",
+    "word": "bored",
+    "phonetic": "[ bɒ:d ]",
+    "pos": "",
+    "meaning": "无聊的",
+    "letter": "B"
+  },
+  {
+    "id": "both",
+    "word": "both",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "两个都",
+    "letter": "B"
+  },
+  {
+    "id": "bottle",
+    "word": "bottle",
+    "phonetic": "['bɒtl]",
+    "pos": "",
+    "meaning": "瓶子",
+    "letter": "B"
+  },
+  {
+    "id": "bought",
+    "word": "bought",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(buy的过去式) 买",
+    "letter": "B"
+  },
+  {
+    "id": "bounce",
+    "word": "bounce",
+    "phonetic": "[bauns]",
+    "pos": "",
+    "meaning": "反弹",
+    "letter": "B"
+  },
+  {
+    "id": "bowl",
+    "word": "bowl",
+    "phonetic": "[bəʊl]",
+    "pos": "",
+    "meaning": "碗",
+    "letter": "B"
+  },
+  {
+    "id": "box",
+    "word": "box",
+    "phonetic": "[bɒks]",
+    "pos": "",
+    "meaning": "盒；箱",
+    "letter": "B"
+  },
+  {
+    "id": "boy",
+    "word": "boy",
+    "phonetic": "[bɔɪ]",
+    "pos": "",
+    "meaning": "男孩",
+    "letter": "B"
+  },
+  {
+    "id": "bread",
+    "word": "bread",
+    "phonetic": "[bred]",
+    "pos": "",
+    "meaning": "面包",
+    "letter": "B"
+  },
+  {
+    "id": "breakfast",
+    "word": "breakfast",
+    "phonetic": "[ 'brekfəst ]",
+    "pos": "",
+    "meaning": "早餐.",
+    "letter": "B"
+  },
+  {
+    "id": "breath",
+    "word": "breath",
+    "phonetic": "[breθ]",
+    "pos": "",
+    "meaning": "呼吸",
+    "letter": "B"
+  },
+  {
+    "id": "bridge",
+    "word": "bridge",
+    "phonetic": "[brɪdʒ]",
+    "pos": "",
+    "meaning": "桥",
+    "letter": "B"
+  },
+  {
+    "id": "broken",
+    "word": "broken",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "破损的",
+    "letter": "B"
+  },
+  {
+    "id": "brother",
+    "word": "brother",
+    "phonetic": "['brʌðə]",
+    "pos": "",
+    "meaning": "兄；弟",
+    "letter": "B"
+  },
+  {
+    "id": "brown",
+    "word": "brown",
+    "phonetic": "[ braun ]",
+    "pos": "",
+    "meaning": "棕色的;褐色的",
+    "letter": "B"
+  },
+  {
+    "id": "building",
+    "word": "building",
+    "phonetic": "/ˈbɪldɪŋ/",
+    "pos": "",
+    "meaning": "建筑物；房子；楼房",
+    "letter": "B"
+  },
+  {
+    "id": "bunny",
+    "word": "bunny",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "兔子",
+    "letter": "B"
+  },
+  {
+    "id": "bus",
+    "word": "bus",
+    "phonetic": "[bʌs]",
+    "pos": "",
+    "meaning": "公共汽车",
+    "letter": "B"
+  },
+  {
+    "id": "businessman",
+    "word": "businessman",
+    "phonetic": "['bɪznəsmən]",
+    "pos": "",
+    "meaning": "商人；企业家",
+    "letter": "B"
+  },
+  {
+    "id": "busy",
+    "word": "busy",
+    "phonetic": "['bizi]",
+    "pos": "",
+    "meaning": "忙碌的",
+    "letter": "B"
+  },
+  {
+    "id": "but",
+    "word": "but",
+    "phonetic": "/bʌt/",
+    "pos": "",
+    "meaning": "但，但是",
+    "letter": "B"
+  },
+  {
+    "id": "buy",
+    "word": "buy",
+    "phonetic": "[ bai ]",
+    "pos": "",
+    "meaning": "（过去式bought[bɔ:t]）买",
+    "letter": "B"
+  },
+  {
+    "id": "buy—bought",
+    "word": "buy—bought",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "买",
+    "letter": "B"
+  },
+  {
+    "id": "by",
+    "word": "by",
+    "phonetic": "[baɪ]",
+    "pos": "",
+    "meaning": "（表示方式）乘",
+    "letter": "B"
+  },
+  {
+    "id": "bye",
+    "word": "bye",
+    "phonetic": "[ bai ]",
+    "pos": "",
+    "meaning": "再见（口语）",
+    "letter": "B"
+  },
+  {
+    "id": "cabbage",
+    "word": "cabbage",
+    "phonetic": "['kæbidʒ]",
+    "pos": "",
+    "meaning": "洋白菜;卷心菜",
+    "letter": "C"
+  },
+  {
+    "id": "cake",
+    "word": "cake",
+    "phonetic": "[keɪk]",
+    "pos": "",
+    "meaning": "蛋糕",
+    "letter": "C"
+  },
+  {
+    "id": "camp",
+    "word": "camp",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "野营",
+    "letter": "C"
+  },
+  {
+    "id": "can",
+    "word": "can",
+    "phonetic": "[ kæn ]",
+    "pos": "",
+    "meaning": "能够；可以",
+    "letter": "C"
+  },
+  {
+    "id": "canada",
+    "word": "Canada",
+    "phonetic": "['kænədə]",
+    "pos": "",
+    "meaning": "加拿大",
+    "letter": "C"
+  },
+  {
+    "id": "canadian",
+    "word": "Canadian",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "加拿大的；加拿大人",
+    "letter": "C"
+  },
+  {
+    "id": "canberra",
+    "word": "Canberra",
+    "phonetic": "[ˈkænbərə]",
+    "pos": "",
+    "meaning": "堪培拉（澳大利亚首都）",
+    "letter": "C"
+  },
+  {
+    "id": "candy",
+    "word": "candy",
+    "phonetic": "['kændi]",
+    "pos": "",
+    "meaning": "糖果",
+    "letter": "C"
+  },
+  {
+    "id": "canteen",
+    "word": "canteen",
+    "phonetic": "[ kæn'ti:n ]",
+    "pos": "",
+    "meaning": "食堂",
+    "letter": "C"
+  },
+  {
+    "id": "can—could",
+    "word": "can—could",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "能",
+    "letter": "C"
+  },
+  {
+    "id": "cap",
+    "word": "cap",
+    "phonetic": "[kæp]",
+    "pos": "",
+    "meaning": "帽子",
+    "letter": "C"
+  },
+  {
+    "id": "car",
+    "word": "car",
+    "phonetic": "[kɑː]",
+    "pos": "",
+    "meaning": "小汽车",
+    "letter": "C"
+  },
+  {
+    "id": "carrot",
+    "word": "carrot",
+    "phonetic": "['kærət]",
+    "pos": "",
+    "meaning": "胡萝卜",
+    "letter": "C"
+  },
+  {
+    "id": "cartoon",
+    "word": "cartoon",
+    "phonetic": "[kɑːˈtuːn]",
+    "pos": "",
+    "meaning": "漫画",
+    "letter": "C"
+  },
+  {
+    "id": "cat",
+    "word": "cat",
+    "phonetic": "[kæt]",
+    "pos": "",
+    "meaning": "猫",
+    "letter": "C"
+  },
+  {
+    "id": "catch butterflies",
+    "word": "catch butterflies",
+    "phonetic": "[kætʃ]['bʌtəflaiz]",
+    "pos": "",
+    "meaning": "捉蝴蝶",
+    "letter": "C"
+  },
+  {
+    "id": "cave",
+    "word": "cave",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "山洞；洞穴",
+    "letter": "C"
+  },
+  {
+    "id": "certainly",
+    "word": "certainly",
+    "phonetic": "[ 'sə:tənli ]",
+    "pos": "",
+    "meaning": "当然；可以",
+    "letter": "C"
+  },
+  {
+    "id": "chair",
+    "word": "chair",
+    "phonetic": "[tʃeə]",
+    "pos": "",
+    "meaning": "椅子",
+    "letter": "C"
+  },
+  {
+    "id": "chart",
+    "word": "chart",
+    "phonetic": "[ tʃɑ:t ]",
+    "pos": "",
+    "meaning": "图表",
+    "letter": "C"
+  },
+  {
+    "id": "chase",
+    "word": "chase",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "追赶",
+    "letter": "C"
+  },
+  {
+    "id": "cheap",
+    "word": "cheap",
+    "phonetic": "[tʃiːp]",
+    "pos": "",
+    "meaning": "便宜的",
+    "letter": "C"
+  },
+  {
+    "id": "cheetah",
+    "word": "cheetah",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "猎豹",
+    "letter": "C"
+  },
+  {
+    "id": "chicken",
+    "word": "chicken",
+    "phonetic": "['tʃɪkɪn]",
+    "pos": "",
+    "meaning": "鸡肉",
+    "letter": "C"
+  },
+  {
+    "id": "children",
+    "word": "children",
+    "phonetic": "['tʃɪldrən]",
+    "pos": "",
+    "meaning": "儿童 \\(child 的复数）",
+    "letter": "C"
+  },
+  {
+    "id": "children's center",
+    "word": "Children's Center",
+    "phonetic": "['tʃildrəns]['sentə]",
+    "pos": "",
+    "meaning": "儿童活动中心",
+    "letter": "C"
+  },
+  {
+    "id": "china",
+    "word": "china",
+    "phonetic": "['tʃainə]",
+    "pos": "n.",
+    "meaning": "中国;瓷器",
+    "letter": "C"
+  },
+  {
+    "id": "chinese",
+    "word": "Chinese",
+    "phonetic": "['tʃai'ni:z]",
+    "pos": "n.",
+    "meaning": "中文，汉语；中国人adj. 中国的，中国人的；中国话的",
+    "letter": "C"
+  },
+  {
+    "id": "chinese book",
+    "word": "Chinese book",
+    "phonetic": "[ buk ]",
+    "pos": "",
+    "meaning": "语文书",
+    "letter": "C"
+  },
+  {
+    "id": "chocolate",
+    "word": "chocolate",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "巧克力",
+    "letter": "C"
+  },
+  {
+    "id": "chopstick(s)",
+    "word": "chopstick(s)",
+    "phonetic": "['tʃɔpstik ]",
+    "pos": "",
+    "meaning": "筷子",
+    "letter": "C"
+  },
+  {
+    "id": "chopsticks",
+    "word": "chopsticks",
+    "phonetic": "['tʃɔpstiks]",
+    "pos": "",
+    "meaning": "筷子（复数）",
+    "letter": "C"
+  },
+  {
+    "id": "christmas",
+    "word": "Christmas",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "圣诞节",
+    "letter": "C"
+  },
+  {
+    "id": "cinema",
+    "word": "cinema",
+    "phonetic": "[ˈsɪnɪmə]",
+    "pos": "",
+    "meaning": "电影院",
+    "letter": "C"
+  },
+  {
+    "id": "city",
+    "word": "city",
+    "phonetic": "[ 'siti ]",
+    "pos": "n.",
+    "meaning": "城市",
+    "letter": "C"
+  },
+  {
+    "id": "class",
+    "word": "class",
+    "phonetic": "[ klɑ:s]",
+    "pos": "",
+    "meaning": "班级；课程",
+    "letter": "C"
+  },
+  {
+    "id": "classmate",
+    "word": "classmate",
+    "phonetic": "[ 'klɑ:smeit ]",
+    "pos": "",
+    "meaning": "同学",
+    "letter": "C"
+  },
+  {
+    "id": "classroom",
+    "word": "classroom",
+    "phonetic": "['klɑːsruːm]",
+    "pos": "",
+    "meaning": "教室",
+    "letter": "C"
+  },
+  {
+    "id": "clean",
+    "word": "clean",
+    "phonetic": "[kli:n]",
+    "pos": "adj.",
+    "meaning": "清洁的，干净的；vi.打扫，清扫",
+    "letter": "C"
+  },
+  {
+    "id": "clean my room",
+    "word": "clean my room",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "打扫我的房间",
+    "letter": "C"
+  },
+  {
+    "id": "clean the bedroom",
+    "word": "clean the bedroom",
+    "phonetic": "[ kli:n ][ ði:] ['bedrum]",
+    "pos": "",
+    "meaning": "打扫卧室",
+    "letter": "C"
+  },
+  {
+    "id": "clean the room",
+    "word": "clean the room",
+    "phonetic": "[kli:n][rum]['mju:zik]",
+    "pos": "",
+    "meaning": "打扫房间",
+    "letter": "C"
+  },
+  {
+    "id": "cleaned",
+    "word": "cleaned",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "打扫",
+    "letter": "C"
+  },
+  {
+    "id": "cleaner",
+    "word": "cleaner",
+    "phonetic": "['kli:nə]",
+    "pos": "n.",
+    "meaning": "清洁工",
+    "letter": "C"
+  },
+  {
+    "id": "clean—cleaned",
+    "word": "clean—cleaned",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "打扫",
+    "letter": "C"
+  },
+  {
+    "id": "clever",
+    "word": "clever",
+    "phonetic": "/ˈklevə(r)/",
+    "pos": "",
+    "meaning": "聪明的；聪颖的",
+    "letter": "C"
+  },
+  {
+    "id": "climb",
+    "word": "climb",
+    "phonetic": "[klaim]",
+    "pos": "",
+    "meaning": "（过去式climbed）爬",
+    "letter": "C"
+  },
+  {
+    "id": "climber",
+    "word": "climber",
+    "phonetic": "['klaimə]",
+    "pos": "",
+    "meaning": "攀登者",
+    "letter": "C"
+  },
+  {
+    "id": "climbing",
+    "word": "climbing",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）攀登；攀爬",
+    "letter": "C"
+  },
+  {
+    "id": "climbing mountains",
+    "word": "climbing mountains",
+    "phonetic": "['klaimiŋ]['mauntins]",
+    "pos": "",
+    "meaning": "爬山",
+    "letter": "C"
+  },
+  {
+    "id": "clock",
+    "word": "clock",
+    "phonetic": "/klɒk/",
+    "pos": "",
+    "meaning": "时钟；钟",
+    "letter": "C"
+  },
+  {
+    "id": "close",
+    "word": "close",
+    "phonetic": "[ kləuz ]",
+    "pos": "",
+    "meaning": "关上",
+    "letter": "C"
+  },
+  {
+    "id": "closet",
+    "word": "closet",
+    "phonetic": "[ 'klɔzit ]",
+    "pos": "n.",
+    "meaning": "壁橱,衣橱",
+    "letter": "C"
+  },
+  {
+    "id": "clothes",
+    "word": "clothes",
+    "phonetic": "[kləʊðz]",
+    "pos": "",
+    "meaning": "衣服",
+    "letter": "C"
+  },
+  {
+    "id": "cloud",
+    "word": "cloud",
+    "phonetic": "[klaud]",
+    "pos": "",
+    "meaning": "云；云彩",
+    "letter": "C"
+  },
+  {
+    "id": "cloudy",
+    "word": "cloudy",
+    "phonetic": "['klaʊdi]",
+    "pos": "",
+    "meaning": "阴天的",
+    "letter": "C"
+  },
+  {
+    "id": "club",
+    "word": "club",
+    "phonetic": "[klʌb]",
+    "pos": "",
+    "meaning": "俱乐部",
+    "letter": "C"
+  },
+  {
+    "id": "cm(centimeter)",
+    "word": "cm(centimeter)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "厘米",
+    "letter": "C"
+  },
+  {
+    "id": "coach",
+    "word": "coach",
+    "phonetic": "[kəʊtʃ]",
+    "pos": "",
+    "meaning": "教练",
+    "letter": "C"
+  },
+  {
+    "id": "coat",
+    "word": "coat",
+    "phonetic": "[kəʊt]",
+    "pos": "",
+    "meaning": "外套；大衣",
+    "letter": "C"
+  },
+  {
+    "id": "cock",
+    "word": "cock",
+    "phonetic": "[ kɔk ]",
+    "pos": "",
+    "meaning": "公鸡",
+    "letter": "C"
+  },
+  {
+    "id": "coffee",
+    "word": "coffee",
+    "phonetic": "[ 'kɔfi ]",
+    "pos": "",
+    "meaning": "咖啡",
+    "letter": "C"
+  },
+  {
+    "id": "coke",
+    "word": "Coke",
+    "phonetic": "[kəuk]",
+    "pos": "",
+    "meaning": "可乐",
+    "letter": "C"
+  },
+  {
+    "id": "cold",
+    "word": "cold",
+    "phonetic": "[ kəuld ]",
+    "pos": "",
+    "meaning": "寒冷的",
+    "letter": "C"
+  },
+  {
+    "id": "collect leaves",
+    "word": "collect leaves",
+    "phonetic": "[kə'lekt][li:vz]",
+    "pos": "",
+    "meaning": "收集树叶",
+    "letter": "C"
+  },
+  {
+    "id": "collect stamps",
+    "word": "collect stamps",
+    "phonetic": "[kə'lekt][stæmp]",
+    "pos": "",
+    "meaning": "集邮",
+    "letter": "C"
+  },
+  {
+    "id": "collecting stamps",
+    "word": "collecting stamps",
+    "phonetic": "[kə'lektiŋ]",
+    "pos": "",
+    "meaning": "集邮",
+    "letter": "C"
+  },
+  {
+    "id": "colour",
+    "word": "colour",
+    "phonetic": "[ 'kʌlə ]",
+    "pos": "",
+    "meaning": "颜色",
+    "letter": "C"
+  },
+  {
+    "id": "colourful",
+    "word": "colourful",
+    "phonetic": "['kʌləful ]",
+    "pos": "",
+    "meaning": "色彩丰富的",
+    "letter": "C"
+  },
+  {
+    "id": "come",
+    "word": "come",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "快；加油",
+    "letter": "C"
+  },
+  {
+    "id": "come from",
+    "word": "come from",
+    "phonetic": "[kʌm][frɔm]",
+    "pos": "",
+    "meaning": "来自…….;从………来",
+    "letter": "C"
+  },
+  {
+    "id": "come in",
+    "word": "Come in",
+    "phonetic": "[ kʌm ][in]",
+    "pos": "",
+    "meaning": "进来",
+    "letter": "C"
+  },
+  {
+    "id": "come on",
+    "word": "come on",
+    "phonetic": "[kʌm][ɔn]",
+    "pos": "",
+    "meaning": "用于祈使句以鼓励某人做某事，尤指促其加速或努力试一试",
+    "letter": "C"
+  },
+  {
+    "id": "come out",
+    "word": "come out",
+    "phonetic": "[kʌm][aut]",
+    "pos": "",
+    "meaning": "露出;出现",
+    "letter": "C"
+  },
+  {
+    "id": "comic",
+    "word": "comic",
+    "phonetic": "[ˈkɒmɪk]",
+    "pos": "",
+    "meaning": "滑稽的",
+    "letter": "C"
+  },
+  {
+    "id": "comic book",
+    "word": "comic book",
+    "phonetic": "['kɔmik][buk]",
+    "pos": "",
+    "meaning": "漫画书",
+    "letter": "C"
+  },
+  {
+    "id": "company",
+    "word": "company",
+    "phonetic": "['kɔmpəni]",
+    "pos": "",
+    "meaning": "公司",
+    "letter": "C"
+  },
+  {
+    "id": "computer",
+    "word": "computer",
+    "phonetic": "/kəmˈpjuːtə/",
+    "pos": "",
+    "meaning": "计算机；电脑",
+    "letter": "C"
+  },
+  {
+    "id": "computer game",
+    "word": "computer game",
+    "phonetic": "[ kəm'pju:tə][ ɡeim]",
+    "pos": "",
+    "meaning": "电脑游戏",
+    "letter": "C"
+  },
+  {
+    "id": "computer room",
+    "word": "computer room",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "计算机教室",
+    "letter": "C"
+  },
+  {
+    "id": "contest",
+    "word": "contest",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "比赛；竞赛",
+    "letter": "C"
+  },
+  {
+    "id": "cook",
+    "word": "cook",
+    "phonetic": "[ kuk ]",
+    "pos": "",
+    "meaning": "（过去式cooked）做（饭）",
+    "letter": "C"
+  },
+  {
+    "id": "cook dinner",
+    "word": "cook dinner",
+    "phonetic": "[kuk]['dinə]",
+    "pos": "",
+    "meaning": "做饭",
+    "letter": "C"
+  },
+  {
+    "id": "cook the meals",
+    "word": "cook the meals",
+    "phonetic": "[kuk][ ði:][ mi:ls ]",
+    "pos": "",
+    "meaning": "做饭",
+    "letter": "C"
+  },
+  {
+    "id": "cooking",
+    "word": "cooking",
+    "phonetic": "/ˈkʊkɪŋ/",
+    "pos": "",
+    "meaning": "烹饪；烹调",
+    "letter": "C"
+  },
+  {
+    "id": "cool",
+    "word": "cool",
+    "phonetic": "[ ku: ]",
+    "pos": "",
+    "meaning": "订好的；酷的",
+    "letter": "C"
+  },
+  {
+    "id": "could",
+    "word": "could",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(can的过去式) 能",
+    "letter": "C"
+  },
+  {
+    "id": "count",
+    "word": "count",
+    "phonetic": "/ kaunt/",
+    "pos": "",
+    "meaning": "数数",
+    "letter": "C"
+  },
+  {
+    "id": "count insects",
+    "word": "count insects",
+    "phonetic": "[kaunt]['insekts]",
+    "pos": "",
+    "meaning": "数昆虫",
+    "letter": "C"
+  },
+  {
+    "id": "count to ten",
+    "word": "count to ten",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "数到十",
+    "letter": "C"
+  },
+  {
+    "id": "country",
+    "word": "country",
+    "phonetic": "[ˈkʌntri]",
+    "pos": "",
+    "meaning": "国家",
+    "letter": "C"
+  },
+  {
+    "id": "countryside",
+    "word": "countryside",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "乡村",
+    "letter": "C"
+  },
+  {
+    "id": "cousin",
+    "word": "cousin",
+    "phonetic": "['kʌzn]",
+    "pos": "",
+    "meaning": "同辈表亲 \\(堂亲\\)",
+    "letter": "C"
+  },
+  {
+    "id": "cow",
+    "word": "cow",
+    "phonetic": "[kaʊ]",
+    "pos": "",
+    "meaning": "母牛；奶牛",
+    "letter": "C"
+  },
+  {
+    "id": "crayon",
+    "word": "crayon",
+    "phonetic": "['kreɪən]",
+    "pos": "",
+    "meaning": "蜡笔",
+    "letter": "C"
+  },
+  {
+    "id": "crossing",
+    "word": "crossing",
+    "phonetic": "[ˈkrɒsɪŋ]",
+    "pos": "",
+    "meaning": "十字路口",
+    "letter": "C"
+  },
+  {
+    "id": "cucumber",
+    "word": "cucumber",
+    "phonetic": "[ 'kju:kʌmbə ]",
+    "pos": "",
+    "meaning": "黄瓜",
+    "letter": "C"
+  },
+  {
+    "id": "curtain",
+    "word": "curtain",
+    "phonetic": "[ 'kə:tn ]",
+    "pos": "n.",
+    "meaning": "窗帘",
+    "letter": "C"
+  },
+  {
+    "id": "cute",
+    "word": "cute",
+    "phonetic": "[ kju:t ]",
+    "pos": "",
+    "meaning": "逗人喜爱的",
+    "letter": "C"
+  },
+  {
+    "id": "cycling",
+    "word": "cycling",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "骑自行车运动",
+    "letter": "C"
+  },
+  {
+    "id": "dad",
+    "word": "dad",
+    "phonetic": "[dæd]",
+    "pos": "",
+    "meaning": "爸爸（口语）",
+    "letter": "D"
+  },
+  {
+    "id": "dance",
+    "word": "dance",
+    "phonetic": "['dɑ:ns]",
+    "pos": "",
+    "meaning": "（过去式danced）跳舞",
+    "letter": "D"
+  },
+  {
+    "id": "dancing",
+    "word": "dancing",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "跳舞；舞蹈",
+    "letter": "D"
+  },
+  {
+    "id": "date",
+    "word": "date",
+    "phonetic": "[deit]",
+    "pos": "",
+    "meaning": "日期",
+    "letter": "D"
+  },
+  {
+    "id": "day",
+    "word": "day",
+    "phonetic": "[deɪ]",
+    "pos": "",
+    "meaning": "一天；一日",
+    "letter": "D"
+  },
+  {
+    "id": "dear",
+    "word": "Dear",
+    "phonetic": "[dɪə]",
+    "pos": "",
+    "meaning": "亲爱的",
+    "letter": "D"
+  },
+  {
+    "id": "december",
+    "word": "December",
+    "phonetic": "[di'sembə]",
+    "pos": "",
+    "meaning": "十二月",
+    "letter": "D"
+  },
+  {
+    "id": "deep",
+    "word": "deep",
+    "phonetic": "[diːp]",
+    "pos": "",
+    "meaning": "深的",
+    "letter": "D"
+  },
+  {
+    "id": "deer",
+    "word": "deer",
+    "phonetic": "[ diə ]",
+    "pos": "",
+    "meaning": "鹿",
+    "letter": "D"
+  },
+  {
+    "id": "degree",
+    "word": "degree",
+    "phonetic": "[dɪˈɡriː]",
+    "pos": "",
+    "meaning": "度",
+    "letter": "D"
+  },
+  {
+    "id": "delicious",
+    "word": "delicious",
+    "phonetic": "[dɪ'lɪʃəs]",
+    "pos": "",
+    "meaning": "美味的；可口的",
+    "letter": "D"
+  },
+  {
+    "id": "design",
+    "word": "design",
+    "phonetic": "[di'zain]",
+    "pos": "",
+    "meaning": "设计",
+    "letter": "D"
+  },
+  {
+    "id": "desk",
+    "word": "desk",
+    "phonetic": "[desk]",
+    "pos": "",
+    "meaning": "书桌",
+    "letter": "D"
+  },
+  {
+    "id": "diary",
+    "word": "diary",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "日记",
+    "letter": "D"
+  },
+  {
+    "id": "dictionary",
+    "word": "dictionary",
+    "phonetic": "['dikʃənəri]",
+    "pos": "",
+    "meaning": "词典;字典",
+    "letter": "D"
+  },
+  {
+    "id": "difference",
+    "word": "difference",
+    "phonetic": "['difərəns]",
+    "pos": "",
+    "meaning": "不同;区别",
+    "letter": "D"
+  },
+  {
+    "id": "different",
+    "word": "different",
+    "phonetic": "['difərənt]",
+    "pos": "",
+    "meaning": "不同的",
+    "letter": "D"
+  },
+  {
+    "id": "dinaosaur",
+    "word": "dinaosaur",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "恐龙",
+    "letter": "D"
+  },
+  {
+    "id": "dining",
+    "word": "dining",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "hall 饭厅",
+    "letter": "D"
+  },
+  {
+    "id": "dining hall",
+    "word": "dining hall",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "餐厅",
+    "letter": "D"
+  },
+  {
+    "id": "dinner",
+    "word": "dinner",
+    "phonetic": "[ 'dinə ]",
+    "pos": "",
+    "meaning": "晚餐；正餐",
+    "letter": "D"
+  },
+  {
+    "id": "dinosaur",
+    "word": "dinosaur",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "恐龙",
+    "letter": "D"
+  },
+  {
+    "id": "dirty",
+    "word": "dirty",
+    "phonetic": "['dɜːti]",
+    "pos": "",
+    "meaning": "肮脏的",
+    "letter": "D"
+  },
+  {
+    "id": "dive",
+    "word": "dive",
+    "phonetic": "[daiv]",
+    "pos": "",
+    "meaning": "跳水",
+    "letter": "D"
+  },
+  {
+    "id": "diving",
+    "word": "diving",
+    "phonetic": "['daiviŋ]",
+    "pos": "",
+    "meaning": "跳水",
+    "letter": "D"
+  },
+  {
+    "id": "do",
+    "word": "do",
+    "phonetic": "[ du ]",
+    "pos": "",
+    "meaning": "（过去式did [did]）vt. 做；完成；进行.",
+    "letter": "D"
+  },
+  {
+    "id": "do an experiment",
+    "word": "do an experiment",
+    "phonetic": "[æn][iks'perimənt][li:vz]",
+    "pos": "",
+    "meaning": "做实验",
+    "letter": "D"
+  },
+  {
+    "id": "do homework",
+    "word": "do homework",
+    "phonetic": "[ dəu ][ 'həumwə:k ]",
+    "pos": "",
+    "meaning": "做作业",
+    "letter": "D"
+  },
+  {
+    "id": "do housework",
+    "word": "do housework",
+    "phonetic": "[ du ][ 'haʊswə:k ]",
+    "pos": "",
+    "meaning": "做家务",
+    "letter": "D"
+  },
+  {
+    "id": "do kung fu",
+    "word": "do kung fu",
+    "phonetic": "/duː ˌkʌŋ ˈfuː/",
+    "pos": "",
+    "meaning": "练武术",
+    "letter": "D"
+  },
+  {
+    "id": "do morning exercise",
+    "word": "do morning exercise",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "做早操",
+    "letter": "D"
+  },
+  {
+    "id": "do morning exercises",
+    "word": "do morning exercises",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "做早操",
+    "letter": "D"
+  },
+  {
+    "id": "do the dishes",
+    "word": "do the dishes",
+    "phonetic": "['diʃiz ]",
+    "pos": "",
+    "meaning": "洗餐具",
+    "letter": "D"
+  },
+  {
+    "id": "doctor",
+    "word": "doctor",
+    "phonetic": "['dɒktə]",
+    "pos": "",
+    "meaning": "医生",
+    "letter": "D"
+  },
+  {
+    "id": "dog",
+    "word": "dog",
+    "phonetic": "[dɒg]",
+    "pos": "",
+    "meaning": "狗",
+    "letter": "D"
+  },
+  {
+    "id": "doing",
+    "word": "doing",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "morning exercises 正在晨练",
+    "letter": "D"
+  },
+  {
+    "id": "doing morning exercises",
+    "word": "doing morning exercises",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）做早操",
+    "letter": "D"
+  },
+  {
+    "id": "doll",
+    "word": "doll",
+    "phonetic": "[ dɔl ]",
+    "pos": "",
+    "meaning": "玩具娃娃",
+    "letter": "D"
+  },
+  {
+    "id": "dollar",
+    "word": "dollar",
+    "phonetic": "['dɒlə]",
+    "pos": "",
+    "meaning": "元 \\(美元等）",
+    "letter": "D"
+  },
+  {
+    "id": "donkey",
+    "word": "donkey",
+    "phonetic": "[ 'dɔŋki ]",
+    "pos": "",
+    "meaning": "驴子",
+    "letter": "D"
+  },
+  {
+    "id": "door",
+    "word": "door",
+    "phonetic": "[dɔː]",
+    "pos": "",
+    "meaning": "门",
+    "letter": "D"
+  },
+  {
+    "id": "down",
+    "word": "down",
+    "phonetic": "[daʊn]",
+    "pos": "",
+    "meaning": "减少；降低",
+    "letter": "D"
+  },
+  {
+    "id": "drank",
+    "word": "drank",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "喝",
+    "letter": "D"
+  },
+  {
+    "id": "draw",
+    "word": "draw",
+    "phonetic": "[ drɔ: ]",
+    "pos": "",
+    "meaning": "画画",
+    "letter": "D"
+  },
+  {
+    "id": "draw cartoon",
+    "word": "draw cartoon",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "画漫画",
+    "letter": "D"
+  },
+  {
+    "id": "draw cartoons",
+    "word": "draw cartoons",
+    "phonetic": "/drɔː/",
+    "pos": "",
+    "meaning": "画漫画",
+    "letter": "D"
+  },
+  {
+    "id": "draw pictures",
+    "word": "draw pictures",
+    "phonetic": "[drɔ:]['piktʃəs]",
+    "pos": "",
+    "meaning": "画画",
+    "letter": "D"
+  },
+  {
+    "id": "dream",
+    "word": "dream",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "梦",
+    "letter": "D"
+  },
+  {
+    "id": "dress",
+    "word": "dress",
+    "phonetic": "[dres]",
+    "pos": "",
+    "meaning": "连衣裙",
+    "letter": "D"
+  },
+  {
+    "id": "drink",
+    "word": "drink",
+    "phonetic": "[drɪŋk]",
+    "pos": "",
+    "meaning": "喝；饮",
+    "letter": "D"
+  },
+  {
+    "id": "drink ware",
+    "word": "drink ware",
+    "phonetic": "[driŋk][wεə]",
+    "pos": "",
+    "meaning": "喝水",
+    "letter": "D"
+  },
+  {
+    "id": "drink water",
+    "word": "drink water",
+    "phonetic": "[driŋk]['wɔ:tə]",
+    "pos": "",
+    "meaning": "喝水",
+    "letter": "D"
+  },
+  {
+    "id": "drinking",
+    "word": "drinking",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）喝",
+    "letter": "D"
+  },
+  {
+    "id": "drink—drank",
+    "word": "drink—drank",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "喝",
+    "letter": "D"
+  },
+  {
+    "id": "drive",
+    "word": "drive",
+    "phonetic": "[draiv]",
+    "pos": "",
+    "meaning": "驾驶",
+    "letter": "D"
+  },
+  {
+    "id": "driver",
+    "word": "driver",
+    "phonetic": "['draivə]",
+    "pos": "",
+    "meaning": "驾驶员",
+    "letter": "D"
+  },
+  {
+    "id": "drop",
+    "word": "drop",
+    "phonetic": "[drɔp]",
+    "pos": "",
+    "meaning": "(液体的)珠；滴",
+    "letter": "D"
+  },
+  {
+    "id": "duck",
+    "word": "duck",
+    "phonetic": "[dʌk]",
+    "pos": "",
+    "meaning": "鸭子",
+    "letter": "D"
+  },
+  {
+    "id": "dwon",
+    "word": "dwon",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "从高到低；向下",
+    "letter": "D"
+  },
+  {
+    "id": "e-card",
+    "word": "e-card",
+    "phonetic": "[ekɑ:d]",
+    "pos": "",
+    "meaning": "电子卡片",
+    "letter": "E"
+  },
+  {
+    "id": "each",
+    "word": "each",
+    "phonetic": "[i:tʃ]",
+    "pos": "",
+    "meaning": "各自；每个",
+    "letter": "E"
+  },
+  {
+    "id": "each other",
+    "word": "each other",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "相互",
+    "letter": "E"
+  },
+  {
+    "id": "ear",
+    "word": "ear",
+    "phonetic": "[ɪə]",
+    "pos": "",
+    "meaning": "耳朵",
+    "letter": "E"
+  },
+  {
+    "id": "early",
+    "word": "early",
+    "phonetic": "[ˈɜːli]",
+    "pos": "",
+    "meaning": "早到的",
+    "letter": "E"
+  },
+  {
+    "id": "east",
+    "word": "east",
+    "phonetic": "[i:st]",
+    "pos": "",
+    "meaning": "东",
+    "letter": "E"
+  },
+  {
+    "id": "easter",
+    "word": "Easter",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "party 复活节派对",
+    "letter": "E"
+  },
+  {
+    "id": "easy",
+    "word": "easy",
+    "phonetic": "['i:zi]",
+    "pos": "",
+    "meaning": "简单的",
+    "letter": "E"
+  },
+  {
+    "id": "eat",
+    "word": "eat",
+    "phonetic": "[i:t]",
+    "pos": "",
+    "meaning": "（过去式ate['ɑ:ti]）吃",
+    "letter": "E"
+  },
+  {
+    "id": "eat breakfast",
+    "word": "eat breakfast",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "吃早饭",
+    "letter": "E"
+  },
+  {
+    "id": "eat dinner",
+    "word": "eat dinner",
+    "phonetic": "[ 'dinə ]",
+    "pos": "",
+    "meaning": "吃晚饭",
+    "letter": "E"
+  },
+  {
+    "id": "eating",
+    "word": "eating",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "breakfast 正在吃早饭",
+    "letter": "E"
+  },
+  {
+    "id": "eating lunch",
+    "word": "eating lunch",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）吃午饭",
+    "letter": "E"
+  },
+  {
+    "id": "eat—ate",
+    "word": "eat—ate",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "吃",
+    "letter": "E"
+  },
+  {
+    "id": "egg",
+    "word": "egg",
+    "phonetic": "[ eɡ ]",
+    "pos": "",
+    "meaning": "鸡蛋",
+    "letter": "E"
+  },
+  {
+    "id": "eggplant",
+    "word": "eggplant",
+    "phonetic": "['egplænt]",
+    "pos": "n",
+    "meaning": "茄子",
+    "letter": "E"
+  },
+  {
+    "id": "eight",
+    "word": "eight",
+    "phonetic": "[eɪt]",
+    "pos": "",
+    "meaning": "八",
+    "letter": "E"
+  },
+  {
+    "id": "eighteen",
+    "word": "eighteen",
+    "phonetic": "['eɪ'tiːn]",
+    "pos": "",
+    "meaning": "十八",
+    "letter": "E"
+  },
+  {
+    "id": "eighth",
+    "word": "eighth",
+    "phonetic": "[eiθ]",
+    "pos": "",
+    "meaning": "第八",
+    "letter": "E"
+  },
+  {
+    "id": "eighty",
+    "word": "eighty",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "八十",
+    "letter": "E"
+  },
+  {
+    "id": "either",
+    "word": "either",
+    "phonetic": "[ 'aiðə ]",
+    "pos": "",
+    "meaning": "也",
+    "letter": "E"
+  },
+  {
+    "id": "elephant",
+    "word": "elephant",
+    "phonetic": "['elɪfənt]",
+    "pos": "",
+    "meaning": "大象",
+    "letter": "E"
+  },
+  {
+    "id": "eleven",
+    "word": "eleven",
+    "phonetic": "[ i'levən ]",
+    "pos": "",
+    "meaning": "十一 .",
+    "letter": "E"
+  },
+  {
+    "id": "eleventh",
+    "word": "eleventh",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(11th\\) 第十一",
+    "letter": "E"
+  },
+  {
+    "id": "else",
+    "word": "else",
+    "phonetic": "[els]",
+    "pos": "",
+    "meaning": "其他；另外",
+    "letter": "E"
+  },
+  {
+    "id": "email",
+    "word": "email",
+    "phonetic": "['iːmeɪl]",
+    "pos": "",
+    "meaning": "电子邮件",
+    "letter": "E"
+  },
+  {
+    "id": "empty the trash",
+    "word": "empty the trash",
+    "phonetic": "['empti][ði:][træʃ]",
+    "pos": "",
+    "meaning": "倒垃圾",
+    "letter": "E"
+  },
+  {
+    "id": "end",
+    "word": "end",
+    "phonetic": "[end]",
+    "pos": "n.",
+    "meaning": "1.最后部分, 末尾 2.端, 尽头, 梢 3.终止, 结局",
+    "letter": "E"
+  },
+  {
+    "id": "end table",
+    "word": "end table",
+    "phonetic": "[ end]['teibl ]",
+    "pos": "",
+    "meaning": "床头柜",
+    "letter": "E"
+  },
+  {
+    "id": "engineer",
+    "word": "engineer",
+    "phonetic": "[,endʒi'niə]",
+    "pos": "",
+    "meaning": "工程师",
+    "letter": "E"
+  },
+  {
+    "id": "england",
+    "word": "England",
+    "phonetic": "['iŋglənd]",
+    "pos": "n.",
+    "meaning": "英格兰;英国",
+    "letter": "E"
+  },
+  {
+    "id": "english",
+    "word": "English",
+    "phonetic": "[ 'iŋgliʃ ]",
+    "pos": "",
+    "meaning": "a.英国的；英国人的；英语的n.英语；英国人",
+    "letter": "E"
+  },
+  {
+    "id": "english book",
+    "word": "English book",
+    "phonetic": "/ˈɪŋglɪʃ/",
+    "pos": "",
+    "meaning": "英语书",
+    "letter": "E"
+  },
+  {
+    "id": "english class",
+    "word": "English class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "英语课",
+    "letter": "E"
+  },
+  {
+    "id": "english songs",
+    "word": "English songs",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "唱英文歌曲",
+    "letter": "E"
+  },
+  {
+    "id": "enjoy",
+    "word": "enjoy",
+    "phonetic": "[in'dʒɔi]",
+    "pos": "",
+    "meaning": "从…获得乐趣；享受",
+    "letter": "E"
+  },
+  {
+    "id": "eraser",
+    "word": "eraser",
+    "phonetic": "[ɪ'reɪzə]",
+    "pos": "",
+    "meaning": "橡皮",
+    "letter": "E"
+  },
+  {
+    "id": "even",
+    "word": "even",
+    "phonetic": "['i:vən]",
+    "pos": "",
+    "meaning": "甚至",
+    "letter": "E"
+  },
+  {
+    "id": "evening",
+    "word": "evening",
+    "phonetic": "[ˈiːvnɪŋ]",
+    "pos": "",
+    "meaning": "晚上；傍晚",
+    "letter": "E"
+  },
+  {
+    "id": "every",
+    "word": "every",
+    "phonetic": "['evri]",
+    "pos": "",
+    "meaning": "每一个；每个",
+    "letter": "E"
+  },
+  {
+    "id": "everyone",
+    "word": "everyone",
+    "phonetic": "['evriwʌn]",
+    "pos": "",
+    "meaning": "每个人",
+    "letter": "E"
+  },
+  {
+    "id": "everywhere",
+    "word": "everywhere",
+    "phonetic": "['evrihweə]",
+    "pos": "",
+    "meaning": "处处；到处",
+    "letter": "E"
+  },
+  {
+    "id": "excited",
+    "word": "excited",
+    "phonetic": "[ik'saitid]",
+    "pos": "",
+    "meaning": "兴奋的激动的",
+    "letter": "E"
+  },
+  {
+    "id": "excuse me",
+    "word": "excuse me",
+    "phonetic": "[iks'kju:z][mi:]",
+    "pos": "",
+    "meaning": "对不起",
+    "letter": "E"
+  },
+  {
+    "id": "exercise",
+    "word": "exercise",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "活动；运动",
+    "letter": "E"
+  },
+  {
+    "id": "exhibition",
+    "word": "exhibition",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "展览",
+    "letter": "E"
+  },
+  {
+    "id": "expensive",
+    "word": "expensive",
+    "phonetic": "[ɪks'pensɪv]",
+    "pos": "",
+    "meaning": "昂贵的",
+    "letter": "E"
+  },
+  {
+    "id": "eye",
+    "word": "eye",
+    "phonetic": "[aɪ]",
+    "pos": "",
+    "meaning": "眼睛",
+    "letter": "E"
+  },
+  {
+    "id": "face",
+    "word": "face",
+    "phonetic": "[feɪs]",
+    "pos": "",
+    "meaning": "脸",
+    "letter": "F"
+  },
+  {
+    "id": "factory",
+    "word": "factory",
+    "phonetic": "[ˈfæktəri]",
+    "pos": "",
+    "meaning": "工厂",
+    "letter": "F"
+  },
+  {
+    "id": "fail",
+    "word": "fail",
+    "phonetic": "[ feil ]",
+    "pos": "",
+    "meaning": "不及格；失败",
+    "letter": "F"
+  },
+  {
+    "id": "fall",
+    "word": "fall",
+    "phonetic": "[fɔ:l]",
+    "pos": "",
+    "meaning": "落下;跌落;降落;掉下",
+    "letter": "F"
+  },
+  {
+    "id": "fall—fell",
+    "word": "fall—fell",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "摔倒",
+    "letter": "F"
+  },
+  {
+    "id": "family",
+    "word": "family",
+    "phonetic": "['fæmɪli]",
+    "pos": "",
+    "meaning": "家；家庭",
+    "letter": "F"
+  },
+  {
+    "id": "fan",
+    "word": "fan",
+    "phonetic": "[ fæn ]",
+    "pos": "",
+    "meaning": "扇子；电扇",
+    "letter": "F"
+  },
+  {
+    "id": "far",
+    "word": "far",
+    "phonetic": "[fɑː]",
+    "pos": "",
+    "meaning": "较远的",
+    "letter": "F"
+  },
+  {
+    "id": "farm",
+    "word": "farm",
+    "phonetic": "[ fɑ:m ]",
+    "pos": "n.",
+    "meaning": "农场,农田",
+    "letter": "F"
+  },
+  {
+    "id": "farmer",
+    "word": "farmer",
+    "phonetic": "['fɑ:mə]",
+    "pos": "n.",
+    "meaning": "农夫，农民",
+    "letter": "F"
+  },
+  {
+    "id": "fast",
+    "word": "fast",
+    "phonetic": "[fɑːst]",
+    "pos": "",
+    "meaning": "快的",
+    "letter": "F"
+  },
+  {
+    "id": "faster",
+    "word": "faster",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更快的",
+    "letter": "F"
+  },
+  {
+    "id": "fast—faster",
+    "word": "fast—faster",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更快的",
+    "letter": "F"
+  },
+  {
+    "id": "fat",
+    "word": "fat",
+    "phonetic": "[fæt]",
+    "pos": "",
+    "meaning": "胖的；肥的",
+    "letter": "F"
+  },
+  {
+    "id": "father",
+    "word": "father",
+    "phonetic": "['fɑːðə]",
+    "pos": "",
+    "meaning": "父亲；爸爸",
+    "letter": "F"
+  },
+  {
+    "id": "favorite",
+    "word": "favorite",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "特别喜爱的",
+    "letter": "F"
+  },
+  {
+    "id": "favourite",
+    "word": "favourite",
+    "phonetic": "[ 'feivərit]",
+    "pos": "",
+    "meaning": "a.特别喜爱的;最喜爱的",
+    "letter": "F"
+  },
+  {
+    "id": "feature",
+    "word": "feature",
+    "phonetic": "[ˈfiːtʃə]",
+    "pos": "",
+    "meaning": "特点",
+    "letter": "F"
+  },
+  {
+    "id": "february",
+    "word": "February",
+    "phonetic": "[ 'februəri ]",
+    "pos": "",
+    "meaning": "二月",
+    "letter": "F"
+  },
+  {
+    "id": "feed",
+    "word": "feed",
+    "phonetic": "[ fi:d ]",
+    "pos": "",
+    "meaning": "喂养",
+    "letter": "F"
+  },
+  {
+    "id": "feel",
+    "word": "feel",
+    "phonetic": "['fi:l]",
+    "pos": "",
+    "meaning": "感觉到；感受到",
+    "letter": "F"
+  },
+  {
+    "id": "feel—felt",
+    "word": "feel—felt",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "感觉",
+    "letter": "F"
+  },
+  {
+    "id": "feet",
+    "word": "feet",
+    "phonetic": "[fi:t]",
+    "pos": "",
+    "meaning": "脚（复数）",
+    "letter": "F"
+  },
+  {
+    "id": "fell",
+    "word": "fell",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(fall的过去式) 摔倒",
+    "letter": "F"
+  },
+  {
+    "id": "felt",
+    "word": "felt",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(feel的过去式) 感觉",
+    "letter": "F"
+  },
+  {
+    "id": "ferry",
+    "word": "ferry",
+    "phonetic": "[ˈferi]",
+    "pos": "",
+    "meaning": "轮渡",
+    "letter": "F"
+  },
+  {
+    "id": "festival",
+    "word": "festival",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "节日",
+    "letter": "F"
+  },
+  {
+    "id": "few",
+    "word": "few",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "不多；很少",
+    "letter": "F"
+  },
+  {
+    "id": "fifteen",
+    "word": "fifteen",
+    "phonetic": "['fɪf'tiːn]",
+    "pos": "",
+    "meaning": "十五",
+    "letter": "F"
+  },
+  {
+    "id": "fifth",
+    "word": "fifth",
+    "phonetic": "[fifθ]",
+    "pos": "",
+    "meaning": "第五；五分之一",
+    "letter": "F"
+  },
+  {
+    "id": "fifth (5th)",
+    "word": "fifth (5th)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第五的",
+    "letter": "F"
+  },
+  {
+    "id": "fifty",
+    "word": "fifty",
+    "phonetic": "[ 'fifti ]",
+    "pos": "",
+    "meaning": "五十",
+    "letter": "F"
+  },
+  {
+    "id": "fight",
+    "word": "fight",
+    "phonetic": "[fait]",
+    "pos": "",
+    "meaning": "打架",
+    "letter": "F"
+  },
+  {
+    "id": "film",
+    "word": "film",
+    "phonetic": "[fɪlm]",
+    "pos": "",
+    "meaning": "电影",
+    "letter": "F"
+  },
+  {
+    "id": "find",
+    "word": "find",
+    "phonetic": "[faind]",
+    "pos": "",
+    "meaning": "寻找；找到",
+    "letter": "F"
+  },
+  {
+    "id": "fine",
+    "word": "fine",
+    "phonetic": "[ fain ]",
+    "pos": "",
+    "meaning": "好的",
+    "letter": "F"
+  },
+  {
+    "id": "finger",
+    "word": "finger",
+    "phonetic": "[ 'fiŋɡə ]",
+    "pos": "",
+    "meaning": "手指",
+    "letter": "F"
+  },
+  {
+    "id": "finish",
+    "word": "finish",
+    "phonetic": "['fɪnɪʃ]",
+    "pos": "",
+    "meaning": "完成；做好",
+    "letter": "F"
+  },
+  {
+    "id": "first",
+    "word": "first",
+    "phonetic": "[ fə:st ]",
+    "pos": "",
+    "meaning": "第一",
+    "letter": "F"
+  },
+  {
+    "id": "first (1st)",
+    "word": "first (1st)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第一的",
+    "letter": "F"
+  },
+  {
+    "id": "first floor",
+    "word": "first floor",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "一楼",
+    "letter": "F"
+  },
+  {
+    "id": "fish",
+    "word": "fish",
+    "phonetic": "[ fiʃ ]",
+    "pos": "",
+    "meaning": "鱼 .",
+    "letter": "F"
+  },
+  {
+    "id": "fisherman",
+    "word": "fisherman",
+    "phonetic": "[ˈfɪʃəmən]",
+    "pos": "",
+    "meaning": "渔民",
+    "letter": "F"
+  },
+  {
+    "id": "five",
+    "word": "five",
+    "phonetic": "[faɪv]",
+    "pos": "",
+    "meaning": "五",
+    "letter": "F"
+  },
+  {
+    "id": "fixed",
+    "word": "fixed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "修理",
+    "letter": "F"
+  },
+  {
+    "id": "fix—fixed",
+    "word": "fix—fixed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "修理",
+    "letter": "F"
+  },
+  {
+    "id": "flat",
+    "word": "flat",
+    "phonetic": "[ flæt ]",
+    "pos": "",
+    "meaning": "公寓",
+    "letter": "F"
+  },
+  {
+    "id": "floor",
+    "word": "floor",
+    "phonetic": "[flɔː]",
+    "pos": "",
+    "meaning": "地板",
+    "letter": "F"
+  },
+  {
+    "id": "flower",
+    "word": "flower",
+    "phonetic": "['flaʊə]",
+    "pos": "",
+    "meaning": "花；花朵",
+    "letter": "F"
+  },
+  {
+    "id": "flu",
+    "word": "flu",
+    "phonetic": "[ flu: ]",
+    "pos": "",
+    "meaning": "流感",
+    "letter": "F"
+  },
+  {
+    "id": "fly",
+    "word": "fly",
+    "phonetic": "[ flai ]",
+    "pos": "",
+    "meaning": "（过去式flew [flu:]）飞",
+    "letter": "F"
+  },
+  {
+    "id": "fly kites",
+    "word": "Fly kites",
+    "phonetic": "[ flai ]",
+    "pos": "",
+    "meaning": "放风筝",
+    "letter": "F"
+  },
+  {
+    "id": "follow",
+    "word": "follow",
+    "phonetic": "[ˈfɒləʊ]",
+    "pos": "",
+    "meaning": "跟着",
+    "letter": "F"
+  },
+  {
+    "id": "food",
+    "word": "food",
+    "phonetic": "[fuːd]",
+    "pos": "",
+    "meaning": "食物",
+    "letter": "F"
+  },
+  {
+    "id": "fool",
+    "word": "fool",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "蠢人；傻瓜",
+    "letter": "F"
+  },
+  {
+    "id": "foot",
+    "word": "foot",
+    "phonetic": "[fut]",
+    "pos": "",
+    "meaning": "脚,足",
+    "letter": "F"
+  },
+  {
+    "id": "football",
+    "word": "football",
+    "phonetic": "['futbɔ:l]",
+    "pos": "",
+    "meaning": "足球",
+    "letter": "F"
+  },
+  {
+    "id": "football player",
+    "word": "football player",
+    "phonetic": "/ˈfʊtbɔːl/",
+    "pos": "",
+    "meaning": "足球运动员",
+    "letter": "F"
+  },
+  {
+    "id": "for",
+    "word": "for",
+    "phonetic": "[fɔ: ]",
+    "pos": "",
+    "meaning": "为；给",
+    "letter": "F"
+  },
+  {
+    "id": "forest",
+    "word": "forest",
+    "phonetic": "['fɒrɪst]",
+    "pos": "",
+    "meaning": "森林；林区",
+    "letter": "F"
+  },
+  {
+    "id": "fork",
+    "word": "fork",
+    "phonetic": "[fɔːk]",
+    "pos": "",
+    "meaning": "餐叉",
+    "letter": "F"
+  },
+  {
+    "id": "forty",
+    "word": "forty",
+    "phonetic": "['fɔːti]",
+    "pos": "",
+    "meaning": "四十",
+    "letter": "F"
+  },
+  {
+    "id": "forty-on",
+    "word": "forty-on",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "四十一",
+    "letter": "F"
+  },
+  {
+    "id": "four",
+    "word": "four",
+    "phonetic": "[fɔː]",
+    "pos": "",
+    "meaning": "四",
+    "letter": "F"
+  },
+  {
+    "id": "fourteen",
+    "word": "fourteen",
+    "phonetic": "['fɔː'tiːn]",
+    "pos": "",
+    "meaning": "十四",
+    "letter": "F"
+  },
+  {
+    "id": "fourth",
+    "word": "fourth",
+    "phonetic": "[fɔ:θ]",
+    "pos": "",
+    "meaning": "第四",
+    "letter": "F"
+  },
+  {
+    "id": "fourth (4th)",
+    "word": "fourth (4th)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第四的",
+    "letter": "F"
+  },
+  {
+    "id": "fox",
+    "word": "fox",
+    "phonetic": "[ fɔks ]",
+    "pos": "",
+    "meaning": "狐狸",
+    "letter": "F"
+  },
+  {
+    "id": "french",
+    "word": "French",
+    "phonetic": "[ frentʃ]",
+    "pos": "",
+    "meaning": "法国的；法国人；法语；法语的",
+    "letter": "F"
+  },
+  {
+    "id": "french fries",
+    "word": "French fries",
+    "phonetic": "[fraiz]",
+    "pos": "",
+    "meaning": "炸薯条",
+    "letter": "F"
+  },
+  {
+    "id": "fresh",
+    "word": "fresh",
+    "phonetic": "[freʃ]",
+    "pos": "",
+    "meaning": "新鲜的；刚摘的",
+    "letter": "F"
+  },
+  {
+    "id": "friday",
+    "word": "Friday",
+    "phonetic": "['fraɪdi]",
+    "pos": "",
+    "meaning": "星期五",
+    "letter": "F"
+  },
+  {
+    "id": "fridge",
+    "word": "fridge",
+    "phonetic": "[frɪdʒ]",
+    "pos": "",
+    "meaning": "冰箱",
+    "letter": "F"
+  },
+  {
+    "id": "friend",
+    "word": "friend",
+    "phonetic": "[frend]",
+    "pos": "",
+    "meaning": "朋友",
+    "letter": "F"
+  },
+  {
+    "id": "friendly",
+    "word": "friendly",
+    "phonetic": "['frendli]",
+    "pos": "",
+    "meaning": "友好的",
+    "letter": "F"
+  },
+  {
+    "id": "from",
+    "word": "from",
+    "phonetic": "[ frɔm ]",
+    "pos": "",
+    "meaning": "从;来自.",
+    "letter": "F"
+  },
+  {
+    "id": "front",
+    "word": "front",
+    "phonetic": "/frʌnt/",
+    "pos": "",
+    "meaning": "前面，正面",
+    "letter": "F"
+  },
+  {
+    "id": "fruit",
+    "word": "fruit",
+    "phonetic": "[fruːt]",
+    "pos": "",
+    "meaning": "水果",
+    "letter": "F"
+  },
+  {
+    "id": "fun",
+    "word": "fun",
+    "phonetic": "[fʌn]",
+    "pos": "n.",
+    "meaning": "玩笑;有趣的事",
+    "letter": "F"
+  },
+  {
+    "id": "funnier",
+    "word": "funnier",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更滑稽的",
+    "letter": "F"
+  },
+  {
+    "id": "funny",
+    "word": "funny",
+    "phonetic": "['fʌni]",
+    "pos": "",
+    "meaning": "滑稽的；好笑的",
+    "letter": "F"
+  },
+  {
+    "id": "fur",
+    "word": "fur",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "浓密的软毛",
+    "letter": "F"
+  },
+  {
+    "id": "fɑ:ðə ] (",
+    "word": "fɑ:ðə ] (",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "外)祖父",
+    "letter": "F"
+  },
+  {
+    "id": "game",
+    "word": "game",
+    "phonetic": "[ geim ]",
+    "pos": "",
+    "meaning": "比赛；游戏",
+    "letter": "G"
+  },
+  {
+    "id": "garden",
+    "word": "garden",
+    "phonetic": "['gɑːdn]",
+    "pos": "",
+    "meaning": "花园；菜园",
+    "letter": "G"
+  },
+  {
+    "id": "gave",
+    "word": "gave",
+    "phonetic": "[ɡeɪv]",
+    "pos": "",
+    "meaning": "（give 的过去式）提供；交给",
+    "letter": "G"
+  },
+  {
+    "id": "germany",
+    "word": "Germany",
+    "phonetic": "[ˈdʒɜːməni]",
+    "pos": "",
+    "meaning": "德国",
+    "letter": "G"
+  },
+  {
+    "id": "get",
+    "word": "get",
+    "phonetic": "[ get ]",
+    "pos": "",
+    "meaning": "(过去式got [gɔt])到达",
+    "letter": "G"
+  },
+  {
+    "id": "get off",
+    "word": "get off",
+    "phonetic": "[get][ɔ:f]",
+    "pos": "",
+    "meaning": "下车",
+    "letter": "G"
+  },
+  {
+    "id": "get to",
+    "word": "get to",
+    "phonetic": "[get][tu:]",
+    "pos": "",
+    "meaning": "到达",
+    "letter": "G"
+  },
+  {
+    "id": "get together",
+    "word": "get together",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "聚会",
+    "letter": "G"
+  },
+  {
+    "id": "get up",
+    "word": "get up",
+    "phonetic": "['getʌp]",
+    "pos": "",
+    "meaning": "起床",
+    "letter": "G"
+  },
+  {
+    "id": "gift",
+    "word": "gift",
+    "phonetic": "[ ɡift ]",
+    "pos": "",
+    "meaning": "礼物",
+    "letter": "G"
+  },
+  {
+    "id": "giraffe",
+    "word": "giraffe",
+    "phonetic": "[dʒɪˈrɑːf]",
+    "pos": "",
+    "meaning": "长颈鹿",
+    "letter": "G"
+  },
+  {
+    "id": "girl",
+    "word": "girl",
+    "phonetic": "[gɜːl]",
+    "pos": "",
+    "meaning": "女孩",
+    "letter": "G"
+  },
+  {
+    "id": "glasses",
+    "word": "glasses",
+    "phonetic": "['glɑːsɪz]",
+    "pos": "",
+    "meaning": "眼镜",
+    "letter": "G"
+  },
+  {
+    "id": "glove",
+    "word": "glove",
+    "phonetic": "[ɡlʌv]",
+    "pos": "",
+    "meaning": "手套",
+    "letter": "G"
+  },
+  {
+    "id": "gloves",
+    "word": "gloves",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "手套",
+    "letter": "G"
+  },
+  {
+    "id": "go",
+    "word": "go",
+    "phonetic": "[ gəu ]",
+    "pos": "",
+    "meaning": "（过去式went [went]）去",
+    "letter": "G"
+  },
+  {
+    "id": "go boating",
+    "word": "go boating",
+    "phonetic": "/gəʊ/",
+    "pos": "",
+    "meaning": "去划船",
+    "letter": "G"
+  },
+  {
+    "id": "go cycling",
+    "word": "go cycling",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去骑自行车",
+    "letter": "G"
+  },
+  {
+    "id": "go fishing",
+    "word": "go fishing",
+    "phonetic": "[ 'fiʃiŋ ]",
+    "pos": "",
+    "meaning": "去钓鱼",
+    "letter": "G"
+  },
+  {
+    "id": "go for a walk",
+    "word": "go for a walk",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去散步",
+    "letter": "G"
+  },
+  {
+    "id": "go hiking",
+    "word": "go hiking",
+    "phonetic": "[ 'haikiŋ ]",
+    "pos": "",
+    "meaning": "去远足",
+    "letter": "G"
+  },
+  {
+    "id": "go home",
+    "word": "go home",
+    "phonetic": "[ həum ]",
+    "pos": "",
+    "meaning": "回家",
+    "letter": "G"
+  },
+  {
+    "id": "go ice-skating",
+    "word": "go ice-skating",
+    "phonetic": "[ ais ][ 'skeitiŋ ]",
+    "pos": "",
+    "meaning": "去滑冰",
+    "letter": "G"
+  },
+  {
+    "id": "go on a picnic",
+    "word": "go on a picnic",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去野餐",
+    "letter": "G"
+  },
+  {
+    "id": "go shopping",
+    "word": "go shopping",
+    "phonetic": "['ʃɔpiŋ ]",
+    "pos": "",
+    "meaning": "购物 买东西",
+    "letter": "G"
+  },
+  {
+    "id": "go skiing",
+    "word": "go skiing",
+    "phonetic": "[ 'ski:iŋ ]",
+    "pos": "",
+    "meaning": "去滑雪",
+    "letter": "G"
+  },
+  {
+    "id": "go swimming",
+    "word": "go swimming",
+    "phonetic": "['swimiŋ]",
+    "pos": "",
+    "meaning": "去游泳",
+    "letter": "G"
+  },
+  {
+    "id": "go to bed",
+    "word": "go to bed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "上床睡觉",
+    "letter": "G"
+  },
+  {
+    "id": "go to school",
+    "word": "go to school",
+    "phonetic": "[sku:l]",
+    "pos": "",
+    "meaning": "上学",
+    "letter": "G"
+  },
+  {
+    "id": "go to the playground",
+    "word": "go to the playground",
+    "phonetic": "[ 'pleiɡraund ]",
+    "pos": "",
+    "meaning": "去操场",
+    "letter": "G"
+  },
+  {
+    "id": "go tothe cinema",
+    "word": "Go tothe cinema",
+    "phonetic": "[gəu][tu:][ðə]['sinimə]",
+    "pos": "",
+    "meaning": "去看电影",
+    "letter": "G"
+  },
+  {
+    "id": "goal",
+    "word": "goal",
+    "phonetic": "[ gəul ]",
+    "pos": "",
+    "meaning": "得分数.",
+    "letter": "G"
+  },
+  {
+    "id": "goat",
+    "word": "goat",
+    "phonetic": "[ɡəʊt]",
+    "pos": "",
+    "meaning": "山羊",
+    "letter": "G"
+  },
+  {
+    "id": "goes",
+    "word": "goes",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去",
+    "letter": "G"
+  },
+  {
+    "id": "good",
+    "word": "good",
+    "phonetic": "[ɡud]",
+    "pos": "",
+    "meaning": "好的好的的",
+    "letter": "G"
+  },
+  {
+    "id": "good bay",
+    "word": "Good bay",
+    "phonetic": "['ɡud'bai]",
+    "pos": "",
+    "meaning": "再见",
+    "letter": "G"
+  },
+  {
+    "id": "good job",
+    "word": "good job",
+    "phonetic": "[dʒɔb]",
+    "pos": "",
+    "meaning": "干得好",
+    "letter": "G"
+  },
+  {
+    "id": "goose",
+    "word": "goose",
+    "phonetic": "[ɡu:s]",
+    "pos": "",
+    "meaning": "鹅",
+    "letter": "G"
+  },
+  {
+    "id": "go—went",
+    "word": "go—went",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去",
+    "letter": "G"
+  },
+  {
+    "id": "gps",
+    "word": "GPS",
+    "phonetic": "[dʒiː piː es]",
+    "pos": "",
+    "meaning": "全球（卫星）定位系统",
+    "letter": "G"
+  },
+  {
+    "id": "grandfather",
+    "word": "grandfather",
+    "phonetic": "['grændˌfɑːðə]",
+    "pos": "",
+    "meaning": "（外）祖父",
+    "letter": "G"
+  },
+  {
+    "id": "grandma",
+    "word": "grandma",
+    "phonetic": "['grændmɑ:]",
+    "pos": "",
+    "meaning": "（口语）（外）祖母",
+    "letter": "G"
+  },
+  {
+    "id": "grandmother",
+    "word": "grandmother",
+    "phonetic": "['grænˌmʌðə]",
+    "pos": "",
+    "meaning": "\\(外\\) 祖母",
+    "letter": "G"
+  },
+  {
+    "id": "grandpa",
+    "word": "grandpa",
+    "phonetic": "['grændpɑ:]",
+    "pos": "",
+    "meaning": "（口语）（外）祖父",
+    "letter": "G"
+  },
+  {
+    "id": "grandparent",
+    "word": "grandparent",
+    "phonetic": "/ˈgrænpeərənt/",
+    "pos": "",
+    "meaning": "祖父/祖母；外祖父/外祖母",
+    "letter": "G"
+  },
+  {
+    "id": "grape",
+    "word": "grape",
+    "phonetic": "[greɪp]",
+    "pos": "",
+    "meaning": "葡萄",
+    "letter": "G"
+  },
+  {
+    "id": "grass",
+    "word": "grass",
+    "phonetic": "/ grAs/",
+    "pos": "",
+    "meaning": "草坪",
+    "letter": "G"
+  },
+  {
+    "id": "great",
+    "word": "great",
+    "phonetic": "[ ɡreit ]",
+    "pos": "",
+    "meaning": "很好的",
+    "letter": "G"
+  },
+  {
+    "id": "green",
+    "word": "green",
+    "phonetic": "[ ɡri:n ]",
+    "pos": "",
+    "meaning": "绿色的",
+    "letter": "G"
+  },
+  {
+    "id": "green beans",
+    "word": "green beans",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "豆角；四季豆",
+    "letter": "G"
+  },
+  {
+    "id": "guess",
+    "word": "guess",
+    "phonetic": "[ ɡes ]",
+    "pos": "",
+    "meaning": "猜测",
+    "letter": "G"
+  },
+  {
+    "id": "gym",
+    "word": "gym",
+    "phonetic": "[dʒɪm]",
+    "pos": "",
+    "meaning": "体育馆",
+    "letter": "G"
+  },
+  {
+    "id": "had",
+    "word": "had",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "a cold 感冒",
+    "letter": "H"
+  },
+  {
+    "id": "had a cold",
+    "word": "had a cold",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "感冒",
+    "letter": "H"
+  },
+  {
+    "id": "hair",
+    "word": "hair",
+    "phonetic": "[hɛə]",
+    "pos": "",
+    "meaning": "长头发",
+    "letter": "H"
+  },
+  {
+    "id": "half",
+    "word": "half",
+    "phonetic": "[hɑːf]",
+    "pos": "",
+    "meaning": "一半",
+    "letter": "H"
+  },
+  {
+    "id": "hall",
+    "word": "hall",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "大厅",
+    "letter": "H"
+  },
+  {
+    "id": "halloween",
+    "word": "Halloween",
+    "phonetic": "[ 'hæləu'i:n ]",
+    "pos": "",
+    "meaning": "万圣节前夕",
+    "letter": "H"
+  },
+  {
+    "id": "hamburger",
+    "word": "hamburger",
+    "phonetic": "['hæmbɜːgə]",
+    "pos": "",
+    "meaning": "汉堡包",
+    "letter": "H"
+  },
+  {
+    "id": "hand",
+    "word": "hand",
+    "phonetic": "[hænd]",
+    "pos": "",
+    "meaning": "手",
+    "letter": "H"
+  },
+  {
+    "id": "happy",
+    "word": "happy",
+    "phonetic": "[ 'hæpi ]",
+    "pos": "",
+    "meaning": "快乐的；幸福的",
+    "letter": "H"
+  },
+  {
+    "id": "hard-working",
+    "word": "hard-working",
+    "phonetic": "/ˌhɑːdˈwɜːkɪŋ/",
+    "pos": "",
+    "meaning": "努力工作的；勤劳的",
+    "letter": "H"
+  },
+  {
+    "id": "hardly",
+    "word": "hardly",
+    "phonetic": "['hɑ:dli]",
+    "pos": "",
+    "meaning": "几乎没有；几乎不",
+    "letter": "H"
+  },
+  {
+    "id": "has",
+    "word": "has",
+    "phonetic": "[ hæz ]",
+    "pos": "",
+    "meaning": "有",
+    "letter": "H"
+  },
+  {
+    "id": "hat",
+    "word": "hat",
+    "phonetic": "[hæt]",
+    "pos": "",
+    "meaning": "帽子",
+    "letter": "H"
+  },
+  {
+    "id": "have",
+    "word": "have",
+    "phonetic": "[ hæv]",
+    "pos": "",
+    "meaning": "（过去式had[ hæd]）有",
+    "letter": "H"
+  },
+  {
+    "id": "have ... class",
+    "word": "have ... class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "上...课",
+    "letter": "H"
+  },
+  {
+    "id": "have a cold",
+    "word": "have a cold",
+    "phonetic": "[ kəuld ]",
+    "pos": "",
+    "meaning": "感冒;伤风",
+    "letter": "H"
+  },
+  {
+    "id": "have a headache",
+    "word": "have a headache",
+    "phonetic": "['hedeik ]",
+    "pos": "",
+    "meaning": "头疼.",
+    "letter": "H"
+  },
+  {
+    "id": "have a look",
+    "word": "have a look",
+    "phonetic": "[ luk ]",
+    "pos": "",
+    "meaning": "看一看",
+    "letter": "H"
+  },
+  {
+    "id": "have a picnic",
+    "word": "have a picnic",
+    "phonetic": "[hæv]['piknik]",
+    "pos": "",
+    "meaning": "举行野餐",
+    "letter": "H"
+  },
+  {
+    "id": "have a sore throat",
+    "word": "have a sore throat",
+    "phonetic": "[sɔ:][ θrəut ]",
+    "pos": "",
+    "meaning": "喉咙疼",
+    "letter": "H"
+  },
+  {
+    "id": "have a toothache",
+    "word": "have a toothache",
+    "phonetic": "[ 'tu:θeik ]",
+    "pos": "",
+    "meaning": "牙疼",
+    "letter": "H"
+  },
+  {
+    "id": "have a try",
+    "word": "have a try",
+    "phonetic": "[ hæv][trai ]",
+    "pos": "",
+    "meaning": "试一试",
+    "letter": "H"
+  },
+  {
+    "id": "have to",
+    "word": "have to",
+    "phonetic": "[ hæv ][ tu: ]",
+    "pos": "",
+    "meaning": "不得不",
+    "letter": "H"
+  },
+  {
+    "id": "have...class",
+    "word": "have...class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "上……课",
+    "letter": "H"
+  },
+  {
+    "id": "have—had",
+    "word": "have—had",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "得病",
+    "letter": "H"
+  },
+  {
+    "id": "having....class",
+    "word": "having....class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）上....课",
+    "letter": "H"
+  },
+  {
+    "id": "having...class",
+    "word": "having...class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "上……课",
+    "letter": "H"
+  },
+  {
+    "id": "he",
+    "word": "he",
+    "phonetic": "[hiː]",
+    "pos": "",
+    "meaning": "他",
+    "letter": "H"
+  },
+  {
+    "id": "head",
+    "word": "head",
+    "phonetic": "[hed]",
+    "pos": "",
+    "meaning": "头",
+    "letter": "H"
+  },
+  {
+    "id": "head teacher",
+    "word": "head teacher",
+    "phonetic": "[hed ˈtiːtʃə]",
+    "pos": "",
+    "meaning": "校长",
+    "letter": "H"
+  },
+  {
+    "id": "healthy",
+    "word": "healthy",
+    "phonetic": "['helθi]",
+    "pos": "",
+    "meaning": "a.健康的;有益健康的",
+    "letter": "H"
+  },
+  {
+    "id": "hear",
+    "word": "hear",
+    "phonetic": "[ hiə ]",
+    "pos": "",
+    "meaning": "听见；听到",
+    "letter": "H"
+  },
+  {
+    "id": "heavier",
+    "word": "heavier",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更重的",
+    "letter": "H"
+  },
+  {
+    "id": "heavy",
+    "word": "heavy",
+    "phonetic": "[ 'hevi ]",
+    "pos": "",
+    "meaning": "重的；沉重的",
+    "letter": "H"
+  },
+  {
+    "id": "heavy—heavier",
+    "word": "heavy—heavier",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更重的",
+    "letter": "H"
+  },
+  {
+    "id": "hello",
+    "word": "hello",
+    "phonetic": "[hə'ləu]",
+    "pos": "",
+    "meaning": "喂",
+    "letter": "H"
+  },
+  {
+    "id": "helmet",
+    "word": "helmet",
+    "phonetic": "[ˈhelmɪt]",
+    "pos": "",
+    "meaning": "头盔",
+    "letter": "H"
+  },
+  {
+    "id": "help",
+    "word": "help",
+    "phonetic": "[help]",
+    "pos": "",
+    "meaning": "帮助",
+    "letter": "H"
+  },
+  {
+    "id": "help yourself",
+    "word": "help yourself",
+    "phonetic": "/help/",
+    "pos": "",
+    "meaning": "为（自己）取用",
+    "letter": "H"
+  },
+  {
+    "id": "helpful",
+    "word": "helpful",
+    "phonetic": "[ 'helpful ]",
+    "pos": "",
+    "meaning": "a. 有帮助的,有益的",
+    "letter": "H"
+  },
+  {
+    "id": "hen",
+    "word": "hen",
+    "phonetic": "[hen]",
+    "pos": "",
+    "meaning": "母鸡",
+    "letter": "H"
+  },
+  {
+    "id": "her",
+    "word": "her",
+    "phonetic": "[hɜː]",
+    "pos": "",
+    "meaning": "她的",
+    "letter": "H"
+  },
+  {
+    "id": "here",
+    "word": "here",
+    "phonetic": "[ hiə ]",
+    "pos": "",
+    "meaning": "这儿；这里",
+    "letter": "H"
+  },
+  {
+    "id": "here you are",
+    "word": "here you are",
+    "phonetic": "[hiə]",
+    "pos": "",
+    "meaning": "给你",
+    "letter": "H"
+  },
+  {
+    "id": "hers",
+    "word": "hers",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "她的",
+    "letter": "H"
+  },
+  {
+    "id": "hi",
+    "word": "hi",
+    "phonetic": "[ hai ]",
+    "pos": "",
+    "meaning": "喂",
+    "letter": "H"
+  },
+  {
+    "id": "high",
+    "word": "high",
+    "phonetic": "[haɪ]",
+    "pos": "",
+    "meaning": "高的",
+    "letter": "H"
+  },
+  {
+    "id": "hiking",
+    "word": "hiking",
+    "phonetic": "[haɪkɪŋ]",
+    "pos": "",
+    "meaning": "远足",
+    "letter": "H"
+  },
+  {
+    "id": "hill",
+    "word": "hill",
+    "phonetic": "[hɪl]",
+    "pos": "",
+    "meaning": "山丘；小山",
+    "letter": "H"
+  },
+  {
+    "id": "him",
+    "word": "him",
+    "phonetic": "[hɪm]",
+    "pos": "",
+    "meaning": "他（宾语或表语\\)",
+    "letter": "H"
+  },
+  {
+    "id": "his",
+    "word": "his",
+    "phonetic": "[hɪz]",
+    "pos": "",
+    "meaning": "他的",
+    "letter": "H"
+  },
+  {
+    "id": "his friend is a tall, slim girl with a straight nose",
+    "word": "His friend is a tall, slim girl with a straight nose",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "他的朋友是位鼻子挺直,身材高而苗条的姑娘",
+    "letter": "H"
+  },
+  {
+    "id": "his friend is a tall, slim girl with a straight nose.",
+    "word": "His friend is a tall, slim girl with a straight nose.",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "他的朋友是位鼻子挺直,身材高而苗条的姑娘",
+    "letter": "H"
+  },
+  {
+    "id": "hobby",
+    "word": "hobby",
+    "phonetic": "[ˈhɒbi]",
+    "pos": "",
+    "meaning": "业余爱好",
+    "letter": "H"
+  },
+  {
+    "id": "holiday",
+    "word": "holiday",
+    "phonetic": "[ 'hɔlədi ]",
+    "pos": "n.",
+    "meaning": "假期,假日",
+    "letter": "H"
+  },
+  {
+    "id": "homework",
+    "word": "homework",
+    "phonetic": "['həʊmwɜːk]",
+    "pos": "",
+    "meaning": "作业",
+    "letter": "H"
+  },
+  {
+    "id": "honey",
+    "word": "honey",
+    "phonetic": "['hʌni]",
+    "pos": "",
+    "meaning": "蜂蜜",
+    "letter": "H"
+  },
+  {
+    "id": "hong kong",
+    "word": "Hong Kong",
+    "phonetic": "[hɔŋ]",
+    "pos": "",
+    "meaning": "香港",
+    "letter": "H"
+  },
+  {
+    "id": "horse",
+    "word": "horse",
+    "phonetic": "[hɔːs]",
+    "pos": "",
+    "meaning": "马",
+    "letter": "H"
+  },
+  {
+    "id": "hospital",
+    "word": "hospital",
+    "phonetic": "[ˈhɒspɪtl]",
+    "pos": "",
+    "meaning": "医院",
+    "letter": "H"
+  },
+  {
+    "id": "hot",
+    "word": "hot",
+    "phonetic": "/hɒt/",
+    "pos": "",
+    "meaning": "辣的；辛辣的",
+    "letter": "H"
+  },
+  {
+    "id": "hot dog",
+    "word": "hot dog",
+    "phonetic": "[hɔt ][dɔɡ]",
+    "pos": "",
+    "meaning": "热狗",
+    "letter": "H"
+  },
+  {
+    "id": "hotel",
+    "word": "hotel",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "旅馆",
+    "letter": "H"
+  },
+  {
+    "id": "house",
+    "word": "house",
+    "phonetic": "/haʊs/",
+    "pos": "",
+    "meaning": "房屋；房子；住宅",
+    "letter": "H"
+  },
+  {
+    "id": "how",
+    "word": "how",
+    "phonetic": "[ hau ]",
+    "pos": "",
+    "meaning": "多么；怎么样",
+    "letter": "H"
+  },
+  {
+    "id": "how about",
+    "word": "how about",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "……怎么样？……情况如何？",
+    "letter": "H"
+  },
+  {
+    "id": "how many",
+    "word": "how many",
+    "phonetic": "[ 'meni ]",
+    "pos": "",
+    "meaning": "多少后接可数名词复数形式",
+    "letter": "H"
+  },
+  {
+    "id": "how much",
+    "word": "how much",
+    "phonetic": "[ mʌtʃ ]",
+    "pos": "",
+    "meaning": "多少，后接不可数名词或多少钱",
+    "letter": "H"
+  },
+  {
+    "id": "how old",
+    "word": "how old",
+    "phonetic": "[hau][ əuld ]",
+    "pos": "",
+    "meaning": "几岁",
+    "letter": "H"
+  },
+  {
+    "id": "however",
+    "word": "however",
+    "phonetic": "[hau'evə]",
+    "pos": "",
+    "meaning": "1、但是;2 无论如何,不管怎样",
+    "letter": "H"
+  },
+  {
+    "id": "however hot it is, he will not take off his coat",
+    "word": "However hot it is, he will not take off his coat",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "无论多热,他也不会脱掉外衣",
+    "letter": "H"
+  },
+  {
+    "id": "however hot it is, he will not take off his coat.",
+    "word": "However hot it is, he will not take off his coat.",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "无论多热,他也不会脱掉外衣",
+    "letter": "H"
+  },
+  {
+    "id": "hundred",
+    "word": "hundred",
+    "phonetic": "[ 'hʌndrəd ]",
+    "pos": "",
+    "meaning": "百",
+    "letter": "H"
+  },
+  {
+    "id": "hungry",
+    "word": "hungry",
+    "phonetic": "[ 'hʌŋɡri ]",
+    "pos": "",
+    "meaning": "饥饿的",
+    "letter": "H"
+  },
+  {
+    "id": "hurry",
+    "word": "hurry",
+    "phonetic": "[ 'hʌri ]",
+    "pos": "",
+    "meaning": "抓紧；赶快",
+    "letter": "H"
+  },
+  {
+    "id": "hurry up",
+    "word": "hurry up",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "快点",
+    "letter": "H"
+  },
+  {
+    "id": "hurt",
+    "word": "hurt",
+    "phonetic": "[hɜːt]",
+    "pos": "",
+    "meaning": "（使）受伤",
+    "letter": "H"
+  },
+  {
+    "id": "hurt—hurt",
+    "word": "hurt—hurt",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "受伤",
+    "letter": "H"
+  },
+  {
+    "id": "i would like to",
+    "word": "I would like to",
+    "phonetic": "[ ai][ wud ] [ laik][tu:]",
+    "pos": "",
+    "meaning": "想要. 例：我现在想看书 I want to read now.=I would like to read now",
+    "letter": "I"
+  },
+  {
+    "id": "ice",
+    "word": "ice",
+    "phonetic": "[ais]",
+    "pos": "",
+    "meaning": "冰",
+    "letter": "I"
+  },
+  {
+    "id": "ice cream",
+    "word": "ice cream",
+    "phonetic": "/ˌaɪsˈkriːm/",
+    "pos": "",
+    "meaning": "冰淇淋",
+    "letter": "I"
+  },
+  {
+    "id": "ice-cream",
+    "word": "ice-cream",
+    "phonetic": "['aiskri:m]",
+    "pos": "",
+    "meaning": "冰激凌",
+    "letter": "I"
+  },
+  {
+    "id": "ice-skate",
+    "word": "ice-skate",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "滑冰",
+    "letter": "I"
+  },
+  {
+    "id": "idea",
+    "word": "idea",
+    "phonetic": "[aɪˈdɪə]",
+    "pos": "",
+    "meaning": "想法；主意",
+    "letter": "I"
+  },
+  {
+    "id": "if",
+    "word": "if",
+    "phonetic": "[ɪf]",
+    "pos": "",
+    "meaning": "如果",
+    "letter": "I"
+  },
+  {
+    "id": "ill",
+    "word": "ill",
+    "phonetic": "[ il]",
+    "pos": "",
+    "meaning": "a.坏的,有病的",
+    "letter": "I"
+  },
+  {
+    "id": "in",
+    "word": "in",
+    "phonetic": "[ɪn]",
+    "pos": "",
+    "meaning": "在…… 里面",
+    "letter": "I"
+  },
+  {
+    "id": "in front of",
+    "word": "in front of",
+    "phonetic": "/ɪn/",
+    "pos": "",
+    "meaning": "在...前面",
+    "letter": "I"
+  },
+  {
+    "id": "interesting",
+    "word": "interesting",
+    "phonetic": "[ˈɪntrəstɪŋ]",
+    "pos": "",
+    "meaning": "有趣的",
+    "letter": "I"
+  },
+  {
+    "id": "internet",
+    "word": "Internet",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "互联网",
+    "letter": "I"
+  },
+  {
+    "id": "into",
+    "word": "into",
+    "phonetic": "['intu:]",
+    "pos": "",
+    "meaning": "进入；到……里面",
+    "letter": "I"
+  },
+  {
+    "id": "is",
+    "word": "is",
+    "phonetic": "[ iz ]",
+    "pos": "",
+    "meaning": "是",
+    "letter": "I"
+  },
+  {
+    "id": "island",
+    "word": "island",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "岛",
+    "letter": "I"
+  },
+  {
+    "id": "it",
+    "word": "it",
+    "phonetic": "[ it ]",
+    "pos": "",
+    "meaning": "它",
+    "letter": "I"
+  },
+  {
+    "id": "italian",
+    "word": "Italian",
+    "phonetic": "[ɪˈtæljən]",
+    "pos": "",
+    "meaning": "意大利的",
+    "letter": "I"
+  },
+  {
+    "id": "its",
+    "word": "its",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "它的",
+    "letter": "I"
+  },
+  {
+    "id": "jacket",
+    "word": "jacket",
+    "phonetic": "['dʒækɪt]",
+    "pos": "",
+    "meaning": "夹克衫",
+    "letter": "J"
+  },
+  {
+    "id": "january",
+    "word": "January",
+    "phonetic": "[ 'dʒænjuəri ]",
+    "pos": "",
+    "meaning": "一月",
+    "letter": "J"
+  },
+  {
+    "id": "jasmine",
+    "word": "jasmine",
+    "phonetic": "['dʒæzmɪn]",
+    "pos": "",
+    "meaning": "茉莉",
+    "letter": "J"
+  },
+  {
+    "id": "jeans",
+    "word": "jeans",
+    "phonetic": "[dʒi:nz]",
+    "pos": "",
+    "meaning": "牛仔裤",
+    "letter": "J"
+  },
+  {
+    "id": "jeep",
+    "word": "jeep",
+    "phonetic": "[ dʒi:p ]",
+    "pos": "",
+    "meaning": "吉普车",
+    "letter": "J"
+  },
+  {
+    "id": "job",
+    "word": "job",
+    "phonetic": "[dʒɒb]",
+    "pos": "",
+    "meaning": "工作",
+    "letter": "J"
+  },
+  {
+    "id": "join",
+    "word": "join",
+    "phonetic": "[dʒɔɪn]",
+    "pos": "",
+    "meaning": "加入",
+    "letter": "J"
+  },
+  {
+    "id": "juice",
+    "word": "juice",
+    "phonetic": "[dʒuːs]",
+    "pos": "",
+    "meaning": "果汁",
+    "letter": "J"
+  },
+  {
+    "id": "july",
+    "word": "July",
+    "phonetic": "[ dʒu:'lai ]",
+    "pos": "",
+    "meaning": "七月",
+    "letter": "J"
+  },
+  {
+    "id": "jump",
+    "word": "jump",
+    "phonetic": "[ dʒʌmp ]",
+    "pos": "",
+    "meaning": "跳",
+    "letter": "J"
+  },
+  {
+    "id": "jumping",
+    "word": "jumping",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）跳",
+    "letter": "J"
+  },
+  {
+    "id": "june",
+    "word": "June",
+    "phonetic": "[ dʒu:n ]",
+    "pos": "",
+    "meaning": "六月",
+    "letter": "J"
+  },
+  {
+    "id": "just",
+    "word": "just",
+    "phonetic": "[dʒʌst]",
+    "pos": "",
+    "meaning": "正好；恰好",
+    "letter": "J"
+  },
+  {
+    "id": "just a minute",
+    "word": "just a minute",
+    "phonetic": "['minit]",
+    "pos": "",
+    "meaning": "再多一会",
+    "letter": "J"
+  },
+  {
+    "id": "just do it",
+    "word": "just do it",
+    "phonetic": "[ dʒʌst ][ dəu ][it]",
+    "pos": "v.",
+    "meaning": "就这么干吧；说做就做",
+    "letter": "J"
+  },
+  {
+    "id": "kangaroo",
+    "word": "kangaroo",
+    "phonetic": "[ ,kænɡə'ru: ]",
+    "pos": "",
+    "meaning": "袋鼠",
+    "letter": "K"
+  },
+  {
+    "id": "keep",
+    "word": "keep",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "your desk clean 保持你的桌面整洁",
+    "letter": "K"
+  },
+  {
+    "id": "keep to the right",
+    "word": "keep to the right",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "靠右",
+    "letter": "K"
+  },
+  {
+    "id": "keep your desk clean",
+    "word": "keep your desk clean",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "保持你的课桌干净",
+    "letter": "K"
+  },
+  {
+    "id": "key",
+    "word": "key",
+    "phonetic": "[kiː]",
+    "pos": "",
+    "meaning": "钥匙",
+    "letter": "K"
+  },
+  {
+    "id": "kg(kilogram)",
+    "word": "kg(kilogram)",
+    "phonetic": "['kiləuɡræm]",
+    "pos": "",
+    "meaning": "千克；公斤",
+    "letter": "K"
+  },
+  {
+    "id": "kick",
+    "word": "kick",
+    "phonetic": "[ kik ]",
+    "pos": "",
+    "meaning": "踢",
+    "letter": "K"
+  },
+  {
+    "id": "kid",
+    "word": "kid",
+    "phonetic": "[ kid ]",
+    "pos": "",
+    "meaning": "小孩；孩子",
+    "letter": "K"
+  },
+  {
+    "id": "killer whale",
+    "word": "killer whale",
+    "phonetic": "['kɪlə]",
+    "pos": "",
+    "meaning": "虎鲸",
+    "letter": "K"
+  },
+  {
+    "id": "kilogram",
+    "word": "kilogram",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "千克；公斤",
+    "letter": "K"
+  },
+  {
+    "id": "kind",
+    "word": "kind",
+    "phonetic": "/kaɪnd/",
+    "pos": "",
+    "meaning": "体贴的；慈祥的；宽容的",
+    "letter": "K"
+  },
+  {
+    "id": "kitchen",
+    "word": "kitchen",
+    "phonetic": "['kɪtʃɪn]",
+    "pos": "",
+    "meaning": "厨房",
+    "letter": "K"
+  },
+  {
+    "id": "kite",
+    "word": "kite",
+    "phonetic": "[kaɪt]",
+    "pos": "",
+    "meaning": "风筝",
+    "letter": "K"
+  },
+  {
+    "id": "kitten",
+    "word": "kitten",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "小猫",
+    "letter": "K"
+  },
+  {
+    "id": "knife",
+    "word": "knife",
+    "phonetic": "[naɪf]",
+    "pos": "",
+    "meaning": "刀",
+    "letter": "K"
+  },
+  {
+    "id": "know",
+    "word": "know",
+    "phonetic": "[nəʊ]",
+    "pos": "",
+    "meaning": "知道；了解",
+    "letter": "K"
+  },
+  {
+    "id": "kung",
+    "word": "kung",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "fu 功夫；武术",
+    "letter": "K"
+  },
+  {
+    "id": "kung fu",
+    "word": "kung fu",
+    "phonetic": "/ˌkʌŋ ˈfuː/",
+    "pos": "",
+    "meaning": "功夫；武术",
+    "letter": "K"
+  },
+  {
+    "id": "labour",
+    "word": "Labour",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "Day 劳动节",
+    "letter": "L"
+  },
+  {
+    "id": "labour day",
+    "word": "Labour Day",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "劳动节",
+    "letter": "L"
+  },
+  {
+    "id": "lady",
+    "word": "Lady",
+    "phonetic": "[ 'leidi ]",
+    "pos": "",
+    "meaning": "女士;小姐’夫人",
+    "letter": "L"
+  },
+  {
+    "id": "lake",
+    "word": "lake",
+    "phonetic": "[leɪk]",
+    "pos": "",
+    "meaning": "湖；湖泊",
+    "letter": "L"
+  },
+  {
+    "id": "lamb",
+    "word": "lamb",
+    "phonetic": "[ læm ]",
+    "pos": "",
+    "meaning": "小羊；羔羊",
+    "letter": "L"
+  },
+  {
+    "id": "lamp",
+    "word": "lamp",
+    "phonetic": "[ læmp ]",
+    "pos": "",
+    "meaning": "台灯",
+    "letter": "L"
+  },
+  {
+    "id": "last",
+    "word": "last",
+    "phonetic": "[ lɑ:st ]",
+    "pos": "",
+    "meaning": "仅余的;留在最后的",
+    "letter": "L"
+  },
+  {
+    "id": "late",
+    "word": "late",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "晚；迟",
+    "letter": "L"
+  },
+  {
+    "id": "laugh at",
+    "word": "laugh at",
+    "phonetic": "[ lɑ:f ][ æt ]",
+    "pos": "",
+    "meaning": "因…而发笑. . .",
+    "letter": "L"
+  },
+  {
+    "id": "laughed",
+    "word": "laughed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(laugh的过去式) 笑",
+    "letter": "L"
+  },
+  {
+    "id": "laugh—laughed",
+    "word": "laugh—laughed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "笑",
+    "letter": "L"
+  },
+  {
+    "id": "leaf",
+    "word": "leaf",
+    "phonetic": "[ li:f ][ li:vz ]",
+    "pos": "",
+    "meaning": "（复数leaves）叶子",
+    "letter": "L"
+  },
+  {
+    "id": "leaf (leaves)",
+    "word": "leaf (leaves)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "叶子",
+    "letter": "L"
+  },
+  {
+    "id": "learn",
+    "word": "learn",
+    "phonetic": "[lə:n ]",
+    "pos": "",
+    "meaning": "（过去式learned ['lə:nid]）学习",
+    "letter": "L"
+  },
+  {
+    "id": "leave",
+    "word": "leave",
+    "phonetic": "[ li:v ]",
+    "pos": "",
+    "meaning": "(过去式left[left])",
+    "letter": "L"
+  },
+  {
+    "id": "left",
+    "word": "left",
+    "phonetic": "[left]",
+    "pos": "",
+    "meaning": "左边的",
+    "letter": "L"
+  },
+  {
+    "id": "leg",
+    "word": "leg",
+    "phonetic": "[leg]",
+    "pos": "",
+    "meaning": "腿",
+    "letter": "L"
+  },
+  {
+    "id": "lesson",
+    "word": "lesson",
+    "phonetic": "[ˈlesn]",
+    "pos": "",
+    "meaning": "课",
+    "letter": "L"
+  },
+  {
+    "id": "letter",
+    "word": "letter",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "信",
+    "letter": "L"
+  },
+  {
+    "id": "library",
+    "word": "library",
+    "phonetic": "['laɪbrəri]",
+    "pos": "",
+    "meaning": "图书馆",
+    "letter": "L"
+  },
+  {
+    "id": "licked",
+    "word": "licked",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(lick的过去式) 舔",
+    "letter": "L"
+  },
+  {
+    "id": "lick—licked",
+    "word": "lick—licked",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "舔",
+    "letter": "L"
+  },
+  {
+    "id": "light",
+    "word": "light",
+    "phonetic": "['lait ]",
+    "pos": "",
+    "meaning": "灯；管灯",
+    "letter": "L"
+  },
+  {
+    "id": "like",
+    "word": "like",
+    "phonetic": "[ laik ]",
+    "pos": "",
+    "meaning": "喜欢",
+    "letter": "L"
+  },
+  {
+    "id": "lion",
+    "word": "lion",
+    "phonetic": "[ 'laiən ]",
+    "pos": "",
+    "meaning": "狮子",
+    "letter": "L"
+  },
+  {
+    "id": "listen to music",
+    "word": "listen to music",
+    "phonetic": "['lisən][tu:]['mju:zik] ['leitə]",
+    "pos": "",
+    "meaning": "听音乐",
+    "letter": "L"
+  },
+  {
+    "id": "listening",
+    "word": "listening",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "to music 正在听音乐",
+    "letter": "L"
+  },
+  {
+    "id": "listening to music",
+    "word": "listening to music",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）听音乐",
+    "letter": "L"
+  },
+  {
+    "id": "little",
+    "word": "little",
+    "phonetic": "/ˈlɪtl/",
+    "pos": "",
+    "meaning": "一点儿（不可数）",
+    "letter": "L"
+  },
+  {
+    "id": "live",
+    "word": "live",
+    "phonetic": "[liv]",
+    "pos": "",
+    "meaning": "居住；住",
+    "letter": "L"
+  },
+  {
+    "id": "lives",
+    "word": "lives",
+    "phonetic": "[laivz]",
+    "pos": "",
+    "meaning": ":叶子的复数（life）",
+    "letter": "L"
+  },
+  {
+    "id": "living",
+    "word": "living",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "room 客厅；起居室",
+    "letter": "L"
+  },
+  {
+    "id": "living room",
+    "word": "living room",
+    "phonetic": "[ 'liviŋ ][ ru:m]",
+    "pos": "",
+    "meaning": "客厅；起居室起客厅",
+    "letter": "L"
+  },
+  {
+    "id": "lobster",
+    "word": "lobster",
+    "phonetic": "['lɔbstə]",
+    "pos": "",
+    "meaning": "龙虾",
+    "letter": "L"
+  },
+  {
+    "id": "lock",
+    "word": "lock",
+    "phonetic": "[ lɔk ]",
+    "pos": "",
+    "meaning": "锁 .",
+    "letter": "L"
+  },
+  {
+    "id": "london",
+    "word": "London",
+    "phonetic": "['lʌndən]",
+    "pos": "",
+    "meaning": "伦敦",
+    "letter": "L"
+  },
+  {
+    "id": "long",
+    "word": "long",
+    "phonetic": "[lɒŋ]",
+    "pos": "",
+    "meaning": "长的",
+    "letter": "L"
+  },
+  {
+    "id": "long hair",
+    "word": "long hair",
+    "phonetic": "[ lɔŋ][ hεə ]",
+    "pos": "",
+    "meaning": "长头发",
+    "letter": "L"
+  },
+  {
+    "id": "longer",
+    "word": "longer",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更长的",
+    "letter": "L"
+  },
+  {
+    "id": "long—longer",
+    "word": "long—longer",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更长的",
+    "letter": "L"
+  },
+  {
+    "id": "look",
+    "word": "look",
+    "phonetic": "[luk]",
+    "pos": "",
+    "meaning": "看上去",
+    "letter": "L"
+  },
+  {
+    "id": "look .out",
+    "word": "look .out",
+    "phonetic": "[ lu: ][aut]",
+    "pos": "",
+    "meaning": "当心;留神",
+    "letter": "L"
+  },
+  {
+    "id": "look at",
+    "word": "look at",
+    "phonetic": "[ luk ][ æt]",
+    "pos": "",
+    "meaning": "看；瞧",
+    "letter": "L"
+  },
+  {
+    "id": "look for",
+    "word": "look for",
+    "phonetic": "[luk][fɔ:]",
+    "pos": "",
+    "meaning": "寻找",
+    "letter": "L"
+  },
+  {
+    "id": "look up",
+    "word": "look up",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "查阅",
+    "letter": "L"
+  },
+  {
+    "id": "lost",
+    "word": "lost",
+    "phonetic": "[lɒst]",
+    "pos": "",
+    "meaning": "丢失",
+    "letter": "L"
+  },
+  {
+    "id": "lot",
+    "word": "lot",
+    "phonetic": "[lɒt]",
+    "pos": "",
+    "meaning": "大量；许多",
+    "letter": "L"
+  },
+  {
+    "id": "lots",
+    "word": "lots",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "of 大量；许多",
+    "letter": "L"
+  },
+  {
+    "id": "lots of",
+    "word": "lots of",
+    "phonetic": "/lɒts/",
+    "pos": "",
+    "meaning": "大量；许多",
+    "letter": "L"
+  },
+  {
+    "id": "loud",
+    "word": "loud",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "喧闹的，大声的",
+    "letter": "L"
+  },
+  {
+    "id": "love",
+    "word": "love",
+    "phonetic": "[ lʌv ]",
+    "pos": "",
+    "meaning": "爱;热爱",
+    "letter": "L"
+  },
+  {
+    "id": "lovely",
+    "word": "lovely",
+    "phonetic": "['lʌvli]",
+    "pos": "",
+    "meaning": "可爱的；美丽的",
+    "letter": "L"
+  },
+  {
+    "id": "lower",
+    "word": "lower",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "low的比较级；更低的",
+    "letter": "L"
+  },
+  {
+    "id": "low—lower",
+    "word": "low—lower",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更低的",
+    "letter": "L"
+  },
+  {
+    "id": "lunch",
+    "word": "lunch",
+    "phonetic": "[lʌntʃ]",
+    "pos": "",
+    "meaning": "午餐",
+    "letter": "L"
+  },
+  {
+    "id": "magazine",
+    "word": "magazine",
+    "phonetic": "[,mægə'zi:n]",
+    "pos": "",
+    "meaning": "报纸 阅读杂志",
+    "letter": "M"
+  },
+  {
+    "id": "make",
+    "word": "make",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "a snowman 堆雪人",
+    "letter": "M"
+  },
+  {
+    "id": "make a snowman",
+    "word": "make a Snowman",
+    "phonetic": "[ meik]['snəʊmæn ]",
+    "pos": "",
+    "meaning": "堆雪人",
+    "letter": "M"
+  },
+  {
+    "id": "make kites",
+    "word": "make kites",
+    "phonetic": "[meik][kait]",
+    "pos": "",
+    "meaning": "制作风筝",
+    "letter": "M"
+  },
+  {
+    "id": "make sure",
+    "word": "make sure",
+    "phonetic": "[meik][sə:]",
+    "pos": "",
+    "meaning": "核实或查明某事物",
+    "letter": "M"
+  },
+  {
+    "id": "make the bed",
+    "word": "make the bed",
+    "phonetic": "[ meik ][ ði: ][ bed ]",
+    "pos": "",
+    "meaning": "铺床，整理床铺",
+    "letter": "M"
+  },
+  {
+    "id": "making kites",
+    "word": "making kites",
+    "phonetic": "['meikiŋ]",
+    "pos": "",
+    "meaning": "制作风筝",
+    "letter": "M"
+  },
+  {
+    "id": "man",
+    "word": "man",
+    "phonetic": "[mæn]",
+    "pos": "",
+    "meaning": "男人",
+    "letter": "M"
+  },
+  {
+    "id": "many",
+    "word": "many",
+    "phonetic": "[ 'meni ]",
+    "pos": "",
+    "meaning": "许多的",
+    "letter": "M"
+  },
+  {
+    "id": "map",
+    "word": "map",
+    "phonetic": "[mæp]",
+    "pos": "",
+    "meaning": "地图",
+    "letter": "M"
+  },
+  {
+    "id": "march",
+    "word": "March",
+    "phonetic": "[ mɑ:tʃ ]",
+    "pos": "",
+    "meaning": "三月",
+    "letter": "M"
+  },
+  {
+    "id": "match",
+    "word": "match",
+    "phonetic": "[ mætʃ ]",
+    "pos": "",
+    "meaning": "比赛",
+    "letter": "M"
+  },
+  {
+    "id": "math",
+    "word": "math",
+    "phonetic": "[ mæθ ]",
+    "pos": "",
+    "meaning": "数学",
+    "letter": "M"
+  },
+  {
+    "id": "math book",
+    "word": "math book",
+    "phonetic": "[ mæθ ]",
+    "pos": "",
+    "meaning": "数学书",
+    "letter": "M"
+  },
+  {
+    "id": "maths",
+    "word": "maths",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "test 数学测试",
+    "letter": "M"
+  },
+  {
+    "id": "maths book",
+    "word": "maths book",
+    "phonetic": "/mæθs/",
+    "pos": "",
+    "meaning": "数学书",
+    "letter": "M"
+  },
+  {
+    "id": "matter",
+    "word": "matter",
+    "phonetic": "[ 'mætə ]",
+    "pos": "",
+    "meaning": "事情；麻烦",
+    "letter": "M"
+  },
+  {
+    "id": "may",
+    "word": "may",
+    "phonetic": "[ mei ]",
+    "pos": "",
+    "meaning": "可以；可能",
+    "letter": "M"
+  },
+  {
+    "id": "mean",
+    "word": "mean",
+    "phonetic": "[mi:n]",
+    "pos": "",
+    "meaning": "意思是",
+    "letter": "M"
+  },
+  {
+    "id": "medicine",
+    "word": "medicine",
+    "phonetic": "['medisin]",
+    "pos": "",
+    "meaning": "药",
+    "letter": "M"
+  },
+  {
+    "id": "meet",
+    "word": "meet",
+    "phonetic": "[ mi:t ]",
+    "pos": "",
+    "meaning": "见面；遇见",
+    "letter": "M"
+  },
+  {
+    "id": "member",
+    "word": "member",
+    "phonetic": "[ 'membə ]",
+    "pos": "",
+    "meaning": "成员",
+    "letter": "M"
+  },
+  {
+    "id": "menu",
+    "word": "menu",
+    "phonetic": "[ 'menju: ]",
+    "pos": "n.",
+    "meaning": "菜单",
+    "letter": "M"
+  },
+  {
+    "id": "meter",
+    "word": "meter",
+    "phonetic": "['mi:tə]",
+    "pos": "",
+    "meaning": "米",
+    "letter": "M"
+  },
+  {
+    "id": "metre",
+    "word": "metre",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "米",
+    "letter": "M"
+  },
+  {
+    "id": "mice",
+    "word": "mice",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（mouse的复数）",
+    "letter": "M"
+  },
+  {
+    "id": "mid-autumn",
+    "word": "Mid-autumn",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "中秋节",
+    "letter": "M"
+  },
+  {
+    "id": "mid-autumn festival",
+    "word": "Mid-Autumn Festival",
+    "phonetic": "[mɪd ˈɔːtəm ˈfestəvəl]",
+    "pos": "",
+    "meaning": "中秋节",
+    "letter": "M"
+  },
+  {
+    "id": "might",
+    "word": "might",
+    "phonetic": "[ mait ]",
+    "pos": "",
+    "meaning": "可以；能",
+    "letter": "M"
+  },
+  {
+    "id": "milk",
+    "word": "milk",
+    "phonetic": "[mɪlk]",
+    "pos": "",
+    "meaning": "牛奶",
+    "letter": "M"
+  },
+  {
+    "id": "mine",
+    "word": "mine",
+    "phonetic": "[maɪn]",
+    "pos": "",
+    "meaning": "我的",
+    "letter": "M"
+  },
+  {
+    "id": "minute",
+    "word": "minute",
+    "phonetic": "['minit]",
+    "pos": "",
+    "meaning": "分钟",
+    "letter": "M"
+  },
+  {
+    "id": "mirror",
+    "word": "mirror",
+    "phonetic": "[ 'mirə ]",
+    "pos": "n.",
+    "meaning": "镜子",
+    "letter": "M"
+  },
+  {
+    "id": "miss",
+    "word": "Miss",
+    "phonetic": "[ mis ]",
+    "pos": "",
+    "meaning": "小姐.",
+    "letter": "M"
+  },
+  {
+    "id": "mom",
+    "word": "mom",
+    "phonetic": "[mɔm]",
+    "pos": "",
+    "meaning": "妈妈",
+    "letter": "M"
+  },
+  {
+    "id": "monday",
+    "word": "Monday",
+    "phonetic": "['mʌndeɪ]",
+    "pos": "",
+    "meaning": "星期一",
+    "letter": "M"
+  },
+  {
+    "id": "money",
+    "word": "money",
+    "phonetic": "['mʌni]",
+    "pos": "",
+    "meaning": "钱；金钱",
+    "letter": "M"
+  },
+  {
+    "id": "monkey",
+    "word": "monkey",
+    "phonetic": "['mʌŋki]",
+    "pos": "",
+    "meaning": "猴子",
+    "letter": "M"
+  },
+  {
+    "id": "month",
+    "word": "month",
+    "phonetic": "[mʌnθ]",
+    "pos": "",
+    "meaning": "月份；月",
+    "letter": "M"
+  },
+  {
+    "id": "moon",
+    "word": "moon",
+    "phonetic": "[muːn]",
+    "pos": "",
+    "meaning": "月亮",
+    "letter": "M"
+  },
+  {
+    "id": "mooncake",
+    "word": "mooncake",
+    "phonetic": "[muːnkeɪk]",
+    "pos": "",
+    "meaning": "月饼",
+    "letter": "M"
+  },
+  {
+    "id": "moral education",
+    "word": "Moral Education",
+    "phonetic": "['mɔrəl] ['edju:'keiʃən ]",
+    "pos": "",
+    "meaning": "思想品德课",
+    "letter": "M"
+  },
+  {
+    "id": "more",
+    "word": "more",
+    "phonetic": "[mɔː]",
+    "pos": "",
+    "meaning": "更多的",
+    "letter": "M"
+  },
+  {
+    "id": "morning",
+    "word": "morning",
+    "phonetic": "['mɔ:niŋ]",
+    "pos": "",
+    "meaning": "早晨；上午",
+    "letter": "M"
+  },
+  {
+    "id": "moscow",
+    "word": "Moscow",
+    "phonetic": "['mɒskəʊ]",
+    "pos": "",
+    "meaning": "莫斯科",
+    "letter": "M"
+  },
+  {
+    "id": "mother",
+    "word": "mother",
+    "phonetic": "['mʌðə]",
+    "pos": "",
+    "meaning": "母亲；妈妈",
+    "letter": "M"
+  },
+  {
+    "id": "motor cycle",
+    "word": "motor cycle",
+    "phonetic": "['məutə]['saikl]",
+    "pos": "",
+    "meaning": "摩托车",
+    "letter": "M"
+  },
+  {
+    "id": "mountain",
+    "word": "mountain",
+    "phonetic": "['maʊntɪn]",
+    "pos": "",
+    "meaning": "高山；山岳",
+    "letter": "M"
+  },
+  {
+    "id": "mouse",
+    "word": "mouse",
+    "phonetic": "[maʊs]",
+    "pos": "",
+    "meaning": "老鼠",
+    "letter": "M"
+  },
+  {
+    "id": "mouth",
+    "word": "mouth",
+    "phonetic": "[maʊθ]",
+    "pos": "",
+    "meaning": "嘴",
+    "letter": "M"
+  },
+  {
+    "id": "move",
+    "word": "move",
+    "phonetic": "[muːv]",
+    "pos": "",
+    "meaning": "搬家",
+    "letter": "M"
+  },
+  {
+    "id": "mr",
+    "word": "Mr",
+    "phonetic": "[ 'mistə ]",
+    "pos": "",
+    "meaning": "先生.",
+    "letter": "M"
+  },
+  {
+    "id": "mrs",
+    "word": "Mrs",
+    "phonetic": "[ˈmɪsɪz]",
+    "pos": "",
+    "meaning": "夫人",
+    "letter": "M"
+  },
+  {
+    "id": "ms",
+    "word": "Ms",
+    "phonetic": "[mɪz]",
+    "pos": "",
+    "meaning": "女士",
+    "letter": "M"
+  },
+  {
+    "id": "much",
+    "word": "much",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "非常地",
+    "letter": "M"
+  },
+  {
+    "id": "mud",
+    "word": "mud",
+    "phonetic": "[mʌd]",
+    "pos": "",
+    "meaning": "泥",
+    "letter": "M"
+  },
+  {
+    "id": "mule",
+    "word": "mule",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "骡子",
+    "letter": "M"
+  },
+  {
+    "id": "mum",
+    "word": "mum",
+    "phonetic": "[mʌm]",
+    "pos": "",
+    "meaning": "妈妈",
+    "letter": "M"
+  },
+  {
+    "id": "munich",
+    "word": "Munich",
+    "phonetic": "[ˈmjuːnɪk]",
+    "pos": "",
+    "meaning": "慕尼黑（德国城市）",
+    "letter": "M"
+  },
+  {
+    "id": "museum",
+    "word": "museum",
+    "phonetic": "[mju:'ziəm]",
+    "pos": "",
+    "meaning": "科学博物馆",
+    "letter": "M"
+  },
+  {
+    "id": "music",
+    "word": "music",
+    "phonetic": "[ 'mju:zik ]",
+    "pos": "",
+    "meaning": "音乐",
+    "letter": "M"
+  },
+  {
+    "id": "music class",
+    "word": "music class",
+    "phonetic": "[ klɑ:s ]",
+    "pos": "",
+    "meaning": "音乐课",
+    "letter": "M"
+  },
+  {
+    "id": "music room",
+    "word": "music room",
+    "phonetic": "['mju:zik]",
+    "pos": "",
+    "meaning": "音乐教室",
+    "letter": "M"
+  },
+  {
+    "id": "must",
+    "word": "must",
+    "phonetic": "[mʌst]",
+    "pos": "",
+    "meaning": "一定；肯定",
+    "letter": "M"
+  },
+  {
+    "id": "mutton",
+    "word": "mutton",
+    "phonetic": "['mʌtn]",
+    "pos": "n",
+    "meaning": "羊肉",
+    "letter": "M"
+  },
+  {
+    "id": "my",
+    "word": "my",
+    "phonetic": "[maɪ]",
+    "pos": "",
+    "meaning": "我的",
+    "letter": "M"
+  },
+  {
+    "id": "mʌðə ] （",
+    "word": "mʌðə ] （",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "外）祖母",
+    "letter": "M"
+  },
+  {
+    "id": "name",
+    "word": "name",
+    "phonetic": "[ neɪm ]",
+    "pos": "",
+    "meaning": "名字名字",
+    "letter": "N"
+  },
+  {
+    "id": "national",
+    "word": "national",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "国家的",
+    "letter": "N"
+  },
+  {
+    "id": "national day",
+    "word": "National Day",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "国庆日",
+    "letter": "N"
+  },
+  {
+    "id": "nature",
+    "word": "nature",
+    "phonetic": "['neɪtʃə]",
+    "pos": "",
+    "meaning": "自然界；大自然",
+    "letter": "N"
+  },
+  {
+    "id": "nature park",
+    "word": "nature park",
+    "phonetic": "[ 'neitʃə ][ pɑ:k ]",
+    "pos": "",
+    "meaning": "自然公园",
+    "letter": "N"
+  },
+  {
+    "id": "near",
+    "word": "near",
+    "phonetic": "/nɪə/",
+    "pos": "",
+    "meaning": "近的；距离近",
+    "letter": "N"
+  },
+  {
+    "id": "need",
+    "word": "need",
+    "phonetic": "[ni:d]",
+    "pos": "",
+    "meaning": "需要",
+    "letter": "N"
+  },
+  {
+    "id": "neighbour",
+    "word": "neighbour",
+    "phonetic": "[ 'neibə ]",
+    "pos": "",
+    "meaning": "邻居",
+    "letter": "N"
+  },
+  {
+    "id": "nest",
+    "word": "nest",
+    "phonetic": "[ nest ]",
+    "pos": "",
+    "meaning": "鸟窝；巢",
+    "letter": "N"
+  },
+  {
+    "id": "new",
+    "word": "new",
+    "phonetic": "[njuː]",
+    "pos": "",
+    "meaning": "新的",
+    "letter": "N"
+  },
+  {
+    "id": "new york",
+    "word": "New York",
+    "phonetic": "['njuːleɪd]",
+    "pos": "",
+    "meaning": "纽约",
+    "letter": "N"
+  },
+  {
+    "id": "newspaper",
+    "word": "newspaper",
+    "phonetic": "['nju:z,peipə]",
+    "pos": "",
+    "meaning": "报纸",
+    "letter": "N"
+  },
+  {
+    "id": "next",
+    "word": "next",
+    "phonetic": "/nekst/",
+    "pos": "",
+    "meaning": "下一个的；紧接着的；接下来的",
+    "letter": "N"
+  },
+  {
+    "id": "next to",
+    "word": "next to",
+    "phonetic": "['nekst][tu:]",
+    "pos": "",
+    "meaning": "与……相邻",
+    "letter": "N"
+  },
+  {
+    "id": "next week",
+    "word": "next week",
+    "phonetic": "[nekst wiːk]",
+    "pos": "",
+    "meaning": "下周",
+    "letter": "N"
+  },
+  {
+    "id": "nice",
+    "word": "nice",
+    "phonetic": "[ nais ]",
+    "pos": "",
+    "meaning": "好的；愉快的",
+    "letter": "N"
+  },
+  {
+    "id": "night",
+    "word": "night",
+    "phonetic": "[ nait ]",
+    "pos": "",
+    "meaning": "夜晚",
+    "letter": "N"
+  },
+  {
+    "id": "nine",
+    "word": "nine",
+    "phonetic": "[naɪn]",
+    "pos": "",
+    "meaning": "九",
+    "letter": "N"
+  },
+  {
+    "id": "nineteen",
+    "word": "nineteen",
+    "phonetic": "[naɪn'tiːn]",
+    "pos": "",
+    "meaning": "十九",
+    "letter": "N"
+  },
+  {
+    "id": "ninety-nine",
+    "word": "ninety-nine",
+    "phonetic": "[ 'nainti ]",
+    "pos": "",
+    "meaning": "九十九",
+    "letter": "N"
+  },
+  {
+    "id": "ninth",
+    "word": "ninth",
+    "phonetic": "[nainθ]",
+    "pos": "",
+    "meaning": "第九",
+    "letter": "N"
+  },
+  {
+    "id": "no",
+    "word": "no",
+    "phonetic": "[ nəu ]",
+    "pos": "",
+    "meaning": "不；不是",
+    "letter": "N"
+  },
+  {
+    "id": "no problem",
+    "word": "no problem",
+    "phonetic": "/nəʊ/",
+    "pos": "",
+    "meaning": "没问题",
+    "letter": "N"
+  },
+  {
+    "id": "no. problem",
+    "word": "no. problem",
+    "phonetic": "[ nəu ][ 'prɔbləm ]",
+    "pos": "",
+    "meaning": "没问题",
+    "letter": "N"
+  },
+  {
+    "id": "noise",
+    "word": "noise",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "声音；响声；噪音",
+    "letter": "N"
+  },
+  {
+    "id": "noodle(s)",
+    "word": "noodle(s)",
+    "phonetic": "['nu:dl]",
+    "pos": "",
+    "meaning": "面条（复数）",
+    "letter": "N"
+  },
+  {
+    "id": "noodles",
+    "word": "noodles",
+    "phonetic": "['nu:dl]",
+    "pos": "",
+    "meaning": "面条（复数）",
+    "letter": "N"
+  },
+  {
+    "id": "noon",
+    "word": "noon",
+    "phonetic": "[ nu:n ]",
+    "pos": "",
+    "meaning": "中午",
+    "letter": "N"
+  },
+  {
+    "id": "north",
+    "word": "north",
+    "phonetic": "[ nɔ:θ ]",
+    "pos": "",
+    "meaning": "北方；向北方.",
+    "letter": "N"
+  },
+  {
+    "id": "nose",
+    "word": "nose",
+    "phonetic": "[nəʊz]",
+    "pos": "",
+    "meaning": "鼻子",
+    "letter": "N"
+  },
+  {
+    "id": "not",
+    "word": "not",
+    "phonetic": "[ nɔt ]",
+    "pos": "",
+    "meaning": "不；不是的",
+    "letter": "N"
+  },
+  {
+    "id": "not much",
+    "word": "not much",
+    "phonetic": "[ mʌtʃ ]",
+    "pos": "",
+    "meaning": "没什么",
+    "letter": "N"
+  },
+  {
+    "id": "notebook",
+    "word": "notebook",
+    "phonetic": "['nəʊtbʊk]",
+    "pos": "",
+    "meaning": "笔记本",
+    "letter": "N"
+  },
+  {
+    "id": "nothing",
+    "word": "nothing",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "没有什么",
+    "letter": "N"
+  },
+  {
+    "id": "november",
+    "word": "November",
+    "phonetic": "[nəu'vembə]",
+    "pos": "",
+    "meaning": "十一月",
+    "letter": "N"
+  },
+  {
+    "id": "now",
+    "word": "now",
+    "phonetic": "[naʊ]",
+    "pos": "",
+    "meaning": "现在；目前",
+    "letter": "N"
+  },
+  {
+    "id": "nurse",
+    "word": "nurse",
+    "phonetic": "[nɜːs]",
+    "pos": "",
+    "meaning": "护士",
+    "letter": "N"
+  },
+  {
+    "id": "o",
+    "word": "o",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（表示整点）……点钟",
+    "letter": "O"
+  },
+  {
+    "id": "o'clock",
+    "word": "o'clock",
+    "phonetic": "[əˈklɒk]",
+    "pos": "",
+    "meaning": "…… 点钟",
+    "letter": "O"
+  },
+  {
+    "id": "october",
+    "word": "October",
+    "phonetic": "[ɔk'təubə ]",
+    "pos": "",
+    "meaning": "十月",
+    "letter": "O"
+  },
+  {
+    "id": "of",
+    "word": "of",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "当然",
+    "letter": "O"
+  },
+  {
+    "id": "of course",
+    "word": "of course",
+    "phonetic": "[ɒv kɔːs]",
+    "pos": "",
+    "meaning": "当然",
+    "letter": "O"
+  },
+  {
+    "id": "off",
+    "word": "off",
+    "phonetic": "[ ɒ:f ]",
+    "pos": "",
+    "meaning": "距；离；离开.",
+    "letter": "O"
+  },
+  {
+    "id": "often",
+    "word": "often",
+    "phonetic": "['ɔːfən]",
+    "pos": "",
+    "meaning": "时常；常常",
+    "letter": "O"
+  },
+  {
+    "id": "ok",
+    "word": "OK",
+    "phonetic": "[əʊˈkeɪ]",
+    "pos": "",
+    "meaning": "好；行",
+    "letter": "O"
+  },
+  {
+    "id": "old",
+    "word": "old",
+    "phonetic": "[əʊld]",
+    "pos": "",
+    "meaning": "老的；年纪大的",
+    "letter": "O"
+  },
+  {
+    "id": "older",
+    "word": "older",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "年龄更大的",
+    "letter": "O"
+  },
+  {
+    "id": "old—older",
+    "word": "old—older",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "年龄更大的",
+    "letter": "O"
+  },
+  {
+    "id": "on",
+    "word": "on",
+    "phonetic": "[ɒn]",
+    "pos": "",
+    "meaning": "在…… 上面",
+    "letter": "O"
+  },
+  {
+    "id": "on foot",
+    "word": "on foot",
+    "phonetic": "[ɒn fut]",
+    "pos": "",
+    "meaning": "步行",
+    "letter": "O"
+  },
+  {
+    "id": "one",
+    "word": "one",
+    "phonetic": "[wʌn]",
+    "pos": "",
+    "meaning": "一",
+    "letter": "O"
+  },
+  {
+    "id": "onion",
+    "word": "onion",
+    "phonetic": "/ˈʌnjən/",
+    "pos": "",
+    "meaning": "洋葱；葱头",
+    "letter": "O"
+  },
+  {
+    "id": "only",
+    "word": "only",
+    "phonetic": "[ 'əunli ]",
+    "pos": "",
+    "meaning": "只有；仅仅",
+    "letter": "O"
+  },
+  {
+    "id": "open",
+    "word": "open",
+    "phonetic": "[ 'əupən ]",
+    "pos": "",
+    "meaning": "打开",
+    "letter": "O"
+  },
+  {
+    "id": "or",
+    "word": "or",
+    "phonetic": "[ɔː]",
+    "pos": "",
+    "meaning": "或者",
+    "letter": "O"
+  },
+  {
+    "id": "orange",
+    "word": "orange",
+    "phonetic": "[ 'ɔrindʒ]",
+    "pos": "adj.",
+    "meaning": "橘色的；橙色的",
+    "letter": "O"
+  },
+  {
+    "id": "other",
+    "word": "other",
+    "phonetic": "['ʌðə]",
+    "pos": "",
+    "meaning": "其他的;另外的;别的",
+    "letter": "O"
+  },
+  {
+    "id": "our",
+    "word": "our",
+    "phonetic": "['aʊə]",
+    "pos": "",
+    "meaning": "我们的",
+    "letter": "O"
+  },
+  {
+    "id": "ours",
+    "word": "ours",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "我们的",
+    "letter": "O"
+  },
+  {
+    "id": "outside",
+    "word": "outside",
+    "phonetic": "['aʊt'saɪd]",
+    "pos": "",
+    "meaning": "在户外",
+    "letter": "O"
+  },
+  {
+    "id": "over",
+    "word": "over",
+    "phonetic": "[ 'əuvə ]",
+    "pos": "prep.",
+    "meaning": "在...的上方",
+    "letter": "O"
+  },
+  {
+    "id": "over there",
+    "word": "over there",
+    "phonetic": "['əuvə ][ðεə]",
+    "pos": "",
+    "meaning": "在那边",
+    "letter": "O"
+  },
+  {
+    "id": "own",
+    "word": "own",
+    "phonetic": "[ əun ]",
+    "pos": "",
+    "meaning": "a. 自己的",
+    "letter": "O"
+  },
+  {
+    "id": "p.e",
+    "word": "P.E",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "体育",
+    "letter": "P"
+  },
+  {
+    "id": "p.e. class",
+    "word": "P.E. class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "体育课",
+    "letter": "P"
+  },
+  {
+    "id": "p.m",
+    "word": "p.m",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "下午",
+    "letter": "P"
+  },
+  {
+    "id": "p.m.",
+    "word": "p.m.",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "午后；下午",
+    "letter": "P"
+  },
+  {
+    "id": "p.m.(p.m.)",
+    "word": "P.M.(p.m.)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "下午",
+    "letter": "P"
+  },
+  {
+    "id": "p\\.m\\.",
+    "word": "p\\.m\\.",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "午后；下午",
+    "letter": "P"
+  },
+  {
+    "id": "pack",
+    "word": "pack",
+    "phonetic": "[pæk]",
+    "pos": "",
+    "meaning": "收拾 \\(行李）",
+    "letter": "P"
+  },
+  {
+    "id": "paint",
+    "word": "paint",
+    "phonetic": "[ peint ]",
+    "pos": "",
+    "meaning": "绘画",
+    "letter": "P"
+  },
+  {
+    "id": "painting",
+    "word": "painting",
+    "phonetic": "[ 'peintiŋ ]",
+    "pos": "",
+    "meaning": "绘画",
+    "letter": "P"
+  },
+  {
+    "id": "pair",
+    "word": "pair",
+    "phonetic": "[ pεə ]",
+    "pos": "",
+    "meaning": "一双；一对",
+    "letter": "P"
+  },
+  {
+    "id": "pal",
+    "word": "pal",
+    "phonetic": "[pæl]",
+    "pos": "",
+    "meaning": "朋友，同志，伙伴",
+    "letter": "P"
+  },
+  {
+    "id": "panda",
+    "word": "panda",
+    "phonetic": "['pændə]",
+    "pos": "",
+    "meaning": "大熊猫",
+    "letter": "P"
+  },
+  {
+    "id": "pants",
+    "word": "pants",
+    "phonetic": "[pænts]",
+    "pos": "",
+    "meaning": "裤子",
+    "letter": "P"
+  },
+  {
+    "id": "papa westray",
+    "word": "Papa Westray",
+    "phonetic": "[,pɑːpə ˈwestreɪ]",
+    "pos": "",
+    "meaning": "帕帕韦斯特雷岛",
+    "letter": "P"
+  },
+  {
+    "id": "parents",
+    "word": "parents",
+    "phonetic": "/ˈpeərənts/",
+    "pos": "",
+    "meaning": "父母，双亲",
+    "letter": "P"
+  },
+  {
+    "id": "park",
+    "word": "park",
+    "phonetic": "[pɑːk]",
+    "pos": "",
+    "meaning": "公园",
+    "letter": "P"
+  },
+  {
+    "id": "part",
+    "word": "part",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "角色",
+    "letter": "P"
+  },
+  {
+    "id": "party",
+    "word": "party",
+    "phonetic": "['pɑːti]",
+    "pos": "",
+    "meaning": "聚会；派对",
+    "letter": "P"
+  },
+  {
+    "id": "pass",
+    "word": "pass",
+    "phonetic": "[pɑːs]",
+    "pos": "",
+    "meaning": "给；递",
+    "letter": "P"
+  },
+  {
+    "id": "path",
+    "word": "path",
+    "phonetic": "[ pɑ:θ ]",
+    "pos": "n.",
+    "meaning": "路，小道",
+    "letter": "P"
+  },
+  {
+    "id": "pay",
+    "word": "pay",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "注意",
+    "letter": "P"
+  },
+  {
+    "id": "pay attention to",
+    "word": "pay attention to",
+    "phonetic": "[peɪ əˈtenʃən tuː]",
+    "pos": "",
+    "meaning": "注意",
+    "letter": "P"
+  },
+  {
+    "id": "pe",
+    "word": "PE",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "class 体育课",
+    "letter": "P"
+  },
+  {
+    "id": "pe class",
+    "word": "PE class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "体育课",
+    "letter": "P"
+  },
+  {
+    "id": "peach",
+    "word": "peach",
+    "phonetic": "[ pi:tʃ ]",
+    "pos": "",
+    "meaning": "桃",
+    "letter": "P"
+  },
+  {
+    "id": "pear",
+    "word": "pear",
+    "phonetic": "[peə]",
+    "pos": "",
+    "meaning": "梨",
+    "letter": "P"
+  },
+  {
+    "id": "pen",
+    "word": "pen",
+    "phonetic": "[pen]",
+    "pos": "",
+    "meaning": "钢笔",
+    "letter": "P"
+  },
+  {
+    "id": "pen pal",
+    "word": "pen pal",
+    "phonetic": "[pen pæl]",
+    "pos": "",
+    "meaning": "笔友",
+    "letter": "P"
+  },
+  {
+    "id": "pencil",
+    "word": "pencil",
+    "phonetic": "['pensl]",
+    "pos": "",
+    "meaning": "铅笔",
+    "letter": "P"
+  },
+  {
+    "id": "pencil box",
+    "word": "pencil box",
+    "phonetic": "/ˈpensl/",
+    "pos": "",
+    "meaning": "铅笔盒",
+    "letter": "P"
+  },
+  {
+    "id": "pencil-case",
+    "word": "pencil-case",
+    "phonetic": "['pensəlkeis]",
+    "pos": "",
+    "meaning": "铅笔盒",
+    "letter": "P"
+  },
+  {
+    "id": "people",
+    "word": "people",
+    "phonetic": "/ˈpiːpl/",
+    "pos": "",
+    "meaning": "人，人民",
+    "letter": "P"
+  },
+  {
+    "id": "pet shop",
+    "word": "pet shop",
+    "phonetic": "[pet][ʃɔp]",
+    "pos": "",
+    "meaning": "宠物商店",
+    "letter": "P"
+  },
+  {
+    "id": "phone",
+    "word": "phone",
+    "phonetic": "[fəʊn]",
+    "pos": "",
+    "meaning": "电话",
+    "letter": "P"
+  },
+  {
+    "id": "photo",
+    "word": "photo",
+    "phonetic": "['fəʊtəʊ]",
+    "pos": "",
+    "meaning": "照片；相片",
+    "letter": "P"
+  },
+  {
+    "id": "pick",
+    "word": "pick",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "摘；采集",
+    "letter": "P"
+  },
+  {
+    "id": "pick apples",
+    "word": "pick apples",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "摘苹果",
+    "letter": "P"
+  },
+  {
+    "id": "pick up leaves",
+    "word": "pick up leaves",
+    "phonetic": "[pik][ʌp][li:vz]",
+    "pos": "",
+    "meaning": "采摘树叶",
+    "letter": "P"
+  },
+  {
+    "id": "picnic",
+    "word": "picnic",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "野餐",
+    "letter": "P"
+  },
+  {
+    "id": "picture",
+    "word": "picture",
+    "phonetic": "['piktʃə]",
+    "pos": "n.",
+    "meaning": "图画,照片,景色",
+    "letter": "P"
+  },
+  {
+    "id": "pig",
+    "word": "pig",
+    "phonetic": "[pɪg]",
+    "pos": "",
+    "meaning": "猪",
+    "letter": "P"
+  },
+  {
+    "id": "pilot",
+    "word": "pilot",
+    "phonetic": "[ˈpaɪlət]",
+    "pos": "",
+    "meaning": "飞行员",
+    "letter": "P"
+  },
+  {
+    "id": "ping-pong",
+    "word": "ping-pong",
+    "phonetic": "/ˈpɪŋpɒŋ/",
+    "pos": "",
+    "meaning": "乒乓球",
+    "letter": "P"
+  },
+  {
+    "id": "pink",
+    "word": "pink",
+    "phonetic": "[ piŋk ]",
+    "pos": "",
+    "meaning": "粉红色的",
+    "letter": "P"
+  },
+  {
+    "id": "pizza",
+    "word": "pizza",
+    "phonetic": "[ˈpiːtsə]",
+    "pos": "",
+    "meaning": "比萨饼",
+    "letter": "P"
+  },
+  {
+    "id": "plane",
+    "word": "plane",
+    "phonetic": "[pleɪn]",
+    "pos": "",
+    "meaning": "飞机",
+    "letter": "P"
+  },
+  {
+    "id": "plant",
+    "word": "Plant",
+    "phonetic": "[plɑ:nt]",
+    "pos": "",
+    "meaning": "植物；种植",
+    "letter": "P"
+  },
+  {
+    "id": "plant trees",
+    "word": "plant trees",
+    "phonetic": "[ plɑ:nt ][ tri:s ]",
+    "pos": "",
+    "meaning": "种树",
+    "letter": "P"
+  },
+  {
+    "id": "plate",
+    "word": "plate",
+    "phonetic": "[pleɪt]",
+    "pos": "",
+    "meaning": "盘子",
+    "letter": "P"
+  },
+  {
+    "id": "play",
+    "word": "play",
+    "phonetic": "[ plei ]",
+    "pos": "",
+    "meaning": "（过去式played）玩",
+    "letter": "P"
+  },
+  {
+    "id": "play basketball",
+    "word": "play basketball",
+    "phonetic": "/pleɪ/",
+    "pos": "",
+    "meaning": "打篮球",
+    "letter": "P"
+  },
+  {
+    "id": "play chess",
+    "word": "play chess",
+    "phonetic": "[ plei ][ tʃes ]",
+    "pos": "",
+    "meaning": "下棋",
+    "letter": "P"
+  },
+  {
+    "id": "play computer games",
+    "word": "play computer games",
+    "phonetic": "[ plei][kəm'pju:tə] [ geims ]",
+    "pos": "",
+    "meaning": "玩电脑游戏",
+    "letter": "P"
+  },
+  {
+    "id": "play football",
+    "word": "play football",
+    "phonetic": "/pleɪ/",
+    "pos": "",
+    "meaning": "踢足球",
+    "letter": "P"
+  },
+  {
+    "id": "play ping-pong",
+    "word": "play ping-pong",
+    "phonetic": "/pleɪ/",
+    "pos": "",
+    "meaning": "打乒乓球",
+    "letter": "P"
+  },
+  {
+    "id": "play sports",
+    "word": "play sports",
+    "phonetic": "[plei] [spɔ:ts]",
+    "pos": "",
+    "meaning": "进行体育运动",
+    "letter": "P"
+  },
+  {
+    "id": "play the piano",
+    "word": "play the piano",
+    "phonetic": "[pi'ænəu]",
+    "pos": "",
+    "meaning": "弹钢琴",
+    "letter": "P"
+  },
+  {
+    "id": "play the pipa",
+    "word": "play the pipa",
+    "phonetic": "/pleɪ/",
+    "pos": "",
+    "meaning": "弹琵琶",
+    "letter": "P"
+  },
+  {
+    "id": "play the violin",
+    "word": "play the violin",
+    "phonetic": "[plei][,vaiə'lin]",
+    "pos": "",
+    "meaning": "拉小提琴",
+    "letter": "P"
+  },
+  {
+    "id": "play with",
+    "word": "play with",
+    "phonetic": "[ wið ]",
+    "pos": "",
+    "meaning": "玩，与…一起玩",
+    "letter": "P"
+  },
+  {
+    "id": "playground",
+    "word": "playground",
+    "phonetic": "['pleɪgraʊnd]",
+    "pos": "",
+    "meaning": "操场",
+    "letter": "P"
+  },
+  {
+    "id": "playing",
+    "word": "playing",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）玩耍",
+    "letter": "P"
+  },
+  {
+    "id": "please",
+    "word": "please",
+    "phonetic": "[ pli:z ]",
+    "pos": "",
+    "meaning": "请",
+    "letter": "P"
+  },
+  {
+    "id": "poem",
+    "word": "poem",
+    "phonetic": "[ˈpəʊɪm]",
+    "pos": "",
+    "meaning": "诗",
+    "letter": "P"
+  },
+  {
+    "id": "police",
+    "word": "police",
+    "phonetic": "[pə'li:s]",
+    "pos": "n.",
+    "meaning": "警察",
+    "letter": "P"
+  },
+  {
+    "id": "police officer",
+    "word": "police officer",
+    "phonetic": "[pəˈliːs ˈɒfɪsə]",
+    "pos": "",
+    "meaning": "警察",
+    "letter": "P"
+  },
+  {
+    "id": "policeman",
+    "word": "policeman",
+    "phonetic": "[pə'li:smən]",
+    "pos": "",
+    "meaning": "（男）警察",
+    "letter": "P"
+  },
+  {
+    "id": "policewoman",
+    "word": "policewoman",
+    "phonetic": "[pə'li:s,wumən]",
+    "pos": "n.",
+    "meaning": "女警察；女警官",
+    "letter": "P"
+  },
+  {
+    "id": "polite",
+    "word": "polite",
+    "phonetic": "/pəˈlaɪt/",
+    "pos": "",
+    "meaning": "有礼貌的；客气的",
+    "letter": "P"
+  },
+  {
+    "id": "pork",
+    "word": "pork",
+    "phonetic": "[pɔ:k]",
+    "pos": "n",
+    "meaning": "猪肉",
+    "letter": "P"
+  },
+  {
+    "id": "post",
+    "word": "post",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "邮局",
+    "letter": "P"
+  },
+  {
+    "id": "post card",
+    "word": "Post card",
+    "phonetic": "[pəust][kɑ:d]",
+    "pos": "",
+    "meaning": "明信片",
+    "letter": "P"
+  },
+  {
+    "id": "post office",
+    "word": "post office",
+    "phonetic": "[pəʊst ˈɒfɪs]",
+    "pos": "",
+    "meaning": "邮局",
+    "letter": "P"
+  },
+  {
+    "id": "postcard",
+    "word": "postcard",
+    "phonetic": "[ˈpəʊstkɑːd]",
+    "pos": "",
+    "meaning": "明信片",
+    "letter": "P"
+  },
+  {
+    "id": "postman",
+    "word": "postman",
+    "phonetic": "[ˈpəʊstmən]",
+    "pos": "",
+    "meaning": "邮递员",
+    "letter": "P"
+  },
+  {
+    "id": "pot",
+    "word": "pot",
+    "phonetic": "[pɔt]",
+    "pos": "",
+    "meaning": "锅；碗；瓢；盆",
+    "letter": "P"
+  },
+  {
+    "id": "potato",
+    "word": "potato",
+    "phonetic": "[pə'teitəu]",
+    "pos": "n.",
+    "meaning": "马铃薯,土豆",
+    "letter": "P"
+  },
+  {
+    "id": "prc",
+    "word": "PRC",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "中国",
+    "letter": "P"
+  },
+  {
+    "id": "prepare",
+    "word": "prepare",
+    "phonetic": "[ pri'peə ]",
+    "pos": "",
+    "meaning": "准备",
+    "letter": "P"
+  },
+  {
+    "id": "present",
+    "word": "present",
+    "phonetic": "[ pri'zent ]",
+    "pos": "",
+    "meaning": "礼物",
+    "letter": "P"
+  },
+  {
+    "id": "pretty",
+    "word": "pretty",
+    "phonetic": "['prɪti]",
+    "pos": "",
+    "meaning": "美观的；精致的",
+    "letter": "P"
+  },
+  {
+    "id": "price",
+    "word": "price",
+    "phonetic": "[praɪs]",
+    "pos": "",
+    "meaning": "价格",
+    "letter": "P"
+  },
+  {
+    "id": "principal",
+    "word": "principal",
+    "phonetic": "[ 'prinsəpəl]",
+    "pos": "",
+    "meaning": "校长",
+    "letter": "P"
+  },
+  {
+    "id": "problem",
+    "word": "problem",
+    "phonetic": "['prɒbləm]",
+    "pos": "",
+    "meaning": "问题",
+    "letter": "P"
+  },
+  {
+    "id": "pull",
+    "word": "pull",
+    "phonetic": "[pʊl]",
+    "pos": "",
+    "meaning": "拉；拽",
+    "letter": "P"
+  },
+  {
+    "id": "pupil",
+    "word": "pupil",
+    "phonetic": "['pjuːpl]",
+    "pos": "",
+    "meaning": "小学生",
+    "letter": "P"
+  },
+  {
+    "id": "puppy",
+    "word": "puppy",
+    "phonetic": "['pʌpi]",
+    "pos": "",
+    "meaning": "小狗",
+    "letter": "P"
+  },
+  {
+    "id": "purple",
+    "word": "purple",
+    "phonetic": "[ 'pə:pl ]",
+    "pos": "",
+    "meaning": "紫色的",
+    "letter": "P"
+  },
+  {
+    "id": "put",
+    "word": "put",
+    "phonetic": "[put]",
+    "pos": "",
+    "meaning": "放；放置",
+    "letter": "P"
+  },
+  {
+    "id": "put away the clothes",
+    "word": "put away the clothes",
+    "phonetic": "[pʌt][ə'wei][kləuðz]",
+    "pos": "",
+    "meaning": "收拾衣服.",
+    "letter": "P"
+  },
+  {
+    "id": "put on",
+    "word": "put on",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "穿上. put on 动词,表示穿上衣服的动词,强调动作",
+    "letter": "P"
+  },
+  {
+    "id": "puzzle",
+    "word": "puzzle",
+    "phonetic": "[ˈpʌzl]",
+    "pos": "",
+    "meaning": "谜",
+    "letter": "P"
+  },
+  {
+    "id": "queen",
+    "word": "queen",
+    "phonetic": "[ kwi:n ]",
+    "pos": "",
+    "meaning": "女王；王后",
+    "letter": "Q"
+  },
+  {
+    "id": "quickly",
+    "word": "quickly",
+    "phonetic": "[ˈkwɪkli]",
+    "pos": "",
+    "meaning": "迅速地",
+    "letter": "Q"
+  },
+  {
+    "id": "quiet",
+    "word": "quiet",
+    "phonetic": "['kwaɪət]",
+    "pos": "",
+    "meaning": "安静的",
+    "letter": "Q"
+  },
+  {
+    "id": "rabbit",
+    "word": "rabbit",
+    "phonetic": "/ˈræbɪt/",
+    "pos": "",
+    "meaning": "兔；野兔",
+    "letter": "R"
+  },
+  {
+    "id": "race",
+    "word": "race",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "赛跑",
+    "letter": "R"
+  },
+  {
+    "id": "rain",
+    "word": "rain",
+    "phonetic": "[ rein ]",
+    "pos": "",
+    "meaning": "雨；下雨",
+    "letter": "R"
+  },
+  {
+    "id": "rainbow",
+    "word": "rainbow",
+    "phonetic": "[ 'reinbəu ]",
+    "pos": "",
+    "meaning": "彩虹",
+    "letter": "R"
+  },
+  {
+    "id": "rainy",
+    "word": "rainy",
+    "phonetic": "['reɪni]",
+    "pos": "",
+    "meaning": "多雨的",
+    "letter": "R"
+  },
+  {
+    "id": "read",
+    "word": "read",
+    "phonetic": "[ri:d]",
+    "pos": "",
+    "meaning": "读；阅读",
+    "letter": "R"
+  },
+  {
+    "id": "read a book",
+    "word": "read a book",
+    "phonetic": "[ri:d][buk]",
+    "pos": "",
+    "meaning": "看书",
+    "letter": "R"
+  },
+  {
+    "id": "read a magazine",
+    "word": "read a magazine",
+    "phonetic": "[ri:d][,mægə'zi:n]",
+    "pos": "",
+    "meaning": "阅读杂志",
+    "letter": "R"
+  },
+  {
+    "id": "read books",
+    "word": "read books",
+    "phonetic": "[ri:d][ bu:ks]",
+    "pos": "",
+    "meaning": "读书",
+    "letter": "R"
+  },
+  {
+    "id": "reades",
+    "word": "reades",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "读；看（第三人称单数）",
+    "letter": "R"
+  },
+  {
+    "id": "reading",
+    "word": "reading",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "a book 正在看书",
+    "letter": "R"
+  },
+  {
+    "id": "reading a book",
+    "word": "reading a book",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）看书",
+    "letter": "R"
+  },
+  {
+    "id": "ready",
+    "word": "ready",
+    "phonetic": "[ 'redi ]",
+    "pos": "",
+    "meaning": "准备好了",
+    "letter": "R"
+  },
+  {
+    "id": "read—read",
+    "word": "read—read",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "读",
+    "letter": "R"
+  },
+  {
+    "id": "really",
+    "word": "really",
+    "phonetic": "['riəli]",
+    "pos": "",
+    "meaning": "真正的；确实",
+    "letter": "R"
+  },
+  {
+    "id": "red",
+    "word": "red",
+    "phonetic": "[ red ]",
+    "pos": "",
+    "meaning": "红色的",
+    "letter": "R"
+  },
+  {
+    "id": "relax",
+    "word": "relax",
+    "phonetic": "[ ri'læks]",
+    "pos": "",
+    "meaning": "放松",
+    "letter": "R"
+  },
+  {
+    "id": "remember",
+    "word": "remember",
+    "phonetic": "[ri'membə]",
+    "pos": "",
+    "meaning": "记住",
+    "letter": "R"
+  },
+  {
+    "id": "reporter",
+    "word": "reporter",
+    "phonetic": "[rɪˈpɔːtə]",
+    "pos": "",
+    "meaning": "记者",
+    "letter": "R"
+  },
+  {
+    "id": "restaurant",
+    "word": "restaurant",
+    "phonetic": "[ˈrestrɒnt]",
+    "pos": "",
+    "meaning": "餐馆",
+    "letter": "R"
+  },
+  {
+    "id": "return",
+    "word": "return",
+    "phonetic": "[ ri'tə:n ]",
+    "pos": "",
+    "meaning": "送回；归还",
+    "letter": "R"
+  },
+  {
+    "id": "rice",
+    "word": "rice",
+    "phonetic": "[raɪs]",
+    "pos": "",
+    "meaning": "米饭",
+    "letter": "R"
+  },
+  {
+    "id": "ride a bike",
+    "word": "ride a bike",
+    "phonetic": "[raid][baik]",
+    "pos": "",
+    "meaning": "骑自行车",
+    "letter": "R"
+  },
+  {
+    "id": "ride—rode",
+    "word": "ride—rode",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "骑",
+    "letter": "R"
+  },
+  {
+    "id": "riding a bike",
+    "word": "riding a bike",
+    "phonetic": "['raidiŋ]",
+    "pos": "",
+    "meaning": "骑自行车",
+    "letter": "R"
+  },
+  {
+    "id": "right",
+    "word": "right",
+    "phonetic": "[rait]",
+    "pos": "",
+    "meaning": "右边的;正确的,准确的",
+    "letter": "R"
+  },
+  {
+    "id": "river",
+    "word": "river",
+    "phonetic": "['rɪvə]",
+    "pos": "",
+    "meaning": "河；江",
+    "letter": "R"
+  },
+  {
+    "id": "road",
+    "word": "road",
+    "phonetic": "[ rəud ]",
+    "pos": "n.",
+    "meaning": "公路、大道",
+    "letter": "R"
+  },
+  {
+    "id": "robot",
+    "word": "robot",
+    "phonetic": "['rəʊbɒt]",
+    "pos": "",
+    "meaning": "机器人",
+    "letter": "R"
+  },
+  {
+    "id": "rode",
+    "word": "rode",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(ride的过去式)骑(马，自行车)",
+    "letter": "R"
+  },
+  {
+    "id": "roll",
+    "word": "roll",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "滚动",
+    "letter": "R"
+  },
+  {
+    "id": "room",
+    "word": "room",
+    "phonetic": "[ ru:m ]",
+    "pos": "",
+    "meaning": "房间",
+    "letter": "R"
+  },
+  {
+    "id": "row",
+    "word": "row",
+    "phonetic": "[ rau]",
+    "pos": "",
+    "meaning": "（过去式rowed）划（船）",
+    "letter": "R"
+  },
+  {
+    "id": "rsvp",
+    "word": "RSVP",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "请赐复",
+    "letter": "R"
+  },
+  {
+    "id": "ruler",
+    "word": "ruler",
+    "phonetic": "['ruːlə]",
+    "pos": "",
+    "meaning": "尺子",
+    "letter": "R"
+  },
+  {
+    "id": "run",
+    "word": "run",
+    "phonetic": "[ rʌn ]",
+    "pos": "",
+    "meaning": "跑、奔跑",
+    "letter": "R"
+  },
+  {
+    "id": "sad",
+    "word": "sad",
+    "phonetic": "[sæd]",
+    "pos": "",
+    "meaning": "难过的",
+    "letter": "S"
+  },
+  {
+    "id": "salad",
+    "word": "salad",
+    "phonetic": "/ˈsæləd/",
+    "pos": "",
+    "meaning": "蔬菜色拉；混合色拉",
+    "letter": "S"
+  },
+  {
+    "id": "sale",
+    "word": "sale",
+    "phonetic": "[seɪl]",
+    "pos": "",
+    "meaning": "大减价",
+    "letter": "S"
+  },
+  {
+    "id": "salesperson",
+    "word": "salesperson",
+    "phonetic": "['seilz,pə:sən]",
+    "pos": "",
+    "meaning": "售货员",
+    "letter": "S"
+  },
+  {
+    "id": "salty",
+    "word": "salty",
+    "phonetic": "['sɔ:lti]",
+    "pos": "",
+    "meaning": "a. 咸的",
+    "letter": "S"
+  },
+  {
+    "id": "same",
+    "word": "same",
+    "phonetic": "[seim]",
+    "pos": "",
+    "meaning": "相同的",
+    "letter": "S"
+  },
+  {
+    "id": "samller",
+    "word": "samller",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更小的",
+    "letter": "S"
+  },
+  {
+    "id": "sandals",
+    "word": "sandals",
+    "phonetic": "['sandl]",
+    "pos": "",
+    "meaning": "凉鞋",
+    "letter": "S"
+  },
+  {
+    "id": "sandwich",
+    "word": "sandwich",
+    "phonetic": "['sændwɪtʃ]",
+    "pos": "",
+    "meaning": "三明治",
+    "letter": "S"
+  },
+  {
+    "id": "saturday",
+    "word": "Saturday",
+    "phonetic": "['sætədi]",
+    "pos": "",
+    "meaning": "星期六",
+    "letter": "S"
+  },
+  {
+    "id": "saw",
+    "word": "saw",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "看见",
+    "letter": "S"
+  },
+  {
+    "id": "say",
+    "word": "say",
+    "phonetic": "[sei ]",
+    "pos": "",
+    "meaning": "说；讲",
+    "letter": "S"
+  },
+  {
+    "id": "scarf",
+    "word": "scarf",
+    "phonetic": "[skɑːf]",
+    "pos": "",
+    "meaning": "围巾",
+    "letter": "S"
+  },
+  {
+    "id": "schedule",
+    "word": "schedule",
+    "phonetic": "['ʃedjuːl]",
+    "pos": "",
+    "meaning": "工作计划；日程安排",
+    "letter": "S"
+  },
+  {
+    "id": "school",
+    "word": "school",
+    "phonetic": "[skuːl]",
+    "pos": "",
+    "meaning": "学校",
+    "letter": "S"
+  },
+  {
+    "id": "schoolbag",
+    "word": "schoolbag",
+    "phonetic": "['skuːlˌbæg]",
+    "pos": "",
+    "meaning": "书包",
+    "letter": "S"
+  },
+  {
+    "id": "science",
+    "word": "science",
+    "phonetic": "[ˈsaɪəns]",
+    "pos": "",
+    "meaning": "科学",
+    "letter": "S"
+  },
+  {
+    "id": "scientis",
+    "word": "scientis",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "t科学家",
+    "letter": "S"
+  },
+  {
+    "id": "scientist",
+    "word": "scientist",
+    "phonetic": "[ˈsaɪəntɪst]",
+    "pos": "",
+    "meaning": "科学家",
+    "letter": "S"
+  },
+  {
+    "id": "scotland",
+    "word": "Scotland",
+    "phonetic": "[ˈskɒtlənd]",
+    "pos": "",
+    "meaning": "苏格兰",
+    "letter": "S"
+  },
+  {
+    "id": "sea",
+    "word": "sea",
+    "phonetic": "[siː]",
+    "pos": "",
+    "meaning": "大海",
+    "letter": "S"
+  },
+  {
+    "id": "seal",
+    "word": "seal",
+    "phonetic": "[si:l]",
+    "pos": "",
+    "meaning": "海豹",
+    "letter": "S"
+  },
+  {
+    "id": "season",
+    "word": "season",
+    "phonetic": "[ 'si:zn ]['si:zən]",
+    "pos": "",
+    "meaning": "季节",
+    "letter": "S"
+  },
+  {
+    "id": "seat",
+    "word": "seat",
+    "phonetic": "[ si:t ]",
+    "pos": "",
+    "meaning": "座位",
+    "letter": "S"
+  },
+  {
+    "id": "second",
+    "word": "second",
+    "phonetic": "[ 'sekənd ]",
+    "pos": "",
+    "meaning": "第二",
+    "letter": "S"
+  },
+  {
+    "id": "second (2nd)",
+    "word": "second (2nd)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第二的",
+    "letter": "S"
+  },
+  {
+    "id": "second floor",
+    "word": "second floor",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "二楼",
+    "letter": "S"
+  },
+  {
+    "id": "secretary",
+    "word": "secretary",
+    "phonetic": "[ˈsekrətri]",
+    "pos": "",
+    "meaning": "秘书",
+    "letter": "S"
+  },
+  {
+    "id": "see",
+    "word": "see",
+    "phonetic": "[ si: ]",
+    "pos": "",
+    "meaning": "(过去式saw[sɔ:])看见",
+    "letter": "S"
+  },
+  {
+    "id": "see a doctor",
+    "word": "see a doctor",
+    "phonetic": "[siː ə ˈdɒktə]",
+    "pos": "",
+    "meaning": "看病",
+    "letter": "S"
+  },
+  {
+    "id": "see a film",
+    "word": "see a film",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "看电影",
+    "letter": "S"
+  },
+  {
+    "id": "see you later",
+    "word": "see you later",
+    "phonetic": "[si:][ju:]['leitə]",
+    "pos": "",
+    "meaning": "再见",
+    "letter": "S"
+  },
+  {
+    "id": "seed",
+    "word": "seed",
+    "phonetic": "[si:d]",
+    "pos": "",
+    "meaning": "种子",
+    "letter": "S"
+  },
+  {
+    "id": "see—saw",
+    "word": "see—saw",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "看见",
+    "letter": "S"
+  },
+  {
+    "id": "send",
+    "word": "send",
+    "phonetic": "[send]",
+    "pos": "",
+    "meaning": "邮寄；发送",
+    "letter": "S"
+  },
+  {
+    "id": "september",
+    "word": "September",
+    "phonetic": "[ səp'tembə]",
+    "pos": "",
+    "meaning": "九月",
+    "letter": "S"
+  },
+  {
+    "id": "set the table",
+    "word": "set the table",
+    "phonetic": "[set][ði:]['teibl ]",
+    "pos": "",
+    "meaning": "摆餐具；摆饭桌",
+    "letter": "S"
+  },
+  {
+    "id": "seven",
+    "word": "seven",
+    "phonetic": "['sevn]",
+    "pos": "",
+    "meaning": "七",
+    "letter": "S"
+  },
+  {
+    "id": "seventeen",
+    "word": "seventeen",
+    "phonetic": "[sevən'tiːn]",
+    "pos": "",
+    "meaning": "十七",
+    "letter": "S"
+  },
+  {
+    "id": "seventh",
+    "word": "seventh",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(7th\\) 第七",
+    "letter": "S"
+  },
+  {
+    "id": "seventy",
+    "word": "seventy",
+    "phonetic": "[ 'sevənti ]",
+    "pos": "",
+    "meaning": "七十",
+    "letter": "S"
+  },
+  {
+    "id": "several",
+    "word": "several",
+    "phonetic": "['sevərəl]",
+    "pos": "",
+    "meaning": "一些（但不多）;几个",
+    "letter": "S"
+  },
+  {
+    "id": "shadow",
+    "word": "shadow",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "阴影，影子",
+    "letter": "S"
+  },
+  {
+    "id": "shall",
+    "word": "shall",
+    "phonetic": "[ʃæl]",
+    "pos": "",
+    "meaning": "表示征求意见",
+    "letter": "S"
+  },
+  {
+    "id": "share",
+    "word": "share",
+    "phonetic": "[ʃeə]",
+    "pos": "",
+    "meaning": "分享",
+    "letter": "S"
+  },
+  {
+    "id": "shark",
+    "word": "shark",
+    "phonetic": "[ʃɑ:k]",
+    "pos": "",
+    "meaning": "鲨鱼",
+    "letter": "S"
+  },
+  {
+    "id": "sharpener",
+    "word": "sharpener",
+    "phonetic": "[ 'ʃɑ:pənə ]",
+    "pos": "",
+    "meaning": "卷笔刀",
+    "letter": "S"
+  },
+  {
+    "id": "she",
+    "word": "she",
+    "phonetic": "[ʃiː]",
+    "pos": "",
+    "meaning": "她",
+    "letter": "S"
+  },
+  {
+    "id": "sheep",
+    "word": "sheep",
+    "phonetic": "[ʃiːp]",
+    "pos": "",
+    "meaning": "绵羊",
+    "letter": "S"
+  },
+  {
+    "id": "shelf",
+    "word": "shelf",
+    "phonetic": "[ ʃelf ]",
+    "pos": "",
+    "meaning": "书架.",
+    "letter": "S"
+  },
+  {
+    "id": "shine",
+    "word": "shine",
+    "phonetic": "[ʃain]",
+    "pos": "",
+    "meaning": "照耀",
+    "letter": "S"
+  },
+  {
+    "id": "ship",
+    "word": "ship",
+    "phonetic": "[ ʃip ]",
+    "pos": "",
+    "meaning": "（大）船；轮船",
+    "letter": "S"
+  },
+  {
+    "id": "ship：",
+    "word": "ship：",
+    "phonetic": "[ʃɪp]",
+    "pos": "",
+    "meaning": "船,舰",
+    "letter": "S"
+  },
+  {
+    "id": "shirt",
+    "word": "shirt",
+    "phonetic": "[ʃɜːt]",
+    "pos": "",
+    "meaning": "衬衫",
+    "letter": "S"
+  },
+  {
+    "id": "shoe",
+    "word": "shoe",
+    "phonetic": "[ʃuː]",
+    "pos": "",
+    "meaning": "鞋",
+    "letter": "S"
+  },
+  {
+    "id": "shoe store",
+    "word": "shoe store",
+    "phonetic": "[ʃu:][stɔ:]",
+    "pos": "",
+    "meaning": "鞋店",
+    "letter": "S"
+  },
+  {
+    "id": "shoes",
+    "word": "shoes",
+    "phonetic": "[ʃuːz]",
+    "pos": "",
+    "meaning": "鞋子",
+    "letter": "S"
+  },
+  {
+    "id": "shop",
+    "word": "shop",
+    "phonetic": "[ʃɔp]",
+    "pos": "",
+    "meaning": "商店",
+    "letter": "S"
+  },
+  {
+    "id": "short",
+    "word": "short",
+    "phonetic": "[ ʃɔ:t ]",
+    "pos": "",
+    "meaning": "短的.；矮的",
+    "letter": "S"
+  },
+  {
+    "id": "short hair",
+    "word": "short hair",
+    "phonetic": "[ ʃɔ:t ]",
+    "pos": "",
+    "meaning": "短头发",
+    "letter": "S"
+  },
+  {
+    "id": "shorter",
+    "word": "shorter",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更矮，更短的",
+    "letter": "S"
+  },
+  {
+    "id": "shorts",
+    "word": "shorts",
+    "phonetic": "[ʃɔːts]",
+    "pos": "",
+    "meaning": "短裤",
+    "letter": "S"
+  },
+  {
+    "id": "short—shorter",
+    "word": "short—shorter",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更矮的",
+    "letter": "S"
+  },
+  {
+    "id": "should",
+    "word": "should",
+    "phonetic": "[ʃʊd]",
+    "pos": "",
+    "meaning": "应该；应当",
+    "letter": "S"
+  },
+  {
+    "id": "show",
+    "word": "Show",
+    "phonetic": "[ʃəu]",
+    "pos": "v",
+    "meaning": "t. 显示；演出；展出；说明vi. 显示；指示；说明n. 炫耀；显示；表演",
+    "letter": "S"
+  },
+  {
+    "id": "shy",
+    "word": "shy",
+    "phonetic": "/ʃaɪ/",
+    "pos": "",
+    "meaning": "羞怯的；腼腆的；怕生的",
+    "letter": "S"
+  },
+  {
+    "id": "sick",
+    "word": "sick",
+    "phonetic": "[ sik ]",
+    "pos": "",
+    "meaning": "不舒服的；有病的",
+    "letter": "S"
+  },
+  {
+    "id": "side",
+    "word": "side",
+    "phonetic": "[said]",
+    "pos": "",
+    "meaning": "边;面;侧;端",
+    "letter": "S"
+  },
+  {
+    "id": "sing",
+    "word": "Sing",
+    "phonetic": "[siŋ ]",
+    "pos": "",
+    "meaning": "（过去式sang[sæŋ ]）",
+    "letter": "S"
+  },
+  {
+    "id": "sing english songs",
+    "word": "sing English songs",
+    "phonetic": "/sɪŋ/",
+    "pos": "",
+    "meaning": "唱英文歌",
+    "letter": "S"
+  },
+  {
+    "id": "singapore",
+    "word": "Singapore",
+    "phonetic": "[ˌsɪŋgəˌpɔː]",
+    "pos": "",
+    "meaning": "新加坡",
+    "letter": "S"
+  },
+  {
+    "id": "singer",
+    "word": "singer",
+    "phonetic": "['siŋə]",
+    "pos": "",
+    "meaning": "歌唱家；歌手",
+    "letter": "S"
+  },
+  {
+    "id": "sir",
+    "word": "sir",
+    "phonetic": "[sɜː]",
+    "pos": "",
+    "meaning": "（对男子的礼貌称呼）先生",
+    "letter": "S"
+  },
+  {
+    "id": "sister",
+    "word": "sister",
+    "phonetic": "['sɪstə]",
+    "pos": "",
+    "meaning": "姐；妹",
+    "letter": "S"
+  },
+  {
+    "id": "sit",
+    "word": "sit",
+    "phonetic": "[sɪt]",
+    "pos": "",
+    "meaning": "坐",
+    "letter": "S"
+  },
+  {
+    "id": "six",
+    "word": "six",
+    "phonetic": "[sɪks]",
+    "pos": "",
+    "meaning": "六",
+    "letter": "S"
+  },
+  {
+    "id": "sixteen",
+    "word": "sixteen",
+    "phonetic": "['sɪksti]",
+    "pos": "",
+    "meaning": "十六",
+    "letter": "S"
+  },
+  {
+    "id": "sixth",
+    "word": "sixth",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(6th\\) 第六",
+    "letter": "S"
+  },
+  {
+    "id": "sixty",
+    "word": "sixty",
+    "phonetic": "[ 'siksti(:) ]",
+    "pos": "",
+    "meaning": "六十",
+    "letter": "S"
+  },
+  {
+    "id": "size",
+    "word": "size",
+    "phonetic": "[saiz]",
+    "pos": "",
+    "meaning": "号码；尺码",
+    "letter": "S"
+  },
+  {
+    "id": "skate",
+    "word": "skate",
+    "phonetic": "[ skeit ]",
+    "pos": "",
+    "meaning": "滑冰；滑冰鞋",
+    "letter": "S"
+  },
+  {
+    "id": "skirt",
+    "word": "skirt",
+    "phonetic": "[skɜːt]",
+    "pos": "",
+    "meaning": "女裙",
+    "letter": "S"
+  },
+  {
+    "id": "sky",
+    "word": "sky",
+    "phonetic": "[ skai ]",
+    "pos": "n.",
+    "meaning": "天空",
+    "letter": "S"
+  },
+  {
+    "id": "sled",
+    "word": "sled",
+    "phonetic": "[sled]",
+    "pos": "",
+    "meaning": "雪橇",
+    "letter": "S"
+  },
+  {
+    "id": "sleep",
+    "word": "sleep",
+    "phonetic": "[ sli:p ]",
+    "pos": "",
+    "meaning": "睡觉",
+    "letter": "S"
+  },
+  {
+    "id": "sleeping",
+    "word": "sleeping",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（正在）睡觉",
+    "letter": "S"
+  },
+  {
+    "id": "sleep—slept",
+    "word": "sleep—slept",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "睡觉",
+    "letter": "S"
+  },
+  {
+    "id": "slept",
+    "word": "slept",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "睡觉",
+    "letter": "S"
+  },
+  {
+    "id": "slippers",
+    "word": "slippers",
+    "phonetic": "['slipə]",
+    "pos": "",
+    "meaning": "拖鞋",
+    "letter": "S"
+  },
+  {
+    "id": "slow",
+    "word": "slow",
+    "phonetic": "[sləʊ]",
+    "pos": "",
+    "meaning": "慢的",
+    "letter": "S"
+  },
+  {
+    "id": "slow down",
+    "word": "slow down",
+    "phonetic": "[sləʊ daʊn]",
+    "pos": "",
+    "meaning": "慢下来",
+    "letter": "S"
+  },
+  {
+    "id": "small",
+    "word": "small",
+    "phonetic": "[smɔːl]",
+    "pos": "",
+    "meaning": "小的",
+    "letter": "S"
+  },
+  {
+    "id": "smaller",
+    "word": "smaller",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（体型）更小的",
+    "letter": "S"
+  },
+  {
+    "id": "smaller （",
+    "word": "smaller （",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "体型）更小的",
+    "letter": "S"
+  },
+  {
+    "id": "small—smaller",
+    "word": "small—smaller",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "（体型）更小",
+    "letter": "S"
+  },
+  {
+    "id": "smart",
+    "word": "smart",
+    "phonetic": "[ smɑ:t]",
+    "pos": "",
+    "meaning": "聪明的;巧妙的",
+    "letter": "S"
+  },
+  {
+    "id": "smart-smarter",
+    "word": "smart-smarter",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更聪慧的",
+    "letter": "S"
+  },
+  {
+    "id": "smarter",
+    "word": "smarter",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更聪明的",
+    "letter": "S"
+  },
+  {
+    "id": "snake",
+    "word": "snake",
+    "phonetic": "[ sneik ]",
+    "pos": "",
+    "meaning": "蛇",
+    "letter": "S"
+  },
+  {
+    "id": "sneakers",
+    "word": "sneakers",
+    "phonetic": "['sni:kəz]",
+    "pos": "",
+    "meaning": "胶底帆布鞋；网球鞋",
+    "letter": "S"
+  },
+  {
+    "id": "snow",
+    "word": "snow",
+    "phonetic": "[ snəu ]",
+    "pos": "",
+    "meaning": "雪",
+    "letter": "S"
+  },
+  {
+    "id": "snowman",
+    "word": "snowman",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "雪人",
+    "letter": "S"
+  },
+  {
+    "id": "snowy",
+    "word": "snowy",
+    "phonetic": "[snəʊi]",
+    "pos": "",
+    "meaning": "下雪的",
+    "letter": "S"
+  },
+  {
+    "id": "so",
+    "word": "so",
+    "phonetic": "[səʊ]",
+    "pos": "",
+    "meaning": "这么；那么",
+    "letter": "S"
+  },
+  {
+    "id": "so much",
+    "word": "so much",
+    "phonetic": "[ səu][mʌtʃ]",
+    "pos": "",
+    "meaning": "很;非常",
+    "letter": "S"
+  },
+  {
+    "id": "social studies",
+    "word": "Social Studies",
+    "phonetic": "[ 'səuʃəl ] [ 'stʌdiz ]",
+    "pos": "",
+    "meaning": "社会课",
+    "letter": "S"
+  },
+  {
+    "id": "sock",
+    "word": "sock",
+    "phonetic": "[sɒk]",
+    "pos": "",
+    "meaning": "短袜",
+    "letter": "S"
+  },
+  {
+    "id": "socks",
+    "word": "socks",
+    "phonetic": "[sɔks]",
+    "pos": "",
+    "meaning": "袜子",
+    "letter": "S"
+  },
+  {
+    "id": "sofa",
+    "word": "sofa",
+    "phonetic": "['səʊfə]",
+    "pos": "",
+    "meaning": "长沙发",
+    "letter": "S"
+  },
+  {
+    "id": "soil",
+    "word": "Soil",
+    "phonetic": "[sɔil]",
+    "pos": "",
+    "meaning": "土壤",
+    "letter": "S"
+  },
+  {
+    "id": "some",
+    "word": "some",
+    "phonetic": "[ sʌm]",
+    "pos": "",
+    "meaning": "一些",
+    "letter": "S"
+  },
+  {
+    "id": "something",
+    "word": "something",
+    "phonetic": "['sʌmθiŋ]",
+    "pos": "",
+    "meaning": "某事物",
+    "letter": "S"
+  },
+  {
+    "id": "sometimes",
+    "word": "sometimes",
+    "phonetic": "['sʌmtaɪmz]",
+    "pos": "",
+    "meaning": "有时；间或",
+    "letter": "S"
+  },
+  {
+    "id": "son",
+    "word": "son",
+    "phonetic": "[ sʌn ]",
+    "pos": "",
+    "meaning": "儿子",
+    "letter": "S"
+  },
+  {
+    "id": "song",
+    "word": "song",
+    "phonetic": "[sɒŋ]",
+    "pos": "",
+    "meaning": "歌曲",
+    "letter": "S"
+  },
+  {
+    "id": "soon",
+    "word": "soon",
+    "phonetic": "[ su:n ]",
+    "pos": "",
+    "meaning": "立刻；不久",
+    "letter": "S"
+  },
+  {
+    "id": "sore",
+    "word": "sore",
+    "phonetic": "[sɔ:]",
+    "pos": "",
+    "meaning": "疼的",
+    "letter": "S"
+  },
+  {
+    "id": "sorry",
+    "word": "sorry",
+    "phonetic": "[ 'sɔ:ri]",
+    "pos": "",
+    "meaning": "对不起",
+    "letter": "S"
+  },
+  {
+    "id": "sound",
+    "word": "sound",
+    "phonetic": "[ saund ]",
+    "pos": "",
+    "meaning": "听起来",
+    "letter": "S"
+  },
+  {
+    "id": "soup",
+    "word": "soup",
+    "phonetic": "[suːp]",
+    "pos": "",
+    "meaning": "汤",
+    "letter": "S"
+  },
+  {
+    "id": "sour",
+    "word": "sour",
+    "phonetic": "[ 'sauə ]",
+    "pos": "adj.",
+    "meaning": "酸的",
+    "letter": "S"
+  },
+  {
+    "id": "south",
+    "word": "south",
+    "phonetic": "[sauθ]",
+    "pos": "",
+    "meaning": "南",
+    "letter": "S"
+  },
+  {
+    "id": "space",
+    "word": "space",
+    "phonetic": "[speɪs]",
+    "pos": "",
+    "meaning": "太空",
+    "letter": "S"
+  },
+  {
+    "id": "spain",
+    "word": "Spain",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "西班牙",
+    "letter": "S"
+  },
+  {
+    "id": "spanish",
+    "word": "Spanish",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "西班牙的；西班牙语；西班牙人",
+    "letter": "S"
+  },
+  {
+    "id": "speak",
+    "word": "speak",
+    "phonetic": "[spiːk]",
+    "pos": "",
+    "meaning": "会说；会讲",
+    "letter": "S"
+  },
+  {
+    "id": "speak english",
+    "word": "speak English",
+    "phonetic": "/spiːk/",
+    "pos": "",
+    "meaning": "说英语",
+    "letter": "S"
+  },
+  {
+    "id": "speak to",
+    "word": "speak to",
+    "phonetic": "[spi:k]",
+    "pos": "",
+    "meaning": "和…讲话",
+    "letter": "S"
+  },
+  {
+    "id": "special",
+    "word": "special",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "特殊的；特别的",
+    "letter": "S"
+  },
+  {
+    "id": "sperm whale",
+    "word": "sperm whale",
+    "phonetic": "[spɜ:m][weil]",
+    "pos": "",
+    "meaning": "抹香鲸",
+    "letter": "S"
+  },
+  {
+    "id": "spoon",
+    "word": "spoon",
+    "phonetic": "[ spu:n ]",
+    "pos": "",
+    "meaning": "勺子",
+    "letter": "S"
+  },
+  {
+    "id": "sport",
+    "word": "sport",
+    "phonetic": "[spɔːt]",
+    "pos": "",
+    "meaning": "体育运动",
+    "letter": "S"
+  },
+  {
+    "id": "sports",
+    "word": "sports",
+    "phonetic": "[ spɔ:ts ]",
+    "pos": "",
+    "meaning": "体育运动",
+    "letter": "S"
+  },
+  {
+    "id": "sports meet",
+    "word": "sports meet",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "运动会",
+    "letter": "S"
+  },
+  {
+    "id": "spring",
+    "word": "spring",
+    "phonetic": "[ spriŋ ]",
+    "pos": "",
+    "meaning": "春天",
+    "letter": "S"
+  },
+  {
+    "id": "sprout",
+    "word": "Sprout",
+    "phonetic": "[spraut]",
+    "pos": "",
+    "meaning": "苗;芽;嫩芽",
+    "letter": "S"
+  },
+  {
+    "id": "squid",
+    "word": "squid",
+    "phonetic": "[skwɪd]",
+    "pos": "",
+    "meaning": "鱿鱼",
+    "letter": "S"
+  },
+  {
+    "id": "squirrel",
+    "word": "squirrel",
+    "phonetic": "['skwirəl]",
+    "pos": "",
+    "meaning": "松鼠",
+    "letter": "S"
+  },
+  {
+    "id": "star",
+    "word": "star",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "星星",
+    "letter": "S"
+  },
+  {
+    "id": "start",
+    "word": "start",
+    "phonetic": "[stɑ:t]",
+    "pos": "",
+    "meaning": "开始",
+    "letter": "S"
+  },
+  {
+    "id": "stay",
+    "word": "stay",
+    "phonetic": "[ stei ]",
+    "pos": "",
+    "meaning": "在;逗留",
+    "letter": "S"
+  },
+  {
+    "id": "stayed",
+    "word": "stayed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "停留，待",
+    "letter": "S"
+  },
+  {
+    "id": "stay—stayed",
+    "word": "stay—stayed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "停留",
+    "letter": "S"
+  },
+  {
+    "id": "still",
+    "word": "still",
+    "phonetic": "[stil]",
+    "pos": "",
+    "meaning": "仍然；依旧；还是",
+    "letter": "S"
+  },
+  {
+    "id": "stop",
+    "word": "stop",
+    "phonetic": "[stɔp]",
+    "pos": "",
+    "meaning": "停；停车站",
+    "letter": "S"
+  },
+  {
+    "id": "story -book",
+    "word": "story -book",
+    "phonetic": "['stɔ:ri ]",
+    "pos": "",
+    "meaning": "故事书",
+    "letter": "S"
+  },
+  {
+    "id": "storybook",
+    "word": "storybook",
+    "phonetic": "/ˈstɔːrɪbʊk/",
+    "pos": "",
+    "meaning": "故事书",
+    "letter": "S"
+  },
+  {
+    "id": "straight",
+    "word": "straight",
+    "phonetic": "[streit]",
+    "pos": "",
+    "meaning": "1. 笔直的;挺直的2、成直线地",
+    "letter": "S"
+  },
+  {
+    "id": "strawberry",
+    "word": "strawberry",
+    "phonetic": "['strɔːbəri]",
+    "pos": "",
+    "meaning": "草莓",
+    "letter": "S"
+  },
+  {
+    "id": "stream",
+    "word": "stream",
+    "phonetic": "[stri:m]",
+    "pos": "",
+    "meaning": "（小）河",
+    "letter": "S"
+  },
+  {
+    "id": "street",
+    "word": "street",
+    "phonetic": "[striːt]",
+    "pos": "",
+    "meaning": "大街；街道",
+    "letter": "S"
+  },
+  {
+    "id": "strict",
+    "word": "strict",
+    "phonetic": "/strɪkt/",
+    "pos": "",
+    "meaning": "要求严格的；严厉的",
+    "letter": "S"
+  },
+  {
+    "id": "strong",
+    "word": "strong",
+    "phonetic": "[strɒŋ]",
+    "pos": "",
+    "meaning": "强壮的",
+    "letter": "S"
+  },
+  {
+    "id": "stronger",
+    "word": "stronger",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更强壮的",
+    "letter": "S"
+  },
+  {
+    "id": "strong—stronger",
+    "word": "strong—stronger",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更强壮的",
+    "letter": "S"
+  },
+  {
+    "id": "stuck",
+    "word": "stuck",
+    "phonetic": "[stʌk]",
+    "pos": "",
+    "meaning": "陷住；无法移动",
+    "letter": "S"
+  },
+  {
+    "id": "student",
+    "word": "student",
+    "phonetic": "['stjuːdənt]",
+    "pos": "",
+    "meaning": "学生",
+    "letter": "S"
+  },
+  {
+    "id": "studies",
+    "word": "studies",
+    "phonetic": "[ˈstʌdiz]",
+    "pos": "",
+    "meaning": "（study 的第三人称单数形式）学习",
+    "letter": "S"
+  },
+  {
+    "id": "study",
+    "word": "study",
+    "phonetic": "[ 'stʌdi ]",
+    "pos": "",
+    "meaning": "（过去式studied[ 'stʌdid ]）学习",
+    "letter": "S"
+  },
+  {
+    "id": "subway",
+    "word": "subway",
+    "phonetic": "[ˈsʌbweɪ]",
+    "pos": "",
+    "meaning": "地铁",
+    "letter": "S"
+  },
+  {
+    "id": "subway：",
+    "word": "subway：",
+    "phonetic": "['sʌbwei]",
+    "pos": "",
+    "meaning": "地铁",
+    "letter": "S"
+  },
+  {
+    "id": "summer",
+    "word": "summer",
+    "phonetic": "[ 'sʌmə ]",
+    "pos": "",
+    "meaning": "夏天",
+    "letter": "S"
+  },
+  {
+    "id": "sun",
+    "word": "sun",
+    "phonetic": "[ sʌn ]",
+    "pos": "",
+    "meaning": "太阳",
+    "letter": "S"
+  },
+  {
+    "id": "sunday",
+    "word": "Sunday",
+    "phonetic": "['sʌndi]",
+    "pos": "",
+    "meaning": "星期日",
+    "letter": "S"
+  },
+  {
+    "id": "sunglasses",
+    "word": "sunglasses",
+    "phonetic": "['sʌŋglɑːsɪz]",
+    "pos": "",
+    "meaning": "太阳镜",
+    "letter": "S"
+  },
+  {
+    "id": "sunny",
+    "word": "sunny",
+    "phonetic": "['sʌni]",
+    "pos": "",
+    "meaning": "阳光充足的",
+    "letter": "S"
+  },
+  {
+    "id": "super",
+    "word": "super",
+    "phonetic": "[ 'sju:pə ]",
+    "pos": "",
+    "meaning": "太棒了太",
+    "letter": "S"
+  },
+  {
+    "id": "supermarket",
+    "word": "supermarket",
+    "phonetic": "[ˈsjuːpəmɑːkɪt]",
+    "pos": "",
+    "meaning": "超市",
+    "letter": "S"
+  },
+  {
+    "id": "sure",
+    "word": "sure",
+    "phonetic": "[ ʃuə]",
+    "pos": "",
+    "meaning": "的确；一定",
+    "letter": "S"
+  },
+  {
+    "id": "sushi",
+    "word": "sushi",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "寿司",
+    "letter": "S"
+  },
+  {
+    "id": "sweater",
+    "word": "sweater",
+    "phonetic": "[ 'swetə ]",
+    "pos": "",
+    "meaning": "毛衣 .",
+    "letter": "S"
+  },
+  {
+    "id": "sweep the floor",
+    "word": "sweep the floor",
+    "phonetic": "[swi:p][ ði:,][flɔ:]",
+    "pos": "",
+    "meaning": "扫地",
+    "letter": "S"
+  },
+  {
+    "id": "sweet",
+    "word": "sweet",
+    "phonetic": "/swiːt/",
+    "pos": "",
+    "meaning": "含糖的；甜的",
+    "letter": "S"
+  },
+  {
+    "id": "swim",
+    "word": "swim",
+    "phonetic": "[ swim ]",
+    "pos": "",
+    "meaning": "（过去式swam[ swæm]）",
+    "letter": "S"
+  },
+  {
+    "id": "swing",
+    "word": "swing",
+    "phonetic": "[swiŋ]",
+    "pos": "",
+    "meaning": "荡;荡秋千",
+    "letter": "S"
+  },
+  {
+    "id": "sydney",
+    "word": "Sydney",
+    "phonetic": "['sɪdni]",
+    "pos": "",
+    "meaning": "悉尼",
+    "letter": "S"
+  },
+  {
+    "id": "t-shirt",
+    "word": "T-shirt",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "T恤衫",
+    "letter": "T"
+  },
+  {
+    "id": "t-shirt t",
+    "word": "T-shirt T",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "恤衫",
+    "letter": "T"
+  },
+  {
+    "id": "table",
+    "word": "table",
+    "phonetic": "['teɪbl]",
+    "pos": "",
+    "meaning": "桌子",
+    "letter": "T"
+  },
+  {
+    "id": "tail",
+    "word": "tail",
+    "phonetic": "[teɪl]",
+    "pos": "",
+    "meaning": "尾巴",
+    "letter": "T"
+  },
+  {
+    "id": "take",
+    "word": "take",
+    "phonetic": "[teik ]",
+    "pos": "",
+    "meaning": "（过去式took[tʊk]）",
+    "letter": "T"
+  },
+  {
+    "id": "take a dancing class",
+    "word": "take a dancing class",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "上舞蹈课",
+    "letter": "T"
+  },
+  {
+    "id": "take a deep breath",
+    "word": "take a deep breath",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "深深吸一口气",
+    "letter": "T"
+  },
+  {
+    "id": "take a trip",
+    "word": "take a trip",
+    "phonetic": "[teɪk ə trɪp]",
+    "pos": "",
+    "meaning": "去旅行",
+    "letter": "T"
+  },
+  {
+    "id": "take pictures",
+    "word": "take pictures",
+    "phonetic": "[teik]['piktʃəs]",
+    "pos": "",
+    "meaning": "照相",
+    "letter": "T"
+  },
+  {
+    "id": "take turns",
+    "word": "take turns",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "按顺序来",
+    "letter": "T"
+  },
+  {
+    "id": "take—took",
+    "word": "take—took",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "拍照",
+    "letter": "T"
+  },
+  {
+    "id": "talk",
+    "word": "talk",
+    "phonetic": "[tɔ:k]",
+    "pos": "",
+    "meaning": "讲话",
+    "letter": "T"
+  },
+  {
+    "id": "talk quietly",
+    "word": "talk quietly",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "小声讲话",
+    "letter": "T"
+  },
+  {
+    "id": "tall",
+    "word": "tall",
+    "phonetic": "[tɔːl]",
+    "pos": "",
+    "meaning": "高的",
+    "letter": "T"
+  },
+  {
+    "id": "taller",
+    "word": "taller",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更高的",
+    "letter": "T"
+  },
+  {
+    "id": "tall—taller",
+    "word": "tall—taller",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更高的",
+    "letter": "T"
+  },
+  {
+    "id": "taste",
+    "word": "taste",
+    "phonetic": "[ teist ]",
+    "pos": "",
+    "meaning": "品尝",
+    "letter": "T"
+  },
+  {
+    "id": "tasty",
+    "word": "tasty",
+    "phonetic": "['teisti ]",
+    "pos": "adj.",
+    "meaning": "好吃的;可口的",
+    "letter": "T"
+  },
+  {
+    "id": "taxi",
+    "word": "taxi",
+    "phonetic": "[ˈtæksi]",
+    "pos": "",
+    "meaning": "出租汽车",
+    "letter": "T"
+  },
+  {
+    "id": "tea",
+    "word": "tea",
+    "phonetic": "[tiː]",
+    "pos": "",
+    "meaning": "茶；茶水",
+    "letter": "T"
+  },
+  {
+    "id": "teach",
+    "word": "teach",
+    "phonetic": "[ ti:tʃ]",
+    "pos": "",
+    "meaning": "教",
+    "letter": "T"
+  },
+  {
+    "id": "teacher",
+    "word": "teacher",
+    "phonetic": "['tiːtʃə]",
+    "pos": "",
+    "meaning": "教师",
+    "letter": "T"
+  },
+  {
+    "id": "teacher's",
+    "word": "teacher's",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "desk 讲台",
+    "letter": "T"
+  },
+  {
+    "id": "teacher's desk",
+    "word": "teacher's desk",
+    "phonetic": "/ˈtiːʧəz/",
+    "pos": "",
+    "meaning": "讲台",
+    "letter": "T"
+  },
+  {
+    "id": "teacher's office",
+    "word": "teacher's office",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "教师办公室",
+    "letter": "T"
+  },
+  {
+    "id": "teacher,s desk",
+    "word": "teacher,s desk",
+    "phonetic": "[ desk ]",
+    "pos": "",
+    "meaning": "讲台",
+    "letter": "T"
+  },
+  {
+    "id": "teacher,s-office",
+    "word": "teacher,s-office",
+    "phonetic": "['ɔfis]",
+    "pos": "",
+    "meaning": "教师办公室",
+    "letter": "T"
+  },
+  {
+    "id": "teachers",
+    "word": "teachers",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "教师办公室",
+    "letter": "T"
+  },
+  {
+    "id": "teachers'",
+    "word": "teachers'",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "office 教师办公室",
+    "letter": "T"
+  },
+  {
+    "id": "teaches",
+    "word": "teaches",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "教",
+    "letter": "T"
+  },
+  {
+    "id": "tell",
+    "word": "tell",
+    "phonetic": "[ tel ]",
+    "pos": "v.",
+    "meaning": "告诉,说",
+    "letter": "T"
+  },
+  {
+    "id": "ten",
+    "word": "ten",
+    "phonetic": "[ten]",
+    "pos": "",
+    "meaning": "十",
+    "letter": "T"
+  },
+  {
+    "id": "tenth",
+    "word": "tenth",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(10th\\) 第十",
+    "letter": "T"
+  },
+  {
+    "id": "test",
+    "word": "test",
+    "phonetic": "[ test ]",
+    "pos": "",
+    "meaning": "测试",
+    "letter": "T"
+  },
+  {
+    "id": "than",
+    "word": "than",
+    "phonetic": "[ðæn]",
+    "pos": "",
+    "meaning": "与…相比较",
+    "letter": "T"
+  },
+  {
+    "id": "thank",
+    "word": "thank",
+    "phonetic": "[ θæŋk ]",
+    "pos": "",
+    "meaning": "谢谢",
+    "letter": "T"
+  },
+  {
+    "id": "thanks",
+    "word": "thanks",
+    "phonetic": "[θæŋks]",
+    "pos": "",
+    "meaning": "多谢",
+    "letter": "T"
+  },
+  {
+    "id": "thanksgiving",
+    "word": "Thanksgiving",
+    "phonetic": "[ θæŋks'giviŋ ]",
+    "pos": "",
+    "meaning": "感恩节",
+    "letter": "T"
+  },
+  {
+    "id": "that",
+    "word": "that",
+    "phonetic": "[ ðæt ]",
+    "pos": "",
+    "meaning": "那；那个",
+    "letter": "T"
+  },
+  {
+    "id": "the",
+    "word": "the",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "Great Wall 长城",
+    "letter": "T"
+  },
+  {
+    "id": "the great wall",
+    "word": "the Great Wall",
+    "phonetic": "[ðə][greit][wɔ:l]",
+    "pos": "",
+    "meaning": "长城",
+    "letter": "T"
+  },
+  {
+    "id": "their",
+    "word": "their",
+    "phonetic": "/ðeə/",
+    "pos": "",
+    "meaning": "他们的，她们的，它们的",
+    "letter": "T"
+  },
+  {
+    "id": "theirs",
+    "word": "theirs",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "他们的；她们的；它们的",
+    "letter": "T"
+  },
+  {
+    "id": "them",
+    "word": "them",
+    "phonetic": "[ ðem ]",
+    "pos": "",
+    "meaning": "他（她、它）们（宾格）",
+    "letter": "T"
+  },
+  {
+    "id": "theme park",
+    "word": "theme park",
+    "phonetic": "[θi:m][pɑ:k]",
+    "pos": "",
+    "meaning": "主题公园",
+    "letter": "T"
+  },
+  {
+    "id": "then",
+    "word": "then",
+    "phonetic": "[ðen]",
+    "pos": "",
+    "meaning": "然后,接着",
+    "letter": "T"
+  },
+  {
+    "id": "then：",
+    "word": "then：",
+    "phonetic": "[ðen]",
+    "pos": "",
+    "meaning": "然后,接着",
+    "letter": "T"
+  },
+  {
+    "id": "there",
+    "word": "there",
+    "phonetic": "[ðeə]",
+    "pos": "",
+    "meaning": "\\(表示存在或发生\\)",
+    "letter": "T"
+  },
+  {
+    "id": "these",
+    "word": "these",
+    "phonetic": "[ ði:z ]",
+    "pos": "",
+    "meaning": "这些.",
+    "letter": "T"
+  },
+  {
+    "id": "they",
+    "word": "they",
+    "phonetic": "[ ðei ]",
+    "pos": "pron.",
+    "meaning": "他们",
+    "letter": "T"
+  },
+  {
+    "id": "thin",
+    "word": "thin",
+    "phonetic": "[θɪn]",
+    "pos": "",
+    "meaning": "瘦的",
+    "letter": "T"
+  },
+  {
+    "id": "thing",
+    "word": "thing",
+    "phonetic": "[θiŋ]",
+    "pos": "",
+    "meaning": "东西；物",
+    "letter": "T"
+  },
+  {
+    "id": "think",
+    "word": "think",
+    "phonetic": "[θiŋk]",
+    "pos": "",
+    "meaning": "想；思考",
+    "letter": "T"
+  },
+  {
+    "id": "think—thought",
+    "word": "think—thought",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "想",
+    "letter": "T"
+  },
+  {
+    "id": "thinner",
+    "word": "thinner",
+    "phonetic": "['θɪnə]",
+    "pos": "",
+    "meaning": "更瘦的",
+    "letter": "T"
+  },
+  {
+    "id": "thin—thinner",
+    "word": "thin—thinner",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更瘦的",
+    "letter": "T"
+  },
+  {
+    "id": "third",
+    "word": "third",
+    "phonetic": "[ θə:d ]",
+    "pos": "",
+    "meaning": "a. 第三的",
+    "letter": "T"
+  },
+  {
+    "id": "third (3rd)",
+    "word": "third (3rd)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第三的",
+    "letter": "T"
+  },
+  {
+    "id": "thirsty",
+    "word": "thirsty",
+    "phonetic": "/ˈθɜːsti/",
+    "pos": "",
+    "meaning": "渴的；口渴的",
+    "letter": "T"
+  },
+  {
+    "id": "thirteen",
+    "word": "thirteen",
+    "phonetic": "['θɜːtiːn]",
+    "pos": "",
+    "meaning": "十三",
+    "letter": "T"
+  },
+  {
+    "id": "thirtieth",
+    "word": "thirtieth",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(30th\\) 第三十",
+    "letter": "T"
+  },
+  {
+    "id": "thirtieth (30th)",
+    "word": "thirtieth (30th)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第三十的",
+    "letter": "T"
+  },
+  {
+    "id": "thirty",
+    "word": "thirty",
+    "phonetic": "['θɜːti]",
+    "pos": "",
+    "meaning": "三十",
+    "letter": "T"
+  },
+  {
+    "id": "thirty-one",
+    "word": "thirty-one",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "三十一",
+    "letter": "T"
+  },
+  {
+    "id": "this",
+    "word": "this",
+    "phonetic": "[ ðis]",
+    "pos": "",
+    "meaning": "这；这个",
+    "letter": "T"
+  },
+  {
+    "id": "this afternoon",
+    "word": "This afternoon",
+    "phonetic": "[ðis]['ɑ:ftə'nu:n]",
+    "pos": "",
+    "meaning": "今天下午",
+    "letter": "T"
+  },
+  {
+    "id": "this evening",
+    "word": "This evening",
+    "phonetic": "[ðis]['i:vniŋ]",
+    "pos": "",
+    "meaning": "今天晚上",
+    "letter": "T"
+  },
+  {
+    "id": "this morning",
+    "word": "this morning",
+    "phonetic": "[ðis]['mɔ:niŋ]",
+    "pos": "",
+    "meaning": "今天上午",
+    "letter": "T"
+  },
+  {
+    "id": "this way",
+    "word": "this way",
+    "phonetic": "[ wei ]",
+    "pos": "",
+    "meaning": "这边",
+    "letter": "T"
+  },
+  {
+    "id": "those",
+    "word": "those",
+    "phonetic": "[ ðəuz ]",
+    "pos": "",
+    "meaning": "那些.",
+    "letter": "T"
+  },
+  {
+    "id": "thought",
+    "word": "thought",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(think的过去式) 想",
+    "letter": "T"
+  },
+  {
+    "id": "three",
+    "word": "three",
+    "phonetic": "[θriː]",
+    "pos": "",
+    "meaning": "三",
+    "letter": "T"
+  },
+  {
+    "id": "thursday",
+    "word": "Thursday",
+    "phonetic": "['θɜːzdi]",
+    "pos": "",
+    "meaning": "星期四",
+    "letter": "T"
+  },
+  {
+    "id": "tiger",
+    "word": "tiger",
+    "phonetic": "['taɪgə]",
+    "pos": "",
+    "meaning": "老虎",
+    "letter": "T"
+  },
+  {
+    "id": "till",
+    "word": "till",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "直到",
+    "letter": "T"
+  },
+  {
+    "id": "tip",
+    "word": "tip",
+    "phonetic": "[tip]",
+    "pos": "",
+    "meaning": "有用的小建议；实用的小提示",
+    "letter": "T"
+  },
+  {
+    "id": "tired",
+    "word": "tired",
+    "phonetic": "['taɪəd]",
+    "pos": "",
+    "meaning": "疲倦的",
+    "letter": "T"
+  },
+  {
+    "id": "to",
+    "word": "to",
+    "phonetic": "[tu:]",
+    "pos": "",
+    "meaning": "给；对",
+    "letter": "T"
+  },
+  {
+    "id": "today",
+    "word": "today",
+    "phonetic": "[tə'deɪ]",
+    "pos": "",
+    "meaning": "今天",
+    "letter": "T"
+  },
+  {
+    "id": "tofu",
+    "word": "tofu",
+    "phonetic": "['təufu:]",
+    "pos": "n.",
+    "meaning": "豆腐",
+    "letter": "T"
+  },
+  {
+    "id": "together",
+    "word": "together",
+    "phonetic": "[tə'geðə]",
+    "pos": "",
+    "meaning": "一起的",
+    "letter": "T"
+  },
+  {
+    "id": "tomato",
+    "word": "tomato",
+    "phonetic": "[tə'meɪtəʊ]",
+    "pos": "",
+    "meaning": "西红柿",
+    "letter": "T"
+  },
+  {
+    "id": "tomorrow",
+    "word": "tomorrow",
+    "phonetic": "[təˈmɒrəʊ]",
+    "pos": "",
+    "meaning": "明天",
+    "letter": "T"
+  },
+  {
+    "id": "tomoto",
+    "word": "tomoto",
+    "phonetic": "[ tə'ma:təu]",
+    "pos": "",
+    "meaning": "西红柿",
+    "letter": "T"
+  },
+  {
+    "id": "ton",
+    "word": "ton",
+    "phonetic": "[tʌn]",
+    "pos": "",
+    "meaning": "吨",
+    "letter": "T"
+  },
+  {
+    "id": "tongue twister",
+    "word": "tongue twister",
+    "phonetic": "[ tʌŋ ][ 'twistə ]",
+    "pos": "",
+    "meaning": "绕口令",
+    "letter": "T"
+  },
+  {
+    "id": "tonight",
+    "word": "tonight",
+    "phonetic": "[təˈnaɪt]",
+    "pos": "",
+    "meaning": "在晚上",
+    "letter": "T"
+  },
+  {
+    "id": "too",
+    "word": "too",
+    "phonetic": "[tuː]",
+    "pos": "",
+    "meaning": "太；过于",
+    "letter": "T"
+  },
+  {
+    "id": "too many",
+    "word": "too many",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "太多了",
+    "letter": "T"
+  },
+  {
+    "id": "took",
+    "word": "took",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(take的过去式) 拍照",
+    "letter": "T"
+  },
+  {
+    "id": "took pictures",
+    "word": "took pictures",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "照相",
+    "letter": "T"
+  },
+  {
+    "id": "tourist",
+    "word": "tourist",
+    "phonetic": "['tuərist]",
+    "pos": "",
+    "meaning": "旅行者；旅游者",
+    "letter": "T"
+  },
+  {
+    "id": "toy",
+    "word": "toy",
+    "phonetic": "[tɔɪ]",
+    "pos": "",
+    "meaning": "玩具",
+    "letter": "T"
+  },
+  {
+    "id": "traffic",
+    "word": "traffic",
+    "phonetic": "[ˈtræfɪk]",
+    "pos": "",
+    "meaning": "交通",
+    "letter": "T"
+  },
+  {
+    "id": "traffic light",
+    "word": "traffic light",
+    "phonetic": "[lait]",
+    "pos": "",
+    "meaning": "交通灯",
+    "letter": "T"
+  },
+  {
+    "id": "traffic lights",
+    "word": "traffic lights",
+    "phonetic": "['træfik][laits]",
+    "pos": "",
+    "meaning": "交通灯",
+    "letter": "T"
+  },
+  {
+    "id": "traffic rule",
+    "word": "traffic rule",
+    "phonetic": "[ru:l]",
+    "pos": "",
+    "meaning": "交通规则",
+    "letter": "T"
+  },
+  {
+    "id": "traffic：",
+    "word": "traffic：",
+    "phonetic": "['træfik]",
+    "pos": "",
+    "meaning": "交通",
+    "letter": "T"
+  },
+  {
+    "id": "train",
+    "word": "train",
+    "phonetic": "[treɪn]",
+    "pos": "",
+    "meaning": "火车",
+    "letter": "T"
+  },
+  {
+    "id": "train：",
+    "word": "train：",
+    "phonetic": "[trein]",
+    "pos": "",
+    "meaning": "火车",
+    "letter": "T"
+  },
+  {
+    "id": "trash bin",
+    "word": "trash bin",
+    "phonetic": "[ træʃ ][bin]",
+    "pos": "",
+    "meaning": "垃圾箱",
+    "letter": "T"
+  },
+  {
+    "id": "travel",
+    "word": "travel",
+    "phonetic": "[ˈtrævl]",
+    "pos": "",
+    "meaning": "（尤指长途）旅行",
+    "letter": "T"
+  },
+  {
+    "id": "tree",
+    "word": "tree",
+    "phonetic": "/triː/",
+    "pos": "",
+    "meaning": "树；树木；乔木",
+    "letter": "T"
+  },
+  {
+    "id": "tried",
+    "word": "tried",
+    "phonetic": "[ traid ]",
+    "pos": "",
+    "meaning": "疲劳的；累的",
+    "letter": "T"
+  },
+  {
+    "id": "trip",
+    "word": "trip",
+    "phonetic": "[trɪp]",
+    "pos": "",
+    "meaning": "旅行",
+    "letter": "T"
+  },
+  {
+    "id": "truck",
+    "word": "truck",
+    "phonetic": "[trʌk]",
+    "pos": "",
+    "meaning": "象鼻",
+    "letter": "T"
+  },
+  {
+    "id": "try",
+    "word": "try",
+    "phonetic": "[trai]",
+    "pos": "",
+    "meaning": "尝试；试一下",
+    "letter": "T"
+  },
+  {
+    "id": "try on",
+    "word": "try on",
+    "phonetic": "[ˈtraɪɒn]",
+    "pos": "",
+    "meaning": "试穿",
+    "letter": "T"
+  },
+  {
+    "id": "tuesday",
+    "word": "Tuesday",
+    "phonetic": "['tjuːzdi]",
+    "pos": "",
+    "meaning": "星期二",
+    "letter": "T"
+  },
+  {
+    "id": "turn",
+    "word": "turn",
+    "phonetic": "[tɜːn]",
+    "pos": "",
+    "meaning": "转弯",
+    "letter": "T"
+  },
+  {
+    "id": "turn：",
+    "word": "turn：",
+    "phonetic": "[tə:n]",
+    "pos": "",
+    "meaning": "转弯",
+    "letter": "T"
+  },
+  {
+    "id": "turpan",
+    "word": "Turpan",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "吐鲁番",
+    "letter": "T"
+  },
+  {
+    "id": "tv",
+    "word": "TV",
+    "phonetic": "[‚tiː'viː]",
+    "pos": "",
+    "meaning": "电视",
+    "letter": "T"
+  },
+  {
+    "id": "tv reporter",
+    "word": "TV reporter",
+    "phonetic": "[ri'pɔ:tə]",
+    "pos": "",
+    "meaning": "电视台记者",
+    "letter": "T"
+  },
+  {
+    "id": "tv room",
+    "word": "TV room",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "电视机房",
+    "letter": "T"
+  },
+  {
+    "id": "twelfth",
+    "word": "twelfth",
+    "phonetic": "[twelfθ]",
+    "pos": "",
+    "meaning": "第十二;十二分之一",
+    "letter": "T"
+  },
+  {
+    "id": "twelfth (12th)",
+    "word": "twelfth (12th)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第十二的",
+    "letter": "T"
+  },
+  {
+    "id": "twelve",
+    "word": "twelve",
+    "phonetic": "[twelv]",
+    "pos": "",
+    "meaning": "十二",
+    "letter": "T"
+  },
+  {
+    "id": "twentieth",
+    "word": "twentieth",
+    "phonetic": "['twentiiθ]",
+    "pos": "",
+    "meaning": "第二十",
+    "letter": "T"
+  },
+  {
+    "id": "twentieth (20th)",
+    "word": "twentieth (20th)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第二十的",
+    "letter": "T"
+  },
+  {
+    "id": "twenty",
+    "word": "twenty",
+    "phonetic": "[ 'twenti ]",
+    "pos": "",
+    "meaning": "二十一",
+    "letter": "T"
+  },
+  {
+    "id": "twenty-first",
+    "word": "twenty-first",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(21st\\) 第二十一",
+    "letter": "T"
+  },
+  {
+    "id": "twenty-first (21st)",
+    "word": "twenty-first (21st)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第二十一的",
+    "letter": "T"
+  },
+  {
+    "id": "twenty-second",
+    "word": "twenty-second",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(22nd\\) 第二十二",
+    "letter": "T"
+  },
+  {
+    "id": "twenty-third",
+    "word": "twenty-third",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "\\(23rd\\) 第二十三",
+    "letter": "T"
+  },
+  {
+    "id": "twenty-third (23rd)",
+    "word": "twenty-third (23rd)",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "第二十三的",
+    "letter": "T"
+  },
+  {
+    "id": "twin",
+    "word": "twin",
+    "phonetic": "[twin]",
+    "pos": "",
+    "meaning": "双胞胎之一",
+    "letter": "T"
+  },
+  {
+    "id": "two",
+    "word": "two",
+    "phonetic": "[tuː]",
+    "pos": "",
+    "meaning": "二",
+    "letter": "T"
+  },
+  {
+    "id": "type",
+    "word": "type",
+    "phonetic": "[taɪp]",
+    "pos": "",
+    "meaning": "打字",
+    "letter": "T"
+  },
+  {
+    "id": "uk",
+    "word": "UK",
+    "phonetic": "[juːˈkeɪ]",
+    "pos": "",
+    "meaning": "英国",
+    "letter": "U"
+  },
+  {
+    "id": "umbrella",
+    "word": "umbrella",
+    "phonetic": "[ʌm'brelə]",
+    "pos": "",
+    "meaning": "雨伞",
+    "letter": "U"
+  },
+  {
+    "id": "uncle",
+    "word": "uncle",
+    "phonetic": "/ˈʌŋkl/",
+    "pos": "",
+    "meaning": "叔叔，舅舅，婕夫",
+    "letter": "U"
+  },
+  {
+    "id": "under",
+    "word": "under",
+    "phonetic": "['ʌndə]",
+    "pos": "",
+    "meaning": "在…… 下面",
+    "letter": "U"
+  },
+  {
+    "id": "university",
+    "word": "university",
+    "phonetic": "[ˌjuːnɪˈvɜːsɪti]",
+    "pos": "",
+    "meaning": "大学",
+    "letter": "U"
+  },
+  {
+    "id": "university student",
+    "word": "university student",
+    "phonetic": "['ju:ni'və:siti ] [ 'stju:dənt ]",
+    "pos": "",
+    "meaning": "大学生",
+    "letter": "U"
+  },
+  {
+    "id": "up",
+    "word": "up",
+    "phonetic": "[ ʌp ]",
+    "pos": "",
+    "meaning": "向上",
+    "letter": "U"
+  },
+  {
+    "id": "us",
+    "word": "us",
+    "phonetic": "[ us ]",
+    "pos": "",
+    "meaning": "我们（宾格）",
+    "letter": "U"
+  },
+  {
+    "id": "usa",
+    "word": "USA",
+    "phonetic": "/juːesˈeɪ/",
+    "pos": "",
+    "meaning": "美国",
+    "letter": "U"
+  },
+  {
+    "id": "use",
+    "word": "use",
+    "phonetic": "[juːs]",
+    "pos": "",
+    "meaning": "使用",
+    "letter": "U"
+  },
+  {
+    "id": "use a computer",
+    "word": "use a computer",
+    "phonetic": "[ ju:z ][ kəm'pju:tə ]",
+    "pos": "",
+    "meaning": "使用电脑",
+    "letter": "U"
+  },
+  {
+    "id": "usually",
+    "word": "usually",
+    "phonetic": "[ 'ju:ʒʊəli ]",
+    "pos": "",
+    "meaning": "通常、一般",
+    "letter": "U"
+  },
+  {
+    "id": "vacation",
+    "word": "vacation",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "假期",
+    "letter": "V"
+  },
+  {
+    "id": "vapour",
+    "word": "vapour",
+    "phonetic": "['veipə]",
+    "pos": "",
+    "meaning": "蒸气；水汽",
+    "letter": "V"
+  },
+  {
+    "id": "vegetable",
+    "word": "vegetable",
+    "phonetic": "['vedʒɪtəbl]",
+    "pos": "",
+    "meaning": "蔬菜",
+    "letter": "V"
+  },
+  {
+    "id": "very",
+    "word": "very",
+    "phonetic": "[ 'veri ]",
+    "pos": "",
+    "meaning": "很;非常",
+    "letter": "V"
+  },
+  {
+    "id": "very much",
+    "word": "very much",
+    "phonetic": "[ 'veri ][ mʌtʃ ]",
+    "pos": "",
+    "meaning": "非常、很多",
+    "letter": "V"
+  },
+  {
+    "id": "vest",
+    "word": "vest",
+    "phonetic": "[ vest ]",
+    "pos": "",
+    "meaning": "背心",
+    "letter": "V"
+  },
+  {
+    "id": "village",
+    "word": "village",
+    "phonetic": "['vɪlɪdʒ]",
+    "pos": "",
+    "meaning": "村庄；村镇",
+    "letter": "V"
+  },
+  {
+    "id": "violin",
+    "word": "violin",
+    "phonetic": "[ ,vaiə'lin ]",
+    "pos": "",
+    "meaning": "小提琴",
+    "letter": "V"
+  },
+  {
+    "id": "visit",
+    "word": "visit",
+    "phonetic": "[ 'vizit ]",
+    "pos": "",
+    "meaning": "（过去式visited）看望",
+    "letter": "V"
+  },
+  {
+    "id": "visit grandparents",
+    "word": "visit grandparents",
+    "phonetic": "['vizit]['græєərənts]",
+    "pos": "",
+    "meaning": "看望（外）祖父母",
+    "letter": "V"
+  },
+  {
+    "id": "visitor",
+    "word": "visitor",
+    "phonetic": "[ 'vizitə ]",
+    "pos": "",
+    "meaning": "客人；参观者",
+    "letter": "V"
+  },
+  {
+    "id": "wait",
+    "word": "wait",
+    "phonetic": "[ weit ]",
+    "pos": "",
+    "meaning": "等待;等等",
+    "letter": "W"
+  },
+  {
+    "id": "waiter",
+    "word": "waiter",
+    "phonetic": "[ 'weitə ]",
+    "pos": "n.",
+    "meaning": "侍者,服务员",
+    "letter": "W"
+  },
+  {
+    "id": "wake up",
+    "word": "wake up",
+    "phonetic": "[weik][ʌp]",
+    "pos": "",
+    "meaning": "醒；醒来",
+    "letter": "W"
+  },
+  {
+    "id": "wake—woke",
+    "word": "wake—woke",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "醒",
+    "letter": "W"
+  },
+  {
+    "id": "walk",
+    "word": "walk",
+    "phonetic": "[wɔ:k]",
+    "pos": "",
+    "meaning": "走",
+    "letter": "W"
+  },
+  {
+    "id": "walkman",
+    "word": "walkman",
+    "phonetic": "['wɔ:kmən]",
+    "pos": "",
+    "meaning": "随身听",
+    "letter": "W"
+  },
+  {
+    "id": "wall",
+    "word": "wall",
+    "phonetic": "[wɔːl]",
+    "pos": "",
+    "meaning": "墙壁",
+    "letter": "W"
+  },
+  {
+    "id": "want",
+    "word": "want",
+    "phonetic": "[wɒnt]",
+    "pos": "",
+    "meaning": "要；想要",
+    "letter": "W"
+  },
+  {
+    "id": "warm",
+    "word": "warm",
+    "phonetic": "[wɔːm]",
+    "pos": "",
+    "meaning": "温暖的",
+    "letter": "W"
+  },
+  {
+    "id": "wash",
+    "word": "wash",
+    "phonetic": "[ wɒʃ ]",
+    "pos": "",
+    "meaning": "（过去式washed）洗",
+    "letter": "W"
+  },
+  {
+    "id": "wash my clothes",
+    "word": "wash my clothes",
+    "phonetic": "/wɒʃ/",
+    "pos": "",
+    "meaning": "洗我的衣服",
+    "letter": "W"
+  },
+  {
+    "id": "wash the clothes",
+    "word": "wash the clothes",
+    "phonetic": "[wɔʃ][ kləuðz ]",
+    "pos": "",
+    "meaning": "洗衣服. .洗衣服",
+    "letter": "W"
+  },
+  {
+    "id": "wash the windows",
+    "word": "wash the windows",
+    "phonetic": "[ wɔʃ ][ 'windəʊz ]",
+    "pos": "",
+    "meaning": "擦窗户",
+    "letter": "W"
+  },
+  {
+    "id": "washed",
+    "word": "washed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "洗",
+    "letter": "W"
+  },
+  {
+    "id": "washroom",
+    "word": "washroom",
+    "phonetic": "['wɔʃrum]",
+    "pos": "",
+    "meaning": "卫生间",
+    "letter": "W"
+  },
+  {
+    "id": "wash—washed",
+    "word": "wash—washed",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "洗",
+    "letter": "W"
+  },
+  {
+    "id": "watch",
+    "word": "watch",
+    "phonetic": "[ wɒtʃ ]",
+    "pos": "",
+    "meaning": "（过去式watched）看",
+    "letter": "W"
+  },
+  {
+    "id": "watch insects",
+    "word": "watch insects",
+    "phonetic": "[wɔ:tʃ]['insekts]",
+    "pos": "",
+    "meaning": "观察昆虫",
+    "letter": "W"
+  },
+  {
+    "id": "watch tv",
+    "word": "watch TV",
+    "phonetic": "[ wɔtʃ]['ti:'vi:]",
+    "pos": "",
+    "meaning": "看电视",
+    "letter": "W"
+  },
+  {
+    "id": "watched",
+    "word": "watched",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "看",
+    "letter": "W"
+  },
+  {
+    "id": "watches",
+    "word": "watches",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "看",
+    "letter": "W"
+  },
+  {
+    "id": "watch—watched",
+    "word": "watch—watched",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "看",
+    "letter": "W"
+  },
+  {
+    "id": "water",
+    "word": "water",
+    "phonetic": "['wɔːtə]",
+    "pos": "",
+    "meaning": "水",
+    "letter": "W"
+  },
+  {
+    "id": "water bottle",
+    "word": "water bottle",
+    "phonetic": "/ˈwɔːtə/",
+    "pos": "",
+    "meaning": "水瓶",
+    "letter": "W"
+  },
+  {
+    "id": "water the flowers",
+    "word": "water the flowers",
+    "phonetic": "['wɔ:tə][i:] ['flauəs]",
+    "pos": "",
+    "meaning": "浇花",
+    "letter": "W"
+  },
+  {
+    "id": "watermelon",
+    "word": "watermelon",
+    "phonetic": "['wɔːtəmelən]",
+    "pos": "",
+    "meaning": "西瓜",
+    "letter": "W"
+  },
+  {
+    "id": "way",
+    "word": "way",
+    "phonetic": "[wei]",
+    "pos": "",
+    "meaning": "路；道",
+    "letter": "W"
+  },
+  {
+    "id": "we",
+    "word": "we",
+    "phonetic": "[wi:]",
+    "pos": "",
+    "meaning": "我们",
+    "letter": "W"
+  },
+  {
+    "id": "we'll",
+    "word": "we'll",
+    "phonetic": "/wiːl/",
+    "pos": "",
+    "meaning": "我们将……",
+    "letter": "W"
+  },
+  {
+    "id": "we'll = we will",
+    "word": "we'll = we will",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "我们将",
+    "letter": "W"
+  },
+  {
+    "id": "wear",
+    "word": "wear",
+    "phonetic": "[weə]",
+    "pos": "",
+    "meaning": "戴",
+    "letter": "W"
+  },
+  {
+    "id": "weather",
+    "word": "weather",
+    "phonetic": "['weðə]",
+    "pos": "",
+    "meaning": "天气",
+    "letter": "W"
+  },
+  {
+    "id": "weather report",
+    "word": "weather report",
+    "phonetic": "[ ri'pɔ:t ]",
+    "pos": "",
+    "meaning": "天气预报",
+    "letter": "W"
+  },
+  {
+    "id": "wednesday",
+    "word": "Wednesday",
+    "phonetic": "['wenzdi]",
+    "pos": "",
+    "meaning": "星期三",
+    "letter": "W"
+  },
+  {
+    "id": "wednesday(wed.)",
+    "word": "Wednesday(Wed.)",
+    "phonetic": "['wenzdei]",
+    "pos": "",
+    "meaning": "星期三",
+    "letter": "W"
+  },
+  {
+    "id": "week",
+    "word": "week",
+    "phonetic": "[wi:k]",
+    "pos": "n.",
+    "meaning": "一星期, 周",
+    "letter": "W"
+  },
+  {
+    "id": "weekend",
+    "word": "weekend",
+    "phonetic": "['wiːk'end]",
+    "pos": "",
+    "meaning": "周末",
+    "letter": "W"
+  },
+  {
+    "id": "welcome",
+    "word": "welcome",
+    "phonetic": "[ 'welkəm ]",
+    "pos": "",
+    "meaning": "欢迎",
+    "letter": "W"
+  },
+  {
+    "id": "well",
+    "word": "well",
+    "phonetic": "/ wel/",
+    "pos": "",
+    "meaning": "健康;身体好",
+    "letter": "W"
+  },
+  {
+    "id": "well—better",
+    "word": "well—better",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更好的",
+    "letter": "W"
+  },
+  {
+    "id": "went",
+    "word": "went",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "fishing 去钓鱼",
+    "letter": "W"
+  },
+  {
+    "id": "went camping",
+    "word": "went camping",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去野营",
+    "letter": "W"
+  },
+  {
+    "id": "went fishing",
+    "word": "went fishing",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "去钓鱼",
+    "letter": "W"
+  },
+  {
+    "id": "west",
+    "word": "west",
+    "phonetic": "[west]",
+    "pos": "",
+    "meaning": "西",
+    "letter": "W"
+  },
+  {
+    "id": "what",
+    "word": "what",
+    "phonetic": "[ wɔt]",
+    "pos": "",
+    "meaning": "什么",
+    "letter": "W"
+  },
+  {
+    "id": "what .for",
+    "word": "what .for",
+    "phonetic": "[ wɔt ]",
+    "pos": "",
+    "meaning": "为什么",
+    "letter": "W"
+  },
+  {
+    "id": "what about",
+    "word": "what about",
+    "phonetic": "[wɔt]['əbaut]",
+    "pos": "",
+    "meaning": "怎么样?",
+    "letter": "W"
+  },
+  {
+    "id": "when",
+    "word": "when",
+    "phonetic": "[wen ]",
+    "pos": "",
+    "meaning": "什么时候",
+    "letter": "W"
+  },
+  {
+    "id": "where",
+    "word": "where",
+    "phonetic": "[hwɛə]",
+    "pos": "",
+    "meaning": "在哪里；到哪里",
+    "letter": "W"
+  },
+  {
+    "id": "which",
+    "word": "which",
+    "phonetic": "[witʃ ]",
+    "pos": "",
+    "meaning": "哪一个",
+    "letter": "W"
+  },
+  {
+    "id": "white",
+    "word": "white",
+    "phonetic": "[ hwait ]",
+    "pos": "",
+    "meaning": "白色的",
+    "letter": "W"
+  },
+  {
+    "id": "who",
+    "word": "who",
+    "phonetic": "[ hu: ]",
+    "pos": "",
+    "meaning": "谁",
+    "letter": "W"
+  },
+  {
+    "id": "who is",
+    "word": "who is",
+    "phonetic": "[ hu:]",
+    "pos": "",
+    "meaning": "是谁",
+    "letter": "W"
+  },
+  {
+    "id": "whose",
+    "word": "whose",
+    "phonetic": "[huːz]",
+    "pos": "",
+    "meaning": "谁的",
+    "letter": "W"
+  },
+  {
+    "id": "why",
+    "word": "why",
+    "phonetic": "[wai ]",
+    "pos": "",
+    "meaning": "为什么",
+    "letter": "W"
+  },
+  {
+    "id": "will",
+    "word": "will",
+    "phonetic": "[wɪl]",
+    "pos": "",
+    "meaning": "将要",
+    "letter": "W"
+  },
+  {
+    "id": "win",
+    "word": "win",
+    "phonetic": "[ win ]",
+    "pos": "",
+    "meaning": "（过去式won [wʌn]）赢",
+    "letter": "W"
+  },
+  {
+    "id": "wind",
+    "word": "wind",
+    "phonetic": "[ wind ]",
+    "pos": "",
+    "meaning": "风",
+    "letter": "W"
+  },
+  {
+    "id": "window",
+    "word": "window",
+    "phonetic": "['wɪndəʊ]",
+    "pos": "",
+    "meaning": "窗户",
+    "letter": "W"
+  },
+  {
+    "id": "windy",
+    "word": "windy",
+    "phonetic": "['wɪndi]",
+    "pos": "",
+    "meaning": "多风的",
+    "letter": "W"
+  },
+  {
+    "id": "winter",
+    "word": "winter",
+    "phonetic": "[ 'wintə ]",
+    "pos": "",
+    "meaning": "冬天",
+    "letter": "W"
+  },
+  {
+    "id": "with",
+    "word": "with",
+    "phonetic": "[wið]",
+    "pos": "",
+    "meaning": "同……；和……",
+    "letter": "W"
+  },
+  {
+    "id": "woke",
+    "word": "woke",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "(wake的过去式) 醒",
+    "letter": "W"
+  },
+  {
+    "id": "woman",
+    "word": "woman",
+    "phonetic": "['wʊmən]",
+    "pos": "",
+    "meaning": "女人",
+    "letter": "W"
+  },
+  {
+    "id": "wonderful",
+    "word": "wonderful",
+    "phonetic": "['wʌndəfəl]",
+    "pos": "",
+    "meaning": "极好的；了不起的",
+    "letter": "W"
+  },
+  {
+    "id": "woods",
+    "word": "woods",
+    "phonetic": "[wʊdz]",
+    "pos": "",
+    "meaning": "树林",
+    "letter": "W"
+  },
+  {
+    "id": "word book",
+    "word": "word book",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "单词书",
+    "letter": "W"
+  },
+  {
+    "id": "work",
+    "word": "work",
+    "phonetic": "[ wə:k ]",
+    "pos": "",
+    "meaning": "工作",
+    "letter": "W"
+  },
+  {
+    "id": "work.",
+    "word": "work.",
+    "phonetic": "[ wə:k ]",
+    "pos": "",
+    "meaning": "工作",
+    "letter": "W"
+  },
+  {
+    "id": "worker",
+    "word": "worker",
+    "phonetic": "[ˈwɜːkə]",
+    "pos": "",
+    "meaning": "工人",
+    "letter": "W"
+  },
+  {
+    "id": "world",
+    "word": "world",
+    "phonetic": "[wɜːld]",
+    "pos": "",
+    "meaning": "世界",
+    "letter": "W"
+  },
+  {
+    "id": "worried",
+    "word": "worried",
+    "phonetic": "[ˈwʌrid]",
+    "pos": "",
+    "meaning": "担心的；发愁的",
+    "letter": "W"
+  },
+  {
+    "id": "worry",
+    "word": "worry",
+    "phonetic": "[ 'wʌri ]",
+    "pos": "",
+    "meaning": "烦恼；忧虑",
+    "letter": "W"
+  },
+  {
+    "id": "would like",
+    "word": "would Like",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "就是want",
+    "letter": "W"
+  },
+  {
+    "id": "wow",
+    "word": "wow",
+    "phonetic": "[waʊ]",
+    "pos": "",
+    "meaning": "哇；呀",
+    "letter": "W"
+  },
+  {
+    "id": "write",
+    "word": "Write",
+    "phonetic": "[rait]",
+    "pos": "",
+    "meaning": "写",
+    "letter": "W"
+  },
+  {
+    "id": "write a letter",
+    "word": "write a letter",
+    "phonetic": "[rait]['letə]",
+    "pos": "",
+    "meaning": "写信",
+    "letter": "W"
+  },
+  {
+    "id": "write a report",
+    "word": "write a report",
+    "phonetic": "[rait][ri'pɔ:t]",
+    "pos": "",
+    "meaning": "写报告",
+    "letter": "W"
+  },
+  {
+    "id": "write an e-mail",
+    "word": "write an e-mail",
+    "phonetic": "[rait][æn][meil]",
+    "pos": "",
+    "meaning": "写电子邮件",
+    "letter": "W"
+  },
+  {
+    "id": "writer",
+    "word": "Writer",
+    "phonetic": "['raitə]",
+    "pos": "",
+    "meaning": "作家",
+    "letter": "W"
+  },
+  {
+    "id": "wrong",
+    "word": "wrong",
+    "phonetic": "[rɒŋ]",
+    "pos": "",
+    "meaning": "错误的",
+    "letter": "W"
+  },
+  {
+    "id": "yeah",
+    "word": "yeah",
+    "phonetic": "[jεə]",
+    "pos": "",
+    "meaning": "是;行",
+    "letter": "Y"
+  },
+  {
+    "id": "year",
+    "word": "year",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "年",
+    "letter": "Y"
+  },
+  {
+    "id": "yellow",
+    "word": "yellow",
+    "phonetic": "[ 'jeləu ]",
+    "pos": "",
+    "meaning": "黄色的",
+    "letter": "Y"
+  },
+  {
+    "id": "yesterday",
+    "word": "yesterday",
+    "phonetic": "[ 'jestədi ]",
+    "pos": "",
+    "meaning": "昨天",
+    "letter": "Y"
+  },
+  {
+    "id": "yo-yo",
+    "word": "yo-yo",
+    "phonetic": "[ jəu ]",
+    "pos": "",
+    "meaning": "溜溜球",
+    "letter": "Y"
+  },
+  {
+    "id": "you",
+    "word": "you",
+    "phonetic": "[ju:]",
+    "pos": "",
+    "meaning": "你；你们",
+    "letter": "Y"
+  },
+  {
+    "id": "young",
+    "word": "young",
+    "phonetic": "[jʌŋ]",
+    "pos": "",
+    "meaning": "年轻的；岁数不大的",
+    "letter": "Y"
+  },
+  {
+    "id": "younger",
+    "word": "younger",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更年轻的",
+    "letter": "Y"
+  },
+  {
+    "id": "young—younger",
+    "word": "young—younger",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "更年轻的",
+    "letter": "Y"
+  },
+  {
+    "id": "your",
+    "word": "your",
+    "phonetic": "[jɔ:]",
+    "pos": "",
+    "meaning": "你的；你们的",
+    "letter": "Y"
+  },
+  {
+    "id": "yours",
+    "word": "yours",
+    "phonetic": "[jʊəz]",
+    "pos": "",
+    "meaning": "你的；你们的",
+    "letter": "Y"
+  },
+  {
+    "id": "yum",
+    "word": "yum",
+    "phonetic": "",
+    "pos": "",
+    "meaning": "味道很好",
+    "letter": "Y"
+  },
+  {
+    "id": "yummy",
+    "word": "yummy",
+    "phonetic": "[ 'jʌmi ]",
+    "pos": "",
+    "meaning": "好吃的",
+    "letter": "Y"
+  },
+  {
+    "id": "zoo",
+    "word": "zoo",
+    "phonetic": "[ zu: ]",
+    "pos": "",
+    "meaning": "动物园动物园",
+    "letter": "Z"
+  }
+]

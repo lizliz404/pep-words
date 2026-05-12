@@ -1,0 +1,4597 @@
+{
+  "a couple of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "a little": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ 'litl ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "a little bit": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "a moment ago": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/ə ˈməumənt əˈɡəu/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "a pair of": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[pɛə]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "a set of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "across from": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "action movie": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ˈækʃən ˈmu:vi/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "actor": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "actress": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "ad. v..": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "address": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "advice": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "afraid": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "after school": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "['ɑ:ftə][sku:l]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "again": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adv.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "agent": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "alexander graham bell": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "alfred": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "all in all": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "all kinds of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "all of a sudden": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "all right": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ ɔ:l ][ rait]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "all year around": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "also": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "amazing": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "american adj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "amusement park": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "anim+al→": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "anim=life,spirit,": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "annie": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "answer": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "anything": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "pron.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "apartment": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "aren't": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "around": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "prep.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "article": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "as far as i know": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "as for": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "as soon as": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "as soon as conj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "as...as conj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "ask... for...": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "assist+ant→": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "astronaut": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "at birth": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "at home": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ æt ][ həum ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "at the beginning of phr. …": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "australian": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "available": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "bad": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "badminton": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be able to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be born": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/bi: bɔ:n/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "be different from": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be in control of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be proud of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be ready to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be responsible for": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be similar to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be sure about": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be up to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "be used to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "because of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "believe in": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "bert": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "best-seller n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "big deal": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/biɡ di:l/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "billy": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "blender": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "blow": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "blow out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "blow(blew": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "board game": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/bɔ:d ɡeim/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "boarding": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "both…and… phr. ...": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "bread maker": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/bred ˈmeɪkə/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "brian": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "bring good luck": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "bring out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "bus station n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "butter": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "butterfly": {
+    "confidence": 0.96,
+    "manual_review_required": false,
+    "phonetic": "/ˈbətɝˌfɫaɪ/",
+    "pos": "adv.",
+    "source": "ipa-dict-en_US+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "by accident": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "by mistake": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "calendar": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "call up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "camp": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "can i help you?": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "can't": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "canadian": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "candy": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "care about": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "care for": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "careless": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "carl": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "carla": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "carmen": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "carol": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "catch": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "celebrate": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "v.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "centre": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "certainly": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "charles": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "cheap": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "check out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cheer up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cheese": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "chelsea": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "chiang mai": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "clara": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "clear out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "clerk": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "close to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "colombia": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "come in": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ kʌm ][in]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "computer programmer": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "connect … with": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "convenient": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "coral reef n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cost": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "country music": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ˈkʌntri ˈmju:zik/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cover": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "credit card n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "crime": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "criminal": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "curly": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cut off": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cut out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "cut up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "dan": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "dare": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "deal with": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "dean": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "deer": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "depend on": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "die down": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "differently": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "dining room n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "dish": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "divide ... into": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "do a good job": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "do homework": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ dəu ][ 'həumwə:k ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "don't": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "down": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adj.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "dress up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "drop by": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "dvd n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "each other pron": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "easily": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "eighty": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "num.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "electronic": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "embarrassing": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "emily": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "england": {
+    "confidence": 0.92,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "english-speaking adj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "enjoy reading": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "europe": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "even": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adj.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "even though": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "even though conj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "even though（=even if）": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "event": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "excuse me": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "[iks'kju:z][mi:]",
+    "pos": "phr.",
+    "source": "cross_dataset+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "experience": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "expert": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fairy": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "fall asleep": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fall down": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/fɔ:l daun/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "fall in love": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/fɔ:l in lʌv/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fall in love with": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fall over": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/fɔ:l ˈəuvə/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "family name n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "family tree n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "far away": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/fɑ: əˈwei/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "farm": {
+    "confidence": 0.92,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "farmer": {
+    "confidence": 0.92,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "fascinating": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "feed": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "feed chickens": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "feel free （": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "feel like(doing sth.)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "field trip": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/fi:ld trip/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "fight": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "finally": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fire": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "fire station": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "first name": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fish": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "fix up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "fly a kite": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "for sure": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "forward": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "france": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "from time to time": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "from... to...": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "from…to… phr. …": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "full of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ful ɔv/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "general": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get a surpris": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get in the way of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get into": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get mad": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get married": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/ɡet ˈmærid/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "get on with": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ɡet ɔn wið/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get out of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get popular": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "get to": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[get][tu:]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "gift": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "give ... a lift": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "give away": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "give out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "glasses": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "go along": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "go boating": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/gəʊ/",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "go fishing": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ 'fiʃiŋ ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "go hiking": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ 'haikiŋ ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "go home": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ həum ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "go off （": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "go out of one's way": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "go shopping phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "gobi desert n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "goddess": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "goes": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "good afternoon!": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "good evening!": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "good morning!": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "gravy": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "grey": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "griffin": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "grow": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "guest": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hair": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "half": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "half-way adv": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "halfway": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "halloween": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "hallway": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "hand out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "handsome": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hang": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "happy birthday!": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hard": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hard-working adj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hardly ever": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "haunted": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a cold": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "[ kəuld ]",
+    "pos": "phr.",
+    "source": "cross_dataset+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a cold phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a cough phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a fever": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a good day! (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a good time! (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a good time=enjoy oneself=have fun(doing sth.)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a headache phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a look": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/hæv ə luk/",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "have a seat": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a stomachache": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have a try": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ hæv][trai ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "have to": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/ˈhæv tə/",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "have to do with": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "have…in common": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hayes": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "hear(heard）": {
+    "confidence": 0.86,
+    "manual_review_required": true,
+    "pos": "prep.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "height": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "here you are": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "[hiə]",
+    "pos": "phr.",
+    "source": "cross_dataset+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "high jump n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "high school": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "high school n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "holly": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "honey": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "hope": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "hot dog n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "how about...? (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "how are you?": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "how are you？": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "how do you do ?": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "how long": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/hau lɔŋ/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "how many": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/hau ˈmeni/",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "how much": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ mʌtʃ ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "how much...? (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "how old...? ....": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "human being n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "humorou": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hundreds of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "hurry up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "i'll": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "i'm i am": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "ice cream n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "id card": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in a row": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in front of": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/ɪn/",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "in one's opinion": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in order to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/in ˈɔ:də tu:/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in person": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in silence": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in that case": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/in ðæt keis/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in the countryside": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in the face of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "in total": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "inside prep": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "intelligent": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "invitation": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "isn't": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "it's": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "italian": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "j. k. rowling": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "jackson": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "jacob": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "jamie": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "jason": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "jean": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "jeans": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "jeff": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "jerry": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "jessica": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "joe": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "johnny": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "julie": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "jump": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "junior high school": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "junk": {
+    "confidence": 0.96,
+    "manual_review_required": false,
+    "phonetic": "/ˈdʒəŋk/",
+    "source": "ipa-dict-en_US",
+    "updated_at": "2026-05-12"
+  },
+  "junk food": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/dʒʌŋk fu:d/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "just then": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/dʒʌst ðen/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "katie": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "keep away from": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "keep one's cool": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "ken": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "kevin": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "kilogram": {
+    "confidence": 0.96,
+    "manual_review_required": false,
+    "phonetic": "/ˈkɪɫəˌɡɹæm/",
+    "pos": "n.",
+    "source": "ecdict+ipa-dict-en_US",
+    "updated_at": "2026-05-12"
+  },
+  "kilometer": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "kind-hearted adj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "knock on": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/nɔk ɔn/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "korea": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "lab": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "ladies' room n (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lake": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "last name": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lay out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lazy": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "learn": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "leave": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "leave out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lend(lent": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "less than": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/les ðæn/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "let me see": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "let's": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "let's = let us": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "let's go": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lettuce": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lie down": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "like": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adj.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "listen": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "live": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lively": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "living room": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "living room n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "living-room n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lock": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "long jump n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "look at": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ luk ][ æt]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "look like": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/luk laik/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "look over phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "look through": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "look up to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/luk ʌp tu:/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lots of": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/lɒts/",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "lovely": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "low": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "lucy": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "luke": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make a difference": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make a mess": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make a wish": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make an effort": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make one's own decision": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make one's way": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "make the bed": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ meik ][ ði: ][ bed ]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "makeup": {
+    "confidence": 0.96,
+    "manual_review_required": false,
+    "phonetic": "/ˈmeɪˌkəp/",
+    "pos": "n.",
+    "source": "ecdict+ipa-dict-en_US",
+    "updated_at": "2026-05-12"
+  },
+  "marc": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "maria": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "marie": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mars": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "meat": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "medium": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "metre race phr. 100": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mexico": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "mid-autumn n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "middle school": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ˈmidl sku:l/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "middle school n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "midfield player n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "milk a cow": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mistake": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "mobile": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mobile phone n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "model plane": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mooncake n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "morning paper n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mr.": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mrs.": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "ms.": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "multiply…by… phr. …": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "mutton": {
+    "confidence": 0.92,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "nearly": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "neck and neck phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "neighborhood": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "neither ... nor": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "neither...nor.. conj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "new zealand": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "night": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "ninety": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "num.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "no longer": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "no matter": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "no problem": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "/nəu ˈprɔbləm/",
+    "pos": "phr.",
+    "source": "cross_dataset+ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "normal": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "not only … but also": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "novel": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "o'clock": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "o'clock (=of the clock) ad. v": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "of course": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "of medium build": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "of medium height": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "often": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adv.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "ok adv (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "on (a) vacation": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "on foot": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[ɒn fut]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "once upon": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "one another": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "one day phr.(": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "one(large)bowl of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "opening": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "or so": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "orson": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "out of prep": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "outside": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "oven": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "over and over again": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "over there": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "['əuvə ][ðεə]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "oversleep v.(overslept , overslept)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "own": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.17": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.19": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.20": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.22": {
+    "confidence": 0.86,
+    "manual_review_required": true,
+    "pos": "prep.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.34": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.36": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "p.58": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pancake": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "parents n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "part with": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/pɑ:t wið/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pattern": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "paula": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pay": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "pay (paid": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pay attention to": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "[peɪ əˈtenʃən tuː]",
+    "pos": "phr.",
+    "source": "cross_dataset+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "payphone": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "peace": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "peking opera n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pencil box": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "/ˈpensl/",
+    "pos": "phr.",
+    "source": "cross_dataset+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pencil-box n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pepper": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "physical": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pianist": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "picasso": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pick up（=pick up the phone)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pilot": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "planet": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "play a part": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "play a role": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "player": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "plenty of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "point at": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/pɔint æt/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "police station": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pollution": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "popcorn": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "post office": {
+    "confidence": 0.95,
+    "manual_review_required": true,
+    "phonetic": "[pəʊst ˈɒfɪs]",
+    "pos": "phr.",
+    "source": "cross_dataset+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "post office n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "pour": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "practice": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "prediction": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "prefer to": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/priˈfə: tu:/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "prehens, prehend= catch ,": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "prep.": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/prep/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "preparation": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "prime minister": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "probably": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "professional": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "promise": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "pull together": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "put on phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "queue jumper n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "quickly": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "quite": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adv.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "quite a few": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "quite a lot(of…)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "rain": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "rained v": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "rather": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adv.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "reading room n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "relationship": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "resolution": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "result": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "right away": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "run out (of)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "rurn right": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "sar n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "scared": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "science fiction": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ˈsaiəns ˈfikʃən/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "see you!": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "senior": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "senior high (school)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "seriously": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "servant": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "set up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "seventy": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "num.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "sheep": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "shelf": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "shoot(shot": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "shopping list": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/ˈʃɔpɪŋ list/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "shout at…": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "shout to…": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "sist= stand,": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "sixty": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "num.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "slow": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "slow down": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[sləʊ daʊn]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "smooth": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "snow": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "so far": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "so that conj": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "soccer ball (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "soft toy": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/sɔft tɔi/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "something": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "pron.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "sorry": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "south africa n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "space station": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "special": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "spend time": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "spill(spilt": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "spit(spat": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "spoil": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "spring festival n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "starting": {
+    "confidence": 0.96,
+    "manual_review_required": false,
+    "phonetic": "/ˈstɑɹtɪŋ/",
+    "pos": "n.",
+    "source": "ecdict+ipa-dict-en_US",
+    "updated_at": "2026-05-12"
+  },
+  "stay up late": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/stei ʌp leit/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "steal(stole": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "steering wheel n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "still": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "strict": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "subway": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "such as": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "suit": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "sun shine": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "swing dance": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "switzerland": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "table tennis n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take a message": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take a shower": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take after （": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take breaks (take a break）": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take down": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take in": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take off （": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take one's order": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take one's temperature": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take out the rubbish": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take place": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take pride in": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take risks (take a risk)": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take sb.'s place": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take up": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "take…seriously": {
+    "confidence": 0.86,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "talk about": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/tɔ:k əˈbaut/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "talk back": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "tape player": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "tea art": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "tea set": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ti: set/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "teenager": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "temperature": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "tent": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "teresa": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "thank you for...": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the great hall of the people n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the great wall n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the more … the more…": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the olympics": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the pacific ocean": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the palace museum n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the same as": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the summer palace n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "the uk（": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "there": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adv.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "there's": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "think about": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "thirsty": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "this way,please.": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "thomas": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "thousands of": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "tim": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "tina": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "titanic": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "to be honest": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "to one's surprise": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "today": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "tomorrow": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "town": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "train": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "traveler": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "trent": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "trip": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "true": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "trust": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "turn into": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "two-story n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "understanding": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "unexpected": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adj.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "uniform": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "university": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "until": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "prep.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "up to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "upset": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "adj.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "upside down": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/ʌpsaid'dajn/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "usa n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "used to": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "phonetic": "/'ju:s tә/",
+    "pos": "phr.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "usually": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adv.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "vacation": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "valuable": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "adj.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "very much": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/ˈveri mʌtʃ/",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "victor": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "video": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "violinist": {
+    "confidence": 0.9,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "ecdict+rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "waiting room n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "wake up": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "[weik][ʌp]",
+    "source": "cross_dataset",
+    "updated_at": "2026-05-12"
+  },
+  "walk into": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "watch tv": {
+    "confidence": 0.95,
+    "manual_review_required": false,
+    "phonetic": "/wɔtʃ ˈti:ˈvi:/",
+    "source": "cross_dataset+ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "watermelon": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "way": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "wear": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "well done": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/wel dʌn/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "what about...? phr. (": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "what about...?(": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "what's": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "v.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "what's the matter?": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "what's wrong?": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "wildaid": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "without doubt": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "woof": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "work out": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "world war ii": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "would like": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "phonetic": "/wud laik/",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "writing brush n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "yard sale": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "yogurt": {
+    "confidence": 0.9,
+    "manual_review_required": false,
+    "pos": "n.",
+    "source": "ecdict",
+    "updated_at": "2026-05-12"
+  },
+  "you're welcome.": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "young pioneer n": {
+    "confidence": 0.92,
+    "manual_review_required": true,
+    "pos": "phr.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  },
+  "zoo=animal，": {
+    "confidence": 0.84,
+    "manual_review_required": true,
+    "pos": "n.",
+    "source": "rule_pos_inference",
+    "updated_at": "2026-05-12"
+  }
+}

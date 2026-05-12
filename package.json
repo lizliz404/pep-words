@@ -7,7 +7,13 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview --host --port 3000",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "words:build": "python3 scripts/merge-clean-words.py",
+    "words:tasks": "python3 scripts/build-enrichment-tasks.py",
+    "words:enrich": "python3 scripts/build-enrichment.py",
+    "words:enrich-dict": "python3 scripts/enrich-from-dictionaries.py",
+    "words:validate": "python3 scripts/validate-word-data.py",
+    "words:validate-enrichment": "python3 scripts/validate-enrichment.py"
   },
   "dependencies": {
     "react": "^19.2.1",

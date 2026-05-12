@@ -7,7 +7,7 @@ import type { Word } from "@/types";
 
 interface FavoritesListProps {
   favorites: Word[];
-  onRemoveFavorite: (wordId: number) => void;
+  onRemoveFavorite: (wordId: string) => void;
   onPlayPronunciation: (word: string) => void;
   messages: {
     emptyTitle: string;

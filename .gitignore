@@ -19,3 +19,7 @@ coverage/
 .idea/
 .DS_Store
 Thumbs.db
+archive/external-dicts/
+
+__pycache__/
+*.pyc

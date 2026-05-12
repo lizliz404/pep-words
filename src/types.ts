@@ -1,5 +1,5 @@
 export interface Word {
-  id: number;
+  id: string;
   word: string;
   phonetic: string;
   pos: string;
@@ -18,7 +18,7 @@ export type RouteKey =
 export type Locale = "zh" | "en";
 
 export interface QuizQuestion {
-  wordId: number;
+  wordId: string;
   word: string;
   correctAnswer: string;
   options: string[];

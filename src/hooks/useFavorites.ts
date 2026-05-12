@@ -9,32 +9,36 @@ function getFavoritesStorageKey(dataset: DatasetKey) {
 
 function loadFavorites(dataset: DatasetKey) {
   if (typeof window === "undefined") {
-    return new Set<number>();
+    return new Set<string>();
   }
 
   try {
     const stored = window.localStorage.getItem(getFavoritesStorageKey(dataset));
     if (!stored) {
-      return new Set<number>();
+      return new Set<string>();
     }
 
     const parsed = JSON.parse(stored);
     if (!Array.isArray(parsed)) {
-      return new Set<number>();
+      return new Set<string>();
     }
 
     return new Set(
-      parsed.filter((value): value is number => typeof value === "number")
+      parsed
+        .filter((value): value is string | number =>
+          typeof value === "string" || typeof value === "number",
+        )
+        .map(String),
     );
   } catch (error) {
     console.error("Failed to load favorites:", error);
-    return new Set<number>();
+    return new Set<string>();
   }
 }
 
 export function useFavorites(dataset: DatasetKey) {
-  const [favorites, setFavorites] = useState<Set<number>>(() =>
-    loadFavorites(dataset)
+  const [favorites, setFavorites] = useState<Set<string>>(() =>
+    loadFavorites(dataset),
   );
 
   useEffect(() => {
@@ -48,11 +52,11 @@ export function useFavorites(dataset: DatasetKey) {
 
     window.localStorage.setItem(
       getFavoritesStorageKey(dataset),
-      JSON.stringify(Array.from(favorites))
+      JSON.stringify(Array.from(favorites)),
     );
   }, [dataset, favorites]);
 
-  const toggleFavorite = (wordId: number) => {
+  const toggleFavorite = (wordId: string) => {
     setFavorites((previous) => {
       const next = new Set(previous);
 
@@ -66,7 +70,7 @@ export function useFavorites(dataset: DatasetKey) {
     });
   };
 
-  const isFavorite = (wordId: number) => favorites.has(wordId);
+  const isFavorite = (wordId: string) => favorites.has(wordId);
 
   const getFavoriteWords = (words: Word[]) => {
     return words.filter((word) => favorites.has(word.id));
