@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "python3 scripts/build-seo-pages.py && vite build",
     "preview": "vite preview --host --port 3000",
     "check": "tsc --noEmit",
     "words:build": "python3 scripts/merge-clean-words.py",
@@ -13,7 +13,8 @@
     "words:enrich": "python3 scripts/build-enrichment.py",
     "words:enrich-dict": "python3 scripts/enrich-from-dictionaries.py",
     "words:validate": "python3 scripts/validate-word-data.py",
-    "words:validate-enrichment": "python3 scripts/validate-enrichment.py"
+    "words:validate-enrichment": "python3 scripts/validate-enrichment.py",
+    "seo:build": "python3 scripts/build-seo-pages.py"
   },
   "dependencies": {
     "react": "^19.2.1",
