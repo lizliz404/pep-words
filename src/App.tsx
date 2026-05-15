@@ -3,8 +3,9 @@ import {
   FileTextIcon,
   GraduationCapIcon,
   LogoIcon,
-  WrenchIcon,
 } from "@/components/Icons";
+import HeroiconsLanguage from "~icons/heroicons/language";
+import HeroiconsWrenchScrewdriver from "~icons/heroicons/wrench-screwdriver";
 import MarkdownDocument from "@/components/MarkdownDocument";
 import { loadDatasetMarkdown, loadDatasetWords } from "@/content";
 import { LOCALE_STORAGE_KEY, getDictionary, getStoredLocale } from "@/i18n";
@@ -77,11 +78,9 @@ function LanguageSwitch({
       type="button"
       onClick={() => onChange(locale === "zh" ? "en" : "zh")}
       aria-label={locale === "zh" ? "Switch to English" : "切换到中文"}
-      className="inline-flex h-10 min-w-12 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 px-3 text-[13px] font-bold text-[#312a22] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
+      className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
     >
-      <span className={locale === "zh" ? "text-[#312a22]" : "text-[#8a7e70]"}>中</span>
-      <span className="mx-1 h-3.5 w-px rotate-12 bg-[#cbbfaf]" aria-hidden="true" />
-      <span className={locale === "en" ? "text-[#312a22]" : "text-[#8a7e70]"}>A</span>
+      <HeroiconsLanguage className="h-5 w-5" />
     </button>
   );
 }
@@ -263,7 +262,7 @@ function App() {
                   title={dictionary.learner.feedback}
                   className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
                 >
-                  <WrenchIcon className="h-4.5 w-4.5" />
+                  <HeroiconsWrenchScrewdriver className="h-4.5 w-4.5" />
                 </button>
                 <a
                   href={BRAIN_RUSH_URL}

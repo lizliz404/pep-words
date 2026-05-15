@@ -142,14 +142,6 @@ export function FileTextIcon(props: IconProps) {
   );
 }
 
-export function WrenchIcon(props: IconProps) {
-  return icon(
-    props,
-    <path key="a" d="M14.7 5.3a4.2 4.2 0 0 0 4.95 5.1l-8.95 8.95a2.1 2.1 0 0 1-2.97-2.97l8.95-8.95a4.2 4.2 0 0 0-1.98-2.13Z" />,
-    <path key="b" d="M7.5 17.25l-.01.01" />
-  );
-}
-
 export function CloseIcon(props: IconProps) {
   return icon(props, <path key="a" d="M6 18L18 6M6 6l12 12" />);
 }
