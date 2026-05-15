@@ -3,6 +3,7 @@ import {
   FileTextIcon,
   GraduationCapIcon,
   LogoIcon,
+  WrenchIcon,
 } from "@/components/Icons";
 import MarkdownDocument from "@/components/MarkdownDocument";
 import { loadDatasetMarkdown, loadDatasetWords } from "@/content";
@@ -72,30 +73,16 @@ function LanguageSwitch({
   onChange: (locale: Locale) => void;
 }) {
   return (
-    <div className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 p-1.5 shadow-[0_18px_40px_-28px_rgba(49,42,34,0.35)] backdrop-blur">
-      <button
-        type="button"
-        onClick={() => onChange("zh")}
-        className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-          locale === "zh"
-            ? "bg-[#312a22] text-[#f8f2e7] shadow-sm"
-            : "text-[#6c6258] hover:text-[#312a22]"
-        }`}
-      >
-        中文
-      </button>
-      <button
-        type="button"
-        onClick={() => onChange("en")}
-        className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-          locale === "en"
-            ? "bg-[#312a22] text-[#f8f2e7] shadow-sm"
-            : "text-[#6c6258] hover:text-[#312a22]"
-        }`}
-      >
-        English
-      </button>
-    </div>
+    <button
+      type="button"
+      onClick={() => onChange(locale === "zh" ? "en" : "zh")}
+      aria-label={locale === "zh" ? "Switch to English" : "切换到中文"}
+      className="inline-flex h-10 min-w-12 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 px-3 text-[13px] font-bold text-[#312a22] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
+    >
+      <span className={locale === "zh" ? "text-[#312a22]" : "text-[#8a7e70]"}>中</span>
+      <span className="mx-1 h-3.5 w-px rotate-12 bg-[#cbbfaf]" aria-hidden="true" />
+      <span className={locale === "en" ? "text-[#312a22]" : "text-[#8a7e70]"}>A</span>
+    </button>
   );
 }
 
@@ -245,13 +232,13 @@ function App() {
       <header className="pt-6 sm:pt-8">
         <div className="container">
           <div className="flex flex-col gap-5">
-            <div className="flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-              <div className="max-w-3xl">
+            <div className="flex items-start justify-between gap-3">
+              <div className="max-w-3xl min-w-0">
                 <div className="flex items-center gap-3">
-                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-[20px] border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_18px_40px_-30px_rgba(49,42,34,0.32)]">
+                  <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[20px] border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_18px_40px_-30px_rgba(49,42,34,0.32)]">
                     <LogoIcon className="h-6 w-6" />
                   </span>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#526a7f]">
                       PEP Words
                     </p>
@@ -263,19 +250,28 @@ function App() {
                 <p className="mt-4 max-w-2xl text-[15px] leading-8 text-[#5f564d] sm:text-base">
                   {dictionary.site.subtitle}
                 </p>
+                <p className="mt-2 max-w-2xl text-sm leading-7 text-[#6c6258] sm:text-[15px]">
+                  {dictionary.site.capability}
+                </p>
               </div>
 
-              <div className="flex flex-wrap items-center gap-3">
+              <div className="flex shrink-0 items-center gap-2">
                 <button
                   type="button"
                   onClick={openFeedback}
-                  className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7] px-4 py-2.5 text-sm font-semibold text-[#312a22] shadow-[0_18px_40px_-34px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
+                  aria-label={dictionary.learner.feedback}
+                  title={dictionary.learner.feedback}
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
                 >
-                  {dictionary.learner.feedback}
+                  <WrenchIcon className="h-4.5 w-4.5" />
                 </button>
-                <a href={BRAIN_RUSH_URL} className="inline-flex items-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7] px-4 py-2.5 text-sm font-semibold text-[#312a22] shadow-[0_18px_40px_-34px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50">
-                  <img src="/brain-rush-icon.svg" alt="" aria-hidden="true" className="h-4 w-4 rounded-[0.3rem]" />
-                  Brain Rush
+                <a
+                  href={BRAIN_RUSH_URL}
+                  aria-label="Brain Rush"
+                  title="Brain Rush"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
+                >
+                  <img src="/brain-rush-icon.svg" alt="" aria-hidden="true" className="h-5 w-5 rounded-[0.35rem]" />
                 </a>
                 <LanguageSwitch locale={locale} onChange={setLocale} />
               </div>

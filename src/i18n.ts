@@ -6,6 +6,7 @@ type TranslationSet = {
   site: {
     title: string;
     subtitle: string;
+    capability: string;
   };
   nav: {
     "middle-school": string;
@@ -105,6 +106,8 @@ const zh: TranslationSet = {
     title: "PEP 词汇学习",
     subtitle:
       "基于人教版词汇整理，保留检索、收藏、卡片和测试四个核心动作。",
+    capability:
+      "按小学 / 初中词表查英文单词、看中文释义和音标，用收藏、卡片和测试完成日常复习。",
   },
   nav: {
     "middle-school": "初中词汇",
@@ -209,6 +212,8 @@ const en: TranslationSet = {
     title: "PEP Vocabulary",
     subtitle:
       "A lightweight PEP vocabulary site focused on search, favorites, flashcards, and quick quizzes.",
+    capability:
+      "Search primary and middle-school PEP words, review Chinese meanings and phonetics, then practice with favorites, cards, and quizzes.",
   },
   nav: {
     "middle-school": "Middle School",
