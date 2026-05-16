@@ -13,17 +13,7 @@ import { useHashRoute } from "@/hooks/useHashRoute";
 import VocabularyLearner from "@/pages/VocabularyLearner";
 import type { DatasetKey, Locale, RouteKey, Word } from "@/types";
 import { startTransition, useEffect, useState } from "react";
-import type { CSSProperties, PointerEvent, ReactNode } from "react";
-
-type ConfettiBurst = {
-  id: number;
-  x: number;
-  y: number;
-};
-
-type BurstPieceStyle = CSSProperties & {
-  "--i": number;
-};
+import type { ReactNode } from "react";
 
 const BRAIN_RUSH_URL = "https://brainrush.lizliz.xyz";
 const TRANSITION_MS = 220;
@@ -85,20 +75,6 @@ function UtilityTooltip({ label, children }: { label: string; children: ReactNod
   );
 }
 
-function ConfettiBurstView({ burst }: { burst: ConfettiBurst }) {
-  return (
-    <span
-      className="confetti-burst"
-      style={{ left: burst.x, top: burst.y }}
-      aria-hidden="true"
-    >
-      {Array.from({ length: 12 }).map((_, index) => (
-        <span key={index} style={{ "--i": index } as BurstPieceStyle} />
-      ))}
-    </span>
-  );
-}
-
 function LanguageSwitch({
   locale,
   onChange,
@@ -134,7 +110,6 @@ function App() {
   const [feedbackStatus, setFeedbackStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
   const [feedbackView, setFeedbackView] = useState<"form" | "wechat">("form");
   const [wechatQrReady, setWechatQrReady] = useState(true);
-  const [confettiBursts, setConfettiBursts] = useState<ConfettiBurst[]>([]);
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -233,19 +208,6 @@ function App() {
     }, TRANSITION_MS);
   };
 
-  const triggerConfetti = (event: PointerEvent<HTMLElement>) => {
-    const burst: ConfettiBurst = {
-      id: Date.now() + Math.random(),
-      x: event.clientX,
-      y: event.clientY,
-    };
-
-    setConfettiBursts((current) => [...current.slice(-3), burst]);
-    window.setTimeout(() => {
-      setConfettiBursts((current) => current.filter((item) => item.id !== burst.id));
-    }, 900);
-  };
-
   const submitFeedback = async () => {
     const message = feedbackText.trim();
     if (!message) return;
@@ -279,19 +241,11 @@ function App() {
 
   return (
     <div className="min-h-screen">
-      {confettiBursts.map((burst) => (
-        <ConfettiBurstView key={burst.id} burst={burst} />
-      ))}
       <header className="pt-6 sm:pt-8">
         <div className="container">
           <div className="flex flex-col gap-5">
             <div className="flex items-start justify-between gap-3">
-              <button
-                type="button"
-                onPointerDown={triggerConfetti}
-                className="group max-w-3xl min-w-0 rounded-[1.75rem] text-left outline-none transition duration-[220ms] hover:bg-[#f8f2e7]/38 focus-visible:ring-4 focus-visible:ring-[#526a7f]/18"
-                aria-label={locale === "zh" ? "PEP Words 小彩蛋" : "PEP Words easter egg"}
-              >
+              <div className="max-w-3xl min-w-0">
                 <div className="flex items-center gap-3">
                   <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[20px] border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_18px_40px_-30px_rgba(49,42,34,0.32)]">
                     <LogoIcon className="h-6 w-6" />
@@ -309,7 +263,7 @@ function App() {
                   <p>{dictionary.site.subtitle}</p>
                   <p>{dictionary.site.capability}</p>
                 </div>
-              </button>
+              </div>
 
               <div className="flex shrink-0 items-center gap-2">
                 <UtilityTooltip label={dictionary.learner.feedback}>
