@@ -13,6 +13,17 @@ import { useHashRoute } from "@/hooks/useHashRoute";
 import VocabularyLearner from "@/pages/VocabularyLearner";
 import type { DatasetKey, Locale, RouteKey, Word } from "@/types";
 import { startTransition, useEffect, useState } from "react";
+import type { CSSProperties, PointerEvent, ReactNode } from "react";
+
+type ConfettiBurst = {
+  id: number;
+  x: number;
+  y: number;
+};
+
+type BurstPieceStyle = CSSProperties & {
+  "--i": number;
+};
 
 const BRAIN_RUSH_URL = "https://brainrush.lizliz.xyz";
 const TRANSITION_MS = 220;
@@ -32,10 +43,10 @@ const ROUTE_DATASET_MAP: Record<RouteKey, DatasetKey> = {
 };
 
 const activeNavClass =
-  "inline-flex items-center gap-2.5 rounded-full bg-[#312a22] px-4 py-2.5 text-sm font-semibold text-[#f8f2e7] shadow-[0_18px_40px_-28px_rgba(49,42,34,0.5)]";
+  "inline-flex min-w-max items-center justify-center gap-1.5 rounded-full bg-[#312a22] px-3.5 py-2 text-xs font-semibold text-[#f8f2e7] shadow-[0_14px_30px_-24px_rgba(49,42,34,0.55)] sm:gap-2 sm:px-4 sm:text-sm";
 
 const inactiveNavClass =
-  "inline-flex items-center gap-2.5 rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/80 px-4 py-2.5 text-sm font-semibold text-[#6c6258] transition hover:border-[#b8a893] hover:bg-[#f8f2e7] hover:text-[#312a22]";
+  "inline-flex min-w-max items-center justify-center gap-1.5 rounded-full px-3.5 py-2 text-xs font-semibold text-[#6c6258] transition hover:bg-[#f8f2e7] hover:text-[#312a22] sm:gap-2 sm:px-4 sm:text-sm";
 
 const routeIconMap: Record<RouteKey, typeof GraduationCapIcon> = {
   "middle-school": GraduationCapIcon,
@@ -66,22 +77,48 @@ function RouteStatus({
   );
 }
 
+function UtilityTooltip({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <span className="tooltip-wrap" data-tooltip={label}>
+      {children}
+    </span>
+  );
+}
+
+function ConfettiBurstView({ burst }: { burst: ConfettiBurst }) {
+  return (
+    <span
+      className="confetti-burst"
+      style={{ left: burst.x, top: burst.y }}
+      aria-hidden="true"
+    >
+      {Array.from({ length: 12 }).map((_, index) => (
+        <span key={index} style={{ "--i": index } as BurstPieceStyle} />
+      ))}
+    </span>
+  );
+}
+
 function LanguageSwitch({
   locale,
   onChange,
+  tooltip,
 }: {
   locale: Locale;
   onChange: (locale: Locale) => void;
+  tooltip: string;
 }) {
   return (
-    <button
-      type="button"
-      onClick={() => onChange(locale === "zh" ? "en" : "zh")}
-      aria-label={locale === "zh" ? "Switch to English" : "切换到中文"}
-      className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
-    >
-      <HeroiconsLanguage className="h-5 w-5" />
-    </button>
+    <UtilityTooltip label={tooltip}>
+      <button
+        type="button"
+        onClick={() => onChange(locale === "zh" ? "en" : "zh")}
+        aria-label={tooltip}
+        className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
+      >
+        <HeroiconsLanguage className="h-5 w-5" />
+      </button>
+    </UtilityTooltip>
   );
 }
 
@@ -97,6 +134,7 @@ function App() {
   const [feedbackStatus, setFeedbackStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
   const [feedbackView, setFeedbackView] = useState<"form" | "wechat">("form");
   const [wechatQrReady, setWechatQrReady] = useState(true);
+  const [confettiBursts, setConfettiBursts] = useState<ConfettiBurst[]>([]);
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -195,6 +233,19 @@ function App() {
     }, TRANSITION_MS);
   };
 
+  const triggerConfetti = (event: PointerEvent<HTMLElement>) => {
+    const burst: ConfettiBurst = {
+      id: Date.now() + Math.random(),
+      x: event.clientX,
+      y: event.clientY,
+    };
+
+    setConfettiBursts((current) => [...current.slice(-3), burst]);
+    window.setTimeout(() => {
+      setConfettiBursts((current) => current.filter((item) => item.id !== burst.id));
+    }, 900);
+  };
+
   const submitFeedback = async () => {
     const message = feedbackText.trim();
     if (!message) return;
@@ -228,11 +279,19 @@ function App() {
 
   return (
     <div className="min-h-screen">
+      {confettiBursts.map((burst) => (
+        <ConfettiBurstView key={burst.id} burst={burst} />
+      ))}
       <header className="pt-6 sm:pt-8">
         <div className="container">
           <div className="flex flex-col gap-5">
             <div className="flex items-start justify-between gap-3">
-              <div className="max-w-3xl min-w-0">
+              <button
+                type="button"
+                onPointerDown={triggerConfetti}
+                className="group max-w-3xl min-w-0 rounded-[1.75rem] text-left outline-none transition duration-[220ms] hover:bg-[#f8f2e7]/38 focus-visible:ring-4 focus-visible:ring-[#526a7f]/18"
+                aria-label={locale === "zh" ? "PEP Words 小彩蛋" : "PEP Words easter egg"}
+              >
                 <div className="flex items-center gap-3">
                   <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-[20px] border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_18px_40px_-30px_rgba(49,42,34,0.32)]">
                     <LogoIcon className="h-6 w-6" />
@@ -246,53 +305,62 @@ function App() {
                     </p>
                   </div>
                 </div>
-                <p className="mt-4 max-w-2xl text-[15px] leading-8 text-[#5f564d] sm:text-base">
-                  {dictionary.site.subtitle}
-                </p>
-                <p className="mt-2 max-w-2xl text-sm leading-7 text-[#6c6258] sm:text-[15px]">
-                  {dictionary.site.capability}
-                </p>
-              </div>
+                <div className="mt-4 max-w-2xl space-y-2 text-[15px] leading-7 text-[#5f564d] sm:text-base">
+                  <p>{dictionary.site.subtitle}</p>
+                  <p>{dictionary.site.capability}</p>
+                </div>
+              </button>
 
               <div className="flex shrink-0 items-center gap-2">
-                <button
-                  type="button"
-                  onClick={openFeedback}
-                  aria-label={dictionary.learner.feedback}
-                  title={dictionary.learner.feedback}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
-                >
-                  <HeroiconsWrenchScrewdriver className="h-4.5 w-4.5" />
-                </button>
-                <a
-                  href={BRAIN_RUSH_URL}
-                  aria-label="Brain Rush"
-                  title="Brain Rush"
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
-                >
-                  <img src="/brain-rush-icon.svg" alt="" aria-hidden="true" className="h-5 w-5 rounded-[0.35rem]" />
-                </a>
-                <LanguageSwitch locale={locale} onChange={setLocale} />
+                <UtilityTooltip label={dictionary.learner.feedback}>
+                  <button
+                    type="button"
+                    onClick={openFeedback}
+                    aria-label={dictionary.learner.feedback}
+                    className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
+                  >
+                    <HeroiconsWrenchScrewdriver className="h-4.5 w-4.5" />
+                  </button>
+                </UtilityTooltip>
+                <UtilityTooltip label={locale === "zh" ? "打开 Brain Rush 速算与单词小游戏" : "Open Brain Rush math and word game"}>
+                  <a
+                    href={BRAIN_RUSH_URL}
+                    aria-label="Brain Rush"
+                    className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
+                  >
+                    <img src="/brain-rush-icon.svg" alt="" aria-hidden="true" className="h-5 w-5 rounded-[0.35rem]" />
+                  </a>
+                </UtilityTooltip>
+                <LanguageSwitch
+                  locale={locale}
+                  onChange={setLocale}
+                  tooltip={locale === "zh" ? "切换到 English" : "Switch to Chinese"}
+                />
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-2">
-              {NAVIGATION_ROUTES.map((routeKey) => {
-                const Icon = routeIconMap[routeKey];
+            <nav
+              aria-label="PEP Words sections"
+              className="-mx-1 overflow-x-auto px-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            >
+              <div className="inline-flex min-w-full items-center gap-1 rounded-[1.35rem] border border-[#d6cbbb] bg-[#efe4d3]/72 p-1 shadow-[inset_0_1px_0_rgba(255,255,255,0.58),0_18px_42px_-36px_rgba(49,42,34,0.34)] sm:min-w-0">
+                {NAVIGATION_ROUTES.map((routeKey) => {
+                  const Icon = routeIconMap[routeKey];
 
-                return (
-                  <button
-                    key={routeKey}
-                    type="button"
-                    onClick={() => navigate(routeKey)}
-                    className={route === routeKey ? activeNavClass : inactiveNavClass}
-                  >
-                    <Icon className="h-4 w-4" />
-                    <span>{dictionary.nav[routeKey]}</span>
-                  </button>
-                );
-              })}
-            </div>
+                  return (
+                    <button
+                      key={routeKey}
+                      type="button"
+                      onClick={() => navigate(routeKey)}
+                      className={route === routeKey ? activeNavClass : inactiveNavClass}
+                    >
+                      <Icon className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+                      <span>{dictionary.nav[routeKey]}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </nav>
           </div>
         </div>
       </header>

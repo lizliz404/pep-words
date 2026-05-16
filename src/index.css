@@ -194,6 +194,61 @@
   .animate-pop-out {
     animation: pop-out 220ms ease-out both;
   }
+
+  .tooltip-wrap {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .tooltip-wrap::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    left: 50%;
+    z-index: 60;
+    width: max-content;
+    max-width: min(15rem, 72vw);
+    transform: translate(-50%, -0.2rem) scale(0.98);
+    border: 1px solid rgba(214, 203, 187, 0.92);
+    border-radius: 9999px;
+    background: rgba(49, 42, 34, 0.94);
+    padding: 0.42rem 0.72rem;
+    color: #f8f2e7;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.35;
+    text-align: center;
+    white-space: normal;
+    box-shadow: 0 18px 40px -26px rgba(49, 42, 34, 0.65);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 160ms ease-out, transform 160ms ease-out;
+  }
+
+  .tooltip-wrap:hover::after,
+  .tooltip-wrap:focus-within::after {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 1;
+  }
+
+  .confetti-burst {
+    position: fixed;
+    z-index: 80;
+    pointer-events: none;
+  }
+
+  .confetti-burst span {
+    --angle: calc(var(--i) * 30deg);
+    --distance: calc(32px + (var(--i) % 4) * 8px);
+    position: absolute;
+    width: 0.45rem;
+    height: 0.72rem;
+    border-radius: 0.18rem;
+    background: hsl(calc(28deg + var(--i) * 32deg) 72% 56%);
+    transform: rotate(var(--angle));
+    animation: confetti-pop 820ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
   body.legacy-blue {
     background:
       radial-gradient(circle at -8% -14%, rgba(186, 230, 253, 0.95), transparent 68%),
@@ -256,6 +311,20 @@
     background: #f8fafc;
     font-weight: 700;
     color: #475569;
+  }
+}
+
+@keyframes confetti-pop {
+  0% {
+    opacity: 0;
+    transform: rotate(var(--angle)) translate(0, 0) scale(0.4);
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(calc(var(--angle) + 115deg)) translate(var(--distance), calc(var(--distance) * -0.82)) scale(0.86);
   }
 }
 
