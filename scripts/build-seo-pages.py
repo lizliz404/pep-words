@@ -71,6 +71,15 @@ def slugify_word(word: str) -> str:
     return slug or "word"
 
 
+def slugify_letter(letter: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", letter.strip().lower()).strip("-")
+    return slug or "other"
+
+
+def display_letter(letter: str) -> str:
+    return "其他" if letter == "#" else letter
+
+
 def page_shell(*, title: str, description: str, canonical: str, body: str) -> str:
     json_ld = {
         "@context": "https://schema.org",
@@ -134,7 +143,7 @@ def build_dataset_page(dataset: Dataset, words: list[dict[str, str]], urls: list
 
     sample = words[:36]
     letters = "".join(
-        f"<a href=\"letter-{esc(letter.lower())}/\">{esc(letter)}</a>" for letter in sorted(by_letter)
+        f"<a href=\"letter-{slugify_letter(letter)}/\">{esc(display_letter(letter))}</a>" for letter in sorted(by_letter)
     )
     body = f"""
 <div class=\"crumb\"><a href=\"/\">PEP Words</a> / {esc(dataset.short_title)}</div>
@@ -160,21 +169,23 @@ def build_dataset_page(dataset: Dataset, words: list[dict[str, str]], urls: list
 
     for letter in sorted(by_letter):
         letter_words = by_letter[letter]
+        letter_slug = slugify_letter(letter)
+        letter_name = display_letter(letter)
         body = f"""
-<div class=\"crumb\"><a href=\"/\">PEP Words</a> / <a href=\"../\">{esc(dataset.short_title)}</a> / {esc(letter)}</div>
+<div class=\"crumb\"><a href=\"/\">PEP Words</a> / <a href=\"../\">{esc(dataset.short_title)}</a> / {esc(letter_name)}</div>
 <header>
-  <h1>{esc(dataset.short_title)} {esc(letter)} 字母词表</h1>
-  <p class=\"lead\">{esc(dataset.title)}中以 {esc(letter)} 开头或归类到 {esc(letter)} 的词条，共 {len(letter_words)} 个。</p>
+  <h1>{esc(letter_name)} 词表</h1>
+  <p class=\"lead\">{esc(dataset.title)}中以 {esc(letter_name)} 开头或归类到 {esc(letter_name)} 的词条，共 {len(letter_words)} 个。</p>
   <div class=\"actions\"><a class=\"btn primary\" href=\"/{dataset.app_hash}\">打开交互学习工具</a><a class=\"btn\" href=\"../\">返回完整词表</a></div>
 </header>
-<section><h2>{esc(letter)} 词条</h2><div class=\"grid\">{''.join(word_card(w) for w in letter_words)}</div></section>
+<section><h2>{esc(letter_name)} 词条</h2><div class=\"grid\">{''.join(word_card(w) for w in letter_words)}</div></section>
 """
         write_page(
-            f"seo/{dataset.path_slug}/letter-{letter.lower()}/index.html",
+            f"seo/{dataset.path_slug}/letter-{letter_slug}/index.html",
             page_shell(
-                title=f"{dataset.short_title} {letter} 字母词表｜PEP Words",
-                description=f"{dataset.short_title} {letter} 字母词表，共 {len(letter_words)} 个 PEP 英语词条，含中文释义、音标和词性。",
-                canonical=f"{SITE_URL}/seo/{dataset.path_slug}/letter-{letter.lower()}/",
+                title=f"{dataset.short_title} {letter_name} 词表｜PEP Words",
+                description=f"{dataset.short_title} {letter_name} 词表，共 {len(letter_words)} 个 PEP 英语词条，含中文释义、音标和词性。",
+                canonical=f"{SITE_URL}/seo/{dataset.path_slug}/letter-{letter_slug}/",
                 body=body,
             ),
             urls,
