@@ -22,6 +22,11 @@ const INTERACTION_CONFIG = {
   touchTooltipMs: 1800,
 } as const;
 
+type DeferredPointerAction = {
+  confirm: () => void;
+  message?: string;
+};
+
 const NAVIGATION_ROUTES: RouteKey[] = [
   "middle-school",
   "primary-school",
@@ -99,7 +104,7 @@ function LanguageSwitch({
   onChange: (locale: Locale) => void;
   tooltip: string;
   activeTooltip: string | null;
-  shouldRunTooltipAction: (key: string, event: React.MouseEvent<HTMLElement>) => boolean;
+  shouldRunTooltipAction: (key: string, event: React.MouseEvent<HTMLElement>, action?: DeferredPointerAction) => boolean;
   setActiveTooltip: (key: string | null | ((current: string | null) => string | null)) => void;
 }) {
   return (
@@ -107,7 +112,7 @@ function LanguageSwitch({
       <button
         type="button"
         onClick={(event) => {
-          if (shouldRunTooltipAction("language", event)) onChange(locale === "zh" ? "en" : "zh");
+          if (shouldRunTooltipAction("language", event, { confirm: () => onChange(locale === "zh" ? "en" : "zh"), message: tooltip })) onChange(locale === "zh" ? "en" : "zh");
         }}
         onMouseEnter={() => setActiveTooltip("language")}
         onMouseLeave={() => setActiveTooltip((current) => (current === "language" ? null : current))}
@@ -135,6 +140,7 @@ function App() {
   const [feedbackView, setFeedbackView] = useState<"form" | "wechat">("form");
   const [wechatQrReady, setWechatQrReady] = useState(true);
   const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
+  const [deferredPointerAction, setDeferredPointerAction] = useState<DeferredPointerAction | null>(null);
   const touchTooltipRef = useRef({ key: "", shownAt: 0 });
 
   const dictionary = getDictionary(locale);
@@ -220,22 +226,15 @@ function App() {
       ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
       : "Refresh and try again. If it still fails, inspect the built assets and paths.";
 
-  const shouldRunTooltipAction = (key: string, event: React.MouseEvent<HTMLElement>) => {
+  const shouldRunTooltipAction = (key: string, event: React.MouseEvent<HTMLElement>, action?: DeferredPointerAction) => {
     const hasFinePointer = typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
     if (hasFinePointer) return true;
 
-    const now = window.performance.now();
-    const isSecondTap = touchTooltipRef.current.key === key && now - touchTooltipRef.current.shownAt < INTERACTION_CONFIG.touchTooltipMs;
-    if (isSecondTap) {
-      touchTooltipRef.current = { key: "", shownAt: 0 };
-      setActiveTooltip((current) => (current === key ? null : current));
-      return true;
-    }
-
     event.preventDefault();
     event.stopPropagation();
-    touchTooltipRef.current = { key, shownAt: now };
+    touchTooltipRef.current = { key, shownAt: window.performance.now() };
     setActiveTooltip(key);
+    setDeferredPointerAction(action ?? null);
     window.setTimeout(() => {
       if (
         touchTooltipRef.current.key === key &&
@@ -243,6 +242,7 @@ function App() {
       ) {
         touchTooltipRef.current = { key: "", shownAt: 0 };
         setActiveTooltip((current) => (current === key ? null : current));
+        setDeferredPointerAction(null);
       }
     }, INTERACTION_CONFIG.touchTooltipMs);
     return false;
@@ -260,6 +260,13 @@ function App() {
       setFeedbackOpen(false);
       setFeedbackClosing(false);
     }, TRANSITION_MS);
+  };
+
+  const confirmDeferredPointerAction = () => {
+    deferredPointerAction?.confirm();
+    touchTooltipRef.current = { key: "", shownAt: 0 };
+    setDeferredPointerAction(null);
+    setActiveTooltip(null);
   };
 
   const submitFeedback = async () => {
@@ -319,12 +326,22 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex shrink-0 items-center gap-2">
-                <UtilityTooltip label={dictionary.learner.feedback} active={activeTooltip === "feedback"}>
+              <div className="flex shrink-0 flex-col items-end gap-2 sm:flex-row sm:items-center">
+                {deferredPointerAction && (
+                  <button
+                    type="button"
+                    onClick={confirmDeferredPointerAction}
+                    className="rounded-full border border-[#d6cbbb] bg-[#312a22] px-3 py-1.5 text-xs font-semibold text-[#f8f2e7] shadow-[0_16px_34px_-28px_rgba(49,42,34,0.55)] transition hover:bg-[#241f1a]"
+                  >
+                    {locale === "zh" ? "确认" : "Confirm"}{deferredPointerAction.message ? ` · ${deferredPointerAction.message}` : ""}
+                  </button>
+                )}
+                <div className="flex items-center gap-2">
+                  <UtilityTooltip label={dictionary.learner.feedback} active={activeTooltip === "feedback"}>
                   <button
                     type="button"
                     onClick={(event) => {
-                      if (shouldRunTooltipAction("feedback", event)) openFeedback();
+                      if (shouldRunTooltipAction("feedback", event, { confirm: openFeedback, message: dictionary.learner.feedback })) openFeedback();
                     }}
                     onMouseEnter={() => setActiveTooltip("feedback")}
                     onMouseLeave={() => setActiveTooltip((current) => (current === "feedback" ? null : current))}
@@ -340,7 +357,12 @@ function App() {
                   <a
                     href={BRAIN_RUSH_URL}
                     onClick={(event) => {
-                      if (!shouldRunTooltipAction("brain-rush", event)) return;
+                      shouldRunTooltipAction("brain-rush", event, {
+                        confirm: () => {
+                          window.location.href = BRAIN_RUSH_URL;
+                        },
+                        message: locale === "zh" ? "打开 Brain Rush" : "Open Brain Rush",
+                      });
                     }}
                     onMouseEnter={() => setActiveTooltip("brain-rush")}
                     onMouseLeave={() => setActiveTooltip((current) => (current === "brain-rush" ? null : current))}
@@ -360,6 +382,7 @@ function App() {
                   shouldRunTooltipAction={shouldRunTooltipAction}
                   setActiveTooltip={setActiveTooltip}
                 />
+                </div>
               </div>
             </div>
 

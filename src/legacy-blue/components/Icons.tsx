@@ -1,6 +1,9 @@
-import type { ReactNode, SVGProps } from "react";
+import type { ImgHTMLAttributes, ReactNode, SVGProps } from "react";
 
 type IconProps = SVGProps<SVGSVGElement>;
+type LogoIconProps = ImgHTMLAttributes<HTMLImageElement>;
+
+const PEP_WORDS_ICON_SRC = "/pep-words-logo.svg";
 
 // 【设计细节优化1】: 将 strokeWidth 从 2 改为 1.5。这是目前顶尖 UI 的黄金比例，显得更精致、更现代。
 // 【设计细节优化2】: 默认宽高建议使用 24 或 1em 配合 viewBox，但我保留了你原有的逻辑结构。
@@ -162,29 +165,15 @@ export function StarIcon(props: IconProps) {
   );
 }
 
-export function LogoIcon(props: IconProps) {
-  return icon(
-    { ...props, fill: "none", stroke: "currentColor" },
-    <path
-      key="spark-big"
-      d="M4.5 1.5C4.5 3.15 3.15 4.5 1.5 4.5C3.15 4.5 4.5 5.85 4.5 7.5C4.5 5.85 5.85 4.5 7.5 4.5C5.85 4.5 4.5 3.15 4.5 1.5Z"
-      fill="currentColor"
-      stroke="none"
-    />,
-    <path
-      key="spark-small"
-      d="M21 18.5C21 19.33 20.33 20 19.5 20C20.33 20 21 20.67 21 21.5C21 20.67 21.67 20 22.5 20C21.67 20 21 19.33 21 18.5Z"
-      fill="currentColor"
-      stroke="none"
-    />,
-    <path
-      key="back-card"
-      d="M9 9V6.5A2.5 2.5 0 0 1 11.5 4h8A2.5 2.5 0 0 1 22 6.5v8A2.5 2.5 0 0 1 19.5 17H18"
-    />,
-    <rect key="front-card" x="5" y="9" width="13" height="13" rx="2.5" />,
-    <path
-      key="w-mark"
-      d="M7.5 13.5L9.5 17.5L11.5 13.5L13.5 17.5L15.5 13.5"
+export function LogoIcon({ className = "", alt = "", ...props }: LogoIconProps) {
+  return (
+    <img
+      {...props}
+      className={`inline-block shrink-0 transition-transform ${className}`}
+      src={PEP_WORDS_ICON_SRC}
+      alt={alt}
+      aria-hidden={alt ? undefined : true}
+      draggable={false}
     />
   );
 }
