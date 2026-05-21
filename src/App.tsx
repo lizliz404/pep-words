@@ -12,11 +12,15 @@ import { LOCALE_STORAGE_KEY, getDictionary, getStoredLocale } from "@/i18n";
 import { useHashRoute } from "@/hooks/useHashRoute";
 import VocabularyLearner from "@/pages/VocabularyLearner";
 import type { DatasetKey, Locale, RouteKey, Word } from "@/types";
-import { startTransition, useEffect, useState } from "react";
+import { startTransition, useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 
 const BRAIN_RUSH_URL = "https://brainrush.run";
 const TRANSITION_MS = 220;
+
+const INTERACTION_CONFIG = {
+  touchTooltipMs: 1800,
+} as const;
 
 const NAVIGATION_ROUTES: RouteKey[] = [
   "middle-school",
@@ -67,9 +71,17 @@ function RouteStatus({
   );
 }
 
-function UtilityTooltip({ label, children }: { label: string; children: ReactNode }) {
+function UtilityTooltip({
+  label,
+  active,
+  children,
+}: {
+  label: string;
+  active?: boolean;
+  children: ReactNode;
+}) {
   return (
-    <span className="tooltip-wrap" data-tooltip={label}>
+    <span className={`tooltip-wrap${active ? " tooltip-wrap-active" : ""}`} data-tooltip={label}>
       {children}
     </span>
   );
@@ -79,16 +91,28 @@ function LanguageSwitch({
   locale,
   onChange,
   tooltip,
+  activeTooltip,
+  shouldRunTooltipAction,
+  setActiveTooltip,
 }: {
   locale: Locale;
   onChange: (locale: Locale) => void;
   tooltip: string;
+  activeTooltip: string | null;
+  shouldRunTooltipAction: (key: string, event: React.MouseEvent<HTMLElement>) => boolean;
+  setActiveTooltip: (key: string | null | ((current: string | null) => string | null)) => void;
 }) {
   return (
-    <UtilityTooltip label={tooltip}>
+    <UtilityTooltip label={tooltip} active={activeTooltip === "language"}>
       <button
         type="button"
-        onClick={() => onChange(locale === "zh" ? "en" : "zh")}
+        onClick={(event) => {
+          if (shouldRunTooltipAction("language", event)) onChange(locale === "zh" ? "en" : "zh");
+        }}
+        onMouseEnter={() => setActiveTooltip("language")}
+        onMouseLeave={() => setActiveTooltip((current) => (current === "language" ? null : current))}
+        onFocus={() => setActiveTooltip("language")}
+        onBlur={() => setActiveTooltip((current) => (current === "language" ? null : current))}
         aria-label={tooltip}
         className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
       >
@@ -110,6 +134,8 @@ function App() {
   const [feedbackStatus, setFeedbackStatus] = useState<"idle" | "submitting" | "submitted" | "error">("idle");
   const [feedbackView, setFeedbackView] = useState<"form" | "wechat">("form");
   const [wechatQrReady, setWechatQrReady] = useState(true);
+  const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
+  const touchTooltipRef = useRef({ key: "", shownAt: 0 });
 
   const dictionary = getDictionary(locale);
   const dataset = ROUTE_DATASET_MAP[route];
@@ -194,6 +220,34 @@ function App() {
       ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
       : "Refresh and try again. If it still fails, inspect the built assets and paths.";
 
+  const shouldRunTooltipAction = (key: string, event: React.MouseEvent<HTMLElement>) => {
+    const hasFinePointer = typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    if (hasFinePointer) return true;
+
+    const now = window.performance.now();
+    const isSecondTap = touchTooltipRef.current.key === key && now - touchTooltipRef.current.shownAt < INTERACTION_CONFIG.touchTooltipMs;
+    if (isSecondTap) {
+      touchTooltipRef.current = { key: "", shownAt: 0 };
+      setActiveTooltip((current) => (current === key ? null : current));
+      return true;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+    touchTooltipRef.current = { key, shownAt: now };
+    setActiveTooltip(key);
+    window.setTimeout(() => {
+      if (
+        touchTooltipRef.current.key === key &&
+        window.performance.now() - touchTooltipRef.current.shownAt >= INTERACTION_CONFIG.touchTooltipMs - 50
+      ) {
+        touchTooltipRef.current = { key: "", shownAt: 0 };
+        setActiveTooltip((current) => (current === key ? null : current));
+      }
+    }, INTERACTION_CONFIG.touchTooltipMs);
+    return false;
+  };
+
   const openFeedback = () => {
     setFeedbackView("form");
     setFeedbackClosing(false);
@@ -266,19 +320,32 @@ function App() {
               </div>
 
               <div className="flex shrink-0 items-center gap-2">
-                <UtilityTooltip label={dictionary.learner.feedback}>
+                <UtilityTooltip label={dictionary.learner.feedback} active={activeTooltip === "feedback"}>
                   <button
                     type="button"
-                    onClick={openFeedback}
+                    onClick={(event) => {
+                      if (shouldRunTooltipAction("feedback", event)) openFeedback();
+                    }}
+                    onMouseEnter={() => setActiveTooltip("feedback")}
+                    onMouseLeave={() => setActiveTooltip((current) => (current === "feedback" ? null : current))}
+                    onFocus={() => setActiveTooltip("feedback")}
+                    onBlur={() => setActiveTooltip((current) => (current === "feedback" ? null : current))}
                     aria-label={dictionary.learner.feedback}
                     className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 text-[#526a7f] shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50 hover:text-[#312a22]"
                   >
                     <HeroiconsWrenchScrewdriver className="h-4.5 w-4.5" />
                   </button>
                 </UtilityTooltip>
-                <UtilityTooltip label={locale === "zh" ? "打开 Brain Rush 速算与单词小游戏" : "Open Brain Rush math and word game"}>
+                <UtilityTooltip label={locale === "zh" ? "打开 Brain Rush 速算与单词小游戏" : "Open Brain Rush math and word game"} active={activeTooltip === "brain-rush"}>
                   <a
                     href={BRAIN_RUSH_URL}
+                    onClick={(event) => {
+                      if (!shouldRunTooltipAction("brain-rush", event)) return;
+                    }}
+                    onMouseEnter={() => setActiveTooltip("brain-rush")}
+                    onMouseLeave={() => setActiveTooltip((current) => (current === "brain-rush" ? null : current))}
+                    onFocus={() => setActiveTooltip("brain-rush")}
+                    onBlur={() => setActiveTooltip((current) => (current === "brain-rush" ? null : current))}
                     aria-label="Brain Rush"
                     className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#d6cbbb] bg-[#f8f2e7]/92 shadow-[0_16px_34px_-30px_rgba(49,42,34,0.34)] transition duration-[220ms] ease-out hover:-translate-y-0.5 hover:border-[#9c5d30]/50"
                   >
@@ -289,6 +356,9 @@ function App() {
                   locale={locale}
                   onChange={setLocale}
                   tooltip={locale === "zh" ? "切换到 English" : "Switch to Chinese"}
+                  activeTooltip={activeTooltip}
+                  shouldRunTooltipAction={shouldRunTooltipAction}
+                  setActiveTooltip={setActiveTooltip}
                 />
               </div>
             </div>

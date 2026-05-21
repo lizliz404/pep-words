@@ -226,7 +226,8 @@
   }
 
   .tooltip-wrap:hover::after,
-  .tooltip-wrap:focus-within::after {
+  .tooltip-wrap:focus-within::after,
+  .tooltip-wrap.tooltip-wrap-active::after {
     transform: translate(-50%, 0) scale(1);
     opacity: 1;
   }
