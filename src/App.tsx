@@ -226,26 +226,10 @@ function App() {
       ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
       : "Refresh and try again. If it still fails, inspect the built assets and paths.";
 
-  const shouldRunTooltipAction = (key: string, event: React.MouseEvent<HTMLElement>, action?: DeferredPointerAction) => {
-    const hasFinePointer = typeof window !== "undefined" && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-    if (hasFinePointer) return true;
-
-    event.preventDefault();
-    event.stopPropagation();
-    touchTooltipRef.current = { key, shownAt: window.performance.now() };
-    setActiveTooltip(key);
-    setDeferredPointerAction(action ?? null);
-    window.setTimeout(() => {
-      if (
-        touchTooltipRef.current.key === key &&
-        window.performance.now() - touchTooltipRef.current.shownAt >= INTERACTION_CONFIG.touchTooltipMs - 50
-      ) {
-        touchTooltipRef.current = { key: "", shownAt: 0 };
-        setActiveTooltip((current) => (current === key ? null : current));
-        setDeferredPointerAction(null);
-      }
-    }, INTERACTION_CONFIG.touchTooltipMs);
-    return false;
+  const shouldRunTooltipAction = (_key: string, _event: React.MouseEvent<HTMLElement>, _action?: DeferredPointerAction) => {
+    // Always execute immediately on all devices — single tap is enough.
+    setDeferredPointerAction(null);
+    return true;
   };
 
   const openFeedback = () => {
