@@ -496,7 +496,7 @@ function App() {
         )}
       </main>
 
-      <footer className="container pb-8 pt-4 sm:pb-10">
+      <footer className="container min-h-[109px] pb-8 pt-4 sm:pb-10">
         <div className="border-t border-[#d6cbbb]/80 pt-4 text-center">
           <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-1 text-[12px] leading-5 text-[#6c6258] sm:flex-row sm:gap-3 sm:text-sm">
             <span>{dictionary.learner.privacyNote}</span>

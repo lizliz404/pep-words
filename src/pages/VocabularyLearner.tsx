@@ -537,7 +537,7 @@ export default function VocabularyLearner({
                         {word.word}
                       </h2>
                       {word.phonetic && (
-                        <span className="font-mono text-sm text-slate-400">
+                        <span className="font-mono text-sm text-[#6c6258]">
                           {word.phonetic}
                         </span>
                       )}
