@@ -59,8 +59,23 @@
     font: inherit;
   }
 
-  ::selection {
-    background: rgba(15, 23, 42, 0.12);
+  /* ::selection owned by premium-one-pager.css (brand tokens) */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-in,
+  .animate-fade-out,
+  .animate-pop-in,
+  .animate-pop-out {
+    animation: none !important;
+  }
+
+  .tooltip-wrap::after {
+    transition: none;
   }
 }
 

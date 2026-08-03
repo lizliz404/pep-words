@@ -48,7 +48,10 @@ type TranslationSet = {
     returnWord: string;
     previous: string;
     next: string;
+    noMatchesTitle: string;
     noMatches: string;
+    clearSearch: string;
+    resetLetterFilter: string;
     privacyNote: string;
     feedback: string;
     feedbackTitle: string;
@@ -156,7 +159,10 @@ const zh: TranslationSet = {
     returnWord: "再次点击返回单词",
     previous: "上一项",
     next: "下一项",
-    noMatches: "当前筛选下没有匹配词汇。",
+    noMatchesTitle: "没有匹配的词",
+    noMatches: "试试换个拼写，或清空筛选后按字母浏览。",
+    clearSearch: "清空搜索",
+    resetLetterFilter: "回到字母 A",
     privacyNote: "收藏数据只保存在你的浏览器本地。",
     feedback: "提建议 / 报错",
     feedbackTitle: "提建议 / 报错",
@@ -262,7 +268,10 @@ const en: TranslationSet = {
     returnWord: "Click again to return to the word",
     previous: "Previous",
     next: "Next",
-    noMatches: "No words match the current filter.",
+    noMatchesTitle: "No matching words",
+    noMatches: "Try a different spelling, or clear the filter and browse by letter.",
+    clearSearch: "Clear search",
+    resetLetterFilter: "Back to letter A",
     privacyNote: "Favorites stay local to this browser.",
     feedback: "Suggest / report issue",
     feedbackTitle: "Suggest / report issue",

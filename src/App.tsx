@@ -57,9 +57,13 @@ const routeIconMap: Record<RouteKey, typeof GraduationCapIcon> = {
 function RouteStatus({
   title,
   description,
+  actionLabel,
+  onAction,
 }: {
   title: string;
   description: string;
+  actionLabel?: string;
+  onAction?: () => void;
 }) {
   return (
     <section className="rounded-[2rem] border border-[#d6cbbb] bg-[#f8f2e7]/92 p-8 shadow-[0_24px_56px_-44px_rgba(49,42,34,0.42)] sm:p-10">
@@ -71,6 +75,15 @@ function RouteStatus({
           {title}
         </h2>
         <p className="text-sm leading-7 text-[#6c6258] sm:text-base">{description}</p>
+        {actionLabel && onAction ? (
+          <button
+            type="button"
+            onClick={onAction}
+            className="mt-2 inline-flex items-center rounded-full bg-[#312a22] px-4 py-2.5 text-sm font-semibold text-[#f8f2e7] transition hover:bg-[#241f1a]"
+          >
+            {actionLabel}
+          </button>
+        ) : null}
       </div>
     </section>
   );
@@ -218,13 +231,18 @@ function App() {
   const loadingTitle = locale === "zh" ? "内容加载中" : "Loading content";
   const loadingDescription =
     locale === "zh"
-      ? "当前页面的数据会按需加载，这样首屏更轻，也能减少部署构建时的噪音。"
-      : "This route loads its data on demand to keep the initial bundle smaller.";
+      ? isDocumentRoute
+        ? "正在读取词表原文…"
+        : "正在加载当前词库…"
+      : isDocumentRoute
+        ? "Loading the vocabulary document…"
+        : "Loading this word list…";
   const errorTitle = locale === "zh" ? "内容加载失败" : "Failed to load content";
   const errorDescription =
     locale === "zh"
-      ? "请刷新页面重试；如果仍然失败，再检查构建产物和静态资源路径。"
-      : "Refresh and try again. If it still fails, inspect the built assets and paths.";
+      ? "词库或词表没能加载。请刷新页面重试；若仍失败，可能是网络或静态资源路径问题。"
+      : "The word list or document did not load. Refresh and try again. If it still fails, check network or static asset paths.";
+  const refreshLabel = locale === "zh" ? "刷新页面" : "Refresh page";
 
   const shouldRunTooltipAction = (_key: string, _event: React.MouseEvent<HTMLElement>, _action?: DeferredPointerAction) => {
     // Always execute immediately on all devices — single tap is enough.
@@ -471,7 +489,12 @@ function App() {
 
       <main key={route} className="container animate-fade-in py-7 sm:py-9">
         {loadError ? (
-          <RouteStatus title={errorTitle} description={`${errorDescription} (${loadError})`} />
+          <RouteStatus
+            title={errorTitle}
+            description={`${errorDescription} (${loadError})`}
+            actionLabel={refreshLabel}
+            onAction={() => window.location.reload()}
+          />
         ) : isDocumentRoute ? (
           markdown === null ? (
             <RouteStatus title={loadingTitle} description={loadingDescription} />

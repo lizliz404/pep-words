@@ -107,6 +107,14 @@ export default function VocabularyLearner({
 
   const favoriteWords = favorites.getFavoriteWords(words);
   const currentCard = filteredWords[currentCardIndex];
+  const hasActiveSearch = deferredSearchQuery.trim().length > 0;
+
+  const clearFilters = () => {
+    setSearchQuery("");
+    setSelectedLetter(letters[0] ?? "A");
+    setCurrentCardIndex(0);
+    setViewMode("list");
+  };
 
   const startQuiz = () => {
     if (filteredWords.length === 0) return;
@@ -489,9 +497,23 @@ export default function VocabularyLearner({
               </p>
             </>
           ) : (
-              <div className="flex flex-col items-center justify-center rounded-[2rem] border border-dashed border-[#d6cbbb] bg-[#eee6d8]/60 py-24 text-center">
-              <SearchIcon className="mb-4 h-8 w-8 text-slate-300" />
-              <p className="text-lg font-medium text-[#6c6258]">{dictionary.learner.noMatches}</p>
+            <div className="flex flex-col items-center justify-center rounded-[2rem] border border-dashed border-[#d6cbbb] bg-[#eee6d8]/60 px-6 py-24 text-center">
+              <SearchIcon className="mb-4 h-8 w-8 text-[#b8a893]" />
+              <p className="text-xl font-semibold text-[#241f1a]">
+                {dictionary.learner.noMatchesTitle}
+              </p>
+              <p className="mt-2 max-w-md text-sm leading-7 text-[#6c6258]">
+                {dictionary.learner.noMatches}
+              </p>
+              <button
+                type="button"
+                onClick={clearFilters}
+                className={`${secondaryButtonClass} mt-6`}
+              >
+                {hasActiveSearch
+                  ? dictionary.learner.clearSearch
+                  : dictionary.learner.resetLetterFilter}
+              </button>
             </div>
           )}
         </section>
@@ -595,9 +617,23 @@ export default function VocabularyLearner({
             })}
 
             {filteredWords.length === 0 && (
-              <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-[#d6cbbb] bg-[#eee6d8]/60 py-20 text-center">
-                <SearchIcon className="mb-4 h-8 w-8 text-slate-300" />
-                <p className="text-[#6c6258]">{dictionary.learner.noMatches}</p>
+              <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-[#d6cbbb] bg-[#eee6d8]/60 px-6 py-20 text-center">
+                <SearchIcon className="mb-4 h-8 w-8 text-[#b8a893]" />
+                <p className="text-xl font-semibold text-[#241f1a]">
+                  {dictionary.learner.noMatchesTitle}
+                </p>
+                <p className="mt-2 max-w-md text-sm leading-7 text-[#6c6258]">
+                  {dictionary.learner.noMatches}
+                </p>
+                <button
+                  type="button"
+                  onClick={clearFilters}
+                  className={`${secondaryButtonClass} mt-6`}
+                >
+                  {hasActiveSearch
+                    ? dictionary.learner.clearSearch
+                    : dictionary.learner.resetLetterFilter}
+                </button>
               </div>
             )}
           </div>
