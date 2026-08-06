@@ -1,0 +1,18 @@
+# PEP Words
+
+> Free PEP (People's Education Press) English vocabulary tool for Chinese primary and middle school learners.
+
+- Site: https://pep-words.lizliz.xyz/
+- Maker: Liz (https://lizliz.xyz/)
+- Category: EducationalApplication / vocabulary study tool
+- Price: Free, no account required
+- Languages: zh-CN (default), English UI toggle
+- Datasets: primary school ~1331 entries; middle school ~2895 entries
+- Features: search + definitions, favorites + CSV export, flashcards, multiple-choice quiz, raw word-list reading
+- Indexable word pages: /seo/ (primary-school, middle-school letter and word pages)
+- Legacy visual comparison: /legacy-blue
+
+## What it is not
+
+- Not a paid course, tutoring marketplace, or account-based SaaS
+- Not affiliated with People's Education Press beyond using PEP vocabulary lists for study

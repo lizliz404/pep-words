@@ -15,15 +15,18 @@ import re
 import shutil
 from collections import defaultdict
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
-from typing import Iterable
+from typing import Any, Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DIR = ROOT / "public"
 SEO_DIR = PUBLIC_DIR / "seo"
 DATA_DIR = ROOT / "src" / "data"
-SITE_URL = "https://pep-words.brainrush.run"
+SITE_URL = "https://pep-words.lizliz.xyz"
+OG_IMAGE = f"{SITE_URL}/pep-words-screenshot.png"
 MAX_WORD_PAGES_PER_DATASET = 240
+SITEMAP_LASTMOD = date.today().isoformat()
 
 
 @dataclass(frozen=True)
@@ -56,7 +59,7 @@ DATASETS = [
 ]
 
 CSS = """
-:root{color-scheme:light;--bg:#faf9f5;--card:#fffaf1;--ink:#241f1a;--muted:#6c6258;--line:#d6cbbb;--accent:#526a7f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}.wrap{width:min(1080px,calc(100% - 32px));margin:0 auto;padding:40px 0 56px}.crumb{font-size:14px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--accent);text-decoration:none}header{padding:30px;border:1px solid var(--line);background:linear-gradient(135deg,#fffaf1,#f4efe5);border-radius:28px}h1{font-size:clamp(30px,5vw,56px);line-height:1.08;margin:0 0 14px}p{margin:0 0 12px}.lead{font-size:18px;color:var(--muted);max-width:780px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.btn{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:10px 16px;color:var(--ink);background:#fff;text-decoration:none;font-weight:700}.btn.primary{background:var(--ink);color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:24px}.card{border:1px solid var(--line);border-radius:20px;background:var(--card);padding:18px}.word{font-size:22px;font-weight:800}.meta{color:var(--muted);font-size:14px}.meaning{margin-top:8px}.letters{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}.letters a{border:1px solid var(--line);border-radius:999px;padding:6px 11px;color:var(--accent);background:#fff;text-decoration:none;font-weight:700}section{margin-top:34px}h2{font-size:24px;margin:0 0 14px}footer{margin-top:42px;color:var(--muted);font-size:14px}code{background:#efe7db;padding:2px 5px;border-radius:6px}
+:root{color-scheme:light;--bg:#faf9f5;--card:#fffaf1;--ink:#241f1a;--muted:#6c6258;--line:#d6cbbb;--accent:#526a7f}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}.wrap{width:min(1080px,calc(100% - 32px));margin:0 auto;padding:40px 0 56px}.crumb{font-size:14px;color:var(--muted);margin-bottom:20px}.crumb a{color:var(--accent);text-decoration:none}header{padding:30px;border:1px solid var(--line);background:linear-gradient(135deg,#fffaf1,#f4efe5);border-radius:28px}h1{font-size:clamp(30px,5vw,56px);line-height:1.08;margin:0 0 14px}p{margin:0 0 12px}.lead{font-size:18px;color:var(--muted);max-width:780px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.btn{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:10px 16px;color:var(--ink);background:#fff;text-decoration:none;font-weight:700}.btn.primary{background:var(--ink);color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:24px}.card{border:1px solid var(--line);border-radius:20px;background:var(--card);padding:18px}.word{font-size:22px;font-weight:800}.meta{color:var(--muted);font-size:14px}.meaning{margin-top:8px}.letters{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}.letters a{border:1px solid var(--line);border-radius:999px;padding:6px 11px;color:var(--accent);background:#fff;text-decoration:none;font-weight:700}section{margin-top:34px}h2{font-size:24px;margin:0 0 14px}footer{margin-top:42px;color:var(--muted);font-size:14px}code{background:#efe7db;padding:2px 5px;border-radius:6px}.faq details{border:1px solid var(--line);border-radius:16px;background:var(--card);padding:14px 16px;margin:0 0 10px}.faq summary{cursor:pointer;font-weight:700}.faq p{margin:10px 0 0;color:var(--muted)}
 """.strip()
 
 
@@ -80,16 +83,27 @@ def display_letter(letter: str) -> str:
     return "其他" if letter == "#" else letter
 
 
-def page_shell(*, title: str, description: str, canonical: str, body: str) -> str:
-    json_ld = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": title,
-        "url": canonical,
-        "description": description,
-        "isPartOf": {"@type": "WebSite", "name": "PEP Words", "url": SITE_URL + "/"},
-        "inLanguage": "zh-CN",
-    }
+def page_shell(
+    *,
+    title: str,
+    description: str,
+    canonical: str,
+    body: str,
+    extra_json_ld: list[dict[str, Any]] | None = None,
+) -> str:
+    graph: list[dict[str, Any]] = [
+        {
+            "@type": "WebPage",
+            "name": title,
+            "url": canonical,
+            "description": description,
+            "isPartOf": {"@type": "WebSite", "name": "PEP Words", "url": SITE_URL + "/"},
+            "inLanguage": "zh-CN",
+        }
+    ]
+    if extra_json_ld:
+        graph.extend(extra_json_ld)
+    json_ld = {"@context": "https://schema.org", "@graph": graph}
     return f"""<!doctype html>
 <html lang=\"zh-CN\">
   <head>
@@ -98,14 +112,29 @@ def page_shell(*, title: str, description: str, canonical: str, body: str) -> st
     <title>{esc(title)}</title>
     <meta name=\"description\" content=\"{esc(description)}\" />
     <meta name=\"robots\" content=\"index, follow, max-image-preview:large\" />
+    <meta name=\"theme-color\" content=\"#eee8dc\" />
     <link rel=\"canonical\" href=\"{esc(canonical)}\" />
+    <link rel=\"icon\" href=\"/pep-words-logo.svg\" type=\"image/svg+xml\" />
+    <link rel=\"apple-touch-icon\" href=\"/pep-words-logo.svg\" />
     <meta property=\"og:type\" content=\"article\" />
     <meta property=\"og:site_name\" content=\"PEP Words\" />
     <meta property=\"og:title\" content=\"{esc(title)}\" />
     <meta property=\"og:description\" content=\"{esc(description)}\" />
     <meta property=\"og:url\" content=\"{esc(canonical)}\" />
+    <meta property=\"og:image\" content=\"{esc(OG_IMAGE)}\" />
+    <meta name=\"twitter:card\" content=\"summary_large_image\" />
+    <meta name=\"twitter:title\" content=\"{esc(title)}\" />
+    <meta name=\"twitter:description\" content=\"{esc(description)}\" />
+    <meta name=\"twitter:image\" content=\"{esc(OG_IMAGE)}\" />
     <style>{CSS}</style>
     <script type=\"application/ld+json\">{json.dumps(json_ld, ensure_ascii=False)}</script>
+    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-TXVLTJJ878\"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-TXVLTJJ878');
+    </script>
   </head>
   <body>
     <main class=\"wrap\">{body}</main>
@@ -222,22 +251,53 @@ def build_dataset_page(dataset: Dataset, words: list[dict[str, str]], urls: list
 
 
 def build_index(urls: list[str]) -> None:
-    body = """
+    faq_items = [
+        (
+            "PEP Words 是什么？",
+            "PEP Words 是 Liz 做的免费人教版 PEP 英语词汇学习工具，覆盖小学与初中词库，支持检索释义、收藏导出、卡片复习和选择题测试。",
+        ),
+        (
+            "词库有多大？",
+            "小学词库约 1331 条，初中词库约 2895 条；本站 /seo/ 下还有按字母和单词拆分的静态索引页。",
+        ),
+        (
+            "需要注册或付费吗？",
+            "不需要。浏览器打开即可用，无账号、无付费墙。",
+        ),
+    ]
+    faq_html = "".join(
+        f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in faq_items
+    )
+    faq_schema = {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": q,
+                "acceptedAnswer": {"@type": "Answer", "text": a},
+            }
+            for q, a in faq_items
+        ],
+    }
+    body = f"""
 <div class=\"crumb\"><a href=\"/\">PEP Words</a> / SEO index</div>
 <header>
   <h1>PEP Words 可索引词表页面</h1>
   <p class=\"lead\">这些静态页面由词表数据自动生成，用于让搜索引擎理解 PEP Words 的小学和初中英语词汇内容。日常学习请使用主应用。</p>
   <div class=\"actions\"><a class=\"btn primary\" href=\"/\">打开主应用</a><a class=\"btn\" href=\"primary-school/\">小学词表</a><a class=\"btn\" href=\"middle-school/\">初中词表</a></div>
 </header>
-<section><h2>入口</h2><div class=\"grid\"><article class=\"card\"><div class=\"word\"><a href=\"primary-school/\">小学英语单词</a></div><div class=\"meaning\">人教版 PEP 小学英语词汇。</div></article><article class=\"card\"><div class=\"word\"><a href=\"middle-school/\">初中英语单词</a></div><div class=\"meaning\">人教版 PEP 初中英语词汇。</div></article></div></section>
+<section><h2>入口</h2><div class=\"grid\"><article class=\"card\"><div class=\"word\"><a href=\"primary-school/\">小学英语单词</a></div><div class=\"meaning\">人教版 PEP 小学英语词汇，约 1331 词。</div></article><article class=\"card\"><div class=\"word\"><a href=\"middle-school/\">初中英语单词</a></div><div class=\"meaning\">人教版 PEP 初中英语词汇，约 2895 词。</div></article></div></section>
+<section class=\"faq\"><h2>常见问题</h2>{faq_html}</section>
+<footer>PEP Words · made by Liz · <a href=\"https://lizliz.xyz/\">lizliz.xyz</a></footer>
 """
     write_page(
         "seo/index.html",
         page_shell(
             title="PEP Words 可索引词表页面",
-            description="PEP Words 自动生成的小学和初中英语词表静态页面，帮助搜索引擎索引英文单词、中文释义、音标和词性。",
+            description="PEP Words 自动生成的小学（约 1331 词）和初中（约 2895 词）英语词表静态页面，索引英文单词、中文释义、音标和词性。",
             canonical=f"{SITE_URL}/seo/",
             body=body,
+            extra_json_ld=[faq_schema],
         ),
         urls,
     )
@@ -251,7 +311,14 @@ def write_sitemap(urls: Iterable[str]) -> None:
     for url in all_urls:
         priority = "1.0" if url == SITE_URL + "/" else "0.7"
         changefreq = "weekly" if "/seo/" in url or url == SITE_URL + "/" else "monthly"
-        body += f"  <url>\n    <loc>{esc(url)}</loc>\n    <changefreq>{changefreq}</changefreq>\n    <priority>{priority}</priority>\n  </url>\n"
+        body += (
+            f"  <url>\n"
+            f"    <loc>{esc(url)}</loc>\n"
+            f"    <lastmod>{SITEMAP_LASTMOD}</lastmod>\n"
+            f"    <changefreq>{changefreq}</changefreq>\n"
+            f"    <priority>{priority}</priority>\n"
+            f"  </url>\n"
+        )
     body += "</urlset>\n"
     (PUBLIC_DIR / "sitemap.xml").write_text(body, encoding="utf-8")
 
