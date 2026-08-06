@@ -3,7 +3,7 @@
 ![PEP Words screenshot](./public/pep-words-screenshot.png)
 
 <p align="center">
-  <a href="https://pep-words.lizliz.xyz/">Live site</a>
+  <a href="https://pep-words.brainrush.run/">Live site</a>
   ·
   <a href="./README.en.md">English</a>
 </p>
@@ -14,8 +14,8 @@
 
 ## 在线访问
 
-- 正式站点：<https://pep-words.lizliz.xyz/>
-- 旧蓝色视觉对比页：<https://pep-words.lizliz.xyz/legacy-blue>
+- 正式站点：<https://pep-words.brainrush.run/>
+- 旧蓝色视觉对比页：<https://pep-words.brainrush.run/legacy-blue>
 
 ## 功能
 
@@ -83,6 +83,6 @@ npm run preview
 
 - Build command: `npm run build`
 - Output directory: `dist`
-- Production URL: <https://pep-words.lizliz.xyz/>
+- Production URL: <https://pep-words.brainrush.run/>
 
 `public/_redirects` 用于让直接访问 `/legacy-blue` 等 SPA path 时回落到 `index.html`。

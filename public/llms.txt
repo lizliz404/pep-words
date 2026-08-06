@@ -2,7 +2,7 @@
 
 > Free PEP (People's Education Press) English vocabulary tool for Chinese primary and middle school learners.
 
-- Site: https://pep-words.lizliz.xyz/
+- Site: https://pep-words.brainrush.run/
 - Maker: Liz (https://lizliz.xyz/)
 - Category: EducationalApplication / vocabulary study tool
 - Price: Free, no account required

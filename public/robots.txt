@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pep-words.lizliz.xyz/sitemap.xml
+Sitemap: https://pep-words.brainrush.run/sitemap.xml

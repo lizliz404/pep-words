@@ -3,7 +3,7 @@
 ![PEP Words screenshot](./public/pep-words-screenshot.png)
 
 <p align="center">
-  <a href="https://pep-words.lizliz.xyz/">Live site</a>
+  <a href="https://pep-words.brainrush.run/">Live site</a>
   ·
   <a href="./README.md">中文</a>
 </p>
@@ -14,8 +14,8 @@ It is not a full learning-management system. There are no accounts, sync, ads, t
 
 ## Live Site
 
-- Production: <https://pep-words.lizliz.xyz/>
-- Legacy blue visual comparison: <https://pep-words.lizliz.xyz/legacy-blue>
+- Production: <https://pep-words.brainrush.run/>
+- Legacy blue visual comparison: <https://pep-words.brainrush.run/legacy-blue>
 
 ## Features
 
@@ -83,6 +83,6 @@ Recommended deployment: GitHub-connected Cloudflare Pages.
 
 - Build command: `npm run build`
 - Output directory: `dist`
-- Production URL: <https://pep-words.lizliz.xyz/>
+- Production URL: <https://pep-words.brainrush.run/>
 
 `public/_redirects` keeps direct SPA paths such as `/legacy-blue` routing back to `index.html`.
