@@ -36,15 +36,25 @@ Keep PEP Words stable, boring, fast, and easy to maintain. Prefer small fixes ov
   - heading hierarchy and important `aria-label`s
 - Run `npm run seo:build` or `npm run build` after SEO page-generation changes.
 
-## Verification
+## Verification and pre-commit checks
 
-Before finishing code changes, run at least:
+This project is deployed via Cloudflare Pages (GitHub Connected). **Cloudflare Preview is your primary verification.** Do not mechanically run `npm run check && npm run build` before every commit.
 
+**When to skip local verification (most changes):**
+- Copy fixes, styling tweaks, config values, static content, markdown
+- Feature work, UI changes, refactors — Cloudflare Preview catches build failures
+
+**When to run local checks:**
+- You changed build configuration (`vite.config.ts`, `_headers`, `_redirects`, `wrangler.toml`, `package.json` scripts/deps, `public/` static asset wiring)
+- You changed `index.html`, SEO generation pipeline, or import graph structure
+- Liz explicitly asks for local verification
+
+**When you do run checks, use the lightest one that would catch the failure:**
 ```bash
-npm run check
+npm run check          # lint + typecheck (npm run check already covers this)
+npm run build          # only when build plumbing changed
+npm run seo:build      # only when SEO generation changed
 ```
-
-Run `npm run build` when changing assets, Vite config, `index.html`, SEO generation, imports, or public/static output.
 
 ## Git/deploy
 
